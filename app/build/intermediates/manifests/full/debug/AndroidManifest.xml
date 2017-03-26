@@ -8,6 +8,10 @@
         android:minSdkVersion="15"
         android:targetSdkVersion="25" />
 
+    <meta-data
+        android:name="android.support.VERSION"
+        android:value="25.3.0" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -15,13 +19,19 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme" >
-        <activity android:name="com.pifss.doctor.MainActivity" >
+        <activity android:name="com.pifss.doctor.MainActivity" />
+        <activity android:name="com.pifss.doctor.Navigation" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name="com.pifss.doctor.MyPatient" />
+        <activity android:name="com.pifss.doctor.PatientRequest" />
+        <activity android:name="com.pifss.doctor.DoctorProfile" />
+        <activity android:name="com.pifss.doctor.Settings" />
+        <activity android:name="com.pifss.doctor.AboutUs" />
     </application>
 
 </manifest>
