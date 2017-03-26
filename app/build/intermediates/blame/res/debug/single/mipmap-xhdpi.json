@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/trn24/Downloads/Day6/Doctor/app/build/intermediates/res/merged/debug/mipmap-xhdpi/ic_launcher.png",
+        "source": "/Users/trn24/Downloads/Day6/Doctor/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/trn24/Downloads/Day6/Doctor/app/build/intermediates/res/merged/debug/mipmap-xhdpi/ic_launcher_round.png",
+        "source": "/Users/trn24/Downloads/Day6/Doctor/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
+    }
+]

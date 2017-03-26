@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "/Users/trn24/Downloads/Day6/Doctor/app/build/intermediates/res/merged/debug/anim/abc_slide_in_bottom.xml",
+        "source": "/Users/trn24/.android/build-cache/f5bbc6ff808a4ac74405d8a761d68a423887319a/output/res/anim/abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "/Users/trn24/Downloads/Day6/Doctor/app/build/intermediates/res/merged/debug/anim/abc_slide_out_bottom.xml",
+        "source": "/Users/trn24/.android/build-cache/f5bbc6ff808a4ac74405d8a761d68a423887319a/output/res/anim/abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "/Users/trn24/Downloads/Day6/Doctor/app/build/intermediates/res/merged/debug/anim/abc_popup_exit.xml",
+        "source": "/Users/trn24/.android/build-cache/f5bbc6ff808a4ac74405d8a761d68a423887319a/output/res/anim/abc_popup_exit.xml"
+    },
+    {
+        "merged": "/Users/trn24/Downloads/Day6/Doctor/app/build/intermediates/res/merged/debug/anim/abc_slide_out_top.xml",
+        "source": "/Users/trn24/.android/build-cache/f5bbc6ff808a4ac74405d8a761d68a423887319a/output/res/anim/abc_slide_out_top.xml"
+    },
+    {
+        "merged": "/Users/trn24/Downloads/Day6/Doctor/app/build/intermediates/res/merged/debug/anim/abc_slide_in_top.xml",
+        "source": "/Users/trn24/.android/build-cache/f5bbc6ff808a4ac74405d8a761d68a423887319a/output/res/anim/abc_slide_in_top.xml"
+    },
+    {
+        "merged": "/Users/trn24/Downloads/Day6/Doctor/app/build/intermediates/res/merged/debug/anim/abc_fade_out.xml",
+        "source": "/Users/trn24/.android/build-cache/f5bbc6ff808a4ac74405d8a761d68a423887319a/output/res/anim/abc_fade_out.xml"
+    },
+    {
+        "merged": "/Users/trn24/Downloads/Day6/Doctor/app/build/intermediates/res/merged/debug/anim/abc_grow_fade_in_from_bottom.xml",
+        "source": "/Users/trn24/.android/build-cache/f5bbc6ff808a4ac74405d8a761d68a423887319a/output/res/anim/abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "/Users/trn24/Downloads/Day6/Doctor/app/build/intermediates/res/merged/debug/anim/abc_fade_in.xml",
+        "source": "/Users/trn24/.android/build-cache/f5bbc6ff808a4ac74405d8a761d68a423887319a/output/res/anim/abc_fade_in.xml"
+    },
+    {
+        "merged": "/Users/trn24/Downloads/Day6/Doctor/app/build/intermediates/res/merged/debug/anim/abc_popup_enter.xml",
+        "source": "/Users/trn24/.android/build-cache/f5bbc6ff808a4ac74405d8a761d68a423887319a/output/res/anim/abc_popup_enter.xml"
+    },
+    {
+        "merged": "/Users/trn24/Downloads/Day6/Doctor/app/build/intermediates/res/merged/debug/anim/abc_shrink_fade_out_from_bottom.xml",
+        "source": "/Users/trn24/.android/build-cache/f5bbc6ff808a4ac74405d8a761d68a423887319a/output/res/anim/abc_shrink_fade_out_from_bottom.xml"
+    }
+]
