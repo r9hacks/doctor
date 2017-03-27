@@ -1,4 +1,4 @@
-package com.pifss.doctor;
+package com.pifss.doctor.Model;
 
 import android.media.Image;
 

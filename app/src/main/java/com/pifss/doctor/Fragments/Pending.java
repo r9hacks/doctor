@@ -1,4 +1,4 @@
-package com.pifss.doctor;
+package com.pifss.doctor.Fragments;
 
 
 import android.os.Bundle;
@@ -8,9 +8,9 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ListView;
 
-import com.pifss.doctor.ReportCell;
+import com.pifss.doctor.Adapters.ReportAdapter;
+import com.pifss.doctor.Model.ReportCell;
 import com.pifss.doctor.R;
-import com.pifss.doctor.ReportAdapter;
 
 import java.util.ArrayList;
 

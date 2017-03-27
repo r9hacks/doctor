@@ -8,9 +8,9 @@ import android.widget.AdapterView;
 import android.widget.ListView;
 import android.widget.Toast;
 
-import com.pifss.doctor.MyPatient;
+import com.pifss.doctor.Model.MyPatient;
 import com.pifss.doctor.R;
-import com.pifss.doctor.myPatientAdapter;
+import com.pifss.doctor.Adapters.myPatientAdapter;
 
 import java.util.ArrayList;
 

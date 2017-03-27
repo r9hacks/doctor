@@ -1,4 +1,4 @@
-package com.pifss.doctor;
+package com.pifss.doctor.Adapters;
 
 import android.app.Activity;
 import android.view.LayoutInflater;
@@ -8,6 +8,9 @@ import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import com.pifss.doctor.Model.PatientRequest;
+import com.pifss.doctor.R;
 
 import java.util.ArrayList;
 

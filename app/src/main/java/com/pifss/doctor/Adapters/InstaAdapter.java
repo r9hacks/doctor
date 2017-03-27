@@ -1,8 +1,11 @@
-package com.pifss.doctor;
+package com.pifss.doctor.Adapters;
 
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
+
+import com.pifss.doctor.Fragments.Pending;
+import com.pifss.doctor.Fragments.Replied;
 
 /**
  * Created by khaledhosni on 3/15/17.

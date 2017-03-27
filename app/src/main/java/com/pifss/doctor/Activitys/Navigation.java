@@ -19,7 +19,7 @@ import com.mikepenz.materialdrawer.model.PrimaryDrawerItem;
 import com.mikepenz.materialdrawer.model.ProfileDrawerItem;
 import com.mikepenz.materialdrawer.model.interfaces.IDrawerItem;
 import com.mikepenz.materialdrawer.model.interfaces.IProfile;
-import com.pifss.doctor.InstaAdapter;
+import com.pifss.doctor.Adapters.InstaAdapter;
 import com.pifss.doctor.R;
 
 public class Navigation extends AppCompatActivity {

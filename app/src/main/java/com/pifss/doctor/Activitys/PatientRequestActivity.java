@@ -7,9 +7,9 @@ import android.widget.AdapterView;
 import android.widget.ListView;
 import android.widget.Toast;
 
-import com.pifss.doctor.PatientRequest;
+import com.pifss.doctor.Model.PatientRequest;
 import com.pifss.doctor.R;
-import com.pifss.doctor.RequestAdapter;
+import com.pifss.doctor.Adapters.RequestAdapter;
 
 import java.util.ArrayList;
 

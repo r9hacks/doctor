@@ -1,4 +1,4 @@
-package com.pifss.doctor;
+package com.pifss.doctor.Model;
 
 /**
  * Created by PIFSS on 3/27/2017.

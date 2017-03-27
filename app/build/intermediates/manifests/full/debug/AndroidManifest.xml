@@ -15,8 +15,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme" >
-        <activity android:name="com.pifss.doctor.MainActivity" />
-        <activity android:name="com.pifss.doctor.Navigation" >
+        <activity android:name="com.pifss.doctor.Activitys.MainActivity" />
+        <activity android:name="com.pifss.doctor.Activitys.Navigation" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -24,15 +24,15 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.pifss.doctor.Register"
+            android:name="com.pifss.doctor.Activitys.Register"
             android:exported="true" />
-        <activity android:name="com.pifss.doctor.login" />
-        <activity android:name="com.pifss.doctor.AboutUsActivity" />
-        <activity android:name="com.pifss.doctor.DoctorProfileActivity" />
-        <activity android:name="com.pifss.doctor.MyPatientActivity" />
-        <activity android:name="com.pifss.doctor.PatientRequestActivity" />
-        <activity android:name="com.pifss.doctor.SettingsActivity" />
-        <activity android:name="com.pifss.doctor.PatientProfileActivity" />
+        <activity android:name="com.pifss.doctor.Activitys.login" />
+        <activity android:name="com.pifss.doctor.Activitys.AboutUsActivity" />
+        <activity android:name="com.pifss.doctor.Activitys.DoctorProfileActivity" />
+        <activity android:name="com.pifss.doctor.Activitys.MyPatientActivity" />
+        <activity android:name="com.pifss.doctor.Activitys.PatientRequestActivity" />
+        <activity android:name="com.pifss.doctor.Activitys.SettingsActivity" />
+        <activity android:name="com.pifss.doctor.Activitys.PatientProfileActivity" />
     </application>
 
 </manifest>

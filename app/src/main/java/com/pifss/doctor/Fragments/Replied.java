@@ -1,4 +1,4 @@
-package com.pifss.doctor;
+package com.pifss.doctor.Fragments;
 
 
 import android.os.Bundle;

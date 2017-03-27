@@ -1,4 +1,4 @@
-package com.pifss.doctor;
+package com.pifss.doctor.Adapters;
 
 import android.app.Activity;
 import android.view.LayoutInflater;
@@ -7,6 +7,9 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import com.pifss.doctor.R;
+import com.pifss.doctor.Model.ReportCell;
 
 import java.util.ArrayList;
 
