@@ -2,7 +2,8 @@ package com.pifss.doctor;
 
 import android.content.Intent;
 import android.graphics.Color;
-import android.support.v4.app.FragmentManager;
+import android.support.design.widget.TabLayout;
+import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
@@ -18,12 +19,6 @@ import com.mikepenz.materialdrawer.model.PrimaryDrawerItem;
 import com.mikepenz.materialdrawer.model.ProfileDrawerItem;
 import com.mikepenz.materialdrawer.model.interfaces.IDrawerItem;
 import com.mikepenz.materialdrawer.model.interfaces.IProfile;
-import com.pifss.doctor.Fragments.AboutUsFragment;
-import com.pifss.doctor.Fragments.DoctorProfileFragment;
-import com.pifss.doctor.Fragments.MyPatientFragment;
-import com.pifss.doctor.Fragments.PatientRequestFragment;
-import com.pifss.doctor.Fragments.ReportsFragment;
-import com.pifss.doctor.Fragments.SettingsFragment;
 
 public class Navigation extends AppCompatActivity {
 
@@ -32,7 +27,7 @@ public class Navigation extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_navigation);
 
-        final Toolbar toolbar = (Toolbar) findViewById(R.id.myToolbar);
+        final Toolbar toolbar = (Toolbar) findViewById(R.id.mytoolbar);
 
         toolbar.setTitle("All Reports");
         toolbar.setTitleTextColor(Color.WHITE);
@@ -57,12 +52,9 @@ public class Navigation extends AppCompatActivity {
                     @Override
                     public boolean onProfileChanged(View view, IProfile profile, boolean currentProfile) {
                         Toast.makeText(Navigation.this, "Profile tapped", Toast.LENGTH_SHORT).show();
-                        DoctorProfileFragment fragment = new DoctorProfileFragment();
+                        Intent i = new Intent(Navigation.this,DoctorProfileActivity.class);
+                        startActivity(i);
 
-                        FragmentManager fm = getSupportFragmentManager();
-                        fm.beginTransaction()
-                                .replace(R.id.content_frame, fragment).commit();
-                        toolbar.setTitle("My Profile");
                         return false;
                     }
                 })
@@ -72,65 +64,53 @@ public class Navigation extends AppCompatActivity {
                 .withToolbar(toolbar)
                 .addDrawerItems(item1,item2,item3,d,item5,item6,item7,item8)
                 .withOnDrawerItemClickListener(new Drawer.OnDrawerItemClickListener() {
-            @Override
-            public boolean onItemClick(View view, int position, IDrawerItem drawerItem) {
-                Toast.makeText(Navigation.this, "position: "+position+" Identifier: "+drawerItem.getIdentifier(), Toast.LENGTH_SHORT).show();
+                    @Override
+                    public boolean onItemClick(View view, int position, IDrawerItem drawerItem) {
+                        //Toast.makeText(Navigation.this, "position: "+position+" Identifier: "+drawerItem.getIdentifier(), Toast.LENGTH_SHORT).show();
 
-                Intent i = new Intent();
-                i.putExtra("empty","");
+                        Intent i;
+                        switch (position){
+//                    case 1:
+//                        i = new Intent(Navigation.this,Navigation.class);
+//                        startActivity(i);
+//                        break;
+                            case 2:
+                                i = new Intent(Navigation.this,PatientRequestActivity.class);
+                                startActivity(i);
+                                break;
+                            case 3:
+                                i = new Intent(Navigation.this,MyPatientActivity.class);
+                                startActivity(i);
+                                break;
+                            case 6:
+                                i = new Intent(Navigation.this,SettingsActivity.class);
+                                startActivity(i);
+                                break;
+                            case 7:
+                                i = new Intent(Navigation.this,AboutUsActivity.class);
+                                startActivity(i);
+                                break;
 
+                        }
 
-                if ( ((int) drawerItem.getIdentifier()) == 1) {
-
-                    ReportsFragment fragment = new ReportsFragment();
-
-                    FragmentManager fm = getSupportFragmentManager();
-                    fm.beginTransaction()
-                            .replace(R.id.content_frame, fragment).commit();
-                    toolbar.setTitle("All Reports");
-                }else if ( ((int) drawerItem.getIdentifier()) == 2) {
-                    PatientRequestFragment fragment = new PatientRequestFragment();
-
-                    FragmentManager fm = getSupportFragmentManager();
-                    fm.beginTransaction()
-                            .replace(R.id.content_frame, fragment).commit();
-                    toolbar.setTitle("Patient Request");
-                }else if ( ((int) drawerItem.getIdentifier()) == 3) {
-                    MyPatientFragment fragment = new MyPatientFragment();
-
-                    FragmentManager fm = getSupportFragmentManager();
-                    fm.beginTransaction()
-                            .replace(R.id.content_frame, fragment).commit();
-                    toolbar.setTitle("My Patient");
-                }else if ( ((int) drawerItem.getIdentifier()) == 6) {
-                    SettingsFragment fragment = new SettingsFragment();
-
-                    FragmentManager fm = getSupportFragmentManager();
-                    fm.beginTransaction()
-                            .replace(R.id.content_frame, fragment).commit();
-                    toolbar.setTitle("Settings");
-                }else if ( ((int) drawerItem.getIdentifier()) == 7) {
-                    AboutUsFragment fragment = new AboutUsFragment();
-
-                    FragmentManager fm = getSupportFragmentManager();
-                    fm.beginTransaction()
-                            .replace(R.id.content_frame, fragment).commit();
-                    toolbar.setTitle("About Us");
-                }
-
-
-                return false;
-            }
-        })
+                        return false;
+                    }
+                })
                 .withAccountHeader(headerResult)
                 .build();
 
-        ReportsFragment fragment = new ReportsFragment();
+        final ViewPager vp= (ViewPager) findViewById(R.id.myViewPager);
+        final TabLayout tabLayout= (TabLayout) findViewById(R.id.mytabLayout);
 
-        FragmentManager fm = getSupportFragmentManager();
-        fm.beginTransaction()
-                .replace(R.id.content_frame, fragment).commit();
-        toolbar.setTitle("All Reports");
+        InstaAdapter adapter=new InstaAdapter(getSupportFragmentManager());
+
+        vp.setAdapter(adapter);
+
+        tabLayout.setupWithViewPager(vp);
+
+        tabLayout.getTabAt(0).setText("Pending");
+        //tabLayout.getTabAt(0).setIcon(R.mipmap.ic_launcher_round);
+        tabLayout.getTabAt(1).setText("Replied");
 
 
     }
