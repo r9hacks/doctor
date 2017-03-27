@@ -16,7 +16,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme" >
         <activity android:name="com.pifss.doctor.Activitys.MainActivity" />
-        <activity android:name="com.pifss.doctor.Activitys.Navigation" >
+        <activity android:name="com.pifss.doctor.Activitys.HomeReportActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -24,9 +24,9 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.pifss.doctor.Activitys.Register"
+            android:name="com.pifss.doctor.Activitys.RegisterActivity"
             android:exported="true" />
-        <activity android:name="com.pifss.doctor.Activitys.login" />
+        <activity android:name="com.pifss.doctor.Activitys.loginActivity" />
         <activity android:name="com.pifss.doctor.Activitys.AboutUsActivity" />
         <activity android:name="com.pifss.doctor.Activitys.DoctorProfileActivity" />
         <activity android:name="com.pifss.doctor.Activitys.MyPatientActivity" />

@@ -1,8 +1,10 @@
 package com.pifss.doctor.Activitys;
 
 import android.content.Intent;
+import android.graphics.Color;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
@@ -20,6 +22,10 @@ public class MyPatientActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_my_patient);
+        final Toolbar toolbar = (Toolbar) findViewById(R.id.mytoolbar);
+
+        toolbar.setTitle("My Patient");
+        toolbar.setTitleTextColor(Color.WHITE);
 
         final ArrayList<MyPatient> model=new ArrayList<>();
 

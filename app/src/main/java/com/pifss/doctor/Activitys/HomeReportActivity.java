@@ -19,10 +19,10 @@ import com.mikepenz.materialdrawer.model.PrimaryDrawerItem;
 import com.mikepenz.materialdrawer.model.ProfileDrawerItem;
 import com.mikepenz.materialdrawer.model.interfaces.IDrawerItem;
 import com.mikepenz.materialdrawer.model.interfaces.IProfile;
-import com.pifss.doctor.Adapters.InstaAdapter;
+import com.pifss.doctor.Adapters.ReportFragmentAdapter;
 import com.pifss.doctor.R;
 
-public class Navigation extends AppCompatActivity {
+public class HomeReportActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -53,8 +53,8 @@ public class Navigation extends AppCompatActivity {
                 .withOnAccountHeaderListener(new AccountHeader.OnAccountHeaderListener() {
                     @Override
                     public boolean onProfileChanged(View view, IProfile profile, boolean currentProfile) {
-                        Toast.makeText(Navigation.this, "Profile tapped", Toast.LENGTH_SHORT).show();
-                        Intent i = new Intent(Navigation.this,DoctorProfileActivity.class);
+                        Toast.makeText(HomeReportActivity.this, "Profile tapped", Toast.LENGTH_SHORT).show();
+                        Intent i = new Intent(HomeReportActivity.this,DoctorProfileActivity.class);
                         startActivity(i);
 
                         return false;
@@ -68,28 +68,28 @@ public class Navigation extends AppCompatActivity {
                 .withOnDrawerItemClickListener(new Drawer.OnDrawerItemClickListener() {
                     @Override
                     public boolean onItemClick(View view, int position, IDrawerItem drawerItem) {
-                        //Toast.makeText(Navigation.this, "position: "+position+" Identifier: "+drawerItem.getIdentifier(), Toast.LENGTH_SHORT).show();
+                        //Toast.makeText(HomeReportActivity.this, "position: "+position+" Identifier: "+drawerItem.getIdentifier(), Toast.LENGTH_SHORT).show();
 
                         Intent i;
                         switch (position){
 //                    case 1:
-//                        i = new Intent(Navigation.this,Navigation.class);
+//                        i = new Intent(HomeReportActivity.this,HomeReportActivity.class);
 //                        startActivity(i);
 //                        break;
                             case 2:
-                                i = new Intent(Navigation.this,PatientRequestActivity.class);
+                                i = new Intent(HomeReportActivity.this,PatientRequestActivity.class);
                                 startActivity(i);
                                 break;
                             case 3:
-                                i = new Intent(Navigation.this,MyPatientActivity.class);
+                                i = new Intent(HomeReportActivity.this,MyPatientActivity.class);
                                 startActivity(i);
                                 break;
                             case 6:
-                                i = new Intent(Navigation.this,SettingsActivity.class);
+                                i = new Intent(HomeReportActivity.this,SettingsActivity.class);
                                 startActivity(i);
                                 break;
                             case 7:
-                                i = new Intent(Navigation.this,AboutUsActivity.class);
+                                i = new Intent(HomeReportActivity.this,AboutUsActivity.class);
                                 startActivity(i);
                                 break;
 
@@ -104,7 +104,7 @@ public class Navigation extends AppCompatActivity {
         final ViewPager vp= (ViewPager) findViewById(R.id.myViewPager);
         final TabLayout tabLayout= (TabLayout) findViewById(R.id.mytabLayout);
 
-        InstaAdapter adapter=new InstaAdapter(getSupportFragmentManager());
+        ReportFragmentAdapter adapter=new ReportFragmentAdapter(getSupportFragmentManager());
 
         vp.setAdapter(adapter);
 

@@ -5,10 +5,18 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.pifss.doctor.Activitys.PatientRequestActivity">
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/blueActionBarColor"
+        style="@style/AppTheme.Toolbar"
+        android:id="@+id/mytoolbar">
 
+    </android.support.v7.widget.Toolbar>
     <ListView
         android:id="@+id/invitationListView"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="match_parent"
+        android:layout_below="@+id/mytoolbar" />
 
 </RelativeLayout>

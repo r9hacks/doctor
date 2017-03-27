@@ -7,15 +7,17 @@ import android.support.v7.widget.Toolbar;
 
 import com.pifss.doctor.R;
 
-public class AboutUsActivity extends AppCompatActivity {
+public class RegisterActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_about_us);
-        final Toolbar toolbar = (Toolbar) findViewById(R.id.mytoolbar);
+        setContentView(R.layout.activity_register);
 
-        toolbar.setTitle("About us");
+        final Toolbar toolbar = (Toolbar) findViewById(R.id.myToolbar);
+
+        toolbar.setTitle("Register");
         toolbar.setTitleTextColor(Color.WHITE);
+
     }
 }

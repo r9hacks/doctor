@@ -11,10 +11,10 @@ import com.pifss.doctor.Fragments.Replied;
  * Created by khaledhosni on 3/15/17.
  */
 
-public class InstaAdapter extends FragmentPagerAdapter {
+public class ReportFragmentAdapter extends FragmentPagerAdapter {
 
 
-    public InstaAdapter(FragmentManager fm) {
+    public ReportFragmentAdapter(FragmentManager fm) {
         super(fm);
     }
 

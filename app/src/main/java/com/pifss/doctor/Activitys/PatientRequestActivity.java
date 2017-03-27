@@ -1,7 +1,9 @@
 package com.pifss.doctor.Activitys;
 
+import android.graphics.Color;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
@@ -20,6 +22,10 @@ public class PatientRequestActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_patient_request);
 
+        final Toolbar toolbar = (Toolbar) findViewById(R.id.mytoolbar);
+
+        toolbar.setTitle("Request");
+        toolbar.setTitleTextColor(Color.WHITE);
         final ArrayList<PatientRequest> model=new ArrayList<>();
 
         model.add(new PatientRequest("John Smith",22,"1234","female"));
