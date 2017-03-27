@@ -19,7 +19,17 @@ public class PatientProfileActivity extends AppCompatActivity {
 
         toolbar.setTitle("Patient Profile");
         toolbar.setTitleTextColor(Color.WHITE);
+        setSupportActionBar(toolbar);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().setDisplayShowHomeEnabled(true);
+
+
         EditText medication = (EditText) findViewById(R.id.editTextMedication);
         medication.setKeyListener(null);
+    }
+    @Override
+    public boolean onSupportNavigateUp() {
+        onBackPressed();
+        return true;
     }
 }

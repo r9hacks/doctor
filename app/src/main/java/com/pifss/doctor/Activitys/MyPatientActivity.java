@@ -26,6 +26,9 @@ public class MyPatientActivity extends AppCompatActivity {
 
         toolbar.setTitle("My Patient");
         toolbar.setTitleTextColor(Color.WHITE);
+        setSupportActionBar(toolbar);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().setDisplayShowHomeEnabled(true);
 
         final ArrayList<MyPatient> model=new ArrayList<>();
 
@@ -62,5 +65,12 @@ public class MyPatientActivity extends AppCompatActivity {
             }
         });
 
+    }
+
+
+    @Override
+    public boolean onSupportNavigateUp() {
+        onBackPressed();
+        return true;
     }
 }

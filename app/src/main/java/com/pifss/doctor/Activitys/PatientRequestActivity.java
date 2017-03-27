@@ -26,6 +26,10 @@ public class PatientRequestActivity extends AppCompatActivity {
 
         toolbar.setTitle("Request");
         toolbar.setTitleTextColor(Color.WHITE);
+        setSupportActionBar(toolbar);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().setDisplayShowHomeEnabled(true);
+
         final ArrayList<PatientRequest> model=new ArrayList<>();
 
         model.add(new PatientRequest("John Smith",22,"1234","female"));
@@ -57,5 +61,10 @@ public class PatientRequestActivity extends AppCompatActivity {
             }
         });
 
+    }
+    @Override
+    public boolean onSupportNavigateUp() {
+        onBackPressed();
+        return true;
     }
 }
