@@ -33,6 +33,7 @@
         <activity android:name="com.pifss.doctor.Activitys.PatientRequestActivity" />
         <activity android:name="com.pifss.doctor.Activitys.SettingsActivity" />
         <activity android:name="com.pifss.doctor.Activitys.PatientProfileActivity" />
+        <activity android:name="com.pifss.doctor.Activitys.ReportDetailActivity" />
     </application>
 
 </manifest>

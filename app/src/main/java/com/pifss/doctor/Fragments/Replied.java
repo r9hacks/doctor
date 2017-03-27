@@ -1,13 +1,16 @@
 package com.pifss.doctor.Fragments;
 
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
 import android.widget.ListView;
 
+import com.pifss.doctor.Activitys.ReportDetailActivity;
 import com.pifss.doctor.Adapters.ReportAdapter;
 import com.pifss.doctor.Model.ReportCell;
 import com.pifss.doctor.R;
@@ -39,6 +42,13 @@ public class Replied extends Fragment {
 
         myList.setAdapter(adapter);
 
+        myList.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                Intent i = new Intent(getActivity(), ReportDetailActivity.class);
+                startActivity(i);
+            }
+        });
 
         return view;
     }

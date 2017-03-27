@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\PIFSS\Desktop\Block_6\MHealth\integrated project\doctor\app\src\main\AndroidManifest.xml:2:1-32:12
+ADDED from C:\Users\PIFSS\Desktop\Block_6\MHealth\integrated project\doctor\app\src\main\AndroidManifest.xml:2:1-33:12
 	package
 		ADDED from C:\Users\PIFSS\Desktop\Block_6\MHealth\integrated project\doctor\app\src\main\AndroidManifest.xml:3:5-31
 		INJECTED from C:\Users\PIFSS\Desktop\Block_6\MHealth\integrated project\doctor\app\src\main\AndroidManifest.xml
@@ -14,7 +14,7 @@ ADDED from C:\Users\PIFSS\Desktop\Block_6\MHealth\integrated project\doctor\app\
 		INJECTED from C:\Users\PIFSS\Desktop\Block_6\MHealth\integrated project\doctor\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\PIFSS\Desktop\Block_6\MHealth\integrated project\doctor\app\src\main\AndroidManifest.xml
 application
-ADDED from C:\Users\PIFSS\Desktop\Block_6\MHealth\integrated project\doctor\app\src\main\AndroidManifest.xml:5:5-30:19
+ADDED from C:\Users\PIFSS\Desktop\Block_6\MHealth\integrated project\doctor\app\src\main\AndroidManifest.xml:5:5-31:19
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\PIFSS\.android\build-cache\ce5bb03a4758289a006f9ef20c236bdb0fe89d61\output\AndroidManifest.xml:9:5-20
 MERGED from [com.android.support:design:25.2.0] C:\Users\PIFSS\.android\build-cache\d95c42289955b75427320c3f826eb531f131da8f\output\AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:appcompat-v7:25.2.0] C:\Users\PIFSS\.android\build-cache\9b85976bda791bd9abdfdd3cb34cce2b0455d7aa\output\AndroidManifest.xml:25:5-20
@@ -88,9 +88,13 @@ ADDED from C:\Users\PIFSS\Desktop\Block_6\MHealth\integrated project\doctor\app\
 	android:name
 		ADDED from C:\Users\PIFSS\Desktop\Block_6\MHealth\integrated project\doctor\app\src\main\AndroidManifest.xml:28:19-61
 activity#com.pifss.doctor.Activitys.PatientProfileActivity
-ADDED from C:\Users\PIFSS\Desktop\Block_6\MHealth\integrated project\doctor\app\src\main\AndroidManifest.xml:29:9-79
+ADDED from C:\Users\PIFSS\Desktop\Block_6\MHealth\integrated project\doctor\app\src\main\AndroidManifest.xml:29:9-70
 	android:name
 		ADDED from C:\Users\PIFSS\Desktop\Block_6\MHealth\integrated project\doctor\app\src\main\AndroidManifest.xml:29:19-67
+activity#com.pifss.doctor.Activitys.ReportDetailActivity
+ADDED from C:\Users\PIFSS\Desktop\Block_6\MHealth\integrated project\doctor\app\src\main\AndroidManifest.xml:30:9-77
+	android:name
+		ADDED from C:\Users\PIFSS\Desktop\Block_6\MHealth\integrated project\doctor\app\src\main\AndroidManifest.xml:30:19-65
 uses-sdk
 INJECTED from C:\Users\PIFSS\Desktop\Block_6\MHealth\integrated project\doctor\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.mikepenz:materialdrawer:5.8.2] C:\Users\PIFSS\.android\build-cache\57d14aaeaf478530376bb0c3670f160853c994e7\output\AndroidManifest.xml:8:5-10:41

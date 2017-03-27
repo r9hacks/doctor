@@ -156,6 +156,10 @@
         "source": "C:\\Users\\PIFSS\\.android\\build-cache\\57d14aaeaf478530376bb0c3670f160853c994e7\\output\\res\\layout\\material_drawer_item_switch.xml"
     },
     {
+        "merged": "C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\integrated project\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_report_detail.xml",
+        "source": "C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\integrated project\\doctor\\app\\src\\main\\res\\layout\\activity_report_detail.xml"
+    },
+    {
         "merged": "C:\\Users\\trn24\\Downloads\\Day6\\Doctor\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
         "source": "C:\\Users\\trn24\\.android\\build-cache\\f5bbc6ff808a4ac74405d8a761d68a423887319a\\output\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
     },

@@ -26,7 +26,8 @@
         <activity android:name=".Activitys.MyPatientActivity" />
         <activity android:name=".Activitys.PatientRequestActivity" />
         <activity android:name=".Activitys.SettingsActivity" />
-        <activity android:name=".Activitys.PatientProfileActivity"></activity>
+        <activity android:name=".Activitys.PatientProfileActivity" />
+        <activity android:name=".Activitys.ReportDetailActivity"></activity>
     </application>
 
 </manifest>
