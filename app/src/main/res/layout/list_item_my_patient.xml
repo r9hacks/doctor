@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/imageViewPatient"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_margin="5dp"
+        app:srcCompat="@mipmap/ic_launcher_round" />
+
+    <TextView
+        android:id="@+id/textViewName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/imageViewPatient"
+        android:text="Patient Name"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_alignTop="@+id/imageViewPatient" />
+
+
+    <TextView
+        android:id="@+id/textViewAge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Patient Age"
+        android:layout_below="@+id/textViewName"
+        android:layout_toRightOf="@+id/imageViewPatient"
+        android:layout_toEndOf="@+id/imageViewPatient"
+        android:layout_marginTop="14dp" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignBottom="@+id/imageViewPatient"
+        android:layout_toEndOf="@+id/imageViewPatient"
+        android:layout_toRightOf="@+id/imageViewPatient"
+        android:orientation="horizontal"
+        android:layout_below="@+id/textViewAge">
+
+        <ImageView
+            android:id="@+id/Phone"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            app:srcCompat="@mipmap/ic_launcher"
+            android:layout_gravity="bottom"
+            android:layout_weight=".25"
+            />
+
+        <TextView
+            android:id="@+id/textViewPhone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_weight=".25"
+
+            android:text="Patient Phone" />
+
+        <ImageView
+            android:id="@+id/Gender"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_gravity="bottom"
+            android:layout_weight=".25"
+
+            app:srcCompat="@mipmap/ic_launcher" />
+
+        <TextView
+            android:id="@+id/textViewGender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_weight=".25"
+
+            android:text="Patient Gender"
+            />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
