@@ -23,7 +23,7 @@ public class MyPatient {
     private int age;
     private String phoneNum;
     private String gender;
-   // private String image;
+    // private String image;
 
     public String getName() {
         return name;

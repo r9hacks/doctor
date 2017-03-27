@@ -1,6 +1,7 @@
 package com.pifss.doctor;
 
 import android.app.Activity;
+import android.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -65,7 +66,7 @@ public class myPatientAdapter extends BaseAdapter {
 
 
         MyPatient patient = model.get(position);
-       // img.setImageResource(Integer.parseInt(patient.getImage()));
+        // img.setImageResource(Integer.parseInt(patient.getImage()));
 
         name.setText(patient.getName());
 

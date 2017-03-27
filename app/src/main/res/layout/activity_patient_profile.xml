@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.pifss.doctor.PatientProfileActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar2"
+        style="@style/AppTheme.Toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/blueActionBarColor"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+    </android.support.v7.widget.Toolbar>
+
+    <ImageView
+        android:id="@+id/imageViewAsthma"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_gravity="bottom"
+        android:layout_weight=".25"
+        app:srcCompat="@mipmap/ic_launcher"
+        android:layout_marginTop="14dp"
+        android:layout_below="@+id/imageViewBloodType"
+        android:layout_alignLeft="@+id/imageViewBloodType"
+        android:layout_alignStart="@+id/imageViewBloodType" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_gravity="bottom"
+        android:layout_weight=".25"
+        app:srcCompat="@mipmap/ic_launcher"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/imageViewAsthma"
+        android:layout_alignLeft="@+id/imageViewAsthma"
+        android:layout_alignStart="@+id/imageViewAsthma" />
+
+    <ImageView
+        android:id="@+id/imageViewAllergie"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_gravity="bottom"
+        android:layout_weight=".25"
+        app:srcCompat="@mipmap/ic_launcher"
+        android:layout_alignTop="@+id/imageViewAsthma"
+        android:layout_alignLeft="@+id/imageViewDiab"
+        android:layout_alignStart="@+id/imageViewDiab" />
+
+    <ImageView
+        android:id="@+id/imageViewBloodType"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_gravity="bottom"
+        android:layout_marginLeft="18dp"
+        android:layout_marginStart="18dp"
+        android:layout_weight=".25"
+        app:srcCompat="@mipmap/ic_launcher"
+        android:layout_below="@+id/imageViewPatient"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="24dp" />
+
+    <ImageView
+        android:id="@+id/imageViewDiab"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_gravity="bottom"
+        android:layout_marginLeft="25dp"
+        android:layout_marginStart="25dp"
+        android:layout_weight=".25"
+        app:srcCompat="@mipmap/ic_launcher"
+        android:layout_alignTop="@+id/imageViewBloodType"
+        android:layout_toRightOf="@+id/textViewAge"
+        android:layout_toEndOf="@+id/textViewAge" />
+
+    <ImageView
+        android:id="@+id/imageViewPatient"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        app:srcCompat="@mipmap/ic_launcher_round"
+        android:layout_below="@+id/toolbar2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="13dp" />
+
+    <TextView
+        android:id="@+id/textViewName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/imageViewPatient"
+        android:text="Patient Name"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_alignTop="@+id/imageViewPatient" />
+
+
+    <TextView
+        android:id="@+id/textViewAge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Patient Age"
+        android:layout_marginTop="11dp"
+        android:layout_below="@+id/textViewName"
+        android:layout_toRightOf="@+id/imageViewPatient"
+        android:layout_toEndOf="@+id/imageViewPatient" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignBottom="@+id/imageViewPatient"
+        android:layout_toEndOf="@+id/imageViewPatient"
+        android:layout_toRightOf="@+id/imageViewPatient"
+        android:orientation="horizontal"
+        android:layout_below="@+id/textViewAge">
+
+        <ImageView
+            android:id="@+id/Phone"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            app:srcCompat="@mipmap/ic_launcher"
+            android:layout_gravity="bottom"
+            android:layout_weight=".25"
+            />
+
+        <TextView
+            android:id="@+id/textViewPhone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_weight=".25"
+
+            android:text="Patient Phone" />
+
+        <ImageView
+            android:id="@+id/Gender"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_gravity="bottom"
+            android:layout_weight=".25"
+
+            app:srcCompat="@mipmap/ic_launcher" />
+
+        <TextView
+            android:id="@+id/textViewGender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_weight=".25"
+
+            android:text="Patient Gender"
+            />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textViewBlo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Blood Type"
+        android:layout_alignTop="@+id/imageViewBloodType"
+        android:layout_toRightOf="@+id/imageViewBloodType"
+        android:layout_toEndOf="@+id/imageViewBloodType"
+        android:layout_marginLeft="15dp"
+        android:layout_marginStart="12dp" />
+
+    <TextView
+        android:id="@+id/textViewDia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageViewDiab"
+        android:layout_toRightOf="@+id/imageViewDiab"
+        android:layout_toEndOf="@+id/imageViewDiab"
+        android:layout_marginLeft="15dp"
+        android:layout_marginStart="12dp"
+        android:text="Diabetes" />
+
+    <TextView
+        android:id="@+id/textViewAlle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageViewAllergie"
+        android:layout_toRightOf="@+id/imageViewAllergie"
+        android:layout_toEndOf="@+id/imageViewAllergie"
+        android:layout_marginLeft="15dp"
+        android:layout_marginStart="12dp"
+
+        android:text="Allergies" />
+
+    <TextView
+        android:id="@+id/textViewAst"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageViewAsthma"
+        android:layout_toRightOf="@+id/imageViewAsthma"
+        android:layout_toEndOf="@+id/imageViewAsthma"
+        android:layout_marginLeft="15dp"
+        android:layout_marginStart="12dp"
+        android:text="Asthma" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Medication"
+        android:layout_alignTop="@+id/imageView8"
+        android:layout_alignRight="@+id/textView14"
+        android:layout_alignEnd="@+id/textView14" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageViewBloodType"
+        android:layout_alignEnd="@+id/textViewBlo"
+        android:layout_alignLeft="@+id/textViewAst"
+        android:layout_alignRight="@+id/textViewBlo"
+        android:layout_alignStart="@+id/textViewAst"
+        android:text="O+"
+        android:textAlignment="center"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textViewDia"
+        android:layout_alignLeft="@+id/textViewAlle"
+        android:layout_alignRight="@+id/textViewDia"
+        android:layout_alignStart="@+id/textViewAlle"
+        android:layout_below="@+id/textViewAlle"
+        android:text="No"
+        android:textAlignment="center"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageViewDiab"
+        android:layout_alignEnd="@+id/textViewDia"
+        android:layout_alignLeft="@+id/textViewDia"
+        android:layout_alignRight="@+id/textViewDia"
+        android:layout_alignStart="@+id/textViewDia"
+        android:text="No"
+        android:textAlignment="center"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textView10"
+        android:layout_alignLeft="@+id/textViewAst"
+        android:layout_alignRight="@+id/textView10"
+        android:layout_alignStart="@+id/textViewAst"
+        android:layout_below="@+id/textViewAst"
+        android:text="No"
+        android:textAlignment="center"
+        android:textSize="18sp" />
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView21"
+        android:layout_alignStart="@+id/textView21"
+        android:layout_below="@+id/textView21"
+        android:ems="10"
+        android:inputType="textMultiLine|textLongMessage"
+        android:text="pandol
+        profin
+        zirtic"
+        android:id="@+id/editTextMedication" />
+
+    <ListView
+        android:id="@+id/reportListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/editTextMedication"
+        android:layout_marginTop="35dp" />
+
+
+
+</RelativeLayout>

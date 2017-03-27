@@ -5,6 +5,9 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
+import android.widget.ImageView;
+import android.widget.TextView;
+import android.widget.Toast;
 
 import java.util.ArrayList;
 
@@ -31,7 +34,7 @@ public class RequestAdapter extends BaseAdapter {
 
     @Override
     public int getCount() {
-        return 0;
+        return model.size();
     }
 
     @Override
@@ -46,6 +49,42 @@ public class RequestAdapter extends BaseAdapter {
 
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
-        return null;
+
+
+
+        View view = inflater.inflate(R.layout.list_item_patient_invitation,null);
+
+        ImageView img= (ImageView) view.findViewById(R.id.imageViewPatient);
+        TextView name = (TextView) view.findViewById(R.id.textViewName);
+        TextView age = (TextView) view.findViewById(R.id.textViewAge);
+        TextView civil = (TextView) view.findViewById(R.id.textViewCivilId);
+        TextView gender= (TextView) view.findViewById(R.id.textViewGender);
+
+
+
+
+        PatientRequest patient = model.get(position);
+        // img.setImageResource(Integer.parseInt(patient.getImage()));
+
+        name.setText(patient.getName());
+
+        gender.setText(patient.getGender());
+
+        age.setText(patient.getAge()+"");
+        civil.setText(patient.getCivilId());
+
+
+
+
+
+        img.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(context, "User clicked Image", Toast.LENGTH_SHORT).show();
+            }
+        });
+
+        return view;
+
     }
 }
