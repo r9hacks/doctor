@@ -1,4 +1,4 @@
-package com.pifss.doctor;
+package com.pifss.doctor.Activitys;
 
 import android.content.Intent;
 import android.graphics.Color;
@@ -19,7 +19,8 @@ import com.mikepenz.materialdrawer.model.PrimaryDrawerItem;
 import com.mikepenz.materialdrawer.model.ProfileDrawerItem;
 import com.mikepenz.materialdrawer.model.interfaces.IDrawerItem;
 import com.mikepenz.materialdrawer.model.interfaces.IProfile;
-import com.pifss.doctor.Activitys.AboutUsActivity;
+import com.pifss.doctor.InstaAdapter;
+import com.pifss.doctor.R;
 
 public class Navigation extends AppCompatActivity {
 

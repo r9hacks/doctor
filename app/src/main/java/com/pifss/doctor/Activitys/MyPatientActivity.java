@@ -1,4 +1,4 @@
-package com.pifss.doctor;
+package com.pifss.doctor.Activitys;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -7,6 +7,10 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
 import android.widget.Toast;
+
+import com.pifss.doctor.MyPatient;
+import com.pifss.doctor.R;
+import com.pifss.doctor.myPatientAdapter;
 
 import java.util.ArrayList;
 
