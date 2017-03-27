@@ -2,10 +2,7 @@ package com.pifss.doctor;
 
 import android.content.Intent;
 import android.graphics.Color;
-import android.support.annotation.ColorInt;
-import android.support.design.widget.TabLayout;
 import android.support.v4.app.FragmentManager;
-import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
@@ -21,7 +18,6 @@ import com.mikepenz.materialdrawer.model.PrimaryDrawerItem;
 import com.mikepenz.materialdrawer.model.ProfileDrawerItem;
 import com.mikepenz.materialdrawer.model.interfaces.IDrawerItem;
 import com.mikepenz.materialdrawer.model.interfaces.IProfile;
-import com.mikepenz.materialize.color.Material;
 import com.pifss.doctor.Fragments.AboutUsFragment;
 import com.pifss.doctor.Fragments.DoctorProfileFragment;
 import com.pifss.doctor.Fragments.MyPatientFragment;
@@ -36,7 +32,7 @@ public class Navigation extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_navigation);
 
-        final Toolbar toolbar = (Toolbar) findViewById(R.id.mytoolbar);
+        final Toolbar toolbar = (Toolbar) findViewById(R.id.myToolbar);
 
         toolbar.setTitle("All Reports");
         toolbar.setTitleTextColor(Color.WHITE);

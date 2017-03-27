@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#00BCD4</color>
-    <color name="colorAccent">#FF4081</color>
+    <color name="colorPrimaryDark">#FF058C9E</color>
+    <color name="colorAccent">#FF00BBD4</color>
     <color name="blueActionBarColor">#00BCD4</color>
-    <color name="selectedTapColor">#FFEB3B</color>
+    <color name="selectedTapColor">#00BCD4</color>
     <color name="TapIconColor">#FFFFFF</color>
     <color name="TapSelectedColor">#FFFFFF</color>
     <color name="TapNotSelectedColor">#AAFFFFFF</color>
-
-
 </resources>

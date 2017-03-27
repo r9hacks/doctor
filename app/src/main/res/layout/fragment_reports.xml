@@ -15,7 +15,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/mytabLayout"
-            android:layout_below="@+id/mytoolbar"
+            android:layout_below="@+id/myToolbar"
             android:layout_alignParentLeft="true"
             android:background="@color/blueActionBarColor"
             app:tabSelectedTextColor="@color/TapSelectedColor"

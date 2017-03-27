@@ -12,14 +12,14 @@
         android:layout_height="wrap_content"
         android:background="@color/blueActionBarColor"
         style="@style/AppTheme.Toolbar"
-        android:id="@+id/mytoolbar">
+        android:id="@+id/myToolbar">
 
     </android.support.v7.widget.Toolbar>
     <FrameLayout
         android:id="@+id/content_frame"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_below="@+id/mytoolbar" >
+        android:layout_below="@+id/myToolbar" >
 
 
     </FrameLayout>
