@@ -17,11 +17,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MyPatient" />
-        <activity android:name=".PatientRequest" />
-        <activity android:name=".DoctorProfile" />
-        <activity android:name=".Settings" />
-        <activity android:name=".AboutUs"></activity>
     </application>
 
 </manifest>
