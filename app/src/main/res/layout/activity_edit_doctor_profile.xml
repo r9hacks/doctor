@@ -1,89 +1,265 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-xmlns:app="http://schemas.android.com/apk/res-auto"
-xmlns:tools="http://schemas.android.com/tools"
-android:layout_width="match_parent"
-android:layout_height="match_parent"
-android:orientation="vertical"
-tools:context="com.pifss.doctor.Activitys.EditDoctorProfileActivity">
-
-<android.support.design.widget.AppBarLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
-    android:id="@+id/appBarLayout">
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.pifss.doctor.Activitys.EditDoctorProfileActivity">
 
-    <android.support.v7.widget.Toolbar
-        android:id="@+id/myToolbar"
-        style="@style/AppTheme.Toolbar"
+    <android.support.design.widget.AppBarLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/blueActionBarColor"
-        tools:layout_editor_absoluteX="8dp"
-        tools:layout_editor_absoluteY="0dp"
-        android:layout_alignParentTop="true"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        android:id="@+id/appBarLayout">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/myToolbar"
+            style="@style/AppTheme.Toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/blueActionBarColor"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="0dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+
+        </android.support.v7.widget.Toolbar>
+
+    </android.support.design.widget.AppBarLayout>
+
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textInputLayoutCivil"
+        android:layout_below="@+id/LocationPLayout"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true">
 
-    </android.support.v7.widget.Toolbar>
+        <EditText
+            android:id="@+id/txtDrCivil"
+            android:layout_width="match_parent"
+            android:layout_height="39dp"
+            android:layout_above="@+id/btnEdit"
+            android:layout_alignEnd="@+id/btnEdit"
+            android:layout_alignRight="@+id/btnEdit"
+            android:layout_marginBottom="37dp"
+            android:drawableLeft="@mipmap/id_card"
+            android:drawablePadding="10dp"
+            android:ems="10"
+            android:gravity=""
+            android:hint="Civil ID"
+            android:inputType="textEmailAddress"
+            android:textColor="@android:color/darker_gray" />
+    </android.support.design.widget.TextInputLayout>
 
-</android.support.design.widget.AppBarLayout>
-
-    <ScrollView
+    <Button
+        android:id="@+id/btnEdit"
+        style="@style/Widget.AppCompat.Button.Colored"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_below="@+id/appBarLayout">
+        android:alpha="0.75"
+        android:background="@color/colorAccent"
+        android:text="Save"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="23dp"
+        tools:layout_editor_absoluteY="421dp" />
 
-        <RelativeLayout
+    <android.support.design.widget.TextInputLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/appBarLayout"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/textInputLayoutName">
+        <EditText
+            android:id="@+id/txtDrName"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:scrollbars="vertical"
-            android:background="@color/material_drawer_dark_background"
-            >
+            android:layout_height="wrap_content"
+            android:drawableLeft="@mipmap/doctor"
+            android:drawablePadding="10dp"
+            android:ems="10"
+            android:hint="Name"
+            android:inputType="textPersonName"
+            android:textColor="@android:color/darker_gray"
+            />
+    </android.support.design.widget.TextInputLayout>
 
-            <android.support.design.widget.TextInputLayout
-                android:id="@+id/textPLayoutName"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_alignParentLeft="true"
-                android:layout_alignParentStart="true">
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/textInputLayoutEmail"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/textInputLayoutName"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+        <EditText
+            android:id="@+id/txtDrEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textInputLayoutName"
+            android:drawableLeft="@mipmap/email"
+            android:drawablePadding="10dp"
+            android:ems="10"
+            android:hint="example@gmail.com"
+            android:inputType="textEmailAddress"
+            android:textColor="@android:color/darker_gray" />
+    </android.support.design.widget.TextInputLayout>
 
-                <EditText
-                    android:id="@+id/txtDrName"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:drawableLeft="@mipmap/doctor"
-                    android:drawablePadding="10dp"
-                    android:ems="10"
-                    android:hint="Name"
-                    android:inputType="textPersonName"
-                    android:textColor="@android:color/darker_gray" />
-            </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/textInputLayoutPass"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/textInputLayoutEmail"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+        <EditText
+            android:id="@+id/txtDrPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@mipmap/password"
+            android:drawablePadding="10dp"
+            android:ems="10"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:textColor="@android:color/darker_gray"
+            />
+    </android.support.design.widget.TextInputLayout>
 
-            <android.support.design.widget.TextInputLayout
-                android:id="@+id/textPLayoutEmail"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_above="@+id/textPLayoutName"
-                android:layout_alignParentLeft="true"
-                android:layout_alignParentStart="true">
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/LocationPLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textInputLayoutPass"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
 
-                <EditText
-                    android:id="@+id/txtDrEmail"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:drawableLeft="@mipmap/email"
-                    android:drawablePadding="10dp"
-                    android:ems="10"
-                    android:hint="example@gmail.com"
-                    android:inputType="textEmailAddress"
-                    android:textColor="@android:color/darker_gray" />
-            </android.support.design.widget.TextInputLayout>
+        <EditText
+            android:id="@+id/txtLocation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/civilPLayout"
+            android:layout_marginTop="74dp"
+            android:drawableLeft="@mipmap/map"
+            android:drawablePadding="10dp"
+            android:ems="10"
+            android:hint="Location"
+            android:inputType="textPassword"
+            android:textColor="@android:color/darker_gray" />
+    </android.support.design.widget.TextInputLayout>
 
-        </RelativeLayout>
-    </ScrollView>
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/NarionalityIL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="54dp"
+        android:layout_below="@+id/LocationPLayout"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <EditText
+            android:id="@+id/txtNationality"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="74dp"
+            android:drawableLeft="@mipmap/maps_and_flags"
+            android:drawablePadding="10dp"
+            android:ems="10"
+            android:hint="Nationality"
+            android:inputType="textPassword"
+            android:textColor="@android:color/darker_gray" />
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/Specialty"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_below="@+id/NarionalityIL"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <EditText
+            android:id="@+id/txtSpecialty"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="74dp"
+            android:drawableLeft="@mipmap/stethoscope_profile"
+            android:drawablePadding="10dp"
+            android:ems="10"
+            android:hint="Specialty"
+            android:inputType="textPassword"
+            android:textColor="@android:color/darker_gray" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/Birthdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_below="@+id/Specialty"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <EditText
+            android:id="@+id/txtBirthdate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="74dp"
+            android:drawableLeft="@mipmap/calendar_prof"
+            android:drawablePadding="10dp"
+            android:ems="10"
+            android:hint="Birthdate"
+            android:inputType="textPassword"
+            android:textColor="@android:color/darker_gray" />
+    </android.support.design.widget.TextInputLayout>
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageView3"
+        android:layout_toRightOf="@+id/imageView3"
+        android:layout_marginLeft="41dp"
+        android:layout_marginStart="41dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="84dp"
+        android:layout_marginStart="84dp"
+        android:layout_marginTop="15dp"
+        app:srcCompat="@mipmap/male_symbol"
+        android:layout_below="@+id/Birthdate"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:srcCompat="@mipmap/femenine_symbol"
+        android:layout_alignBottom="@+id/switch1"
+        android:layout_toRightOf="@+id/switch1"
+        android:layout_toEndOf="@+id/switch1"
+        android:layout_marginLeft="81dp"
+        android:layout_marginStart="81dp" />
+
+
 </RelativeLayout>
-
 
