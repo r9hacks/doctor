@@ -4,44 +4,28 @@
         "source": "C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\integrated project\\doctor\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\integrated project\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\material_bacground.png",
-        "source": "C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\integrated project\\doctor\\app\\src\\main\\res\\mipmap-xhdpi\\material_bacground.png"
-    },
-    {
         "merged": "C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\integrated project\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\add_icon.png",
         "source": "C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\integrated project\\doctor\\app\\src\\main\\res\\mipmap-xhdpi\\add_icon.png"
-    },
-    {
-        "merged": "C:\\Users\\trn24\\Downloads\\Day6\\Doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_launcher_round.png",
-        "source": "C:\\Users\\trn24\\Downloads\\Day6\\Doctor\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
     },
     {
         "merged": "C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\integrated project\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_launcher.png",
         "source": "C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\integrated project\\doctor\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\integrated project\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\aboutus_icon.png",
-        "source": "C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\integrated project\\doctor\\app\\src\\main\\res\\mipmap-xhdpi\\aboutus_icon.png"
+        "merged": "C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\integrated project\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\heart_rate.png",
+        "source": "C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\integrated project\\doctor\\app\\src\\main\\res\\mipmap-xhdpi\\heart_rate.png"
     },
     {
-        "merged": "C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\integrated project\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\blood_pressure_icon.png",
-        "source": "C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\integrated project\\doctor\\app\\src\\main\\res\\mipmap-xhdpi\\blood_pressure_icon.png"
+        "merged": "C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\integrated project\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\aboutus_icon.png",
+        "source": "C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\integrated project\\doctor\\app\\src\\main\\res\\mipmap-xhdpi\\aboutus_icon.png"
     },
     {
         "merged": "C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\integrated project\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\share_icon.png",
         "source": "C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\integrated project\\doctor\\app\\src\\main\\res\\mipmap-xhdpi\\share_icon.png"
     },
     {
-        "merged": "C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\integrated project\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\logout_icon.png",
-        "source": "C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\integrated project\\doctor\\app\\src\\main\\res\\mipmap-xhdpi\\logout_icon.png"
-    },
-    {
-        "merged": "C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\integrated project\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\my_patient_icon.png",
-        "source": "C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\integrated project\\doctor\\app\\src\\main\\res\\mipmap-xhdpi\\my_patient_icon.png"
-    },
-    {
-        "merged": "C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\integrated project\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\settings_icon.png",
-        "source": "C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\integrated project\\doctor\\app\\src\\main\\res\\mipmap-xhdpi\\settings_icon.png"
+        "merged": "C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\integrated project\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\candy.png",
+        "source": "C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\integrated project\\doctor\\app\\src\\main\\res\\mipmap-xhdpi\\candy.png"
     },
     {
         "merged": "C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\integrated project\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\heart_icon.png",
@@ -56,10 +40,6 @@
         "source": "C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\integrated project\\doctor\\app\\src\\main\\res\\mipmap-xhdpi\\medical_report_icon.png"
     },
     {
-        "merged": "C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\integrated project\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\doctor_profile_icon_two.png",
-        "source": "C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\integrated project\\doctor\\app\\src\\main\\res\\mipmap-xhdpi\\doctor_profile_icon_two.png"
-    },
-    {
         "merged": "C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\integrated project\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\profile_icon.png",
         "source": "C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\integrated project\\doctor\\app\\src\\main\\res\\mipmap-xhdpi\\profile_icon.png"
     },
@@ -68,7 +48,59 @@
         "source": "C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\integrated project\\doctor\\app\\src\\main\\res\\mipmap-xhdpi\\gender_icon.png"
     },
     {
+        "merged": "C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\integrated project\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\nausness.png",
+        "source": "C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\integrated project\\doctor\\app\\src\\main\\res\\mipmap-xhdpi\\nausness.png"
+    },
+    {
+        "merged": "C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\integrated project\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\medical_thermometer.png",
+        "source": "C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\integrated project\\doctor\\app\\src\\main\\res\\mipmap-xhdpi\\medical_thermometer.png"
+    },
+    {
+        "merged": "C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\integrated project\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\material_bacground.png",
+        "source": "C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\integrated project\\doctor\\app\\src\\main\\res\\mipmap-xhdpi\\material_bacground.png"
+    },
+    {
+        "merged": "C:\\Users\\trn24\\Downloads\\Day6\\Doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_launcher_round.png",
+        "source": "C:\\Users\\trn24\\Downloads\\Day6\\Doctor\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\integrated project\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\blood_pressure_icon.png",
+        "source": "C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\integrated project\\doctor\\app\\src\\main\\res\\mipmap-xhdpi\\blood_pressure_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\integrated project\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\logout_icon.png",
+        "source": "C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\integrated project\\doctor\\app\\src\\main\\res\\mipmap-xhdpi\\logout_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\integrated project\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\my_patient_icon.png",
+        "source": "C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\integrated project\\doctor\\app\\src\\main\\res\\mipmap-xhdpi\\my_patient_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\integrated project\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\settings_icon.png",
+        "source": "C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\integrated project\\doctor\\app\\src\\main\\res\\mipmap-xhdpi\\settings_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\integrated project\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\cough.png",
+        "source": "C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\integrated project\\doctor\\app\\src\\main\\res\\mipmap-xhdpi\\cough.png"
+    },
+    {
+        "merged": "C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\integrated project\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\pain_location.png",
+        "source": "C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\integrated project\\doctor\\app\\src\\main\\res\\mipmap-xhdpi\\pain_location.png"
+    },
+    {
+        "merged": "C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\integrated project\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\doctor_profile_icon_two.png",
+        "source": "C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\integrated project\\doctor\\app\\src\\main\\res\\mipmap-xhdpi\\doctor_profile_icon_two.png"
+    },
+    {
         "merged": "C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\integrated project\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\doctor_profile_icon.png",
         "source": "C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\integrated project\\doctor\\app\\src\\main\\res\\mipmap-xhdpi\\doctor_profile_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\integrated project\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\comment.png",
+        "source": "C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\integrated project\\doctor\\app\\src\\main\\res\\mipmap-xhdpi\\comment.png"
+    },
+    {
+        "merged": "C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\integrated project\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\dizzyhead.png",
+        "source": "C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\integrated project\\doctor\\app\\src\\main\\res\\mipmap-xhdpi\\dizzyhead.png"
     }
 ]
