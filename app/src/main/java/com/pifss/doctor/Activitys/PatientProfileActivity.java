@@ -1,12 +1,23 @@
 package com.pifss.doctor.Activitys;
 
+import android.content.Intent;
 import android.graphics.Color;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
+import android.view.View;
+import android.widget.AdapterView;
 import android.widget.EditText;
+import android.widget.ListView;
+import android.widget.Toast;
 
+import com.pifss.doctor.Adapters.ReportListAdapter;
+import com.pifss.doctor.Model.MyPatient;
+import com.pifss.doctor.Model.ReportCell;
+import com.pifss.doctor.Model.ReportList;
 import com.pifss.doctor.R;
+
+import java.util.ArrayList;
 
 public class PatientProfileActivity extends AppCompatActivity {
 
@@ -24,8 +35,54 @@ public class PatientProfileActivity extends AppCompatActivity {
         getSupportActionBar().setDisplayShowHomeEnabled(true);
 
 
-        EditText medication = (EditText) findViewById(R.id.editTextMedication);
+
+        EditText medication = (EditText) findViewById(R.id.MedicationEditTextMedication);
         medication.setKeyListener(null);
+
+
+
+
+
+
+        //list
+
+        final ArrayList<ReportList> model=new ArrayList<>();
+//String comment, Date date, String heartRate, String bloodPreassure, String fever) {
+
+        model.add(new ReportList("i feel sick", "28/1/2017","100BPM","80/120","no"));
+        model.add(new ReportList("i don't feel good", "27/1/2017","90BPM","88/120","no"));
+
+
+
+        ListView lv= (ListView) findViewById(R.id.reportListView);
+
+        ReportListAdapter adapter=new ReportListAdapter(PatientProfileActivity.this,model);
+
+
+        lv.setAdapter(adapter);
+
+        lv.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+
+                ReportList patient = model.get(position);
+
+                Toast.makeText(PatientProfileActivity.this, patient.getComment(), Toast.LENGTH_SHORT).show();
+
+
+              //here go to report
+
+            }
+        });
+
+
+
+
+
+
+
+
+
     }
     @Override
     public boolean onSupportNavigateUp() {

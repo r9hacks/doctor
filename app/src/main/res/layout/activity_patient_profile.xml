@@ -19,65 +19,65 @@
 
     <ImageView
         android:id="@+id/imageViewAsthma"
-        android:layout_width="wrap_content"
+        android:layout_width="35dp"
         android:layout_height="40dp"
-        android:layout_gravity="bottom"
-        android:layout_weight=".25"
-        app:srcCompat="@mipmap/ic_launcher"
-        android:layout_marginTop="14dp"
-        android:layout_below="@+id/imageViewBloodType"
         android:layout_alignLeft="@+id/imageViewBloodType"
-        android:layout_alignStart="@+id/imageViewBloodType" />
+        android:layout_alignStart="@+id/imageViewBloodType"
+        android:layout_below="@+id/imageViewBloodType"
+        android:layout_gravity="bottom"
+        android:layout_marginTop="14dp"
+        android:layout_weight=".25"
+        app:srcCompat="@mipmap/asthma_icon" />
 
     <ImageView
         android:id="@+id/imageView8"
-        android:layout_width="wrap_content"
+        android:layout_width="45dp"
         android:layout_height="40dp"
-        android:layout_gravity="bottom"
-        android:layout_weight=".25"
-        app:srcCompat="@mipmap/ic_launcher"
-        android:layout_marginTop="20dp"
-        android:layout_below="@+id/imageViewAsthma"
         android:layout_alignLeft="@+id/imageViewAsthma"
-        android:layout_alignStart="@+id/imageViewAsthma" />
+        android:layout_alignStart="@+id/imageViewAsthma"
+        android:layout_below="@+id/imageViewAsthma"
+        android:layout_gravity="bottom"
+        android:layout_marginTop="20dp"
+        android:layout_weight=".25"
+        app:srcCompat="@mipmap/medicine_icon" />
 
     <ImageView
         android:id="@+id/imageViewAllergie"
-        android:layout_width="wrap_content"
+        android:layout_width="35dp"
         android:layout_height="40dp"
+        android:layout_alignLeft="@+id/imageViewDiab"
+        android:layout_alignStart="@+id/imageViewDiab"
+        android:layout_alignTop="@+id/imageViewAsthma"
         android:layout_gravity="bottom"
         android:layout_weight=".25"
-        app:srcCompat="@mipmap/ic_launcher"
-        android:layout_alignTop="@+id/imageViewAsthma"
-        android:layout_alignLeft="@+id/imageViewDiab"
-        android:layout_alignStart="@+id/imageViewDiab" />
+        app:srcCompat="@mipmap/allergy_icon" />
 
     <ImageView
         android:id="@+id/imageViewBloodType"
-        android:layout_width="wrap_content"
+        android:layout_width="35dp"
         android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/imageViewPatient"
         android:layout_gravity="bottom"
         android:layout_marginLeft="18dp"
         android:layout_marginStart="18dp"
+        android:layout_marginTop="24dp"
         android:layout_weight=".25"
-        app:srcCompat="@mipmap/ic_launcher"
-        android:layout_below="@+id/imageViewPatient"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginTop="24dp" />
+        app:srcCompat="@mipmap/blood_drop_icon" />
 
     <ImageView
         android:id="@+id/imageViewDiab"
-        android:layout_width="wrap_content"
+        android:layout_width="35dp"
         android:layout_height="40dp"
+        android:layout_alignTop="@+id/imageViewBloodType"
         android:layout_gravity="bottom"
         android:layout_marginLeft="25dp"
         android:layout_marginStart="25dp"
-        android:layout_weight=".25"
-        app:srcCompat="@mipmap/ic_launcher"
-        android:layout_alignTop="@+id/imageViewBloodType"
+        android:layout_toEndOf="@+id/textViewAge"
         android:layout_toRightOf="@+id/textViewAge"
-        android:layout_toEndOf="@+id/textViewAge" />
+        android:layout_weight=".25"
+        app:srcCompat="@mipmap/diabity_icon" />
 
     <ImageView
         android:id="@+id/imageViewPatient"
@@ -123,12 +123,11 @@
 
         <ImageView
             android:id="@+id/Phone"
-            android:layout_width="wrap_content"
-            android:layout_height="35dp"
-            app:srcCompat="@mipmap/ic_launcher"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
             android:layout_gravity="bottom"
             android:layout_weight=".25"
-            />
+            app:srcCompat="@mipmap/phone_icon" />
 
         <TextView
             android:id="@+id/textViewPhone"
@@ -141,12 +140,12 @@
 
         <ImageView
             android:id="@+id/Gender"
-            android:layout_width="wrap_content"
-            android:layout_height="35dp"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
             android:layout_gravity="bottom"
             android:layout_weight=".25"
 
-            app:srcCompat="@mipmap/ic_launcher" />
+            app:srcCompat="@mipmap/gender_icon" />
 
         <TextView
             android:id="@+id/textViewGender"
@@ -160,6 +159,7 @@
 
 
     </LinearLayout>
+
 
     <TextView
         android:id="@+id/textViewBlo"
@@ -212,11 +212,11 @@
         android:layout_height="wrap_content"
         android:text="Medication"
         android:layout_alignTop="@+id/imageView8"
-        android:layout_alignLeft="@+id/textView14"
-        android:layout_alignStart="@+id/textView14" />
+        android:layout_alignRight="@+id/AsthmaTextView14"
+        android:layout_alignEnd="@+id/AsthmaTextView14" />
 
     <TextView
-        android:id="@+id/textView10"
+        android:id="@+id/bloodTypetextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignBottom="@+id/imageViewBloodType"
@@ -229,7 +229,7 @@
         android:textSize="18sp" />
 
     <TextView
-        android:id="@+id/textView13"
+        android:id="@+id/AllergiesTextView13"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignEnd="@+id/textViewDia"
@@ -255,12 +255,12 @@
         android:textSize="18sp" />
 
     <TextView
-        android:id="@+id/textView14"
+        android:id="@+id/AsthmaTextView14"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignEnd="@+id/textView10"
+        android:layout_alignEnd="@+id/bloodTypetextView"
         android:layout_alignLeft="@+id/textViewAst"
-        android:layout_alignRight="@+id/textView10"
+        android:layout_alignRight="@+id/bloodTypetextView"
         android:layout_alignStart="@+id/textViewAst"
         android:layout_below="@+id/textViewAst"
         android:text="No"
@@ -279,7 +279,7 @@
         android:text="pandol
         profin
         zirtic"
-        android:id="@+id/editTextMedication" />
+        android:id="@+id/MedicationEditTextMedication" />
 
     <ListView
         android:id="@+id/reportListView"
@@ -287,7 +287,7 @@
         android:layout_height="match_parent"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
-        android:layout_below="@+id/editTextMedication"
+        android:layout_below="@+id/MedicationEditTextMedication"
         android:layout_marginTop="35dp" />
 
 

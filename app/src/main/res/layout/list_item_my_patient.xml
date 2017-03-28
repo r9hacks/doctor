@@ -46,12 +46,11 @@
 
         <ImageView
             android:id="@+id/Phone"
-            android:layout_width="wrap_content"
-            android:layout_height="35dp"
-            app:srcCompat="@mipmap/ic_launcher"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
             android:layout_gravity="bottom"
             android:layout_weight=".25"
-            />
+            app:srcCompat="@mipmap/phone_icon" />
 
         <TextView
             android:id="@+id/textViewPhone"
@@ -64,12 +63,12 @@
 
         <ImageView
             android:id="@+id/Gender"
-            android:layout_width="wrap_content"
-            android:layout_height="35dp"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
             android:layout_gravity="bottom"
             android:layout_weight=".25"
 
-            app:srcCompat="@mipmap/ic_launcher" />
+            app:srcCompat="@mipmap/gender_icon" />
 
         <TextView
             android:id="@+id/textViewGender"
