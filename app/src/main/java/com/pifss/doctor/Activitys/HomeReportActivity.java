@@ -92,6 +92,11 @@ public class HomeReportActivity extends AppCompatActivity {
                                 i = new Intent(HomeReportActivity.this,AboutUsActivity.class);
                                 startActivity(i);
                                 break;
+                            case 8:
+                                i = new Intent(HomeReportActivity.this,loginActivity.class);
+                                startActivity(i);
+                                finish();
+                                break;
 
                         }
 

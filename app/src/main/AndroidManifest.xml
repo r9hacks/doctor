@@ -11,11 +11,7 @@
         android:theme="@style/AppTheme">
         <activity android:name=".Activitys.MainActivity" />
         <activity android:name=".Activitys.HomeReportActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity
             android:name=".Activitys.RegisterActivity"
@@ -27,7 +23,15 @@
         <activity android:name=".Activitys.PatientRequestActivity" />
         <activity android:name=".Activitys.SettingsActivity" />
         <activity android:name=".Activitys.PatientProfileActivity" />
-        <activity android:name=".Activitys.ReportDetailActivity"></activity>
+        <activity android:name=".Activitys.ReportDetailActivity" />
+        <activity android:name=".Activitys.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Activitys.ForgetPasswordActivity"></activity>
     </application>
 
 </manifest>
