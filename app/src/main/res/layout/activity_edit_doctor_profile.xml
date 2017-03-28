@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+tools:context="com.pifss.doctor.Activitys.EditDoctorProfileActivity">
+
+<android.support.design.widget.AppBarLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+    android:id="@+id/appBarLayout">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/myToolbar"
+        style="@style/AppTheme.Toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/blueActionBarColor"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="0dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+    </android.support.v7.widget.Toolbar>
+
+</android.support.design.widget.AppBarLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/appBarLayout">
+
+       <RelativeLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content">
+           <android.support.design.widget.TextInputLayout
+               android:id="@+id/textPLayoutName"
+               android:layout_height="wrap_content"
+               android:layout_width="match_parent"
+               android:layout_alignParentLeft="true"
+               android:layout_alignParentStart="true"
+               >
+               <EditText
+                   android:id="@+id/txtDrName"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:drawableLeft="@mipmap/doctor"
+                   android:drawablePadding="10dp"
+                   android:ems="10"
+                   android:hint="Name"
+                   android:inputType="textPersonName"
+                   android:textColor="@android:color/darker_gray"
+                   />
+           </android.support.design.widget.TextInputLayout>
+
+           <android.support.design.widget.TextInputLayout
+               android:id="@+id/textPLayoutEmail"
+               android:layout_height="wrap_content"
+               android:layout_width="match_parent"
+               android:layout_above="@+id/textPLayoutName"
+               android:layout_alignParentLeft="true"
+               android:layout_alignParentStart="true" >
+               <EditText
+                   android:id="@+id/txtDrEmail"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:drawableLeft="@mipmap/email"
+                   android:drawablePadding="10dp"
+                   android:ems="10"
+                   android:hint="example@gmail.com"
+                   android:inputType="textEmailAddress"
+                   android:textColor="@android:color/darker_gray"
+                   />
+           </android.support.design.widget.TextInputLayout>
+
+       </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>
+
+

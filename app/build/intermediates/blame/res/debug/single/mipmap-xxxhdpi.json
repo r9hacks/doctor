@@ -1,18 +1,10 @@
 [
     {
-        "merged": "C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\integrated project\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\ic_launcher_round.png",
-        "source": "C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\integrated project\\doctor\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+        "merged": "/Users/trn24/Desktop/IBM/Andriod/Project/doctor mar28/doctor/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/ic_launcher_round.png",
+        "source": "/Users/trn24/Desktop/IBM/Andriod/Project/doctor mar28/doctor/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\trn24\\Downloads\\Day6\\Doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\ic_launcher.png",
-        "source": "C:\\Users\\trn24\\Downloads\\Day6\\Doctor\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
-    },
-    {
-        "merged": "C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\integrated project\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\ic_launcher.png",
-        "source": "C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\integrated project\\doctor\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
-    },
-    {
-        "merged": "C:\\Users\\trn24\\Downloads\\Day6\\Doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\ic_launcher_round.png",
-        "source": "C:\\Users\\trn24\\Downloads\\Day6\\Doctor\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+        "merged": "/Users/trn24/Desktop/IBM/Andriod/Project/doctor mar28/doctor/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/ic_launcher.png",
+        "source": "/Users/trn24/Desktop/IBM/Andriod/Project/doctor mar28/doctor/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
     }
 ]
