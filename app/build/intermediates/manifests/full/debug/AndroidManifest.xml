@@ -16,8 +16,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme" >
         <activity android:name="com.pifss.doctor.Activitys.MainActivity" />
-        <activity android:name="com.pifss.doctor.Activitys.HomeReportActivity" >
-        </activity>
+        <activity android:name="com.pifss.doctor.Activitys.HomeReportActivity" />
         <activity
             android:name="com.pifss.doctor.Activitys.RegisterActivity"
             android:exported="true" />
@@ -37,6 +36,7 @@
             </intent-filter>
         </activity>
         <activity android:name="com.pifss.doctor.Activitys.ForgetPasswordActivity" />
+        <activity android:name="com.pifss.doctor.Activitys.EditDoctorProfileActivity" />
     </application>
 
 </manifest>

@@ -3,16 +3,558 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context="com.pifss.doctor.Activitys.ReportDetailActivity">
+    android:layout_height="match_parent">
 
-    <android.support.v7.widget.Toolbar
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="com.pifss.doctor.Activitys.ReportDetailActivity">
+
+
+        <android.support.v7.widget.Toolbar
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/mytoolbar"
+            style="@style/AppTheme.Toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/blueActionBarColor">
+
+        </android.support.v7.widget.Toolbar>
+
+        <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp">
+
+                    <ImageView
+                        android:id="@+id/imageViewBlood"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        app:srcCompat="@mipmap/blood_pressure_icon" />
+
+                    <TextView
+                        android:id="@+id/textViewblood"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginLeft="12dp"
+                        android:layout_marginStart="12dp"
+                        android:layout_toEndOf="@+id/imageViewBlood"
+                        android:layout_toRightOf="@+id/imageViewBlood"
+                        android:text="Blood Pressure" />
+
+                    <TextView
+                        android:id="@+id/textViewbloodContent"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@+id/imageViewBlood"
+                        android:layout_alignEnd="@+id/textViewblood"
+                        android:layout_alignLeft="@+id/textViewblood"
+                        android:layout_alignRight="@+id/textViewblood"
+                        android:layout_alignStart="@+id/textViewblood"
+                        android:layout_below="@+id/textViewblood"
+                        android:gravity="center_vertical"
+                        android:text="High"
+                        android:textSize="18sp" />
+                </RelativeLayout>
+
+                <view
+                    android:id="@+id/view2"
+                    class="android.support.v7.widget.Toolbar"
+                    id="@+id/view"
+                    layout_width="match_parent"
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@android:color/darker_gray"
+                    android:textColor="@android:color/darker_gray" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp">
+
+                    <ImageView
+                        android:id="@+id/imageViewCoughing"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        app:srcCompat="@mipmap/cough" />
+
+                    <TextView
+                        android:id="@+id/textViewcoughing"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginLeft="12dp"
+                        android:layout_marginStart="12dp"
+                        android:layout_toEndOf="@+id/imageViewCoughing"
+                        android:layout_toRightOf="@+id/imageViewCoughing"
+                        android:text="Coughing" />
+
+                    <TextView
+                        android:id="@+id/textViewcoughingContent"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@+id/imageViewCoughing"
+                        android:layout_alignEnd="@+id/textViewcoughing"
+                        android:layout_alignLeft="@+id/textViewcoughing"
+                        android:layout_alignRight="@+id/textViewcoughing"
+                        android:layout_alignStart="@+id/textViewcoughing"
+                        android:layout_below="@+id/textViewcoughing"
+                        android:gravity="center_vertical"
+                        android:text="High"
+                        android:textSize="18sp" />
+                </RelativeLayout>
+
+                <view
+                    android:id="@+id/view3"
+                    class="android.support.v7.widget.Toolbar"
+                    layout_width="match_parent"
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@android:color/darker_gray"
+                    android:textColor="@android:color/darker_gray" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp">
+
+                    <ImageView
+                        android:id="@+id/imageViewDizzness"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        app:srcCompat="@mipmap/dizzyhead" />
+
+                    <TextView
+                        android:id="@+id/textViewdizzness"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginLeft="12dp"
+                        android:layout_marginStart="12dp"
+                        android:layout_toEndOf="@+id/imageViewDizzness"
+                        android:layout_toRightOf="@+id/imageViewDizzness"
+                        android:text="Dizziness" />
+
+                    <TextView
+                        android:id="@+id/textViewdizznessContent"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@+id/imageViewDizzness"
+                        android:layout_alignEnd="@+id/textViewdizzness"
+                        android:layout_alignLeft="@+id/textViewdizzness"
+                        android:layout_alignRight="@+id/textViewdizzness"
+                        android:layout_alignStart="@+id/textViewdizzness"
+                        android:layout_below="@+id/textViewdizzness"
+                        android:gravity="center_vertical"
+                        android:text="High"
+                        android:textSize="18sp" />
+                </RelativeLayout>
+
+                <view
+                    android:id="@+id/view4"
+                    class="android.support.v7.widget.Toolbar"
+                    layout_width="match_parent"
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@android:color/darker_gray"
+                    android:textColor="@android:color/darker_gray" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp">
+
+                    <ImageView
+                        android:id="@+id/imageViewFever"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        app:srcCompat="@mipmap/medical_thermometer" />
+
+                    <TextView
+                        android:id="@+id/textViewfever"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginLeft="12dp"
+                        android:layout_marginStart="12dp"
+                        android:layout_toEndOf="@+id/imageViewFever"
+                        android:layout_toRightOf="@+id/imageViewFever"
+                        android:text="Fever" />
+
+                    <TextView
+                        android:id="@+id/textViewfeverContent"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@+id/imageViewFever"
+                        android:layout_alignLeft="@+id/textViewfever"
+                        android:layout_alignStart="@+id/textViewfever"
+                        android:layout_below="@+id/textViewfever"
+                        android:gravity="center_vertical"
+                        android:text="High"
+                        android:textSize="18sp" />
+                </RelativeLayout>
+
+                <view
+                    android:id="@+id/view5"
+                    class="android.support.v7.widget.Toolbar"
+                    layout_width="match_parent"
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@android:color/darker_gray"
+                    android:textColor="@android:color/darker_gray" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp">
+
+                    <ImageView
+                        android:id="@+id/imageViewHeadache"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        app:srcCompat="@mipmap/headache" />
+
+                    <TextView
+                        android:id="@+id/textViewheadache"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginLeft="12dp"
+                        android:layout_marginStart="12dp"
+                        android:layout_toEndOf="@+id/imageViewHeadache"
+                        android:layout_toRightOf="@+id/imageViewHeadache"
+                        android:text="Headache" />
+
+                    <TextView
+                        android:id="@+id/textViewheadacheContent"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@+id/imageViewHeadache"
+                        android:layout_alignEnd="@+id/textViewheadache"
+                        android:layout_alignLeft="@+id/textViewheadache"
+                        android:layout_alignRight="@+id/textViewheadache"
+                        android:layout_alignStart="@+id/textViewheadache"
+                        android:layout_below="@+id/textViewheadache"
+                        android:gravity="center_vertical"
+                        android:text="High"
+                        android:textSize="18sp" />
+                </RelativeLayout>
+
+                <view
+                    android:id="@+id/view6"
+                    class="android.support.v7.widget.Toolbar"
+                    layout_width="match_parent"
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@android:color/darker_gray"
+                    android:textColor="@android:color/darker_gray" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp">
+
+                    <ImageView
+                        android:id="@+id/imageViewHeartRate"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        app:srcCompat="@mipmap/heart_rate" />
+
+                    <TextView
+                        android:id="@+id/textViewheartRate"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginLeft="12dp"
+                        android:layout_marginStart="12dp"
+                        android:layout_toEndOf="@+id/imageViewHeartRate"
+                        android:layout_toRightOf="@+id/imageViewHeartRate"
+                        android:text="Heart Rate" />
+
+                    <TextView
+                        android:id="@+id/textViewheartRateContent"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@+id/imageViewHeartRate"
+                        android:layout_alignEnd="@+id/textViewheartRate"
+                        android:layout_alignLeft="@+id/textViewheartRate"
+                        android:layout_alignRight="@+id/textViewheartRate"
+                        android:layout_alignStart="@+id/textViewheartRate"
+                        android:layout_below="@+id/textViewheartRate"
+                        android:gravity="center_vertical"
+                        android:text="High"
+                        android:textSize="18sp" />
+                </RelativeLayout>
+
+                <view
+                    android:id="@+id/view7"
+                    class="android.support.v7.widget.Toolbar"
+                    layout_width="match_parent"
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@android:color/darker_gray"
+                    android:textColor="@android:color/darker_gray" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp">
+
+                    <ImageView
+                        android:id="@+id/imageViewNaouseou"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        app:srcCompat="@mipmap/nausness" />
+
+                    <TextView
+                        android:id="@+id/textViewnaouseou"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginLeft="12dp"
+                        android:layout_marginStart="12dp"
+                        android:layout_toEndOf="@+id/imageViewNaouseou"
+                        android:layout_toRightOf="@+id/imageViewNaouseou"
+                        android:text="Nauseous" />
+
+                    <TextView
+                        android:id="@+id/textViewanouseouContent"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@+id/imageViewNaouseou"
+                        android:layout_alignEnd="@+id/textViewnaouseou"
+                        android:layout_alignLeft="@+id/textViewnaouseou"
+                        android:layout_alignRight="@+id/textViewnaouseou"
+                        android:layout_alignStart="@+id/textViewnaouseou"
+                        android:layout_below="@+id/textViewnaouseou"
+                        android:gravity="center_vertical"
+                        android:text="High"
+                        android:textSize="18sp" />
+                </RelativeLayout>
+
+                <view
+                    android:id="@+id/view8"
+                    class="android.support.v7.widget.Toolbar"
+                    layout_width="match_parent"
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@android:color/darker_gray"
+                    android:textColor="@android:color/darker_gray" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp">
+
+                    <ImageView
+                        android:id="@+id/imageViewPainLocation"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        app:srcCompat="@mipmap/pain_location" />
+
+                    <TextView
+                        android:id="@+id/textViewpainLocation"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginLeft="12dp"
+                        android:layout_marginStart="12dp"
+                        android:layout_toEndOf="@+id/imageViewPainLocation"
+                        android:layout_toRightOf="@+id/imageViewPainLocation"
+                        android:text="Pain Location" />
+
+                    <TextView
+                        android:id="@+id/textViewpainLocationContent"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@+id/imageViewPainLocation"
+                        android:layout_alignEnd="@+id/textViewpainLocation"
+                        android:layout_alignLeft="@+id/textViewpainLocation"
+                        android:layout_alignRight="@+id/textViewpainLocation"
+                        android:layout_alignStart="@+id/textViewpainLocation"
+                        android:layout_below="@+id/textViewpainLocation"
+                        android:gravity="center_vertical"
+                        android:text="High"
+                        android:textSize="18sp" />
+                </RelativeLayout>
+
+                <view
+                    android:id="@+id/view9"
+                    class="android.support.v7.widget.Toolbar"
+                    layout_width="match_parent"
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@android:color/darker_gray"
+                    android:textColor="@android:color/darker_gray" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp">
+
+                    <ImageView
+                        android:id="@+id/imageViewSugar"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        app:srcCompat="@mipmap/candy" />
+
+                    <TextView
+                        android:id="@+id/textViewsugar"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginLeft="12dp"
+                        android:layout_marginStart="12dp"
+                        android:layout_toEndOf="@+id/imageViewSugar"
+                        android:layout_toRightOf="@+id/imageViewSugar"
+                        android:text="Sugar Level" />
+
+                    <TextView
+                        android:id="@+id/textViewsugarContent"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@+id/imageViewSugar"
+                        android:layout_alignEnd="@+id/textViewsugar"
+                        android:layout_alignLeft="@+id/textViewsugar"
+                        android:layout_alignRight="@+id/textViewsugar"
+                        android:layout_alignStart="@+id/textViewsugar"
+                        android:layout_below="@+id/textViewsugar"
+                        android:gravity="center_vertical"
+                        android:text="High"
+                        android:textSize="18sp" />
+                </RelativeLayout>
+
+                <view
+                    android:id="@+id/view10"
+                    class="android.support.v7.widget.Toolbar"
+                    layout_width="match_parent"
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@android:color/darker_gray"
+                    android:textColor="@android:color/darker_gray" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp">
+
+                    <ImageView
+                        android:id="@+id/imageViewComments"
+                        android:layout_width="60dp"
+                        android:layout_height="50dp"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        app:srcCompat="@mipmap/comment" />
+
+                    <TextView
+                        android:id="@+id/textViewcomments"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginLeft="12dp"
+                        android:layout_marginStart="12dp"
+                        android:layout_toEndOf="@+id/imageViewComments"
+                        android:layout_toRightOf="@+id/imageViewComments"
+                        android:text="Comments" />
+
+                    <TextView
+                        android:id="@+id/textViewcommentsContent"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@+id/imageViewComments"
+                        android:layout_alignLeft="@+id/textViewcomments"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignStart="@+id/textViewcomments"
+                        android:layout_below="@+id/textViewcomments"
+                        android:gravity="center_vertical"
+                        android:text="Eat less sugar ahmad"
+                        android:textSize="18sp" />
+                </RelativeLayout>
+
+            </LinearLayout>
+
+
+        </ScrollView>
+
+    </LinearLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/floatingActionButton3"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@color/blueActionBarColor"
-        style="@style/AppTheme.Toolbar"
-        android:id="@+id/mytoolbar">
-
-    </android.support.v7.widget.Toolbar>
-
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="10dp"
+        android:clickable="true"
+        android:visibility="visible"
+        app:elevation="0dp"
+        app:fabSize="normal"
+        app:srcCompat="@mipmap/replyl" />
 </RelativeLayout>
