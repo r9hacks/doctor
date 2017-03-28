@@ -37,6 +37,7 @@
         </activity>
         <activity android:name="com.pifss.doctor.Activitys.ForgetPasswordActivity" />
         <activity android:name="com.pifss.doctor.Activitys.EditDoctorProfileActivity" />
+        <activity android:name="com.pifss.doctor.Activitys.ReplyReportActivity" />
     </application>
 
 </manifest>

@@ -36,8 +36,8 @@ public class PatientProfileActivity extends AppCompatActivity {
 
 
 
-        EditText medication = (EditText) findViewById(R.id.MedicationEditTextMedication);
-        medication.setKeyListener(null);
+//        EditText medication = (EditText) findViewById(R.id.MedicationEditTextMedication);
+//        medication.setKeyListener(null);
 
 
 
