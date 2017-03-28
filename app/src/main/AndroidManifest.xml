@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".Activitys.MainActivity" />
-        <activity android:name=".Activitys.HomeReportActivity"></activity>
+        <activity android:name=".Activitys.HomeReportActivity" />
         <activity
             android:name=".Activitys.RegisterActivity"
             android:exported="true" />
@@ -30,7 +30,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".Activitys.ForgetPasswordActivity" />
-        <activity android:name=".Activitys.EditDoctorProfileActivity"></activity>
+        <activity android:name=".Activitys.EditDoctorProfileActivity" />
+        <activity android:name=".Activitys.ReplyReportActivity"></activity>
     </application>
 
 </manifest>
