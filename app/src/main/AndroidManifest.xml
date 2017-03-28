@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.pifss.doctor">
-
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".Activitys.MainActivity" />
-        <activity android:name=".Activitys.HomeReportActivity"></activity>
+        <activity android:name=".Activitys.HomeReportActivity" />
         <activity
             android:name=".Activitys.RegisterActivity"
             android:exported="true" />
@@ -30,7 +30,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".Activitys.ForgetPasswordActivity" />
-        <activity android:name=".Activitys.EditDoctorProfileActivity"></activity>
+        <activity android:name=".Activitys.EditDoctorProfileActivity" />
+        <activity android:name=".Activitys.ReplyReportActivity"></activity>
     </application>
 
 </manifest>

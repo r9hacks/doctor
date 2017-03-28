@@ -11,7 +11,52 @@
         android:layout_height="wrap_content"
         android:background="@color/blueActionBarColor"
         style="@style/AppTheme.Toolbar"
-        android:id="@+id/mytoolbar">
+        android:id="@+id/mytoolbar"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
 
     </android.support.v7.widget.Toolbar>
+
+    <Button
+        android:id="@+id/buttonEnglish"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/mytoolbar"
+        android:layout_marginTop="128dp"
+        android:text="English" />
+
+    <Button
+        android:id="@+id/buttonArabic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/buttonEnglish"
+        android:layout_marginTop="60dp"
+        android:text="العربية" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mytoolbar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="53dp"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:text="Change Language"
+        android:textSize="24sp" />
 </RelativeLayout>

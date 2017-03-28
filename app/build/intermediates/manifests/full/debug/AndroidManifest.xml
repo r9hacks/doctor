@@ -8,6 +8,8 @@
         android:minSdkVersion="15"
         android:targetSdkVersion="25" />
 
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -37,6 +39,7 @@
         </activity>
         <activity android:name="com.pifss.doctor.Activitys.ForgetPasswordActivity" />
         <activity android:name="com.pifss.doctor.Activitys.EditDoctorProfileActivity" />
+        <activity android:name="com.pifss.doctor.Activitys.ReplyReportActivity" />
     </application>
 
 </manifest>

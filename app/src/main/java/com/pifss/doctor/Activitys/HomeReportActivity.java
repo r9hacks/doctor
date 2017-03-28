@@ -7,6 +7,7 @@ import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
+import android.text.Html;
 import android.view.View;
 import android.widget.Toast;
 
@@ -83,6 +84,14 @@ public class HomeReportActivity extends AppCompatActivity {
                             case 3:
                                 i = new Intent(HomeReportActivity.this,MyPatientActivity.class);
                                 startActivity(i);
+                                break;
+                            case 5:
+
+                                //Toast.makeText(HomeReportActivity.this, "hello", Toast.LENGTH_SHORT).show();
+                                Intent sharingIntent = new Intent(Intent.ACTION_SEND);
+                                sharingIntent.setType("text/html");
+                                sharingIntent.putExtra(Intent.EXTRA_TEXT, Html.fromHtml("<p>This is the text that will be shared.</p>"));
+                                startActivity(Intent.createChooser(sharingIntent,"Share using"));
                                 break;
                             case 6:
                                 i = new Intent(HomeReportActivity.this,SettingsActivity.class);
