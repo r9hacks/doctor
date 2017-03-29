@@ -32,7 +32,8 @@ import com.squareup.picasso.Picasso;
 import com.squareup.picasso.Target;
 
 public class HomeReportActivity extends AppCompatActivity {
-
+    AccountHeader headerResult;
+    DrawerBuilder drab;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -58,7 +59,7 @@ public class HomeReportActivity extends AppCompatActivity {
 
 
 
-        final AccountHeader headerResult = new AccountHeaderBuilder()
+        headerResult = new AccountHeaderBuilder()
                 .withActivity(this)
                 .withHeaderBackground(R.mipmap.material_bacground)
                 .addProfiles(
@@ -77,26 +78,10 @@ public class HomeReportActivity extends AppCompatActivity {
                 .build();
 
        // headerResult.getActiveProfile().
-                Picasso.with(HomeReportActivity.this).load(doctor.getImageUrl()).into(new Target() {
-                    @Override
-                    public void onBitmapLoaded(Bitmap bitmap, Picasso.LoadedFrom from) {
-                        Toast.makeText(HomeReportActivity.this, "Load image", Toast.LENGTH_SHORT).show();
-                        headerResult.getActiveProfile().withIcon(bitmap);
-                        System.out.println("load image profile");
-                    }
+        Toast.makeText(this, ""+doctor.getImageUrl(), Toast.LENGTH_SHORT).show();
 
-                    @Override
-                    public void onBitmapFailed(Drawable errorDrawable) {
-
-                    }
-
-                    @Override
-                    public void onPrepareLoad(Drawable placeHolderDrawable) {
-
-                    }
-                });
-
-                new DrawerBuilder().withActivity(this)
+        drab = new DrawerBuilder();
+        drab.withActivity(this)
                 .withToolbar(toolbar)
                 .addDrawerItems(item1,item2,item3,d,item5,item6,item7,item8)
                 .withOnDrawerItemClickListener(new Drawer.OnDrawerItemClickListener() {
@@ -170,4 +155,124 @@ public class HomeReportActivity extends AppCompatActivity {
 
     }
 
+    @Override
+    protected void onStart() {
+        super.onStart();
+
+        SharedPreferences preference = getSharedPreferences("settings",MODE_PRIVATE);
+        String doctorProfile = preference.getString(links.PrefDoctorProfile,"notfound");
+        final Doctor doctor = new Gson().fromJson(doctorProfile,Doctor.class);
+
+        Picasso.with(HomeReportActivity.this).load(doctor.getImageUrl()).into(new Target() {
+            @Override
+            public void onBitmapLoaded(Bitmap bitmap, Picasso.LoadedFrom from) {
+                Toast.makeText(HomeReportActivity.this, "Load image", Toast.LENGTH_SHORT).show();
+                headerResult.getActiveProfile().withIcon(bitmap);
+                System.out.println("load image profile");
+
+                PrimaryDrawerItem item1 = new PrimaryDrawerItem().withIdentifier(1).withName("View Reports").withIcon(R.mipmap.medical_report_icon).withBadge("10");
+                PrimaryDrawerItem item2 = new PrimaryDrawerItem().withIdentifier(2).withName("Patient Requests").withIcon(R.mipmap.add_icon).withBadge("3");
+                PrimaryDrawerItem item3 = new PrimaryDrawerItem().withIdentifier(3).withName("My Patients").withIcon(R.mipmap.my_patient_icon).withBadge("7");
+                PrimaryDrawerItem item5 = new PrimaryDrawerItem().withIdentifier(5).withName("Share").withIcon(R.mipmap.share_icon).withSelectable(false);
+                PrimaryDrawerItem item6 = new PrimaryDrawerItem().withIdentifier(6).withName("Settings").withIcon(R.mipmap.settings_icon);
+                PrimaryDrawerItem item7 = new PrimaryDrawerItem().withIdentifier(7).withName("About us").withIcon(R.mipmap.aboutus_icon);
+                PrimaryDrawerItem item8 = new PrimaryDrawerItem().withIdentifier(8).withName("Logout").withIcon(R.mipmap.logout_icon);
+                DividerDrawerItem d = new DividerDrawerItem();
+
+                headerResult = new AccountHeaderBuilder()
+                        .withActivity(HomeReportActivity.this)
+                        .withHeaderBackground(R.mipmap.material_bacground)
+                        .addProfiles(
+                                new ProfileDrawerItem().withName(doctor.getFirstName()+" "+doctor.getMiddleName()+" "+doctor.getLastName()).withEmail(doctor.getEmail()).withIcon(bitmap)
+                        )
+                        .withOnAccountHeaderListener(new AccountHeader.OnAccountHeaderListener() {
+                            @Override
+                            public boolean onProfileChanged(View view, IProfile profile, boolean currentProfile) {
+                                Toast.makeText(HomeReportActivity.this, "Profile tapped", Toast.LENGTH_SHORT).show();
+                                Intent i = new Intent(HomeReportActivity.this,DoctorProfileActivity.class);
+                                startActivity(i);
+
+                                return false;
+                            }
+                        })
+                        .build();
+
+                // headerResult.getActiveProfile().
+                final Toolbar toolbar = (Toolbar) findViewById(R.id.mytoolbar);
+
+                drab = new DrawerBuilder();
+                drab.withActivity(HomeReportActivity.this)
+                        .withToolbar(toolbar)
+                        .addDrawerItems(item1,item2,item3,d,item5,item6,item7,item8)
+                        .withOnDrawerItemClickListener(new Drawer.OnDrawerItemClickListener() {
+                            @Override
+                            public boolean onItemClick(View view, int position, IDrawerItem drawerItem) {
+                                //Toast.makeText(HomeReportActivity.this, "position: "+position+" Identifier: "+drawerItem.getIdentifier(), Toast.LENGTH_SHORT).show();
+
+                                Intent i;
+                                switch (position){
+//                    case 1:
+//                        i = new Intent(HomeReportActivity.this,HomeReportActivity.class);
+//                        startActivity(i);
+//                        break;
+                                    case 2:
+                                        i = new Intent(HomeReportActivity.this,PatientRequestActivity.class);
+                                        startActivity(i);
+                                        break;
+                                    case 3:
+                                        i = new Intent(HomeReportActivity.this,MyPatientActivity.class);
+                                        startActivity(i);
+                                        break;
+                                    case 5:
+
+                                        try {
+                                            i = new Intent(Intent.ACTION_SEND);
+                                            i.setType("text/plain");
+                                            i.putExtra(Intent.EXTRA_SUBJECT, "MHealth");
+                                            String sAux = "\nLet me recommend you this application\n\n";
+                                            sAux = sAux + "here i put the link of the application in google play \n\n";
+                                            i.putExtra(Intent.EXTRA_TEXT, sAux);
+                                            startActivity(Intent.createChooser(i, "choose one"));
+                                        } catch(Exception e) {
+                                            //e.toString();
+                                        }
+                                        break;
+                                    case 6:
+                                        i = new Intent(HomeReportActivity.this,SettingsActivity.class);
+                                        startActivity(i);
+                                        break;
+                                    case 7:
+                                        i = new Intent(HomeReportActivity.this,AboutUsActivity.class);
+                                        startActivity(i);
+                                        break;
+                                    case 8:
+                                        i = new Intent(HomeReportActivity.this,loginActivity.class);
+                                        startActivity(i);
+                                        finish();
+                                        break;
+
+                                }
+
+                                return false;
+                            }
+                        })
+                        .withAccountHeader(headerResult)
+                        .build();
+
+            }
+
+            @Override
+            public void onBitmapFailed(Drawable errorDrawable) {
+
+                Toast.makeText(HomeReportActivity.this, "onBitmapFailed", Toast.LENGTH_SHORT).show();
+                System.out.println("onBitmapFailed");
+            }
+
+            @Override
+            public void onPrepareLoad(Drawable placeHolderDrawable) {
+                Toast.makeText(HomeReportActivity.this, "onPrepareLoad", Toast.LENGTH_SHORT).show();
+                System.out.println("onPrepareLoad");
+            }
+        });
+    }
 }
