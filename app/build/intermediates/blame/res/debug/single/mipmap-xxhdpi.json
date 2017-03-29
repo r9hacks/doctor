@@ -1,11 +1,11 @@
 [
     {
-        "merged": "C:\\Users\\Entisar\\Desktop\\Android\\doctor\\C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\integrated project\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\id_card.png",
-        "source": "C:\\Users\\Entisar\\Desktop\\Android\\doctor\\C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\integrated project\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\id_card.png"
-    },
-    {
         "merged": "C:\\Users\\Entisar\\Desktop\\Android\\doctor\\C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\integrated project\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\map.png",
         "source": "C:\\Users\\Entisar\\Desktop\\Android\\doctor\\C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\integrated project\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\map.png"
+    },
+    {
+        "merged": "C:\\Users\\Entisar\\Desktop\\Android\\doctor\\C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\integrated project\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\id_card.png",
+        "source": "C:\\Users\\Entisar\\Desktop\\Android\\doctor\\C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\integrated project\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\id_card.png"
     },
     {
         "merged": "C:\\Users\\Entisar\\Desktop\\Android\\doctor\\C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\integrated project\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\email.png",

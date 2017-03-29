@@ -24,12 +24,12 @@
         "source": "C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v3\\doctor\\app\\src\\main\\res\\mipmap-xhdpi\\comment_icon.png"
     },
     {
-        "merged": "C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v3\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\candy.png",
-        "source": "C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v3\\doctor\\app\\src\\main\\res\\mipmap-xhdpi\\candy.png"
-    },
-    {
         "merged": "C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v3\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\pain_location.png",
         "source": "C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v3\\doctor\\app\\src\\main\\res\\mipmap-xhdpi\\pain_location.png"
+    },
+    {
+        "merged": "C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v3\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\candy.png",
+        "source": "C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v3\\doctor\\app\\src\\main\\res\\mipmap-xhdpi\\candy.png"
     },
     {
         "merged": "C:\\Users\\Entisar\\Desktop\\Android\\doctor\\C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\integrated project\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\mhealth.png",
@@ -52,12 +52,12 @@
         "source": "C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v3\\doctor\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\Entisar\\Desktop\\Android\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_launcher_round.png",
-        "source": "C:\\Users\\Entisar\\Desktop\\Android\\doctor\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
-    },
-    {
         "merged": "C:\\Users\\Entisar\\Desktop\\Android\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\cough.png",
         "source": "C:\\Users\\Entisar\\Desktop\\Android\\doctor\\app\\src\\main\\res\\mipmap-xhdpi\\cough.png"
+    },
+    {
+        "merged": "C:\\Users\\Entisar\\Desktop\\Android\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_launcher_round.png",
+        "source": "C:\\Users\\Entisar\\Desktop\\Android\\doctor\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
     },
     {
         "merged": "C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v3\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\blood_pressure_icon.png",
@@ -92,12 +92,12 @@
         "source": "C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v3\\doctor\\app\\src\\main\\res\\mipmap-xhdpi\\material_bacground.png"
     },
     {
-        "merged": "C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v3\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\comment.png",
-        "source": "C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v3\\doctor\\app\\src\\main\\res\\mipmap-xhdpi\\comment.png"
-    },
-    {
         "merged": "C:\\Users\\Entisar\\Desktop\\Android\\doctor\\C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\integrated project\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\logout_icon.png",
         "source": "C:\\Users\\Entisar\\Desktop\\Android\\doctor\\C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\integrated project\\doctor\\app\\src\\main\\res\\mipmap-xhdpi\\logout_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v3\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\comment.png",
+        "source": "C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v3\\doctor\\app\\src\\main\\res\\mipmap-xhdpi\\comment.png"
     },
     {
         "merged": "C:\\Users\\Entisar\\Desktop\\Android\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor mar28\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_launcher_round.png",
@@ -124,12 +124,12 @@
         "source": "C:\\Users\\Entisar\\Desktop\\Android\\doctor\\app\\src\\main\\res\\mipmap-xhdpi\\medical_report_icon.png"
     },
     {
-        "merged": "C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v3\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\headache.png",
-        "source": "C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v3\\doctor\\app\\src\\main\\res\\mipmap-xhdpi\\headache.png"
-    },
-    {
         "merged": "C:\\Users\\Entisar\\Desktop\\Android\\doctor\\C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\integrated project\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\my_patient_icon.png",
         "source": "C:\\Users\\Entisar\\Desktop\\Android\\doctor\\C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\integrated project\\doctor\\app\\src\\main\\res\\mipmap-xhdpi\\my_patient_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v3\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\headache.png",
+        "source": "C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v3\\doctor\\app\\src\\main\\res\\mipmap-xhdpi\\headache.png"
     },
     {
         "merged": "C:\\Users\\Entisar\\Desktop\\Android\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\aboutus_icon.png",
