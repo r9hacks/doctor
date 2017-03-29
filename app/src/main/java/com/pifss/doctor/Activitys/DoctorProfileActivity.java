@@ -3,9 +3,7 @@ package com.pifss.doctor.Activitys;
 
 import android.content.Intent;
 import android.content.SharedPreferences;
-import android.graphics.Bitmap;
 import android.graphics.Color;
-import android.graphics.drawable.Drawable;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
@@ -15,14 +13,12 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.google.gson.Gson;
 import com.pifss.doctor.Model.Doctor;
 import com.pifss.doctor.R;
 import com.pifss.doctor.links;
 import com.squareup.picasso.Picasso;
-import com.squareup.picasso.Target;
 
 public class DoctorProfileActivity extends AppCompatActivity {
 
@@ -38,7 +34,7 @@ public class DoctorProfileActivity extends AppCompatActivity {
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setDisplayShowHomeEnabled(true);
 
-        Button btnnEdit = (Button) findViewById(R.id.btnEdit);
+        Button btnnEdit = (Button) findViewById(R.id.btnRegister);
 
 
 

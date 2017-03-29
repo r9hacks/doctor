@@ -1,150 +1,150 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/doctor mar28/doctor/app/src/main/AndroidManifest.xml:2:1-38:12
+ADDED from C:\Users\PIFSS\Desktop\Block_6\MHealth\v3\doctor\app\src\main\AndroidManifest.xml:2:1-38:12
 	package
-		ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/doctor mar28/doctor/app/src/main/AndroidManifest.xml:3:5-31
-		INJECTED from /Users/trn24/Desktop/IBM/Andriod/Project/doctor mar28/doctor/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/trn24/Desktop/IBM/Andriod/Project/doctor mar28/doctor/app/src/main/AndroidManifest.xml
+		ADDED from C:\Users\PIFSS\Desktop\Block_6\MHealth\v3\doctor\app\src\main\AndroidManifest.xml:3:5-31
+		INJECTED from C:\Users\PIFSS\Desktop\Block_6\MHealth\v3\doctor\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\PIFSS\Desktop\Block_6\MHealth\v3\doctor\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from /Users/trn24/Desktop/IBM/Andriod/Project/doctor mar28/doctor/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/trn24/Desktop/IBM/Andriod/Project/doctor mar28/doctor/app/src/main/AndroidManifest.xml
+		INJECTED from C:\Users\PIFSS\Desktop\Block_6\MHealth\v3\doctor\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\PIFSS\Desktop\Block_6\MHealth\v3\doctor\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/doctor mar28/doctor/app/src/main/AndroidManifest.xml:2:11-69
+		ADDED from C:\Users\PIFSS\Desktop\Block_6\MHealth\v3\doctor\app\src\main\AndroidManifest.xml:2:11-69
 	android:versionCode
-		INJECTED from /Users/trn24/Desktop/IBM/Andriod/Project/doctor mar28/doctor/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/trn24/Desktop/IBM/Andriod/Project/doctor mar28/doctor/app/src/main/AndroidManifest.xml
+		INJECTED from C:\Users\PIFSS\Desktop\Block_6\MHealth\v3\doctor\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\PIFSS\Desktop\Block_6\MHealth\v3\doctor\app\src\main\AndroidManifest.xml
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/doctor mar28/doctor/app/src/main/AndroidManifest.xml:4:5-81
+ADDED from C:\Users\PIFSS\Desktop\Block_6\MHealth\v3\doctor\app\src\main\AndroidManifest.xml:4:5-81
 	android:name
-		ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/doctor mar28/doctor/app/src/main/AndroidManifest.xml:4:22-78
+		ADDED from C:\Users\PIFSS\Desktop\Block_6\MHealth\v3\doctor\app\src\main\AndroidManifest.xml:4:22-78
 uses-permission#android.permission.INTERNET
-ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/doctor mar28/doctor/app/src/main/AndroidManifest.xml:5:5-66
+ADDED from C:\Users\PIFSS\Desktop\Block_6\MHealth\v3\doctor\app\src\main\AndroidManifest.xml:5:5-66
 	android:name
-		ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/doctor mar28/doctor/app/src/main/AndroidManifest.xml:5:22-64
+		ADDED from C:\Users\PIFSS\Desktop\Block_6\MHealth\v3\doctor\app\src\main\AndroidManifest.xml:5:22-64
 application
-ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/doctor mar28/doctor/app/src/main/AndroidManifest.xml:6:5-36:19
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/trn24/.android/build-cache/957fca7446c41095205c4a6f81d5b68562df5527/output/AndroidManifest.xml:9:5-20
-MERGED from [com.android.support:design:25.2.0] /Users/trn24/.android/build-cache/b72f8c878670e3cfcbd2a2719560109540c875de/output/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:appcompat-v7:25.2.0] /Users/trn24/.android/build-cache/f5bbc6ff808a4ac74405d8a761d68a423887319a/output/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:animated-vector-drawable:25.2.0] /Users/trn24/.android/build-cache/71bc82f72bdc687258d33aac1fc944bac5869816/output/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-vector-drawable:25.2.0] /Users/trn24/.android/build-cache/7a2200fa37b7e86a6f0aea791f9d0cb03dbb661e/output/AndroidManifest.xml:23:5-20
-MERGED from [com.android.support:transition:25.2.0] /Users/trn24/.android/build-cache/a0b3db47ce5debdb7886812da3f7fc2b9142aed3/output/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:25.2.0] /Users/trn24/.android/build-cache/6ceb498cbc27b91666e2324d601e1f1fdf215472/output/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-fragment:25.2.0] /Users/trn24/.android/build-cache/00f93a3537eb3458d11262b8c63a7f27c5398a90/output/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-media-compat:25.2.0] /Users/trn24/.android/build-cache/1157dce72d01a30baedc10770a7dfb440988d0cf/output/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-core-ui:25.2.0] /Users/trn24/.android/build-cache/2a5f65cc7d09c06395da1856201bb022c9cf2a4f/output/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-core-utils:25.2.0] /Users/trn24/.android/build-cache/17d1b822f6c78ec06d0529175e0683638b42889c/output/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-compat:25.2.0] /Users/trn24/.android/build-cache/0e9fa8492e042e15d2c0d916328eaaebac6fbbdf/output/AndroidManifest.xml:25:5-20
-MERGED from [com.android.volley:volley:1.0.0] /Users/trn24/.android/build-cache/658461f7814f971269a8a18471e124670a8a5066/output/AndroidManifest.xml:9:5-20
+ADDED from C:\Users\PIFSS\Desktop\Block_6\MHealth\v3\doctor\app\src\main\AndroidManifest.xml:6:5-36:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\PIFSS\.android\build-cache\ce5bb03a4758289a006f9ef20c236bdb0fe89d61\output\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:design:25.2.0] C:\Users\PIFSS\.android\build-cache\d95c42289955b75427320c3f826eb531f131da8f\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:appcompat-v7:25.2.0] C:\Users\PIFSS\.android\build-cache\9b85976bda791bd9abdfdd3cb34cce2b0455d7aa\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.2.0] C:\Users\PIFSS\.android\build-cache\87ea8a4489dc7741a548038206a07a117c007b24\output\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:25.2.0] C:\Users\PIFSS\.android\build-cache\76ef4e7ecf2f45039ef79020caed910e7b794354\output\AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:transition:25.2.0] C:\Users\PIFSS\.android\build-cache\e7605d203f4d983be40affe5a4a214f7a128f062\output\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:25.2.0] C:\Users\PIFSS\.android\build-cache\d18cea0537747c8332bee44136ab5ac7865745bf\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:25.2.0] C:\Users\PIFSS\.android\build-cache\c59d14d3ceac620676c3fc9250d3e52ae16b9f1c\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.2.0] C:\Users\PIFSS\.android\build-cache\35d4b56bc4cf2413080d67c59938cb7c4244ce50\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.2.0] C:\Users\PIFSS\.android\build-cache\cefc7e25acb293cd0a3bb021d55b913a54685f88\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.2.0] C:\Users\PIFSS\.android\build-cache\721d5bccd4ce3891b8caba99415e645cd166735b\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.2.0] C:\Users\PIFSS\.android\build-cache\f5742759326f761fe67daef4220fa871e498b427\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.volley:volley:1.0.0] C:\Users\PIFSS\.android\build-cache\51948d736cb39d598f1360d88d887d39a867cfc4\output\AndroidManifest.xml:9:5-20
 	android:label
-		ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/doctor mar28/doctor/app/src/main/AndroidManifest.xml:9:9-41
+		ADDED from C:\Users\PIFSS\Desktop\Block_6\MHealth\v3\doctor\app\src\main\AndroidManifest.xml:9:9-41
 	android:supportsRtl
-		ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/doctor mar28/doctor/app/src/main/AndroidManifest.xml:11:9-35
+		ADDED from C:\Users\PIFSS\Desktop\Block_6\MHealth\v3\doctor\app\src\main\AndroidManifest.xml:11:9-35
 	android:roundIcon
-		ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/doctor mar28/doctor/app/src/main/AndroidManifest.xml:10:9-54
+		ADDED from C:\Users\PIFSS\Desktop\Block_6\MHealth\v3\doctor\app\src\main\AndroidManifest.xml:10:9-54
 	android:allowBackup
-		ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/doctor mar28/doctor/app/src/main/AndroidManifest.xml:7:9-35
+		ADDED from C:\Users\PIFSS\Desktop\Block_6\MHealth\v3\doctor\app\src\main\AndroidManifest.xml:7:9-35
 	android:icon
-		ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/doctor mar28/doctor/app/src/main/AndroidManifest.xml:8:9-43
+		ADDED from C:\Users\PIFSS\Desktop\Block_6\MHealth\v3\doctor\app\src\main\AndroidManifest.xml:8:9-43
 	android:theme
-		ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/doctor mar28/doctor/app/src/main/AndroidManifest.xml:12:9-40
+		ADDED from C:\Users\PIFSS\Desktop\Block_6\MHealth\v3\doctor\app\src\main\AndroidManifest.xml:12:9-40
 activity#com.pifss.doctor.Activitys.MainActivity
-ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/doctor mar28/doctor/app/src/main/AndroidManifest.xml:13:9-60
+ADDED from C:\Users\PIFSS\Desktop\Block_6\MHealth\v3\doctor\app\src\main\AndroidManifest.xml:13:9-60
 	android:name
-		ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/doctor mar28/doctor/app/src/main/AndroidManifest.xml:13:19-57
+		ADDED from C:\Users\PIFSS\Desktop\Block_6\MHealth\v3\doctor\app\src\main\AndroidManifest.xml:13:19-57
 activity#com.pifss.doctor.Activitys.HomeReportActivity
-ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/doctor mar28/doctor/app/src/main/AndroidManifest.xml:14:9-66
+ADDED from C:\Users\PIFSS\Desktop\Block_6\MHealth\v3\doctor\app\src\main\AndroidManifest.xml:14:9-66
 	android:name
-		ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/doctor mar28/doctor/app/src/main/AndroidManifest.xml:14:19-63
+		ADDED from C:\Users\PIFSS\Desktop\Block_6\MHealth\v3\doctor\app\src\main\AndroidManifest.xml:14:19-63
 activity#com.pifss.doctor.Activitys.RegisterActivity
-ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/doctor mar28/doctor/app/src/main/AndroidManifest.xml:15:9-17:39
+ADDED from C:\Users\PIFSS\Desktop\Block_6\MHealth\v3\doctor\app\src\main\AndroidManifest.xml:15:9-17:39
 	android:exported
-		ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/doctor mar28/doctor/app/src/main/AndroidManifest.xml:17:13-36
+		ADDED from C:\Users\PIFSS\Desktop\Block_6\MHealth\v3\doctor\app\src\main\AndroidManifest.xml:17:13-36
 	android:name
-		ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/doctor mar28/doctor/app/src/main/AndroidManifest.xml:16:13-55
+		ADDED from C:\Users\PIFSS\Desktop\Block_6\MHealth\v3\doctor\app\src\main\AndroidManifest.xml:16:13-55
 activity#com.pifss.doctor.Activitys.loginActivity
-ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/doctor mar28/doctor/app/src/main/AndroidManifest.xml:18:9-61
+ADDED from C:\Users\PIFSS\Desktop\Block_6\MHealth\v3\doctor\app\src\main\AndroidManifest.xml:18:9-61
 	android:name
-		ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/doctor mar28/doctor/app/src/main/AndroidManifest.xml:18:19-58
+		ADDED from C:\Users\PIFSS\Desktop\Block_6\MHealth\v3\doctor\app\src\main\AndroidManifest.xml:18:19-58
 activity#com.pifss.doctor.Activitys.AboutUsActivity
-ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/doctor mar28/doctor/app/src/main/AndroidManifest.xml:19:9-63
+ADDED from C:\Users\PIFSS\Desktop\Block_6\MHealth\v3\doctor\app\src\main\AndroidManifest.xml:19:9-63
 	android:name
-		ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/doctor mar28/doctor/app/src/main/AndroidManifest.xml:19:19-60
+		ADDED from C:\Users\PIFSS\Desktop\Block_6\MHealth\v3\doctor\app\src\main\AndroidManifest.xml:19:19-60
 activity#com.pifss.doctor.Activitys.DoctorProfileActivity
-ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/doctor mar28/doctor/app/src/main/AndroidManifest.xml:20:9-69
+ADDED from C:\Users\PIFSS\Desktop\Block_6\MHealth\v3\doctor\app\src\main\AndroidManifest.xml:20:9-69
 	android:name
-		ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/doctor mar28/doctor/app/src/main/AndroidManifest.xml:20:19-66
+		ADDED from C:\Users\PIFSS\Desktop\Block_6\MHealth\v3\doctor\app\src\main\AndroidManifest.xml:20:19-66
 activity#com.pifss.doctor.Activitys.MyPatientActivity
-ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/doctor mar28/doctor/app/src/main/AndroidManifest.xml:21:9-65
+ADDED from C:\Users\PIFSS\Desktop\Block_6\MHealth\v3\doctor\app\src\main\AndroidManifest.xml:21:9-65
 	android:name
-		ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/doctor mar28/doctor/app/src/main/AndroidManifest.xml:21:19-62
+		ADDED from C:\Users\PIFSS\Desktop\Block_6\MHealth\v3\doctor\app\src\main\AndroidManifest.xml:21:19-62
 activity#com.pifss.doctor.Activitys.PatientRequestActivity
-ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/doctor mar28/doctor/app/src/main/AndroidManifest.xml:22:9-70
+ADDED from C:\Users\PIFSS\Desktop\Block_6\MHealth\v3\doctor\app\src\main\AndroidManifest.xml:22:9-70
 	android:name
-		ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/doctor mar28/doctor/app/src/main/AndroidManifest.xml:22:19-67
+		ADDED from C:\Users\PIFSS\Desktop\Block_6\MHealth\v3\doctor\app\src\main\AndroidManifest.xml:22:19-67
 activity#com.pifss.doctor.Activitys.SettingsActivity
-ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/doctor mar28/doctor/app/src/main/AndroidManifest.xml:23:9-64
+ADDED from C:\Users\PIFSS\Desktop\Block_6\MHealth\v3\doctor\app\src\main\AndroidManifest.xml:23:9-64
 	android:name
-		ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/doctor mar28/doctor/app/src/main/AndroidManifest.xml:23:19-61
+		ADDED from C:\Users\PIFSS\Desktop\Block_6\MHealth\v3\doctor\app\src\main\AndroidManifest.xml:23:19-61
 activity#com.pifss.doctor.Activitys.PatientProfileActivity
-ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/doctor mar28/doctor/app/src/main/AndroidManifest.xml:24:9-70
+ADDED from C:\Users\PIFSS\Desktop\Block_6\MHealth\v3\doctor\app\src\main\AndroidManifest.xml:24:9-70
 	android:name
-		ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/doctor mar28/doctor/app/src/main/AndroidManifest.xml:24:19-67
+		ADDED from C:\Users\PIFSS\Desktop\Block_6\MHealth\v3\doctor\app\src\main\AndroidManifest.xml:24:19-67
 activity#com.pifss.doctor.Activitys.ReportDetailActivity
-ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/doctor mar28/doctor/app/src/main/AndroidManifest.xml:25:9-68
+ADDED from C:\Users\PIFSS\Desktop\Block_6\MHealth\v3\doctor\app\src\main\AndroidManifest.xml:25:9-68
 	android:name
-		ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/doctor mar28/doctor/app/src/main/AndroidManifest.xml:25:19-65
+		ADDED from C:\Users\PIFSS\Desktop\Block_6\MHealth\v3\doctor\app\src\main\AndroidManifest.xml:25:19-65
 activity#com.pifss.doctor.Activitys.SplashActivity
-ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/doctor mar28/doctor/app/src/main/AndroidManifest.xml:26:9-32:20
+ADDED from C:\Users\PIFSS\Desktop\Block_6\MHealth\v3\doctor\app\src\main\AndroidManifest.xml:26:9-32:20
 	android:name
-		ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/doctor mar28/doctor/app/src/main/AndroidManifest.xml:26:19-59
+		ADDED from C:\Users\PIFSS\Desktop\Block_6\MHealth\v3\doctor\app\src\main\AndroidManifest.xml:26:19-59
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/doctor mar28/doctor/app/src/main/AndroidManifest.xml:27:13-31:29
+ADDED from C:\Users\PIFSS\Desktop\Block_6\MHealth\v3\doctor\app\src\main\AndroidManifest.xml:27:13-31:29
 action#android.intent.action.MAIN
-ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/doctor mar28/doctor/app/src/main/AndroidManifest.xml:28:17-69
+ADDED from C:\Users\PIFSS\Desktop\Block_6\MHealth\v3\doctor\app\src\main\AndroidManifest.xml:28:17-69
 	android:name
-		ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/doctor mar28/doctor/app/src/main/AndroidManifest.xml:28:25-66
+		ADDED from C:\Users\PIFSS\Desktop\Block_6\MHealth\v3\doctor\app\src\main\AndroidManifest.xml:28:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/doctor mar28/doctor/app/src/main/AndroidManifest.xml:30:17-77
+ADDED from C:\Users\PIFSS\Desktop\Block_6\MHealth\v3\doctor\app\src\main\AndroidManifest.xml:30:17-77
 	android:name
-		ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/doctor mar28/doctor/app/src/main/AndroidManifest.xml:30:27-74
+		ADDED from C:\Users\PIFSS\Desktop\Block_6\MHealth\v3\doctor\app\src\main\AndroidManifest.xml:30:27-74
 activity#com.pifss.doctor.Activitys.ForgetPasswordActivity
-ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/doctor mar28/doctor/app/src/main/AndroidManifest.xml:33:9-70
+ADDED from C:\Users\PIFSS\Desktop\Block_6\MHealth\v3\doctor\app\src\main\AndroidManifest.xml:33:9-70
 	android:name
-		ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/doctor mar28/doctor/app/src/main/AndroidManifest.xml:33:19-67
+		ADDED from C:\Users\PIFSS\Desktop\Block_6\MHealth\v3\doctor\app\src\main\AndroidManifest.xml:33:19-67
 activity#com.pifss.doctor.Activitys.EditDoctorProfileActivity
-ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/doctor mar28/doctor/app/src/main/AndroidManifest.xml:34:9-73
+ADDED from C:\Users\PIFSS\Desktop\Block_6\MHealth\v3\doctor\app\src\main\AndroidManifest.xml:34:9-73
 	android:name
-		ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/doctor mar28/doctor/app/src/main/AndroidManifest.xml:34:19-70
+		ADDED from C:\Users\PIFSS\Desktop\Block_6\MHealth\v3\doctor\app\src\main\AndroidManifest.xml:34:19-70
 activity#com.pifss.doctor.Activitys.ReplyReportActivity
-ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/doctor mar28/doctor/app/src/main/AndroidManifest.xml:35:9-76
+ADDED from C:\Users\PIFSS\Desktop\Block_6\MHealth\v3\doctor\app\src\main\AndroidManifest.xml:35:9-76
 	android:name
-		ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/doctor mar28/doctor/app/src/main/AndroidManifest.xml:35:19-64
+		ADDED from C:\Users\PIFSS\Desktop\Block_6\MHealth\v3\doctor\app\src\main\AndroidManifest.xml:35:19-64
 uses-sdk
-INJECTED from /Users/trn24/Desktop/IBM/Andriod/Project/doctor mar28/doctor/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-MERGED from [com.mikepenz:materialdrawer:5.8.2] /Users/trn24/.android/build-cache/964a1fed1a6e76b02583d65146a3edf4a5ca8b7d/output/AndroidManifest.xml:8:5-10:41
-MERGED from [com.mikepenz:materialize:1.0.1] /Users/trn24/.android/build-cache/767e0eac95804b8f2599ade09cd7788c5a556c4e/output/AndroidManifest.xml:8:5-10:41
-MERGED from [com.mikepenz:iconics-core:2.8.0] /Users/trn24/.android/build-cache/89c1269f167335737f6c4c42745bfc5866b4223c/output/AndroidManifest.xml:8:5-10:41
-MERGED from [com.mikepenz:fastadapter:2.1.0] /Users/trn24/.android/build-cache/b5a07dd2e16018d357103a191675bfbd699801a2/output/AndroidManifest.xml:8:5-10:41
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/trn24/.android/build-cache/957fca7446c41095205c4a6f81d5b68562df5527/output/AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support:design:25.2.0] /Users/trn24/.android/build-cache/b72f8c878670e3cfcbd2a2719560109540c875de/output/AndroidManifest.xml:21:5-23:62
-MERGED from [com.android.support:appcompat-v7:25.2.0] /Users/trn24/.android/build-cache/f5bbc6ff808a4ac74405d8a761d68a423887319a/output/AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:animated-vector-drawable:25.2.0] /Users/trn24/.android/build-cache/71bc82f72bdc687258d33aac1fc944bac5869816/output/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:25.2.0] /Users/trn24/.android/build-cache/7a2200fa37b7e86a6f0aea791f9d0cb03dbb661e/output/AndroidManifest.xml:21:5-43
-MERGED from [com.android.support:recyclerview-v7:25.2.0] /Users/trn24/.android/build-cache/3a26b88a5380f202035d5a73dbdd1939eb908493/output/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:transition:25.2.0] /Users/trn24/.android/build-cache/a0b3db47ce5debdb7886812da3f7fc2b9142aed3/output/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:25.2.0] /Users/trn24/.android/build-cache/6ceb498cbc27b91666e2324d601e1f1fdf215472/output/AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-fragment:25.2.0] /Users/trn24/.android/build-cache/00f93a3537eb3458d11262b8c63a7f27c5398a90/output/AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-media-compat:25.2.0] /Users/trn24/.android/build-cache/1157dce72d01a30baedc10770a7dfb440988d0cf/output/AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-core-ui:25.2.0] /Users/trn24/.android/build-cache/2a5f65cc7d09c06395da1856201bb022c9cf2a4f/output/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-core-utils:25.2.0] /Users/trn24/.android/build-cache/17d1b822f6c78ec06d0529175e0683638b42889c/output/AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-compat:25.2.0] /Users/trn24/.android/build-cache/0e9fa8492e042e15d2c0d916328eaaebac6fbbdf/output/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.volley:volley:1.0.0] /Users/trn24/.android/build-cache/658461f7814f971269a8a18471e124670a8a5066/output/AndroidManifest.xml:7:5-43
+INJECTED from C:\Users\PIFSS\Desktop\Block_6\MHealth\v3\doctor\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.mikepenz:materialdrawer:5.8.2] C:\Users\PIFSS\.android\build-cache\57d14aaeaf478530376bb0c3670f160853c994e7\output\AndroidManifest.xml:8:5-10:41
+MERGED from [com.mikepenz:materialize:1.0.1] C:\Users\PIFSS\.android\build-cache\949177878d74a023d4b66948a99a2ccc99e58143\output\AndroidManifest.xml:8:5-10:41
+MERGED from [com.mikepenz:iconics-core:2.8.0] C:\Users\PIFSS\.android\build-cache\c50401e6b58af420d1d8419ffe90de6b46b2e537\output\AndroidManifest.xml:8:5-10:41
+MERGED from [com.mikepenz:fastadapter:2.1.0] C:\Users\PIFSS\.android\build-cache\7bd4e584961e6f34c26f0aa15267b831970f2e89\output\AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\PIFSS\.android\build-cache\ce5bb03a4758289a006f9ef20c236bdb0fe89d61\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:design:25.2.0] C:\Users\PIFSS\.android\build-cache\d95c42289955b75427320c3f826eb531f131da8f\output\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:25.2.0] C:\Users\PIFSS\.android\build-cache\9b85976bda791bd9abdfdd3cb34cce2b0455d7aa\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.2.0] C:\Users\PIFSS\.android\build-cache\87ea8a4489dc7741a548038206a07a117c007b24\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.2.0] C:\Users\PIFSS\.android\build-cache\76ef4e7ecf2f45039ef79020caed910e7b794354\output\AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:recyclerview-v7:25.2.0] C:\Users\PIFSS\.android\build-cache\44b1727a8d5bd0506aa3e13e6afe1272204efb24\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:transition:25.2.0] C:\Users\PIFSS\.android\build-cache\e7605d203f4d983be40affe5a4a214f7a128f062\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:25.2.0] C:\Users\PIFSS\.android\build-cache\d18cea0537747c8332bee44136ab5ac7865745bf\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.2.0] C:\Users\PIFSS\.android\build-cache\c59d14d3ceac620676c3fc9250d3e52ae16b9f1c\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.2.0] C:\Users\PIFSS\.android\build-cache\35d4b56bc4cf2413080d67c59938cb7c4244ce50\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.2.0] C:\Users\PIFSS\.android\build-cache\cefc7e25acb293cd0a3bb021d55b913a54685f88\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.2.0] C:\Users\PIFSS\.android\build-cache\721d5bccd4ce3891b8caba99415e645cd166735b\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.2.0] C:\Users\PIFSS\.android\build-cache\f5742759326f761fe67daef4220fa871e498b427\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.volley:volley:1.0.0] C:\Users\PIFSS\.android\build-cache\51948d736cb39d598f1360d88d887d39a867cfc4\output\AndroidManifest.xml:7:5-43
 	tools:overrideLibrary
-		ADDED from [com.android.support:design:25.2.0] /Users/trn24/.android/build-cache/b72f8c878670e3cfcbd2a2719560109540c875de/output/AndroidManifest.xml:23:9-59
+		ADDED from [com.android.support:design:25.2.0] C:\Users\PIFSS\.android\build-cache\d95c42289955b75427320c3f826eb531f131da8f\output\AndroidManifest.xml:23:9-59
 	android:targetSdkVersion
-		INJECTED from /Users/trn24/Desktop/IBM/Andriod/Project/doctor mar28/doctor/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/trn24/Desktop/IBM/Andriod/Project/doctor mar28/doctor/app/src/main/AndroidManifest.xml
+		INJECTED from C:\Users\PIFSS\Desktop\Block_6\MHealth\v3\doctor\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\PIFSS\Desktop\Block_6\MHealth\v3\doctor\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /Users/trn24/Desktop/IBM/Andriod/Project/doctor mar28/doctor/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/trn24/Desktop/IBM/Andriod/Project/doctor mar28/doctor/app/src/main/AndroidManifest.xml
+		INJECTED from C:\Users\PIFSS\Desktop\Block_6\MHealth\v3\doctor\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\PIFSS\Desktop\Block_6\MHealth\v3\doctor\app\src\main\AndroidManifest.xml

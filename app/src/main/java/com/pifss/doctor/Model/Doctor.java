@@ -2,6 +2,11 @@
 package com.pifss.doctor.Model;
 
 
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import java.util.Calendar;
+
 public class Doctor {
 
     private Integer bDay;
@@ -185,4 +190,61 @@ public class Doctor {
         this.status = status;
     }
 
+    public Doctor(){}
+
+    public Doctor(String firstName, String email, String password, String civilId){
+        this.setFirstName(firstName);
+        this.setEmail(email);
+        this.setPassword(password);
+        this.setCivilId(civilId);
+
+        Calendar calender = Calendar.getInstance();
+        this.setBDay(calender.get(Calendar.DAY_OF_MONTH));
+        this.setBMonth(calender.get(Calendar.MONTH));
+        this.setBYear(calender.get(Calendar.YEAR));
+        this.setCvUrl("");
+        this.setDeleted(0);
+        this.setExtraInfo("");
+        this.setGender("Male");
+        this.setStatus(true);
+        this.setSpecialityId("");
+        this.setPhoneNumber("");
+        this.setNationality("");
+        this.setLocation("");
+        this.setMiddleName("");
+        this.setLastName("");
+        this.setImageUrl("");
+    }
+    public JSONObject getJSONDoctor() throws JSONException {
+        JSONObject jsonDoctor = new JSONObject();
+
+        jsonDoctor.put("firstName",getFirstName());
+        jsonDoctor.put("middleName",getMiddleName());
+        jsonDoctor.put("lastName",getLastName());
+
+        jsonDoctor.put("BDay",getBDay());
+        jsonDoctor.put("BMonth",getBMonth());
+        jsonDoctor.put("BYear",getBYear());
+
+        jsonDoctor.put("civilId",getCivilId());
+        jsonDoctor.put("cvUrl",getCvUrl());
+        jsonDoctor.put("deleted",getDeleted());
+
+        jsonDoctor.put("drId",getDrId());
+        jsonDoctor.put("email",getEmail());
+        jsonDoctor.put("extraInfo",getExtraInfo());
+
+        jsonDoctor.put("gender",getGender());
+        jsonDoctor.put("imageUrl",getImageUrl());
+        jsonDoctor.put("location",getLocation());
+
+        jsonDoctor.put("nationality",getNationality());
+        jsonDoctor.put("password",getPassword());
+        jsonDoctor.put("phoneNumber",getPhoneNumber());
+
+        jsonDoctor.put("specialityId",getSpecialityId());
+        jsonDoctor.put("status",getStatus());
+
+        return jsonDoctor;
+    }
 }
