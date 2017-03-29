@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v3\\doctor\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
+        "outputFile": "/Users/trn24/Desktop/IBM/Andriod/Project/doctor mar28/doctor/C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v3\\doctor\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 96
                 },
                 "from": {
-                    "file": "C:\\Users\\PIFSS\\.android\\build-cache\\abbe2522d32a9e6a6ad0053924646f96436bfcf1\\output\\res\\values\\values.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/doctor mar28/doctor/C:\\Users\\PIFSS\\.android\\build-cache\\abbe2522d32a9e6a6ad0053924646f96436bfcf1\\output\\res\\values\\values.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -24,7 +24,7 @@
         ]
     },
     {
-        "outputFile": "C:\\Users\\Entisar\\Desktop\\Android\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor mar28\\doctor\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
+        "outputFile": "/Users/trn24/Desktop/IBM/Andriod/Project/doctor mar28/doctor/C:\\Users\\Entisar\\Desktop\\Android\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor mar28\\doctor\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
         "map": [
             {
                 "to": {
@@ -35,7 +35,7 @@
                     "endOffset": 96
                 },
                 "from": {
-                    "file": "C:\\Users\\Entisar\\Desktop\\Android\\doctor\\C:\\Users\\trn24\\.android\\build-cache\\d4498100cc7c72efd877c474f8d92d6ebc183b85\\output\\res\\values\\values.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/doctor mar28/doctor/C:\\Users\\Entisar\\Desktop\\Android\\doctor\\C:\\Users\\trn24\\.android\\build-cache\\d4498100cc7c72efd877c474f8d92d6ebc183b85\\output\\res\\values\\values.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -48,7 +48,7 @@
         ]
     },
     {
-        "outputFile": "C:\\Users\\Entisar\\Desktop\\Android\\doctor\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
+        "outputFile": "/Users/trn24/Desktop/IBM/Andriod/Project/doctor mar28/doctor/C:\\Users\\Entisar\\Desktop\\Android\\doctor\\C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\integrated project\\doctor\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
         "map": [
             {
                 "to": {
@@ -59,7 +59,7 @@
                     "endOffset": 96
                 },
                 "from": {
-                    "file": "C:\\Users\\Entisar\\.android\\build-cache\\19f9fa4122a16dc65b014e83f4fdd603a475e854\\output\\res\\values\\values.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/doctor mar28/doctor/C:\\Users\\Entisar\\Desktop\\Android\\doctor\\C:\\Users\\PIFSS\\.android\\build-cache\\abbe2522d32a9e6a6ad0053924646f96436bfcf1\\output\\res\\values\\values.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -72,7 +72,7 @@
         ]
     },
     {
-        "outputFile": "C:\\Users\\Entisar\\Desktop\\Android\\doctor\\C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\integrated project\\doctor\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
+        "outputFile": "/Users/trn24/Desktop/IBM/Andriod/Project/doctor mar28/doctor/C:\\Users\\Entisar\\Desktop\\Android\\doctor\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
         "map": [
             {
                 "to": {
@@ -83,7 +83,31 @@
                     "endOffset": 96
                 },
                 "from": {
-                    "file": "C:\\Users\\Entisar\\Desktop\\Android\\doctor\\C:\\Users\\PIFSS\\.android\\build-cache\\abbe2522d32a9e6a6ad0053924646f96436bfcf1\\output\\res\\values\\values.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/doctor mar28/doctor/C:\\Users\\Entisar\\.android\\build-cache\\19f9fa4122a16dc65b014e83f4fdd603a475e854\\output\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 229,
+                        "endColumn": 45,
+                        "endOffset": 270
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "/Users/trn24/Desktop/IBM/Andriod/Project/doctor mar28/doctor/app/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values/values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 45,
+                    "endOffset": 96
+                },
+                "from": {
+                    "file": "/Users/trn24/.android/build-cache/d4498100cc7c72efd877c474f8d92d6ebc183b85/output/res/values/values.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
