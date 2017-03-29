@@ -87,11 +87,17 @@ public class HomeReportActivity extends AppCompatActivity {
                                 break;
                             case 5:
 
-                                //Toast.makeText(HomeReportActivity.this, "hello", Toast.LENGTH_SHORT).show();
-                                Intent sharingIntent = new Intent(Intent.ACTION_SEND);
-                                sharingIntent.setType("text/html");
-                                sharingIntent.putExtra(Intent.EXTRA_TEXT, Html.fromHtml("<p>This is the text that will be shared.</p>"));
-                                startActivity(Intent.createChooser(sharingIntent,"Share using"));
+                                try {
+                                     i = new Intent(Intent.ACTION_SEND);
+                                    i.setType("text/plain");
+                                    i.putExtra(Intent.EXTRA_SUBJECT, "MHealth");
+                                    String sAux = "\nLet me recommend you this application\n\n";
+                                    sAux = sAux + "here i put the link of the application in google play \n\n";
+                                    i.putExtra(Intent.EXTRA_TEXT, sAux);
+                                    startActivity(Intent.createChooser(i, "choose one"));
+                                } catch(Exception e) {
+                                    //e.toString();
+                                }
                                 break;
                             case 6:
                                 i = new Intent(HomeReportActivity.this,SettingsActivity.class);

@@ -62,7 +62,7 @@
             android:layout_gravity="bottom"
             android:layout_weight=".25"
 
-            android:text="Patient CivilId" />
+            android:text="@string/PatientCivilID" />
 
         <ImageView
             android:id="@+id/Gender"
@@ -79,8 +79,7 @@
             android:layout_gravity="bottom"
             android:layout_weight=".25"
 
-            android:text="Patient Gender"
-            />
+            android:text="@string/PatientGender" />
 
 
     </LinearLayout>
