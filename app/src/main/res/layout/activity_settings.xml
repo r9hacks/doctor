@@ -22,41 +22,43 @@
         android:id="@+id/buttonEnglish"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
+        android:background="@color/colorAccent"
+        android:text="English"
+        android:textColor="@color/TapIconColor"
+        android:textSize="35dp"
+        android:layout_marginBottom="20dp"
+        android:layout_above="@+id/buttonArabic"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentRight="true"
         android:layout_alignParentStart="true"
-        android:layout_below="@+id/mytoolbar"
-        android:layout_marginTop="128dp"
-        android:text="English" />
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
 
     <Button
         android:id="@+id/buttonArabic"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
+
+        android:background="@color/colorAccent"
+        android:text="العربية"
+        android:textColor="@color/TapIconColor"
+        android:textSize="35dp"
+        android:layout_marginBottom="102dp"
+        android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentRight="true"
         android:layout_alignParentStart="true"
-        android:layout_below="@+id/buttonEnglish"
-        android:layout_marginTop="60dp"
-        android:text="العربية" />
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
 
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        app:srcCompat="@mipmap/international_languages"
+        android:layout_marginLeft="116dp"
+        android:layout_marginStart="116dp"
+        android:layout_marginTop="124dp"
         android:layout_below="@+id/mytoolbar"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="53dp"
-        android:textSize="30sp" />
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 
-    <TextView
-        android:id="@+id/textView5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignTop="@+id/textView2"
-        android:layout_centerHorizontal="true"
-        android:text="@string/ChangeLanguage"
-        android:textSize="24sp" />
 </RelativeLayout>
