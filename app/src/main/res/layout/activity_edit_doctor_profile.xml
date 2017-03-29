@@ -179,7 +179,6 @@
                     android:layout_marginEnd="14dp"
                     android:ems="10"
                     android:hint="Location"
-                    android:inputType="textPassword"
                     android:textColor="@android:color/darker_gray" />
             </android.support.design.widget.TextInputLayout>
 
@@ -209,7 +208,6 @@
                     android:drawablePadding="10dp"
                     android:ems="10"
                     android:hint="Nationality"
-                    android:inputType="textPassword"
                     android:textColor="@android:color/darker_gray" />
             </android.support.design.widget.TextInputLayout>
             <android.support.design.widget.TextInputLayout
@@ -238,7 +236,6 @@
                     android:drawablePadding="10dp"
                     android:ems="10"
                     android:hint="Specialty"
-                    android:inputType="textPassword"
                     android:textColor="@android:color/darker_gray" />
             </android.support.design.widget.TextInputLayout>
 
@@ -268,7 +265,6 @@
                     android:drawablePadding="10dp"
                     android:ems="10"
                     android:hint="Birthdate"
-                    android:inputType="textPassword"
                     android:textColor="@android:color/darker_gray" />
             </android.support.design.widget.TextInputLayout>
 
@@ -357,7 +353,6 @@
                     android:drawablePadding="10dp"
                     android:ems="10"
                     android:hint="Extra info.."
-                    android:inputType="textPassword"
                     android:textColor="@android:color/darker_gray" />
 
 
@@ -370,7 +365,7 @@
 
     </ScrollView>
 
-   <Button
+    <Button
         android:id="@+id/btnEdit"
         style="@style/Widget.AppCompat.Button.Colored"
         android:layout_width="match_parent"
