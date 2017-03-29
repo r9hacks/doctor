@@ -28,12 +28,12 @@
         "source": "C:\\Users\\PIFSS\\.android\\build-cache\\9b85976bda791bd9abdfdd3cb34cce2b0455d7aa\\output\\res\\layout\\abc_list_menu_item_layout.xml"
     },
     {
-        "merged": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor mar28\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\layout\\material_drawer_item_secondary_switch.xml",
-        "source": "C:\\Users\\trn24\\.android\\build-cache\\964a1fed1a6e76b02583d65146a3edf4a5ca8b7d\\output\\res\\layout\\material_drawer_item_secondary_switch.xml"
-    },
-    {
         "merged": "C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v3\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\layout\\material_drawer_fits_not.xml",
         "source": "C:\\Users\\PIFSS\\.android\\build-cache\\57d14aaeaf478530376bb0c3670f160853c994e7\\output\\res\\layout\\material_drawer_fits_not.xml"
+    },
+    {
+        "merged": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor mar28\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\layout\\material_drawer_item_secondary_switch.xml",
+        "source": "C:\\Users\\trn24\\.android\\build-cache\\964a1fed1a6e76b02583d65146a3edf4a5ca8b7d\\output\\res\\layout\\material_drawer_item_secondary_switch.xml"
     },
     {
         "merged": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor mar28\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_header.xml",
@@ -68,16 +68,16 @@
         "source": "C:\\Users\\trn24\\.android\\build-cache\\f5bbc6ff808a4ac74405d8a761d68a423887319a\\output\\res\\layout\\abc_action_bar_title_item.xml"
     },
     {
-        "merged": "C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v3\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
-        "source": "C:\\Users\\PIFSS\\.android\\build-cache\\9b85976bda791bd9abdfdd3cb34cce2b0455d7aa\\output\\res\\layout\\abc_activity_chooser_view_list_item.xml"
+        "merged": "C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v3\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
+        "source": "C:\\Users\\PIFSS\\.android\\build-cache\\9b85976bda791bd9abdfdd3cb34cce2b0455d7aa\\output\\res\\layout\\abc_dialog_title_material.xml"
     },
     {
         "merged": "C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v3\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_icon.xml",
         "source": "C:\\Users\\PIFSS\\.android\\build-cache\\d95c42289955b75427320c3f826eb531f131da8f\\output\\res\\layout\\design_layout_tab_icon.xml"
     },
     {
-        "merged": "C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v3\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
-        "source": "C:\\Users\\PIFSS\\.android\\build-cache\\9b85976bda791bd9abdfdd3cb34cce2b0455d7aa\\output\\res\\layout\\abc_dialog_title_material.xml"
+        "merged": "C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v3\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
+        "source": "C:\\Users\\PIFSS\\.android\\build-cache\\9b85976bda791bd9abdfdd3cb34cce2b0455d7aa\\output\\res\\layout\\abc_activity_chooser_view_list_item.xml"
     },
     {
         "merged": "C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v3\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
@@ -176,16 +176,16 @@
         "source": "C:\\Users\\PIFSS\\.android\\build-cache\\d95c42289955b75427320c3f826eb531f131da8f\\output\\res\\layout\\design_navigation_item.xml"
     },
     {
-        "merged": "C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v3\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_my_patient.xml",
-        "source": "C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v3\\doctor\\app\\src\\main\\res\\layout\\activity_my_patient.xml"
+        "merged": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor mar28\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\layout\\material_drawer_item_mini.xml",
+        "source": "C:\\Users\\trn24\\.android\\build-cache\\964a1fed1a6e76b02583d65146a3edf4a5ca8b7d\\output\\res\\layout\\material_drawer_item_mini.xml"
     },
     {
         "merged": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor mar28\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_my_patient.xml",
         "source": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor mar28\\doctor\\app\\src\\main\\res\\layout\\activity_my_patient.xml"
     },
     {
-        "merged": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor mar28\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\layout\\material_drawer_item_mini.xml",
-        "source": "C:\\Users\\trn24\\.android\\build-cache\\964a1fed1a6e76b02583d65146a3edf4a5ca8b7d\\output\\res\\layout\\material_drawer_item_mini.xml"
+        "merged": "C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v3\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_my_patient.xml",
+        "source": "C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v3\\doctor\\app\\src\\main\\res\\layout\\activity_my_patient.xml"
     },
     {
         "merged": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor mar28\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\layout\\material_drawer_item_section.xml",
