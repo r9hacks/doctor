@@ -100,31 +100,26 @@ public class EditDoctorProfileActivity extends AppCompatActivity {
 
             final RequestQueue queue= RequestQueueSingleTon.getInstance().getRequestQueue(EditDoctorProfileActivity.this);
 
-            try {
+            JSONObject jsonBody = new JSONObject();
 
-                JSONObject jsonBody = new JSONObject();
+            String URL =links.Doctor + "/" + doctor.getDrId();
 
-                String URL =links.Doctor + "/" + doctor.getDrId();
+            JsonObjectRequest jsonObjRequest = new JsonObjectRequest(Request.Method.PUT, URL, jsonBody, new Response.Listener<JSONObject>() {
+                @Override
+                public void onResponse(JSONObject response) {
+                    System.out.println("response: "+response.toString());
 
-                JsonObjectRequest jsonObjRequest = new JsonObjectRequest(Request.Method.PUT, URL, jsonBody, new Response.Listener<JSONObject>() {
-                    @Override
-                    public void onResponse(JSONObject response) {
-                        System.out.println("response: "+response.toString());
+                    Toast.makeText(EditDoctorProfileActivity.this, "response: "+response.toString(), Toast.LENGTH_SHORT).show();
 
-                        Toast.makeText(EditDoctorProfileActivity.this, "response: "+response.toString(), Toast.LENGTH_SHORT).show();
+                }
+            }, new Response.ErrorListener() {
+                @Override
+                public void onErrorResponse(VolleyError error) {
 
-                    }
-                }, new Response.ErrorListener() {
-                    @Override
-                    public void onErrorResponse(VolleyError error) {
+                }
+            });
 
-                    }
-                });
-
-                queue.add(jsonObjRequest);
-            } catch (JSONException e) {
-                e.printStackTrace();
-            }
+            queue.add(jsonObjRequest);
 
         }
     });
