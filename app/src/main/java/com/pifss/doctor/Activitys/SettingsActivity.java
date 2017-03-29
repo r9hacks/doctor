@@ -29,8 +29,8 @@ public class SettingsActivity extends AppCompatActivity {
         getSupportActionBar().setDisplayShowHomeEnabled(true);
 
 
-        TextView change = (TextView) findViewById(R.id.textViewLang);
-        change.setText(R.string.ChangeLanguage);
+//        TextView change = (TextView) findViewById(R.id.textViewLang);
+//        change.setText(R.string.ChangeLanguage);
 
 
 

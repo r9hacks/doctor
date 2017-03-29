@@ -1,7 +1,10 @@
 package com.pifss.doctor.Activitys;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
+import android.graphics.Bitmap;
 import android.graphics.Color;
+import android.graphics.drawable.Drawable;
 import android.support.design.widget.TabLayout;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
@@ -11,6 +14,7 @@ import android.text.Html;
 import android.view.View;
 import android.widget.Toast;
 
+import com.google.gson.Gson;
 import com.mikepenz.materialdrawer.AccountHeader;
 import com.mikepenz.materialdrawer.AccountHeaderBuilder;
 import com.mikepenz.materialdrawer.Drawer;
@@ -21,7 +25,11 @@ import com.mikepenz.materialdrawer.model.ProfileDrawerItem;
 import com.mikepenz.materialdrawer.model.interfaces.IDrawerItem;
 import com.mikepenz.materialdrawer.model.interfaces.IProfile;
 import com.pifss.doctor.Adapters.ReportFragmentAdapter;
+import com.pifss.doctor.Model.Doctor;
 import com.pifss.doctor.R;
+import com.pifss.doctor.links;
+import com.squareup.picasso.Picasso;
+import com.squareup.picasso.Target;
 
 public class HomeReportActivity extends AppCompatActivity {
 
@@ -44,12 +52,17 @@ public class HomeReportActivity extends AppCompatActivity {
         PrimaryDrawerItem item8 = new PrimaryDrawerItem().withIdentifier(8).withName("Logout").withIcon(R.mipmap.logout_icon);
         DividerDrawerItem d = new DividerDrawerItem();
 
+        SharedPreferences preference = getSharedPreferences("settings",MODE_PRIVATE);
+        String doctorProfile = preference.getString(links.PrefDoctorProfile,"notfound");
+        Doctor doctor = new Gson().fromJson(doctorProfile,Doctor.class);
 
-        AccountHeader headerResult = new AccountHeaderBuilder()
+
+
+        final AccountHeader headerResult = new AccountHeaderBuilder()
                 .withActivity(this)
                 .withHeaderBackground(R.mipmap.material_bacground)
                 .addProfiles(
-                        new ProfileDrawerItem().withName("Ahmad AlKandari").withEmail("r9hacks@gmail.com").withIcon(R.mipmap.ic_launcher_round)
+                        new ProfileDrawerItem().withName(doctor.getFirstName()+" "+doctor.getMiddleName()+" "+doctor.getLastName()).withEmail(doctor.getEmail())
                 )
                 .withOnAccountHeaderListener(new AccountHeader.OnAccountHeaderListener() {
                     @Override
@@ -63,7 +76,27 @@ public class HomeReportActivity extends AppCompatActivity {
                 })
                 .build();
 
-        new DrawerBuilder().withActivity(this)
+       // headerResult.getActiveProfile().
+                Picasso.with(HomeReportActivity.this).load(doctor.getImageUrl()).into(new Target() {
+                    @Override
+                    public void onBitmapLoaded(Bitmap bitmap, Picasso.LoadedFrom from) {
+                        Toast.makeText(HomeReportActivity.this, "Load image", Toast.LENGTH_SHORT).show();
+                        headerResult.getActiveProfile().withIcon(bitmap);
+                        System.out.println("load image profile");
+                    }
+
+                    @Override
+                    public void onBitmapFailed(Drawable errorDrawable) {
+
+                    }
+
+                    @Override
+                    public void onPrepareLoad(Drawable placeHolderDrawable) {
+
+                    }
+                });
+
+                new DrawerBuilder().withActivity(this)
                 .withToolbar(toolbar)
                 .addDrawerItems(item1,item2,item3,d,item5,item6,item7,item8)
                 .withOnDrawerItemClickListener(new Drawer.OnDrawerItemClickListener() {
