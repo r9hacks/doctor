@@ -20,7 +20,7 @@
         android:layout_toEndOf="@+id/imageView"
         android:layout_toLeftOf="@+id/textDate"
         android:layout_toRightOf="@+id/imageView"
-        android:text="TextView"
+        android:text="@string/PatientName"
         android:textSize="24sp"
         android:textStyle="bold" />
 
@@ -32,7 +32,7 @@
         android:layout_margin="5dp"
         android:layout_toEndOf="@+id/imageView"
         android:layout_toRightOf="@+id/imageView"
-        android:text="TextView"
+        android:text="textView"
         android:textSize="12sp" />
 
     <TextView
@@ -67,7 +67,7 @@
             android:layout_marginLeft="3dp"
             android:layout_weight="0.59"
             android:gravity="center_vertical"
-            android:text="TextView" />
+            android:text="@string/HeartRate" />
 
         <ImageView
             android:id="@+id/imageView6"
@@ -83,7 +83,7 @@
             android:layout_marginLeft="3dp"
             android:layout_weight="0.92"
             android:gravity="center_vertical"
-            android:text="TextView" />
+            android:text="@string/BloodPressure" />
 
         <ImageView
             android:id="@+id/imageView7"
@@ -99,7 +99,7 @@
             android:layout_marginLeft="3dp"
             android:layout_weight="1.06"
             android:gravity="center_vertical"
-            android:text="TextView" />
+            android:text="@string/PatientGender" />
     </LinearLayout>
 
 

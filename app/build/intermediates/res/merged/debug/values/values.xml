@@ -1066,6 +1066,37 @@
     <integer name="hide_password_duration">320</integer>
     <integer name="show_password_duration">200</integer>
     <integer name="status_bar_notification_info_maxnum">999</integer>
+    <string name="Allergies">Allergies</string>
+    <string name="Asthma">Asthma</string>
+    <string name="BloodPressure">Blood Pressure</string>
+    <string name="BloodType">Blood Type</string>
+    <string name="ChangeLanguage">Change Language</string>
+    <string name="Comments">Comments</string>
+    <string name="Coughing">Coughing</string>
+    <string name="Diabetes">Diabetes</string>
+    <string name="Dizziness">Dizziness</string>
+    <string name="DoctorReply">Doctor Reply:</string>
+    <string name="EnteryourCivilID">Enter your Civil ID</string>
+    <string name="Fever">Fever</string>
+    <string name="ForgotPassword">Forgot Password?</string>
+    <string name="Headache">Headache</string>
+    <string name="HeartRate">Heart Rate</string>
+    <string name="Login">Login</string>
+    <string name="Medication">Medication</string>
+    <string name="Name">Name</string>
+    <string name="Nauseous">Nauseous</string>
+    <string name="PainLocation">Pain Location</string>
+    <string name="Password">Password</string>
+    <string name="PatientAge">Patient Age</string>
+    <string name="PatientCivilID">Patient Civil ID</string>
+    <string name="PatientGender">Patient Gender</string>
+    <string name="PatientName">Patient Name</string>
+    <string name="PatientPhone">Patient Phone</string>
+    <string name="Register">Register</string>
+    <string name="Reply">Reply...</string>
+    <string name="ResetPassword">Reset Password</string>
+    <string name="SendReply">Send Reply</string>
+    <string name="SugarLevel">Sugar Level</string>
     <string name="abc_action_bar_home_description">Navigate home</string>
     <string name="abc_action_bar_home_description_format">%1$s, %2$s</string>
     <string name="abc_action_bar_home_subtitle_description_format">%1$s, %2$s, %3$s</string>
@@ -1175,7 +1206,6 @@
     <string name="path_password_strike_through" translatable="false">M3.27,4.27 L19.74,20.74</string>
     <string name="search_menu_title">Search</string>
     <string name="status_bar_notification_info_overflow">999+</string>
-    <string name="title_activity_login">login</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
     <style name="AlertDialog.AppCompat.Light" parent="Base.AlertDialog.AppCompat.Light"/>
     <style name="Animation.AppCompat.Dialog" parent="Base.Animation.AppCompat.Dialog"/>

@@ -41,7 +41,7 @@
             android:layout_marginStart="14dp"
             android:layout_toEndOf="@+id/imageViewPatient"
             android:layout_toRightOf="@+id/imageViewPatient"
-            android:text="Patient Name"
+            android:text="@string/PatientName"
             android:textColor="@android:color/black"
             android:textSize="18sp"
             android:textStyle="bold" />
@@ -50,10 +50,10 @@
             android:id="@+id/textViewAge"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Patient Age"
-            android:layout_centerVertical="true"
             android:layout_alignLeft="@+id/textViewName"
-            android:layout_alignStart="@+id/textViewName" />
+            android:layout_alignStart="@+id/textViewName"
+            android:layout_centerVertical="true"
+            android:text="@string/PatientAge" />
 
         <LinearLayout
             android:layout_width="wrap_content"
@@ -79,7 +79,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="bottom"
 
-                android:text="Patient Phone" />
+                android:text="@string/PatientPhone" />
 
             <ImageView
                 android:id="@+id/Gender"
@@ -98,7 +98,7 @@
                 android:layout_gravity="bottom"
                 android:layout_weight=".25"
 
-                android:text="Patient Gender" />
+                android:text="@string/PatientGender" />
 
 
         </LinearLayout>
@@ -140,7 +140,7 @@
             android:layout_marginStart="14dp"
             android:layout_toRightOf="@+id/imageView3"
             android:gravity="center_vertical"
-            android:text="Blood Type"
+            android:text="@string/BloodType"
             android:textSize="12sp" />
 
         <android.support.v7.widget.Toolbar
@@ -172,7 +172,7 @@
             android:layout_marginStart="11dp"
             android:layout_toRightOf="@+id/imageView11"
             android:gravity="center_vertical"
-            android:text="Diabetes"
+            android:text="@string/Diabetes"
             android:textSize="12sp" />
 
         <ImageView
@@ -195,7 +195,7 @@
             android:layout_alignStart="@+id/textView5"
             android:layout_alignTop="@+id/imageView13"
             android:gravity="center_vertical"
-            android:text="Asthma"
+            android:text="@string/Asthma"
             android:textSize="12sp" />
 
         <ImageView
@@ -215,7 +215,7 @@
             android:layout_alignStart="@+id/textView6"
             android:layout_alignTop="@+id/imageView14"
             android:gravity="center_vertical"
-            android:text="Allergies"
+            android:text="@string/Allergies"
             android:textSize="10sp" />
 
         <TextView
@@ -300,10 +300,10 @@
             android:id="@+id/textView14"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Medication"
             android:layout_alignParentTop="true"
+            android:layout_toEndOf="@+id/imageView15"
             android:layout_toRightOf="@+id/imageView15"
-            android:layout_toEndOf="@+id/imageView15" />
+            android:text="@string/Medication" />
 
     </RelativeLayout>
 

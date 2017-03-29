@@ -63,7 +63,7 @@
                         android:layout_marginStart="12dp"
                         android:layout_toEndOf="@+id/imageViewBlood"
                         android:layout_toRightOf="@+id/imageViewBlood"
-                        android:text="Blood Pressure" />
+                        android:text="@string/BloodPressure" />
 
                     <TextView
                         android:id="@+id/textViewbloodContent"
@@ -115,7 +115,7 @@
                         android:layout_marginStart="12dp"
                         android:layout_toEndOf="@+id/imageViewCoughing"
                         android:layout_toRightOf="@+id/imageViewCoughing"
-                        android:text="Coughing" />
+                        android:text="@string/Coughing" />
 
                     <TextView
                         android:id="@+id/textViewcoughingContent"
@@ -166,7 +166,7 @@
                         android:layout_marginStart="12dp"
                         android:layout_toEndOf="@+id/imageViewDizzness"
                         android:layout_toRightOf="@+id/imageViewDizzness"
-                        android:text="Dizziness" />
+                        android:text="@string/Dizziness" />
 
                     <TextView
                         android:id="@+id/textViewdizznessContent"
@@ -217,7 +217,7 @@
                         android:layout_marginStart="12dp"
                         android:layout_toEndOf="@+id/imageViewFever"
                         android:layout_toRightOf="@+id/imageViewFever"
-                        android:text="Fever" />
+                        android:text="@string/Fever" />
 
                     <TextView
                         android:id="@+id/textViewfeverContent"
@@ -266,7 +266,7 @@
                         android:layout_marginStart="12dp"
                         android:layout_toEndOf="@+id/imageViewHeadache"
                         android:layout_toRightOf="@+id/imageViewHeadache"
-                        android:text="Headache" />
+                        android:text="@string/Headache" />
 
                     <TextView
                         android:id="@+id/textViewheadacheContent"
@@ -317,7 +317,7 @@
                         android:layout_marginStart="12dp"
                         android:layout_toEndOf="@+id/imageViewHeartRate"
                         android:layout_toRightOf="@+id/imageViewHeartRate"
-                        android:text="Heart Rate" />
+                        android:text="@string/HeartRate" />
 
                     <TextView
                         android:id="@+id/textViewheartRateContent"
@@ -368,7 +368,7 @@
                         android:layout_marginStart="12dp"
                         android:layout_toEndOf="@+id/imageViewNaouseou"
                         android:layout_toRightOf="@+id/imageViewNaouseou"
-                        android:text="Nauseous" />
+                        android:text="@string/Nauseous" />
 
                     <TextView
                         android:id="@+id/textViewanouseouContent"
@@ -419,7 +419,7 @@
                         android:layout_marginStart="12dp"
                         android:layout_toEndOf="@+id/imageViewPainLocation"
                         android:layout_toRightOf="@+id/imageViewPainLocation"
-                        android:text="Pain Location" />
+                        android:text="@string/PainLocation" />
 
                     <TextView
                         android:id="@+id/textViewpainLocationContent"
@@ -470,7 +470,7 @@
                         android:layout_marginStart="12dp"
                         android:layout_toEndOf="@+id/imageViewSugar"
                         android:layout_toRightOf="@+id/imageViewSugar"
-                        android:text="Sugar Level" />
+                        android:text="@string/SugarLevel" />
 
                     <TextView
                         android:id="@+id/textViewsugarContent"
@@ -522,7 +522,7 @@
                         android:layout_marginStart="12dp"
                         android:layout_toEndOf="@+id/imageViewComments"
                         android:layout_toRightOf="@+id/imageViewComments"
-                        android:text="Comments" />
+                        android:text="@string/Comments" />
 
                     <TextView
                         android:id="@+id/textViewcommentsContent"

@@ -56,12 +56,12 @@
         "source": "/Users/trn24/.android/build-cache/f5bbc6ff808a4ac74405d8a761d68a423887319a/output/res/drawable-mdpi-v4/abc_ic_star_half_black_16dp.png"
     },
     {
-        "merged": "/Users/trn24/Desktop/IBM/Andriod/Project/doctor mar28/doctor/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png",
-        "source": "/Users/trn24/.android/build-cache/f5bbc6ff808a4ac74405d8a761d68a423887319a/output/res/drawable-mdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png"
-    },
-    {
         "merged": "/Users/trn24/Desktop/IBM/Andriod/Project/doctor mar28/doctor/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_ic_star_black_48dp.png",
         "source": "/Users/trn24/.android/build-cache/f5bbc6ff808a4ac74405d8a761d68a423887319a/output/res/drawable-mdpi-v4/abc_ic_star_black_48dp.png"
+    },
+    {
+        "merged": "/Users/trn24/Desktop/IBM/Andriod/Project/doctor mar28/doctor/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png",
+        "source": "/Users/trn24/.android/build-cache/f5bbc6ff808a4ac74405d8a761d68a423887319a/output/res/drawable-mdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png"
     },
     {
         "merged": "/Users/trn24/Desktop/IBM/Andriod/Project/doctor mar28/doctor/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_tab_indicator_mtrl_alpha.9.png",

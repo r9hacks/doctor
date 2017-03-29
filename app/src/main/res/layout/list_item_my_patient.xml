@@ -16,23 +16,23 @@
         android:id="@+id/textViewName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageViewPatient"
         android:layout_toRightOf="@+id/imageViewPatient"
-        android:text="Patient Name"
+        android:text="@string/PatientName"
         android:textColor="@android:color/black"
         android:textSize="18sp"
-        android:textStyle="bold"
-        android:layout_alignTop="@+id/imageViewPatient" />
+        android:textStyle="bold" />
 
 
     <TextView
         android:id="@+id/textViewAge"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Patient Age"
         android:layout_below="@+id/textViewName"
-        android:layout_toRightOf="@+id/imageViewPatient"
+        android:layout_marginTop="14dp"
         android:layout_toEndOf="@+id/imageViewPatient"
-        android:layout_marginTop="14dp" />
+        android:layout_toRightOf="@+id/imageViewPatient"
+        android:text="@string/PatientAge" />
 
 
     <LinearLayout
@@ -59,7 +59,7 @@
             android:layout_gravity="bottom"
             android:layout_weight=".25"
 
-            android:text="Patient Phone" />
+            android:text="@string/PatientPhone" />
 
         <ImageView
             android:id="@+id/Gender"
@@ -77,8 +77,7 @@
             android:layout_gravity="bottom"
             android:layout_weight=".25"
 
-            android:text="Patient Gender"
-            />
+            android:text="@string/PatientGender" />
 
 
     </LinearLayout>
