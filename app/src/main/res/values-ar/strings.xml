@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">الدكتور</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+
+    <string name="Login">تسجيل الدخول</string>
+    <string name="Register">التسجيل</string>
+    <string name="ResetPassword">تغيير كلمة السر</string>
+    <string name="Password">كلمة السر</string>
+    <string name="ForgotPassword">نسيت كلمة السر؟</string>
+
+    <string name="PatientName">الاسم</string>
+    <string name="PatientAge">العمر</string>
+    <string name="PatientPhone">الرقم</string>
+    <string name="PatientGender">الجنس</string>
+    <string name="PatientCivilID">الرقم المدني</string>
+
+    <!--for dr-->
+    <string name="Name">الاسم</string>
+    <string name="EnteryourCivilID">ادخل الرقم المدني</string>
+
+    <string name="DoctorReply">تعليق الدكتور</string>
+    <string name="Reply">الرد</string>
+    <string name="SendReply">إرسال الرد</string>
+    <string name="Comments">التعليقات</string>
+
+    <!--here for report-->
+    <string name="BloodPressure">ضغط الدم</string>
+    <string name="Coughing">السعال</string>
+    <string name="Dizziness">الدوخة</string>
+    <string name="Fever">الحمى</string>
+    <string name="Headache">الصداع</string>
+    <string name="HeartRate">نبض القلب</string>
+    <string name="Nauseous">الغثيان</string>
+    <string name="PainLocation">موضع الألم</string>
+    <string name="SugarLevel">مستوى السكر</string>
+
+    <string name="BloodType">فصيلة الدم</string>
+    <string name="Diabetes">سكر الدم</string>
+    <string name="Asthma">الربو</string>
+    <string name="Allergies">الحساسية</string>
+    <string name="Medication">الأدوية</string>
+    <!--done for report-->
+
+
+    <string name="ChangeLanguage">تغيير اللغة</string>
+    <string name="LangButton">الرجاء تغيير لغة الجهاز</string>
+
+
+</resources>
