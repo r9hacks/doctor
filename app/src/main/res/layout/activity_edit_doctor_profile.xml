@@ -290,7 +290,7 @@
                     app:srcCompat="@mipmap/genders" />
 
                 <ImageButton
-                    android:id="@+id/imageButton4"
+                    android:id="@+id/imgBtnMale"
                     android:layout_width="25dp"
                     android:layout_height="25dp"
                     android:layout_alignParentTop="true"
@@ -302,19 +302,18 @@
                     app:srcCompat="@mipmap/male_symbol" />
 
                 <ImageButton
-                    android:id="@+id/imageButton5"
+                    android:id="@+id/imgBtnFemale"
                     android:layout_width="25dp"
                     android:layout_height="25dp"
                     android:layout_alignParentTop="true"
                     android:layout_marginLeft="34dp"
                     android:layout_marginStart="34dp"
-                    android:layout_toEndOf="@+id/imageButton4"
-                    android:layout_toRightOf="@+id/imageButton4"
+                    android:layout_toEndOf="@+id/imgBtnMale"
+                    android:layout_toRightOf="@+id/imgBtnMale"
                     android:backgroundTint="@android:color/transparent"
                     app:srcCompat="@mipmap/femenine"
 
                     />
-
 
             </RelativeLayout>
             <view
