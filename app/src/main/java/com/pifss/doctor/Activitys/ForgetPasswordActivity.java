@@ -13,7 +13,7 @@ public class ForgetPasswordActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_forget_password);
-        final Toolbar toolbar = (Toolbar) findViewById(R.id.mytoolbar);
+        final Toolbar toolbar = (Toolbar) findViewById(R.id.myToolbar);
 
         toolbar.setTitle("Forget Password");
         toolbar.setTitleTextColor(Color.WHITE);

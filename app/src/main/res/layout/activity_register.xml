@@ -46,7 +46,10 @@
         android:id="@+id/textInputLayoutCivil"
         android:layout_above="@+id/btnEdit"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true">
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        >
 
         <EditText
             android:id="@+id/txtDrCivil"
@@ -62,7 +65,7 @@
             android:gravity=""
             android:hint="Enter your Civil ID"
             android:inputType="textEmailAddress"
-            android:textColor="@android:color/darker_gray" />
+            android:textColor="@android:color/darker_gray"/>
 
 
     </android.support.design.widget.TextInputLayout>
@@ -89,6 +92,9 @@
             android:layout_above="@+id/textPLayout"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+
             >
             <EditText
                 android:id="@+id/txtDrName"
@@ -109,7 +115,10 @@
         android:layout_width="match_parent"
         android:layout_above="@+id/civilPLayout"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" >
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        >
         <EditText
             android:id="@+id/txtDrEmail"
             android:layout_width="match_parent"
@@ -129,7 +138,10 @@
         android:layout_width="match_parent"
         android:layout_above="@+id/textInputLayoutCivil"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true">
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        >
         <EditText
             android:id="@+id/txtDrPassword"
             android:layout_width="match_parent"

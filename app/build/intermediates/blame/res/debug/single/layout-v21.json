@@ -1,34 +1,18 @@
 [
     {
-        "merged": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor mar28\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action.xml",
-        "source": "C:\\Users\\trn24\\.android\\build-cache\\f5bbc6ff808a4ac74405d8a761d68a423887319a\\output\\res\\layout-v21\\notification_action.xml"
+        "merged": "/Users/trn24/Desktop/IBM/Andriod/Project/doctor mar28/doctor/app/build/intermediates/res/merged/debug/layout-v21/notification_action_tombstone.xml",
+        "source": "/Users/trn24/.android/build-cache/f5bbc6ff808a4ac74405d8a761d68a423887319a/output/res/layout-v21/notification_action_tombstone.xml"
     },
     {
-        "merged": "C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\integrated project\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_icon_group.xml",
-        "source": "C:\\Users\\PIFSS\\.android\\build-cache\\9b85976bda791bd9abdfdd3cb34cce2b0455d7aa\\output\\res\\layout-v21\\notification_template_icon_group.xml"
+        "merged": "/Users/trn24/Desktop/IBM/Andriod/Project/doctor mar28/doctor/app/build/intermediates/res/merged/debug/layout-v21/notification_template_custom_big.xml",
+        "source": "/Users/trn24/.android/build-cache/f5bbc6ff808a4ac74405d8a761d68a423887319a/output/res/layout-v21/notification_template_custom_big.xml"
     },
     {
-        "merged": "C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\integrated project\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action_tombstone.xml",
-        "source": "C:\\Users\\PIFSS\\.android\\build-cache\\9b85976bda791bd9abdfdd3cb34cce2b0455d7aa\\output\\res\\layout-v21\\notification_action_tombstone.xml"
+        "merged": "/Users/trn24/Desktop/IBM/Andriod/Project/doctor mar28/doctor/app/build/intermediates/res/merged/debug/layout-v21/notification_template_icon_group.xml",
+        "source": "/Users/trn24/.android/build-cache/f5bbc6ff808a4ac74405d8a761d68a423887319a/output/res/layout-v21/notification_template_icon_group.xml"
     },
     {
-        "merged": "C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\integrated project\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_custom_big.xml",
-        "source": "C:\\Users\\PIFSS\\.android\\build-cache\\9b85976bda791bd9abdfdd3cb34cce2b0455d7aa\\output\\res\\layout-v21\\notification_template_custom_big.xml"
-    },
-    {
-        "merged": "C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\integrated project\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action.xml",
-        "source": "C:\\Users\\PIFSS\\.android\\build-cache\\9b85976bda791bd9abdfdd3cb34cce2b0455d7aa\\output\\res\\layout-v21\\notification_action.xml"
-    },
-    {
-        "merged": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor mar28\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action_tombstone.xml",
-        "source": "C:\\Users\\trn24\\.android\\build-cache\\f5bbc6ff808a4ac74405d8a761d68a423887319a\\output\\res\\layout-v21\\notification_action_tombstone.xml"
-    },
-    {
-        "merged": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor mar28\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_custom_big.xml",
-        "source": "C:\\Users\\trn24\\.android\\build-cache\\f5bbc6ff808a4ac74405d8a761d68a423887319a\\output\\res\\layout-v21\\notification_template_custom_big.xml"
-    },
-    {
-        "merged": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor mar28\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_icon_group.xml",
-        "source": "C:\\Users\\trn24\\.android\\build-cache\\f5bbc6ff808a4ac74405d8a761d68a423887319a\\output\\res\\layout-v21\\notification_template_icon_group.xml"
+        "merged": "/Users/trn24/Desktop/IBM/Andriod/Project/doctor mar28/doctor/app/build/intermediates/res/merged/debug/layout-v21/notification_action.xml",
+        "source": "/Users/trn24/.android/build-cache/f5bbc6ff808a4ac74405d8a761d68a423887319a/output/res/layout-v21/notification_action.xml"
     }
 ]
