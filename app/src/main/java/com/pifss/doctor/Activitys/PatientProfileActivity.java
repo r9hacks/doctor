@@ -78,13 +78,13 @@ public class PatientProfileActivity extends AppCompatActivity {
         final ArrayList<ReportList> model=new ArrayList<>();
 //String comment, Date date, String heartRate, String bloodPreassure, String fever) {
 
-        model.add(new ReportList("1", "28/1/2017","100BPM","80/120","no"));
-        model.add(new ReportList("22222", "27/1/2017","90BPM","88/120","no"));
-        model.add(new ReportList("3333", "28/1/2017","100BPM","80/120","no"));
-        model.add(new ReportList("44444", "27/1/2017","90BPM","88/120","no"));
-        model.add(new ReportList("55555", "28/1/2017","100BPM","80/120","no"));
-        model.add(new ReportList("6666", "27/1/2017","90BPM","88/120","no"));
-
+//        model.add(new ReportList("1", "28/1/2017","100BPM","80/120","no"));
+//        model.add(new ReportList("22222", "27/1/2017","90BPM","88/120","no"));
+//        model.add(new ReportList("3333", "28/1/2017","100BPM","80/120","no"));
+//        model.add(new ReportList("44444", "27/1/2017","90BPM","88/120","no"));
+//        model.add(new ReportList("55555", "28/1/2017","100BPM","80/120","no"));
+//        model.add(new ReportList("6666", "27/1/2017","90BPM","88/120","no"));
+//
 
         ListView lv= (ListView) findViewById(R.id.reportListView);
 

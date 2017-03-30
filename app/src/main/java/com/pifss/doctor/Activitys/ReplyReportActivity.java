@@ -73,7 +73,7 @@ public class ReplyReportActivity extends AppCompatActivity {
                         public void onResponse(JSONObject response) {
                             try {
                                 Intent i = new Intent(ReplyReportActivity.this, ReplyConfirmActivity.class);
-                                Toast.makeText(ReplyReportActivity.this, response.toString(), Toast.LENGTH_SHORT).show();
+                               // Toast.makeText(ReplyReportActivity.this, response.toString(), Toast.LENGTH_SHORT).show();
                                 if (response.getBoolean("status") == true){
                                     i.putExtra("message","Your Reply sent successfully");
                                 }else{

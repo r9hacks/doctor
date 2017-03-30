@@ -57,7 +57,7 @@ public class ForgetPasswordActivity extends AppCompatActivity {
                         public void onResponse(JSONObject response) {
                             System.out.println("reset password: "+response.toString());
                             email.setText("");
-                            Toast.makeText(ForgetPasswordActivity.this, "reset password: "+response.toString(), Toast.LENGTH_SHORT).show();
+                       //     Toast.makeText(ForgetPasswordActivity.this, "reset password: "+response.toString(), Toast.LENGTH_SHORT).show();
                         }
                     }, new Response.ErrorListener() {
                         @Override

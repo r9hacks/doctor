@@ -68,7 +68,7 @@ public class PatientRequestActivity extends AppCompatActivity {
             JsonArrayRequest jsonObjRequest = new JsonArrayRequest(Request.Method.GET, links.PendingRequest+doctor.getDrId() , jsonBody, new Response.Listener<JSONArray>() {
                 @Override
                 public void onResponse(JSONArray response) {
-                    Toast.makeText(PatientRequestActivity.this, "get patient req list: "+response.toString(), Toast.LENGTH_SHORT).show();
+                   // Toast.makeText(PatientRequestActivity.this, "get patient req list: "+response.toString(), Toast.LENGTH_SHORT).show();
                     System.out.println("get patient req list: "+response.toString());
 
                     ArrayList<Patient> patients = new ArrayList<>();
@@ -93,7 +93,7 @@ public class PatientRequestActivity extends AppCompatActivity {
             }, new Response.ErrorListener() {
                 @Override
                 public void onErrorResponse(VolleyError error) {
-                    Toast.makeText(PatientRequestActivity.this, "error get patient req list: "+error.toString(), Toast.LENGTH_SHORT).show();
+                   // Toast.makeText(PatientRequestActivity.this, "error get patient req list: "+error.toString(), Toast.LENGTH_SHORT).show();
                     System.out.println("error get patient req list: "+error.toString());
                 }
             });
@@ -111,7 +111,7 @@ public class PatientRequestActivity extends AppCompatActivity {
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
 
                 PatientRequest request = model.get(position);
-                Toast.makeText(PatientRequestActivity.this, request.getName(), Toast.LENGTH_SHORT).show();
+               // Toast.makeText(PatientRequestActivity.this, request.getName(), Toast.LENGTH_SHORT).show();
                 
 
 

@@ -78,15 +78,15 @@ public class myPatientAdapter extends BaseAdapter {
         phone.setText(patient.getPhoneNum());
 
 
-
-
-
-        img.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Toast.makeText(context, "User clicked Image", Toast.LENGTH_SHORT).show();
-            }
-        });
+//
+//
+//
+//        img.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                Toast.makeText(context, "User clicked Image", Toast.LENGTH_SHORT).show();
+//            }
+//        });
 
         return view;
 

@@ -81,11 +81,11 @@ public class EditDoctorProfileActivity extends AppCompatActivity {
             if (txtName.getText().toString() == "" || txtEmail.getText().toString() == "" || txtPassword.getText().toString() == "" || txtLocation.getText().toString() == "" || txtCivil.getText().toString() == ""
                     || txtDrNationality.getText().toString() == "" || txtDrSpecialty.getText().toString() == "" || txtInfo.getText().toString() == ""){
 
-                Toast.makeText(EditDoctorProfileActivity.this, "All fields are required", Toast.LENGTH_SHORT).show();
+               // Toast.makeText(EditDoctorProfileActivity.this, "All fields are required", Toast.LENGTH_SHORT).show();
                 return;
             }
             if (!(txtPassword.getText().toString()).equals(doctor.getPassword()) ){
-                Toast.makeText(EditDoctorProfileActivity.this, "Wrong password", Toast.LENGTH_SHORT).show();
+               // Toast.makeText(EditDoctorProfileActivity.this, "Wrong password", Toast.LENGTH_SHORT).show();
                 return;
             }
 
@@ -111,7 +111,7 @@ public class EditDoctorProfileActivity extends AppCompatActivity {
                 public void onResponse(JSONObject response) {
                     System.out.println("response: "+response.toString());
 
-                    Toast.makeText(EditDoctorProfileActivity.this, "response: "+response.toString(), Toast.LENGTH_SHORT).show();
+                  //  Toast.makeText(EditDoctorProfileActivity.this, "response: "+response.toString(), Toast.LENGTH_SHORT).show();
 
                 }
             }, new Response.ErrorListener() {

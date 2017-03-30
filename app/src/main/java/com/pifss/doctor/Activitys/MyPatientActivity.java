@@ -122,7 +122,7 @@ public class MyPatientActivity extends AppCompatActivity {
                 MyPatient patient = model.get(position);
 
 
-                 Toast.makeText(MyPatientActivity.this, "clicked "+patient.getName(), Toast.LENGTH_SHORT).show();
+                // Toast.makeText(MyPatientActivity.this, "clicked "+patient.getName(), Toast.LENGTH_SHORT).show();
 
                 JSONObject object= null;
                 try {

@@ -120,7 +120,7 @@ public class Pending extends Fragment {
                         }
 
 
-                        Toast.makeText(getActivity(), "report pending list: "+pendingArray.toString(), Toast.LENGTH_SHORT).show();
+                       // Toast.makeText(getActivity(), "report pending list: "+pendingArray.toString(), Toast.LENGTH_SHORT).show();
                         System.out.println("report pending list: "+pendingArray.toString());
                     } catch (JSONException e) {
                         e.printStackTrace();
@@ -130,7 +130,7 @@ public class Pending extends Fragment {
                 @Override
                 public void onErrorResponse(VolleyError error) {
 
-                    Toast.makeText(getActivity(), "error report pending list: "+error.toString(), Toast.LENGTH_SHORT).show();
+                   // Toast.makeText(getActivity(), "error report pending list: "+error.toString(), Toast.LENGTH_SHORT).show();
                     System.out.println("error report pending list: "+error.toString());
                 }
             }) {

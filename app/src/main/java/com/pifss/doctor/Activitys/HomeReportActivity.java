@@ -44,9 +44,9 @@ public class HomeReportActivity extends AppCompatActivity {
         toolbar.setTitle("All Reports");
         toolbar.setTitleTextColor(Color.WHITE);
 
-        PrimaryDrawerItem item1 = new PrimaryDrawerItem().withIdentifier(1).withName("View Reports").withIcon(R.mipmap.medical_report_icon).withBadge("10");
-        PrimaryDrawerItem item2 = new PrimaryDrawerItem().withIdentifier(2).withName("Patient Requests").withIcon(R.mipmap.add_icon).withBadge("3");
-        PrimaryDrawerItem item3 = new PrimaryDrawerItem().withIdentifier(3).withName("My Patients").withIcon(R.mipmap.my_patient_icon).withBadge("7");
+        PrimaryDrawerItem item1 = new PrimaryDrawerItem().withIdentifier(1).withName("View Reports").withIcon(R.mipmap.medical_report_icon);
+        PrimaryDrawerItem item2 = new PrimaryDrawerItem().withIdentifier(2).withName("Patient Requests").withIcon(R.mipmap.add_icon);
+        PrimaryDrawerItem item3 = new PrimaryDrawerItem().withIdentifier(3).withName("My Patients").withIcon(R.mipmap.my_patient_icon);
         PrimaryDrawerItem item5 = new PrimaryDrawerItem().withIdentifier(5).withName("Share").withIcon(R.mipmap.share_icon).withSelectable(false);
         PrimaryDrawerItem item6 = new PrimaryDrawerItem().withIdentifier(6).withName("Settings").withIcon(R.mipmap.settings_icon);
         PrimaryDrawerItem item7 = new PrimaryDrawerItem().withIdentifier(7).withName("About us").withIcon(R.mipmap.aboutus_icon);
@@ -68,7 +68,7 @@ public class HomeReportActivity extends AppCompatActivity {
                 .withOnAccountHeaderListener(new AccountHeader.OnAccountHeaderListener() {
                     @Override
                     public boolean onProfileChanged(View view, IProfile profile, boolean currentProfile) {
-                        Toast.makeText(HomeReportActivity.this, "Profile tapped", Toast.LENGTH_SHORT).show();
+                      //  Toast.makeText(HomeReportActivity.this, "Profile tapped", Toast.LENGTH_SHORT).show();
                         Intent i = new Intent(HomeReportActivity.this,DoctorProfileActivity.class);
                         startActivity(i);
 
@@ -78,7 +78,7 @@ public class HomeReportActivity extends AppCompatActivity {
                 .build();
 
        // headerResult.getActiveProfile().
-        Toast.makeText(this, "doctor.getImageUrl()"+doctor.getImageUrl(), Toast.LENGTH_SHORT).show();
+       // Toast.makeText(this, "doctor.getImageUrl()"+doctor.getImageUrl(), Toast.LENGTH_SHORT).show();
 
         drab = new DrawerBuilder();
         drab.withActivity(this)
@@ -166,7 +166,7 @@ public class HomeReportActivity extends AppCompatActivity {
         Picasso.with(HomeReportActivity.this).load(doctor.getImageUrl()).into(new Target() {
             @Override
             public void onBitmapLoaded(Bitmap bitmap, Picasso.LoadedFrom from) {
-                Toast.makeText(HomeReportActivity.this, "Load image", Toast.LENGTH_SHORT).show();
+                //Toast.makeText(HomeReportActivity.this, "Load image", Toast.LENGTH_SHORT).show();
                 headerResult.getActiveProfile().withIcon(bitmap);
                 System.out.println("load image profile");
 
@@ -188,7 +188,7 @@ public class HomeReportActivity extends AppCompatActivity {
                         .withOnAccountHeaderListener(new AccountHeader.OnAccountHeaderListener() {
                             @Override
                             public boolean onProfileChanged(View view, IProfile profile, boolean currentProfile) {
-                                Toast.makeText(HomeReportActivity.this, "Profile tapped", Toast.LENGTH_SHORT).show();
+                             //   Toast.makeText(HomeReportActivity.this, "Profile tapped", Toast.LENGTH_SHORT).show();
                                 Intent i = new Intent(HomeReportActivity.this,DoctorProfileActivity.class);
                                 startActivity(i);
 
@@ -264,13 +264,13 @@ public class HomeReportActivity extends AppCompatActivity {
             @Override
             public void onBitmapFailed(Drawable errorDrawable) {
 
-                Toast.makeText(HomeReportActivity.this, "onBitmapFailed", Toast.LENGTH_SHORT).show();
+               // Toast.makeText(HomeReportActivity.this, "onBitmapFailed", Toast.LENGTH_SHORT).show();
                 System.out.println("onBitmapFailed");
             }
 
             @Override
             public void onPrepareLoad(Drawable placeHolderDrawable) {
-                Toast.makeText(HomeReportActivity.this, "onPrepareLoad", Toast.LENGTH_SHORT).show();
+               // Toast.makeText(HomeReportActivity.this, "onPrepareLoad", Toast.LENGTH_SHORT).show();
                 System.out.println("onPrepareLoad");
             }
         });

@@ -58,14 +58,14 @@ public class RegisterActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 if (name.getText().toString() == "" || email.getText().toString() == "" || password.getText().toString() == "" || civilId.getText().toString() == ""){
-                    Toast.makeText(RegisterActivity.this, "Please fill all fields", Toast.LENGTH_SHORT).show();
+                   // Toast.makeText(RegisterActivity.this, "Please fill all fields", Toast.LENGTH_SHORT).show();
                     return;
                 }
                 if (password.getText().toString().length() < 8){
-                    Toast.makeText(RegisterActivity.this, "Password must be at least 8 character", Toast.LENGTH_SHORT).show();
+                   // Toast.makeText(RegisterActivity.this, "Password must be at least 8 character", Toast.LENGTH_SHORT).show();
                     return;
                 }
-                Toast.makeText(RegisterActivity.this, "Connecting...", Toast.LENGTH_SHORT).show();
+               // Toast.makeText(RegisterActivity.this, "Connecting...", Toast.LENGTH_SHORT).show();
 
                 Doctor newDoctor = new Doctor(name.getText().toString(),email.getText().toString(),password.getText().toString(),civilId.getText().toString());
 
@@ -86,7 +86,7 @@ public class RegisterActivity extends AppCompatActivity {
                         public void onErrorResponse(VolleyError error) {
                             System.out.println("error: "+error.toString());
                             //show message
-                            Toast.makeText(RegisterActivity.this, "error response: "+error.toString(), Toast.LENGTH_SHORT).show();
+                          //  Toast.makeText(RegisterActivity.this, "error response: "+error.toString(), Toast.LENGTH_SHORT).show();
                         }
                     });
 

@@ -39,7 +39,7 @@ public class SettingsActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                Toast.makeText(SettingsActivity.this, R.string.LangButton, Toast.LENGTH_SHORT).show();
+                //Toast.makeText(SettingsActivity.this, R.string.LangButton, Toast.LENGTH_SHORT).show();
 
             }
         });
@@ -51,7 +51,7 @@ public class SettingsActivity extends AppCompatActivity {
             public void onClick(View v) {
 
 
-                Toast.makeText(SettingsActivity.this, R.string.LangButton, Toast.LENGTH_SHORT).show();
+            //    Toast.makeText(SettingsActivity.this, R.string.LangButton, Toast.LENGTH_SHORT).show();
 
             }
         });

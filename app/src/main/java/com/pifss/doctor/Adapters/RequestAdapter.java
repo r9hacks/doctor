@@ -77,7 +77,12 @@ public class RequestAdapter extends BaseAdapter {
 
         name.setText(patient.getName());
 
-        gender.setText(patient.getGender());
+        String g = patient.getGender();
+        if ( (g.charAt(0) + "").equalsIgnoreCase("f")){
+            gender.setText("Female");
+        }else{
+            gender.setText("Male");
+        }
 
         age.setText(patient.getAge()+"");
         civil.setText(patient.getCivilId());

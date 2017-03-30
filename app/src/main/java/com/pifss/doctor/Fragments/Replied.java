@@ -127,7 +127,7 @@ public class Replied extends Fragment {
                             adapter.notifyDataSetChanged();
                         }
 
-                    Toast.makeText(getActivity(), "report replied list: "+repliedArray.toString(), Toast.LENGTH_SHORT).show();
+                    //Toast.makeText(getActivity(), "report replied list: "+repliedArray.toString(), Toast.LENGTH_SHORT).show();
                     System.out.println("report replied list: "+repliedArray.toString());
                     } catch (JSONException e) {
                         e.printStackTrace();
@@ -137,7 +137,7 @@ public class Replied extends Fragment {
                 @Override
                 public void onErrorResponse(VolleyError error) {
 
-                    Toast.makeText(getActivity(), "error report replied list: "+error.toString(), Toast.LENGTH_SHORT).show();
+                    //Toast.makeText(getActivity(), "error report replied list: "+error.toString(), Toast.LENGTH_SHORT).show();
                     System.out.println("error report replied list: "+error.toString());
                 }
             }) {
