@@ -41,6 +41,8 @@ public class EditDoctorProfileActivity extends AppCompatActivity {
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setDisplayShowHomeEnabled(true);
 
+
+
         Button btnSaveChange = (Button) findViewById(R.id.btnEdit);
         final EditText txtPassword = (EditText) findViewById(R.id.txtDrPassword);
 

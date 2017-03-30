@@ -1,150 +1,150 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/Entisar/Desktop/Android/doctor/app/src/main/AndroidManifest.xml:2:1-38:12
+ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/doctor mar30/doctor/app/src/main/AndroidManifest.xml:2:1-38:12
 	package
-		ADDED from /Users/Entisar/Desktop/Android/doctor/app/src/main/AndroidManifest.xml:3:5-31
-		INJECTED from /Users/Entisar/Desktop/Android/doctor/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/Entisar/Desktop/Android/doctor/app/src/main/AndroidManifest.xml
+		ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/doctor mar30/doctor/app/src/main/AndroidManifest.xml:3:5-31
+		INJECTED from /Users/trn24/Desktop/IBM/Andriod/Project/doctor mar30/doctor/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/trn24/Desktop/IBM/Andriod/Project/doctor mar30/doctor/app/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from /Users/Entisar/Desktop/Android/doctor/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/Entisar/Desktop/Android/doctor/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/trn24/Desktop/IBM/Andriod/Project/doctor mar30/doctor/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/trn24/Desktop/IBM/Andriod/Project/doctor mar30/doctor/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /Users/Entisar/Desktop/Android/doctor/app/src/main/AndroidManifest.xml:2:11-69
+		ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/doctor mar30/doctor/app/src/main/AndroidManifest.xml:2:11-69
 	android:versionCode
-		INJECTED from /Users/Entisar/Desktop/Android/doctor/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/Entisar/Desktop/Android/doctor/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/trn24/Desktop/IBM/Andriod/Project/doctor mar30/doctor/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/trn24/Desktop/IBM/Andriod/Project/doctor mar30/doctor/app/src/main/AndroidManifest.xml
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from /Users/Entisar/Desktop/Android/doctor/app/src/main/AndroidManifest.xml:4:5-81
+ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/doctor mar30/doctor/app/src/main/AndroidManifest.xml:4:5-81
 	android:name
-		ADDED from /Users/Entisar/Desktop/Android/doctor/app/src/main/AndroidManifest.xml:4:22-78
+		ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/doctor mar30/doctor/app/src/main/AndroidManifest.xml:4:22-78
 uses-permission#android.permission.INTERNET
-ADDED from /Users/Entisar/Desktop/Android/doctor/app/src/main/AndroidManifest.xml:5:5-66
+ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/doctor mar30/doctor/app/src/main/AndroidManifest.xml:5:5-66
 	android:name
-		ADDED from /Users/Entisar/Desktop/Android/doctor/app/src/main/AndroidManifest.xml:5:22-64
+		ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/doctor mar30/doctor/app/src/main/AndroidManifest.xml:5:22-64
 application
-ADDED from /Users/Entisar/Desktop/Android/doctor/app/src/main/AndroidManifest.xml:6:5-36:19
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/Entisar/.android/build-cache/bad522c24a92cf9e5c9e7f5258ccfcc48df36afd/output/AndroidManifest.xml:9:5-20
-MERGED from [com.android.support:design:25.2.0] /Users/Entisar/.android/build-cache/7da7010fc8ba9c73b7bbd44e32707d8abcc97463/output/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:appcompat-v7:25.2.0] /Users/Entisar/.android/build-cache/752ac81f1b1993e8602d14a1f3fecad31afcf050/output/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:animated-vector-drawable:25.2.0] /Users/Entisar/.android/build-cache/bfbe8a0330be95fcee46a7f4985282de3327cd69/output/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-vector-drawable:25.2.0] /Users/Entisar/.android/build-cache/3db54e3597b79ebf5a996ce3ce4ff0b469aec3bb/output/AndroidManifest.xml:23:5-20
-MERGED from [com.android.support:transition:25.2.0] /Users/Entisar/.android/build-cache/874daa276912b8c4a9e82723ae30a3753ddf8183/output/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:25.2.0] /Users/Entisar/.android/build-cache/f60aafc18217e07e1d131e971abf9900ee3ca562/output/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-fragment:25.2.0] /Users/Entisar/.android/build-cache/5cca2252ea9269bfd54815c693019fa2755833ca/output/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-media-compat:25.2.0] /Users/Entisar/.android/build-cache/dbbaed5b7ba4968dbc559531a3186e9e2d73b1e9/output/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-core-ui:25.2.0] /Users/Entisar/.android/build-cache/e6154e0bcb7c96395397450dfb82a15f2b08edd9/output/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-core-utils:25.2.0] /Users/Entisar/.android/build-cache/f0282e74eecd10f1d8497a23aae9f0e6997e6093/output/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-compat:25.2.0] /Users/Entisar/.android/build-cache/720e29f84d38984490c05e8f1677298404a55ec7/output/AndroidManifest.xml:25:5-20
-MERGED from [com.android.volley:volley:1.0.0] /Users/Entisar/.android/build-cache/7730599ce6ac4b747dca5a8cdab05512ccb141d3/output/AndroidManifest.xml:9:5-20
+ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/doctor mar30/doctor/app/src/main/AndroidManifest.xml:6:5-36:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/trn24/.android/build-cache/957fca7446c41095205c4a6f81d5b68562df5527/output/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:design:25.2.0] /Users/trn24/.android/build-cache/b72f8c878670e3cfcbd2a2719560109540c875de/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:appcompat-v7:25.2.0] /Users/trn24/.android/build-cache/f5bbc6ff808a4ac74405d8a761d68a423887319a/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.2.0] /Users/trn24/.android/build-cache/71bc82f72bdc687258d33aac1fc944bac5869816/output/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:25.2.0] /Users/trn24/.android/build-cache/7a2200fa37b7e86a6f0aea791f9d0cb03dbb661e/output/AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:transition:25.2.0] /Users/trn24/.android/build-cache/a0b3db47ce5debdb7886812da3f7fc2b9142aed3/output/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:25.2.0] /Users/trn24/.android/build-cache/6ceb498cbc27b91666e2324d601e1f1fdf215472/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:25.2.0] /Users/trn24/.android/build-cache/00f93a3537eb3458d11262b8c63a7f27c5398a90/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.2.0] /Users/trn24/.android/build-cache/1157dce72d01a30baedc10770a7dfb440988d0cf/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.2.0] /Users/trn24/.android/build-cache/2a5f65cc7d09c06395da1856201bb022c9cf2a4f/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.2.0] /Users/trn24/.android/build-cache/17d1b822f6c78ec06d0529175e0683638b42889c/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.2.0] /Users/trn24/.android/build-cache/0e9fa8492e042e15d2c0d916328eaaebac6fbbdf/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.volley:volley:1.0.0] /Users/trn24/.android/build-cache/658461f7814f971269a8a18471e124670a8a5066/output/AndroidManifest.xml:9:5-20
 	android:label
-		ADDED from /Users/Entisar/Desktop/Android/doctor/app/src/main/AndroidManifest.xml:9:9-41
+		ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/doctor mar30/doctor/app/src/main/AndroidManifest.xml:9:9-41
 	android:supportsRtl
-		ADDED from /Users/Entisar/Desktop/Android/doctor/app/src/main/AndroidManifest.xml:11:9-35
+		ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/doctor mar30/doctor/app/src/main/AndroidManifest.xml:11:9-35
 	android:roundIcon
-		ADDED from /Users/Entisar/Desktop/Android/doctor/app/src/main/AndroidManifest.xml:10:9-54
+		ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/doctor mar30/doctor/app/src/main/AndroidManifest.xml:10:9-54
 	android:allowBackup
-		ADDED from /Users/Entisar/Desktop/Android/doctor/app/src/main/AndroidManifest.xml:7:9-35
+		ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/doctor mar30/doctor/app/src/main/AndroidManifest.xml:7:9-35
 	android:icon
-		ADDED from /Users/Entisar/Desktop/Android/doctor/app/src/main/AndroidManifest.xml:8:9-43
+		ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/doctor mar30/doctor/app/src/main/AndroidManifest.xml:8:9-43
 	android:theme
-		ADDED from /Users/Entisar/Desktop/Android/doctor/app/src/main/AndroidManifest.xml:12:9-40
+		ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/doctor mar30/doctor/app/src/main/AndroidManifest.xml:12:9-40
 activity#com.pifss.doctor.Activitys.MainActivity
-ADDED from /Users/Entisar/Desktop/Android/doctor/app/src/main/AndroidManifest.xml:13:9-60
+ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/doctor mar30/doctor/app/src/main/AndroidManifest.xml:13:9-60
 	android:name
-		ADDED from /Users/Entisar/Desktop/Android/doctor/app/src/main/AndroidManifest.xml:13:19-57
+		ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/doctor mar30/doctor/app/src/main/AndroidManifest.xml:13:19-57
 activity#com.pifss.doctor.Activitys.HomeReportActivity
-ADDED from /Users/Entisar/Desktop/Android/doctor/app/src/main/AndroidManifest.xml:14:9-66
+ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/doctor mar30/doctor/app/src/main/AndroidManifest.xml:14:9-66
 	android:name
-		ADDED from /Users/Entisar/Desktop/Android/doctor/app/src/main/AndroidManifest.xml:14:19-63
+		ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/doctor mar30/doctor/app/src/main/AndroidManifest.xml:14:19-63
 activity#com.pifss.doctor.Activitys.RegisterActivity
-ADDED from /Users/Entisar/Desktop/Android/doctor/app/src/main/AndroidManifest.xml:15:9-17:39
+ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/doctor mar30/doctor/app/src/main/AndroidManifest.xml:15:9-17:39
 	android:exported
-		ADDED from /Users/Entisar/Desktop/Android/doctor/app/src/main/AndroidManifest.xml:17:13-36
+		ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/doctor mar30/doctor/app/src/main/AndroidManifest.xml:17:13-36
 	android:name
-		ADDED from /Users/Entisar/Desktop/Android/doctor/app/src/main/AndroidManifest.xml:16:13-55
+		ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/doctor mar30/doctor/app/src/main/AndroidManifest.xml:16:13-55
 activity#com.pifss.doctor.Activitys.loginActivity
-ADDED from /Users/Entisar/Desktop/Android/doctor/app/src/main/AndroidManifest.xml:18:9-61
+ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/doctor mar30/doctor/app/src/main/AndroidManifest.xml:18:9-61
 	android:name
-		ADDED from /Users/Entisar/Desktop/Android/doctor/app/src/main/AndroidManifest.xml:18:19-58
+		ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/doctor mar30/doctor/app/src/main/AndroidManifest.xml:18:19-58
 activity#com.pifss.doctor.Activitys.AboutUsActivity
-ADDED from /Users/Entisar/Desktop/Android/doctor/app/src/main/AndroidManifest.xml:19:9-63
+ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/doctor mar30/doctor/app/src/main/AndroidManifest.xml:19:9-63
 	android:name
-		ADDED from /Users/Entisar/Desktop/Android/doctor/app/src/main/AndroidManifest.xml:19:19-60
+		ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/doctor mar30/doctor/app/src/main/AndroidManifest.xml:19:19-60
 activity#com.pifss.doctor.Activitys.DoctorProfileActivity
-ADDED from /Users/Entisar/Desktop/Android/doctor/app/src/main/AndroidManifest.xml:20:9-69
+ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/doctor mar30/doctor/app/src/main/AndroidManifest.xml:20:9-69
 	android:name
-		ADDED from /Users/Entisar/Desktop/Android/doctor/app/src/main/AndroidManifest.xml:20:19-66
+		ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/doctor mar30/doctor/app/src/main/AndroidManifest.xml:20:19-66
 activity#com.pifss.doctor.Activitys.MyPatientActivity
-ADDED from /Users/Entisar/Desktop/Android/doctor/app/src/main/AndroidManifest.xml:21:9-65
+ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/doctor mar30/doctor/app/src/main/AndroidManifest.xml:21:9-65
 	android:name
-		ADDED from /Users/Entisar/Desktop/Android/doctor/app/src/main/AndroidManifest.xml:21:19-62
+		ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/doctor mar30/doctor/app/src/main/AndroidManifest.xml:21:19-62
 activity#com.pifss.doctor.Activitys.PatientRequestActivity
-ADDED from /Users/Entisar/Desktop/Android/doctor/app/src/main/AndroidManifest.xml:22:9-70
+ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/doctor mar30/doctor/app/src/main/AndroidManifest.xml:22:9-70
 	android:name
-		ADDED from /Users/Entisar/Desktop/Android/doctor/app/src/main/AndroidManifest.xml:22:19-67
+		ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/doctor mar30/doctor/app/src/main/AndroidManifest.xml:22:19-67
 activity#com.pifss.doctor.Activitys.SettingsActivity
-ADDED from /Users/Entisar/Desktop/Android/doctor/app/src/main/AndroidManifest.xml:23:9-64
+ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/doctor mar30/doctor/app/src/main/AndroidManifest.xml:23:9-64
 	android:name
-		ADDED from /Users/Entisar/Desktop/Android/doctor/app/src/main/AndroidManifest.xml:23:19-61
+		ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/doctor mar30/doctor/app/src/main/AndroidManifest.xml:23:19-61
 activity#com.pifss.doctor.Activitys.PatientProfileActivity
-ADDED from /Users/Entisar/Desktop/Android/doctor/app/src/main/AndroidManifest.xml:24:9-70
+ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/doctor mar30/doctor/app/src/main/AndroidManifest.xml:24:9-70
 	android:name
-		ADDED from /Users/Entisar/Desktop/Android/doctor/app/src/main/AndroidManifest.xml:24:19-67
+		ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/doctor mar30/doctor/app/src/main/AndroidManifest.xml:24:19-67
 activity#com.pifss.doctor.Activitys.ReportDetailActivity
-ADDED from /Users/Entisar/Desktop/Android/doctor/app/src/main/AndroidManifest.xml:25:9-68
+ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/doctor mar30/doctor/app/src/main/AndroidManifest.xml:25:9-68
 	android:name
-		ADDED from /Users/Entisar/Desktop/Android/doctor/app/src/main/AndroidManifest.xml:25:19-65
+		ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/doctor mar30/doctor/app/src/main/AndroidManifest.xml:25:19-65
 activity#com.pifss.doctor.Activitys.SplashActivity
-ADDED from /Users/Entisar/Desktop/Android/doctor/app/src/main/AndroidManifest.xml:26:9-32:20
+ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/doctor mar30/doctor/app/src/main/AndroidManifest.xml:26:9-32:20
 	android:name
-		ADDED from /Users/Entisar/Desktop/Android/doctor/app/src/main/AndroidManifest.xml:26:19-59
+		ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/doctor mar30/doctor/app/src/main/AndroidManifest.xml:26:19-59
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from /Users/Entisar/Desktop/Android/doctor/app/src/main/AndroidManifest.xml:27:13-31:29
+ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/doctor mar30/doctor/app/src/main/AndroidManifest.xml:27:13-31:29
 action#android.intent.action.MAIN
-ADDED from /Users/Entisar/Desktop/Android/doctor/app/src/main/AndroidManifest.xml:28:17-69
+ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/doctor mar30/doctor/app/src/main/AndroidManifest.xml:28:17-69
 	android:name
-		ADDED from /Users/Entisar/Desktop/Android/doctor/app/src/main/AndroidManifest.xml:28:25-66
+		ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/doctor mar30/doctor/app/src/main/AndroidManifest.xml:28:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/Entisar/Desktop/Android/doctor/app/src/main/AndroidManifest.xml:30:17-77
+ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/doctor mar30/doctor/app/src/main/AndroidManifest.xml:30:17-77
 	android:name
-		ADDED from /Users/Entisar/Desktop/Android/doctor/app/src/main/AndroidManifest.xml:30:27-74
+		ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/doctor mar30/doctor/app/src/main/AndroidManifest.xml:30:27-74
 activity#com.pifss.doctor.Activitys.ForgetPasswordActivity
-ADDED from /Users/Entisar/Desktop/Android/doctor/app/src/main/AndroidManifest.xml:33:9-70
+ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/doctor mar30/doctor/app/src/main/AndroidManifest.xml:33:9-70
 	android:name
-		ADDED from /Users/Entisar/Desktop/Android/doctor/app/src/main/AndroidManifest.xml:33:19-67
+		ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/doctor mar30/doctor/app/src/main/AndroidManifest.xml:33:19-67
 activity#com.pifss.doctor.Activitys.EditDoctorProfileActivity
-ADDED from /Users/Entisar/Desktop/Android/doctor/app/src/main/AndroidManifest.xml:34:9-73
+ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/doctor mar30/doctor/app/src/main/AndroidManifest.xml:34:9-73
 	android:name
-		ADDED from /Users/Entisar/Desktop/Android/doctor/app/src/main/AndroidManifest.xml:34:19-70
+		ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/doctor mar30/doctor/app/src/main/AndroidManifest.xml:34:19-70
 activity#com.pifss.doctor.Activitys.ReplyReportActivity
-ADDED from /Users/Entisar/Desktop/Android/doctor/app/src/main/AndroidManifest.xml:35:9-76
+ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/doctor mar30/doctor/app/src/main/AndroidManifest.xml:35:9-76
 	android:name
-		ADDED from /Users/Entisar/Desktop/Android/doctor/app/src/main/AndroidManifest.xml:35:19-64
+		ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/doctor mar30/doctor/app/src/main/AndroidManifest.xml:35:19-64
 uses-sdk
-INJECTED from /Users/Entisar/Desktop/Android/doctor/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-MERGED from [com.mikepenz:materialdrawer:5.8.2] /Users/Entisar/.android/build-cache/a2479d1763ccf94fa82a33aed431d50727b987b2/output/AndroidManifest.xml:8:5-10:41
-MERGED from [com.mikepenz:materialize:1.0.1] /Users/Entisar/.android/build-cache/654d0fc8704bb7b334e5bf800426e673e3876052/output/AndroidManifest.xml:8:5-10:41
-MERGED from [com.mikepenz:iconics-core:2.8.0] /Users/Entisar/.android/build-cache/b7585d1787c08d26b7e4aa1ddb10abfdcd137f84/output/AndroidManifest.xml:8:5-10:41
-MERGED from [com.mikepenz:fastadapter:2.1.0] /Users/Entisar/.android/build-cache/57650fd6bdc2149589a3a5a1c693ff27be2cfcf2/output/AndroidManifest.xml:8:5-10:41
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/Entisar/.android/build-cache/bad522c24a92cf9e5c9e7f5258ccfcc48df36afd/output/AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support:design:25.2.0] /Users/Entisar/.android/build-cache/7da7010fc8ba9c73b7bbd44e32707d8abcc97463/output/AndroidManifest.xml:21:5-23:62
-MERGED from [com.android.support:appcompat-v7:25.2.0] /Users/Entisar/.android/build-cache/752ac81f1b1993e8602d14a1f3fecad31afcf050/output/AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:animated-vector-drawable:25.2.0] /Users/Entisar/.android/build-cache/bfbe8a0330be95fcee46a7f4985282de3327cd69/output/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:25.2.0] /Users/Entisar/.android/build-cache/3db54e3597b79ebf5a996ce3ce4ff0b469aec3bb/output/AndroidManifest.xml:21:5-43
-MERGED from [com.android.support:recyclerview-v7:25.2.0] /Users/Entisar/.android/build-cache/59c58851fbdb00c797429c06b4ce2e85a6ed7cca/output/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:transition:25.2.0] /Users/Entisar/.android/build-cache/874daa276912b8c4a9e82723ae30a3753ddf8183/output/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:25.2.0] /Users/Entisar/.android/build-cache/f60aafc18217e07e1d131e971abf9900ee3ca562/output/AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-fragment:25.2.0] /Users/Entisar/.android/build-cache/5cca2252ea9269bfd54815c693019fa2755833ca/output/AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-media-compat:25.2.0] /Users/Entisar/.android/build-cache/dbbaed5b7ba4968dbc559531a3186e9e2d73b1e9/output/AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-core-ui:25.2.0] /Users/Entisar/.android/build-cache/e6154e0bcb7c96395397450dfb82a15f2b08edd9/output/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-core-utils:25.2.0] /Users/Entisar/.android/build-cache/f0282e74eecd10f1d8497a23aae9f0e6997e6093/output/AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-compat:25.2.0] /Users/Entisar/.android/build-cache/720e29f84d38984490c05e8f1677298404a55ec7/output/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.volley:volley:1.0.0] /Users/Entisar/.android/build-cache/7730599ce6ac4b747dca5a8cdab05512ccb141d3/output/AndroidManifest.xml:7:5-43
+INJECTED from /Users/trn24/Desktop/IBM/Andriod/Project/doctor mar30/doctor/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.mikepenz:materialdrawer:5.8.2] /Users/trn24/.android/build-cache/964a1fed1a6e76b02583d65146a3edf4a5ca8b7d/output/AndroidManifest.xml:8:5-10:41
+MERGED from [com.mikepenz:materialize:1.0.1] /Users/trn24/.android/build-cache/767e0eac95804b8f2599ade09cd7788c5a556c4e/output/AndroidManifest.xml:8:5-10:41
+MERGED from [com.mikepenz:iconics-core:2.8.0] /Users/trn24/.android/build-cache/89c1269f167335737f6c4c42745bfc5866b4223c/output/AndroidManifest.xml:8:5-10:41
+MERGED from [com.mikepenz:fastadapter:2.1.0] /Users/trn24/.android/build-cache/b5a07dd2e16018d357103a191675bfbd699801a2/output/AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/trn24/.android/build-cache/957fca7446c41095205c4a6f81d5b68562df5527/output/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:design:25.2.0] /Users/trn24/.android/build-cache/b72f8c878670e3cfcbd2a2719560109540c875de/output/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:25.2.0] /Users/trn24/.android/build-cache/f5bbc6ff808a4ac74405d8a761d68a423887319a/output/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.2.0] /Users/trn24/.android/build-cache/71bc82f72bdc687258d33aac1fc944bac5869816/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.2.0] /Users/trn24/.android/build-cache/7a2200fa37b7e86a6f0aea791f9d0cb03dbb661e/output/AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:recyclerview-v7:25.2.0] /Users/trn24/.android/build-cache/3a26b88a5380f202035d5a73dbdd1939eb908493/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:transition:25.2.0] /Users/trn24/.android/build-cache/a0b3db47ce5debdb7886812da3f7fc2b9142aed3/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:25.2.0] /Users/trn24/.android/build-cache/6ceb498cbc27b91666e2324d601e1f1fdf215472/output/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.2.0] /Users/trn24/.android/build-cache/00f93a3537eb3458d11262b8c63a7f27c5398a90/output/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.2.0] /Users/trn24/.android/build-cache/1157dce72d01a30baedc10770a7dfb440988d0cf/output/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.2.0] /Users/trn24/.android/build-cache/2a5f65cc7d09c06395da1856201bb022c9cf2a4f/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.2.0] /Users/trn24/.android/build-cache/17d1b822f6c78ec06d0529175e0683638b42889c/output/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.2.0] /Users/trn24/.android/build-cache/0e9fa8492e042e15d2c0d916328eaaebac6fbbdf/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.volley:volley:1.0.0] /Users/trn24/.android/build-cache/658461f7814f971269a8a18471e124670a8a5066/output/AndroidManifest.xml:7:5-43
 	tools:overrideLibrary
-		ADDED from [com.android.support:design:25.2.0] /Users/Entisar/.android/build-cache/7da7010fc8ba9c73b7bbd44e32707d8abcc97463/output/AndroidManifest.xml:23:9-59
+		ADDED from [com.android.support:design:25.2.0] /Users/trn24/.android/build-cache/b72f8c878670e3cfcbd2a2719560109540c875de/output/AndroidManifest.xml:23:9-59
 	android:targetSdkVersion
-		INJECTED from /Users/Entisar/Desktop/Android/doctor/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/Entisar/Desktop/Android/doctor/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/trn24/Desktop/IBM/Andriod/Project/doctor mar30/doctor/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/trn24/Desktop/IBM/Andriod/Project/doctor mar30/doctor/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /Users/Entisar/Desktop/Android/doctor/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/Entisar/Desktop/Android/doctor/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/trn24/Desktop/IBM/Andriod/Project/doctor mar30/doctor/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/trn24/Desktop/IBM/Andriod/Project/doctor mar30/doctor/app/src/main/AndroidManifest.xml
