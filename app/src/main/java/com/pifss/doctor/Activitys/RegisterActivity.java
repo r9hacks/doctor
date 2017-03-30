@@ -18,6 +18,7 @@ import com.android.volley.RequestQueue;
 import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.HttpHeaderParser;
+import com.android.volley.toolbox.JsonArrayRequest;
 import com.android.volley.toolbox.JsonObjectRequest;
 import com.android.volley.toolbox.Volley;
 import com.google.gson.Gson;
@@ -75,10 +76,12 @@ public class RegisterActivity extends AppCompatActivity {
 
                     JSONObject jsonBody = newDoctor.getJSONDoctor();
                     jsonBody.remove("drId");
-
+                    System.out.println(jsonBody.toString());
+                    Toast.makeText(RegisterActivity.this, jsonBody.toString()+"", Toast.LENGTH_SHORT).show();
                     JsonObjectRequest jsonObjRequest = new JsonObjectRequest(Request.Method.POST, links.Doctor, jsonBody, new Response.Listener<JSONObject>() {
                         @Override
                         public void onResponse(JSONObject response) {
+                            Toast.makeText(RegisterActivity.this, "on response: "+response.toString(), Toast.LENGTH_SHORT).show();
 
                         }
                     }, new Response.ErrorListener() {
@@ -86,9 +89,37 @@ public class RegisterActivity extends AppCompatActivity {
                         public void onErrorResponse(VolleyError error) {
                             System.out.println("error: "+error.toString());
                             //show message
-                          //  Toast.makeText(RegisterActivity.this, "error response: "+error.toString(), Toast.LENGTH_SHORT).show();
+                            Toast.makeText(RegisterActivity.this, "error response: "+error.toString(), Toast.LENGTH_SHORT).show();
                         }
-                    });
+                    }){
+                        @Override
+                        protected Response<JSONObject> parseNetworkResponse(NetworkResponse response) {
+                            String jsonString = "";
+                            JSONObject object = new JSONObject();
+                            try {
+                                jsonString = new String(response.data, "UTF-8");
+                                System.out.println("jsonString");
+
+                                System.out.println("\""+jsonString+"\"");
+                                if (jsonString.equals("")){
+                                    object.put("status",true);
+                                }else{
+                                    object.put("status",false);
+                                }
+
+                                return Response.success(object,
+                                    HttpHeaderParser.parseCacheHeaders(response));
+
+                            } catch (UnsupportedEncodingException e) {
+                                e.printStackTrace();
+                            } catch (JSONException e) {
+                                e.printStackTrace();
+                            }
+                            return Response.success(object,
+                                    HttpHeaderParser.parseCacheHeaders(response));
+
+                        }
+                    };
 
                     queue.add(jsonObjRequest);
                 } catch (JSONException e) {

@@ -36,11 +36,12 @@
         android:id="@+id/imageViewLogo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@mipmap/heart_logo"
-        android:layout_marginTop="38dp"
         android:layout_below="@+id/appBarLayout"
-        android:layout_centerHorizontal="true" >
-    <requestFocus/>
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="38dp"
+        app:srcCompat="@mipmap/mhealth">
+
+        <requestFocus />
 
     </ImageView>
 

@@ -54,11 +54,7 @@
         android:layout_width="200dp"
         android:layout_height="200dp"
         app:srcCompat="@mipmap/international_languages"
-        android:layout_marginLeft="116dp"
-        android:layout_marginStart="116dp"
-        android:layout_marginTop="124dp"
-        android:layout_below="@+id/mytoolbar"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_above="@+id/buttonEnglish"
+        android:layout_centerHorizontal="true" />
 
 </RelativeLayout>

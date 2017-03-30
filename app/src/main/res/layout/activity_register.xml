@@ -34,10 +34,10 @@
         android:id="@+id/imageViewLogo"
         android:layout_width="100dp"
         android:layout_height="100dp"
-        app:srcCompat="@mipmap/heart_logo"
         android:layout_below="@+id/appBarLayout"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="22dp" />
+        android:layout_marginTop="22dp"
+        app:srcCompat="@mipmap/mhealth" />
 
 
     <android.support.design.widget.TextInputLayout
