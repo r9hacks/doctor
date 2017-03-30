@@ -32,6 +32,8 @@ public class links {
     public static String PrefDoctorProfile = "doctorProfile";
     public static String PrefReport = "PatientReport";
 
+    public static String PrefPatientProfile = "patientProfile";
+
 
 }
 

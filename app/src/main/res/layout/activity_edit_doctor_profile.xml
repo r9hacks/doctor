@@ -32,15 +32,17 @@
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_below="@id/appBarLayout"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/appBarLayout"
+        android:layout_above="@+id/btnEdit"
         android:scrollbars="vertical"
-        android:layout_above="@+id/btnEdit">
+        android:id="@+id/scrollView2">
 
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_above="@+id/btnEdit"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
             android:layout_below="@+id/appBarLayout">
@@ -59,16 +61,12 @@
                     android:id="@+id/txtDrCivil"
                     android:layout_width="match_parent"
                     android:layout_height="39dp"
-                    android:layout_above="@+id/btnEdit"
-                    android:layout_alignEnd="@+id/btnEdit"
-                    android:layout_alignRight="@+id/btnEdit"
                     android:layout_marginBottom="37dp"
                     android:layout_marginEnd="14dp"
                     android:layout_marginStart="14dp"
                     android:drawableLeft="@mipmap/id_card"
                     android:drawablePadding="10dp"
                     android:ems="10"
-                    android:gravity=""
                     android:hint="Civil ID"
                     android:inputType="textEmailAddress"
                     android:textColor="@android:color/darker_gray" />
@@ -123,7 +121,7 @@
                     android:drawableLeft="@mipmap/email"
                     android:drawablePadding="10dp"
                     android:ems="10"
-                    android:hint="example@gmail.com"
+                    android:hint="Email"
                     android:inputType="textEmailAddress"
                     android:textColor="@android:color/darker_gray" />
             </android.support.design.widget.TextInputLayout>
@@ -270,56 +268,101 @@
                     android:textColor="@android:color/darker_gray" />
             </android.support.design.widget.TextInputLayout>
 
-            <RelativeLayout
+            <LinearLayout
                 android:id="@+id/GenderRL"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:layout_below="@+id/Birthdate"
-                android:layout_centerHorizontal="true"
-                android:layout_marginLeft="35dp"
+                android:layout_marginLeft="15dp"
                 android:layout_marginRight="15dp"
-                android:layout_marginTop="15dp"
-                android:layout_marginBottom="15dp"
+                android:layout_marginTop="17dp"
+                android:weightSum="1"
+                android:orientation="horizontal">
 
-                >
+
 
                 <ImageView
                     android:id="@+id/imageView8"
-                    android:layout_width="25dp"
-                    android:layout_height="25dp"
-                    android:layout_alignParentLeft="true"
-                    android:layout_alignParentStart="true"
-                    android:layout_marginLeft="3dp"
-                    android:layout_marginStart="3dp"
+                    android:layout_width="0dp"
+                    android:layout_height="23dp"
+                    android:scaleType="fitXY"
+                    android:layout_weight="1"
+                    android:paddingLeft="16dp"
                     app:srcCompat="@mipmap/genders" />
 
-                <ImageButton
-                    android:id="@+id/imgBtnMale"
-                    android:layout_width="25dp"
-                    android:layout_height="25dp"
-                    android:layout_alignParentTop="true"
-                    android:layout_marginLeft="30dp"
-                    android:layout_marginStart="30dp"
-                    android:layout_toEndOf="@+id/imageView8"
-                    android:layout_toRightOf="@+id/imageView8"
-                    android:backgroundTint="@android:color/transparent"
-                    app:srcCompat="@mipmap/male_symbol" />
 
-                <ImageButton
-                    android:id="@+id/imgBtnFemale"
-                    android:layout_width="25dp"
-                    android:layout_height="25dp"
-                    android:layout_alignParentTop="true"
-                    android:layout_marginLeft="34dp"
-                    android:layout_marginStart="34dp"
-                    android:layout_toEndOf="@+id/imgBtnMale"
-                    android:layout_toRightOf="@+id/imgBtnMale"
-                    android:backgroundTint="@android:color/transparent"
-                    app:srcCompat="@mipmap/femenine"
 
-                    />
 
-            </RelativeLayout>
+
+
+                    <!--<ImageView-->
+                        <!--android:id="@+id/imgBtnMale"-->
+                        <!--android:layout_width="25dp"-->
+                        <!--android:layout_height="25dp"-->
+                        <!--android:layout_below="@+id/textView17"-->
+                        <!--android:layout_marginLeft="30dp"-->
+                        <!--android:layout_marginStart="30dp"-->
+                        <!--android:layout_toEndOf="@+id/imageView8"-->
+                        <!--android:layout_toRightOf="@+id/imageView8"-->
+                        <!--android:layout_weight="0.45"-->
+                        <!--android:backgroundTint="@android:color/transparent"-->
+                        <!--app:srcCompat="@mipmap/male_symbol" />-->
+
+                    <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/radioGroupGender"
+                        android:orientation="horizontal"
+                        android:paddingLeft="20dp"
+                        >
+
+                        <RadioButton
+                            android:id="@+id/radioMale"
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:layout_below="@+id/textView17"
+                            android:layout_toEndOf="@+id/imgBtnMale"
+                            android:layout_toRightOf="@+id/imgBtnMale"
+                            android:layout_weight="0.1"
+                            android:text="Male" />
+
+                        <!--<ImageView-->
+                        <!--android:id="@+id/imgBtnFemale"-->
+                        <!--android:layout_width="25dp"-->
+                        <!--android:layout_height="25dp"-->
+                        <!--android:layout_below="@+id/textView17"-->
+                        <!--android:layout_toEndOf="@+id/radioMale"-->
+
+                        <!--android:layout_toRightOf="@+id/radioMale"-->
+                        <!--android:layout_weight="0.63"-->
+                        <!--android:backgroundTint="@android:color/transparent"-->
+                        <!--app:srcCompat="@mipmap/femenine" />-->
+
+                    <RadioButton
+                        android:id="@+id/radioFemale"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:text="Female"
+                        android:layout_below="@+id/textView17"
+                        android:layout_toEndOf="@+id/imgBtnFemale"
+                        android:layout_toRightOf="@+id/imgBtnFemale"
+                        android:layout_weight="0.1" />
+                    </RadioGroup>
+
+
+            </LinearLayout>
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:text="Gender"
+                android:textSize="13sp"
+                android:layout_below="@+id/Birthdate"
+                android:layout_alignLeft="@+id/view6"
+                android:layout_alignStart="@+id/view6"
+                android:layout_marginLeft="32dp"
+                android:layout_marginStart="32dp" />
 
             <view
                 android:id="@+id/view6"
@@ -330,6 +373,7 @@
                 android:layout_below="@id/GenderRL"
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="20dp"
+                android:layout_marginTop="7dp"
                 android:background="@android:color/black"
                 android:textColor="@android:color/darker_gray"
 
@@ -344,6 +388,7 @@
                 android:layout_below="@+id/GenderRL"
                 android:layout_marginLeft="15dp"
                 android:layout_marginRight="15dp"
+                android:layout_marginTop="15dp"
 
                 >
 
@@ -363,6 +408,8 @@
             </android.support.design.widget.TextInputLayout>
 
 
+
+
         </RelativeLayout>
     </ScrollView>
 
@@ -371,13 +418,13 @@
         style="@style/Widget.AppCompat.Button.Colored"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_weight="1"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
         android:alpha="0.75"
         android:background="@color/colorAccent"
         android:text="Save"
         android:textSize="23sp"
-        android:textStyle="bold"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentBottom="true" />
+        android:textStyle="bold" />
 
 </RelativeLayout>

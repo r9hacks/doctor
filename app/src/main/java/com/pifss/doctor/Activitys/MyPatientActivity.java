@@ -17,14 +17,18 @@ import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.JsonArrayRequest;
 import com.google.gson.Gson;
+import com.google.gson.reflect.TypeToken;
 import com.pifss.doctor.Model.Doctor;
 import com.pifss.doctor.Model.MyPatient;
+import com.pifss.doctor.Model.Patient;
 import com.pifss.doctor.R;
 import com.pifss.doctor.Adapters.myPatientAdapter;
 import com.pifss.doctor.RequestQueueSingleTon;
 import com.pifss.doctor.links;
 
 import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
 
 import java.util.ArrayList;
 
@@ -42,10 +46,14 @@ public class MyPatientActivity extends AppCompatActivity {
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setDisplayShowHomeEnabled(true);
 
+
+        final ListView lv= (ListView) findViewById(R.id.myPatientListView);
+
+
         final ArrayList<MyPatient> model=new ArrayList<>();
 
         RequestQueue queue= RequestQueueSingleTon.getInstance().getRequestQueue(MyPatientActivity.this);
-        SharedPreferences preference = getSharedPreferences("settings",MODE_PRIVATE);
+        final SharedPreferences preference = getSharedPreferences("settings",MODE_PRIVATE);
         String doctorProfile = preference.getString(links.PrefDoctorProfile,"notfound");
         Doctor doctor = new Gson().fromJson(doctorProfile,Doctor.class);
 
@@ -58,13 +66,44 @@ public class MyPatientActivity extends AppCompatActivity {
             JsonArrayRequest jsonObjRequest = new JsonArrayRequest(Request.Method.GET, links.MyPatient+doctor.getDrId() , jsonBody, new Response.Listener<JSONArray>() {
                 @Override
                 public void onResponse(JSONArray response) {
-                    Toast.makeText(MyPatientActivity.this, "my patient req list: "+response.toString(), Toast.LENGTH_SHORT).show();
+              //      Toast.makeText(MyPatientActivity.this, "my patient req list: "+response.toString(), Toast.LENGTH_SHORT).show();
                     System.out.println("my patient req list: "+response.toString());
-                }
+
+                    ArrayList<Patient> patients = new ArrayList<>();
+
+
+                    patients = new Gson().fromJson(response.toString(),new TypeToken<ArrayList<Patient>>(){}.getType());
+
+                    for (int i = 0 ; i < patients.size(); i++) {
+
+
+                        String g = patients.get(i).getGender();
+                        if(( g.charAt(0)+"").equalsIgnoreCase("f") )
+                        {
+                            g="Female";
+
+                        }
+
+                        else
+                        {
+                            g="Male";
+                        }
+                        MyPatient myPatient =  new MyPatient(patients.get(i).getFirstName()+" "+patients.get(i).getLastName(), patients.get(i).getDateOfBirth(), patients.get(i).getPhoneNumber(), g ,patients.get(i).getImageUrl());
+                        myPatient.setPatient(patients.get(i));
+                        model.add(myPatient);
+
+
+                    }
+
+                    myPatientAdapter adapter=new myPatientAdapter(MyPatientActivity.this,model);
+
+                    lv.setAdapter(adapter);
+
+                    }
             }, new Response.ErrorListener() {
                 @Override
                 public void onErrorResponse(VolleyError error) {
-                    Toast.makeText(MyPatientActivity.this, "error my patient req list: "+error.toString(), Toast.LENGTH_SHORT).show();
+              //      Toast.makeText(MyPatientActivity.this, "error my patient req list: "+error.toString(), Toast.LENGTH_SHORT).show();
                     System.out.println("error my patient req list: "+error.toString());
                 }
             });
@@ -74,20 +113,6 @@ public class MyPatientActivity extends AppCompatActivity {
             e.printStackTrace();
         }
 
-        model.add(new MyPatient("John Smith",22,"1234","female"));
-        model.add(new MyPatient("Mshmsh Soso",23,"14321","female"));
-        model.add(new MyPatient("John Smith",22,"1234","female"));
-        model.add(new MyPatient("Mshmsh Soso",23,"14321","female"));
-        model.add(new MyPatient("John Smith",22,"1234","female"));
-        model.add(new MyPatient("Mshmsh Soso",23,"14321","female"));
-
-
-        myPatientAdapter adapter=new myPatientAdapter(MyPatientActivity.this,model);
-
-
-        ListView lv= (ListView) findViewById(R.id.myPatientListView);
-
-        lv.setAdapter(adapter);
 
 
         lv.setOnItemClickListener(new AdapterView.OnItemClickListener() {
@@ -96,11 +121,27 @@ public class MyPatientActivity extends AppCompatActivity {
 
                 MyPatient patient = model.get(position);
 
-                Toast.makeText(MyPatientActivity.this, patient.getName(), Toast.LENGTH_SHORT).show();
+
+                 Toast.makeText(MyPatientActivity.this, "clicked "+patient.getName(), Toast.LENGTH_SHORT).show();
+
+                JSONObject object= null;
+                try {
+                    object = patient.getPatient().getJSONPatient();
+
+
+                } catch (JSONException e) {
+                    e.printStackTrace();
+                }
+//shared pref
+                SharedPreferences preference = getSharedPreferences("settings", MODE_PRIVATE);
+                SharedPreferences.Editor editor = preference.edit();
+                editor.putString(links.PrefPatientProfile, object.toString());
+                editor.commit();
 
 
                 Intent i=new Intent(MyPatientActivity.this,PatientProfileActivity.class);
                 startActivity(i);
+
 
 
             }
