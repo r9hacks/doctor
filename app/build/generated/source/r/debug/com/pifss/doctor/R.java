@@ -3820,7 +3820,7 @@ containing a value of this type.
         public static final int iconics_tag_id=0x7f0d0005;
         public static final int ifRoom=0x7f0d005a;
         public static final int image=0x7f0d0064;
-        public static final int imageButton4=0x7f0d00ac;
+        public static final int imgBtnMale =0x7f0d00ac;
         public static final int imageButton5=0x7f0d00ad;
         public static final int imageButtonAccept=0x7f0d011a;
         public static final int imageButtonDecline=0x7f0d0119;

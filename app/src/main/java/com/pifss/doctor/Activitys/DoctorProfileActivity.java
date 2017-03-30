@@ -76,10 +76,6 @@ public class DoctorProfileActivity extends AppCompatActivity {
 
 
 
-
-
-
-
     }
 
     @Override
