@@ -988,6 +988,10 @@
         "source": "C:\\Users\\Entisar\\.android\\build-cache\\752ac81f1b1993e8602d14a1f3fecad31afcf050\\output\\res\\layout\\abc_action_mode_close_item_material.xml"
     },
     {
+        "merged": "C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v3\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_reply_confirm.xml",
+        "source": "C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v3\\doctor\\app\\src\\main\\res\\layout\\activity_reply_confirm.xml"
+    },
+    {
         "merged": "C:\\Users\\Entisar\\Desktop\\Android\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
         "source": "C:\\Users\\Entisar\\.android\\build-cache\\752ac81f1b1993e8602d14a1f3fecad31afcf050\\output\\res\\layout\\abc_screen_simple.xml"
     },
