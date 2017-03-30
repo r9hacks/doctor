@@ -10,6 +10,7 @@ import android.widget.TextView;
 
 import com.pifss.doctor.R;
 import com.pifss.doctor.Model.ReportCell;
+import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;
 
@@ -61,16 +62,25 @@ public class ReportAdapter extends BaseAdapter {
 
         ReportCell report = model.get(position);
 
-        //image.setImageResource(m.getImage());
+      //  image.setImageResource(m.getImage());
 //        Picasso.with(context).invalidate(m.getImage());
-//        Picasso.with(this.context).load(m.getImage()).into(image);
+        if (!report.getImageURL().equals("")){
+
+            Picasso.with(this.context).load(report.getImageURL()).into(image);
+        }
 
         name.setText(report.getName());
         comments.setText(report.getComment());
         date.setText(report.getDate());
         heartRate.setText(report.getHeartRate());
         bloodPressure.setText(report.getBloodPreassure());
-        gender.setText(report.getGender());
+
+        String g = report.getGender();
+        if ( (g.charAt(0) + "").equalsIgnoreCase("f")){
+            gender.setText("Female");
+        }else{
+            gender.setText("Male");
+        }
 
         return v;
     }

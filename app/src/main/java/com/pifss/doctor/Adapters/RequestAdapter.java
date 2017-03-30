@@ -5,10 +5,12 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
+import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.pifss.doctor.Activitys.PatientRequestActivity;
 import com.pifss.doctor.Model.PatientRequest;
 import com.pifss.doctor.R;
 
@@ -64,6 +66,10 @@ public class RequestAdapter extends BaseAdapter {
         TextView gender= (TextView) view.findViewById(R.id.textViewGender);
 
 
+        final ImageButton accept = (ImageButton) view.findViewById(R.id.imageButtonAccept);
+        final ImageButton decline = (ImageButton) view.findViewById(R.id.imageButtonDecline);
+
+
 
 
         PatientRequest patient = model.get(position);
@@ -77,7 +83,22 @@ public class RequestAdapter extends BaseAdapter {
         civil.setText(patient.getCivilId());
 
 
+        accept.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
 
+                Toast.makeText(context, "clicked accept", Toast.LENGTH_SHORT).show();
+            }
+        });
+
+
+        decline.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Toast.makeText(context, "clicked decline", Toast.LENGTH_SHORT).show();
+            }
+        });
 
 
         img.setOnClickListener(new View.OnClickListener() {

@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.AdapterView;
+import android.widget.ImageButton;
 import android.widget.ListView;
 import android.widget.Toast;
 
@@ -17,7 +18,10 @@ import com.android.volley.VolleyError;
 import com.android.volley.toolbox.JsonArrayRequest;
 import com.android.volley.toolbox.JsonObjectRequest;
 import com.google.gson.Gson;
+import com.google.gson.reflect.TypeToken;
+import com.pifss.doctor.Adapters.myPatientAdapter;
 import com.pifss.doctor.Model.Doctor;
+import com.pifss.doctor.Model.Patient;
 import com.pifss.doctor.Model.PatientRequest;
 import com.pifss.doctor.R;
 import com.pifss.doctor.Adapters.RequestAdapter;
@@ -47,6 +51,9 @@ public class PatientRequestActivity extends AppCompatActivity {
 
         final ArrayList<PatientRequest> model=new ArrayList<>();
 
+        final ListView lv= (ListView) findViewById(R.id.invitationListView);
+
+
         RequestQueue queue= RequestQueueSingleTon.getInstance().getRequestQueue(PatientRequestActivity.this);
         SharedPreferences preference = getSharedPreferences("settings",MODE_PRIVATE);
         String doctorProfile = preference.getString(links.PrefDoctorProfile,"notfound");
@@ -63,6 +70,25 @@ public class PatientRequestActivity extends AppCompatActivity {
                 public void onResponse(JSONArray response) {
                     Toast.makeText(PatientRequestActivity.this, "get patient req list: "+response.toString(), Toast.LENGTH_SHORT).show();
                     System.out.println("get patient req list: "+response.toString());
+
+                    ArrayList<Patient> patients = new ArrayList<>();
+
+
+                    patients = new Gson().fromJson(response.toString(),new TypeToken<ArrayList<Patient>>(){}.getType());
+
+                    for (int i = 0 ; i < patients.size(); i++) {
+
+
+                        PatientRequest request =  new PatientRequest(patients.get(i).getFirstName()+" "+patients.get(i).getLastName(), patients.get(i).getDateOfBirth(), patients.get(i).getCivilId(), patients.get(i).getGender(), patients.get(i).getImageUrl());
+                                model.add(request);
+
+
+                    }
+                    RequestAdapter adapter=new RequestAdapter(PatientRequestActivity.this, model);
+
+                    lv.setAdapter(adapter);
+
+
                 }
             }, new Response.ErrorListener() {
                 @Override
@@ -76,20 +102,8 @@ public class PatientRequestActivity extends AppCompatActivity {
         } catch (Exception e) {
             e.printStackTrace();
         }
-        model.add(new PatientRequest("John Smith",22,"1234","female"));
-        model.add(new PatientRequest("Mshmsh Soso",23,"14321","female"));
-        model.add(new PatientRequest("John Smith",22,"1234","female"));
-        model.add(new PatientRequest("Mshmsh Soso",23,"14321","female"));
-        model.add(new PatientRequest("John Smith",22,"1234","female"));
-        model.add(new PatientRequest("Mshmsh Soso",23,"14321","female"));
 
 
-        RequestAdapter adapter=new RequestAdapter(PatientRequestActivity.this,model);
-
-
-        ListView lv= (ListView) findViewById(R.id.invitationListView);
-
-        lv.setAdapter(adapter);
 
 
         lv.setOnItemClickListener(new AdapterView.OnItemClickListener() {
@@ -97,9 +111,8 @@ public class PatientRequestActivity extends AppCompatActivity {
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
 
                 PatientRequest request = model.get(position);
-
                 Toast.makeText(PatientRequestActivity.this, request.getName(), Toast.LENGTH_SHORT).show();
-
+                
 
 
             }

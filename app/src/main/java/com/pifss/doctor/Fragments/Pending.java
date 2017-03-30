@@ -23,9 +23,11 @@ import com.android.volley.VolleyLog;
 import com.android.volley.toolbox.HttpHeaderParser;
 import com.android.volley.toolbox.StringRequest;
 import com.google.gson.Gson;
+import com.google.gson.reflect.TypeToken;
 import com.pifss.doctor.Activitys.ReportDetailActivity;
 import com.pifss.doctor.Adapters.ReportAdapter;
 import com.pifss.doctor.Model.Doctor;
+import com.pifss.doctor.Model.Report;
 import com.pifss.doctor.Model.ReportCell;
 import com.pifss.doctor.R;
 import com.pifss.doctor.RequestQueueSingleTon;
@@ -56,13 +58,33 @@ public class Pending extends Fragment {
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_pending, container, false);
 
-        fillModel();
         RequestQueue queue= RequestQueueSingleTon.getInstance().getRequestQueue(getActivity());
         SharedPreferences preference = getActivity().getSharedPreferences("settings",getActivity().MODE_PRIVATE);
         String doctorProfile = preference.getString(links.PrefDoctorProfile,"notfound");
         Doctor doctor = new Gson().fromJson(doctorProfile,Doctor.class);
 
+        final ReportAdapter adapter = new ReportAdapter(getActivity(),model);
+        ListView myList = (ListView) view.findViewById(R.id.listView);
+        myList.setAdapter(adapter);
+        myList.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
 
+                ReportCell rCell = model.get(position);
+                try {
+                    JSONObject jsonReport = rCell.getReportObject().getJSONReport();
+                    SharedPreferences preference = getActivity().getSharedPreferences("settings",getActivity().MODE_PRIVATE);
+                    SharedPreferences.Editor editor = preference.edit();
+                    editor.putString(links.PrefReport, jsonReport.toString());
+                    editor.commit();
+                } catch (JSONException e) {
+                    e.printStackTrace();
+                }
+
+                Intent i = new Intent(getActivity(), ReportDetailActivity.class);
+                startActivity(i);
+            }
+        });
 
         try {
             JSONObject jsonBody = new JSONObject();
@@ -82,16 +104,21 @@ public class Pending extends Fragment {
                             JSONObject report = pendingArrayTemp.getJSONObject(i);
 
                             if (report.has("drcomment")){
-                                String drcomment = null;
-
-                                drcomment = report.getString("drcomment");
+                                String drcomment = report.getString("drcomment");
 
                                 if (drcomment.equalsIgnoreCase("")){
                                     pendingArray.put(report);
                                 }
                             }
-
                         }
+
+
+                        ArrayList<Report> report = new Gson().fromJson(pendingArray.toString(), new TypeToken<ArrayList<Report>>(){}.getType());
+                        for (Report r:report) {
+                            model.add(new ReportCell(r.getName(),r.getTimestamp(),r.getComments(),r.getImg(),r.getGender(),r.getHeartbeatRate(),r.getBloodPressure(),r));
+                            adapter.notifyDataSetChanged();
+                        }
+
 
                         Toast.makeText(getActivity(), "report pending list: "+pendingArray.toString(), Toast.LENGTH_SHORT).show();
                         System.out.println("report pending list: "+pendingArray.toString());
@@ -125,6 +152,7 @@ public class Pending extends Fragment {
                 @Override
                 protected Response<String> parseNetworkResponse(NetworkResponse response) {
                     try {
+
                         String jsonString = new String(response.data,
                                 HttpHeaderParser.parseCharset(response.headers, "utf-8"));
                         //Allow null
@@ -144,31 +172,10 @@ public class Pending extends Fragment {
         } catch (JSONException e) {
             e.printStackTrace();
         }
-        final ReportAdapter adapter = new ReportAdapter(getActivity(),model);
 
-        ListView myList = (ListView) view.findViewById(R.id.listView);
-
-        myList.setAdapter(adapter);
-
-        myList.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-            @Override
-            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                Intent i = new Intent(getActivity(), ReportDetailActivity.class);
-                startActivity(i);
-            }
-        });
 
         return view;
     }
 
-    void fillModel(){
-        model.add(new ReportCell("Sophie ALSaffar","Today","i dont feel good today ha ha ha","","Female","80","120/80"));
-        model.add(new ReportCell("Sophie ALSaffar","Today","i dont feel good today ha ha ha","","Female","80","120/80"));
-        model.add(new ReportCell("Sophie ALSaffar","Today","i dont feel good today ha ha ha","","Female","80","120/80"));
-        model.add(new ReportCell("Sophie ALSaffar","Today","i dont feel good today ha ha ha","","Female","80","120/80"));
-        model.add(new ReportCell("Sophie ALSaffar","Today","i dont feel good today ha ha ha","","Female","80","120/80"));
-        model.add(new ReportCell("Sophie ALSaffar","Today","i dont feel good today ha ha ha","","Female","80","120/80"));
-        model.add(new ReportCell("Sophie ALSaffar","Today","i dont feel good today ha ha ha","","Female","80","120/80"));
-        model.add(new ReportCell("Sophie ALSaffar","Today","i dont feel good today ha ha ha","","Female","80","120/80"));
-    }
+
 }
