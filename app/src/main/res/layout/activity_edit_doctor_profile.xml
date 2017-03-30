@@ -34,39 +34,40 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_below="@id/appBarLayout"
-        android:layout_above="@id/btnRegister"
         android:scrollbars="vertical"
-        >
+        android:layout_above="@+id/btnEdit">
 
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            >
+            android:layout_above="@+id/btnEdit"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/appBarLayout">
 
             <android.support.design.widget.TextInputLayout
+                android:id="@+id/textInputLayoutCivil"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/textInputLayoutCivil"
-                android:layout_below="@+id/LocationPLayout"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentStart="true"
+                android:layout_below="@+id/LocationPLayout"
                 android:layout_marginLeft="15dp"
-                android:layout_marginRight="15dp"
-                >
+                android:layout_marginRight="15dp">
 
                 <EditText
                     android:id="@+id/txtDrCivil"
                     android:layout_width="match_parent"
                     android:layout_height="39dp"
-                    android:layout_above="@+id/btnRegister"
-                    android:layout_alignEnd="@+id/btnRegister"
-                    android:layout_alignRight="@+id/btnRegister"
+                    android:layout_above="@+id/btnEdit"
+                    android:layout_alignEnd="@+id/btnEdit"
+                    android:layout_alignRight="@+id/btnEdit"
                     android:layout_marginBottom="37dp"
+                    android:layout_marginEnd="14dp"
+                    android:layout_marginStart="14dp"
                     android:drawableLeft="@mipmap/id_card"
                     android:drawablePadding="10dp"
                     android:ems="10"
-                    android:layout_marginStart="14dp"
-                    android:layout_marginEnd="14dp"
                     android:gravity=""
                     android:hint="Civil ID"
                     android:inputType="textEmailAddress"
@@ -74,42 +75,42 @@
             </android.support.design.widget.TextInputLayout>
 
             <android.support.design.widget.TextInputLayout
-                android:layout_height="wrap_content"
+                android:id="@+id/textInputLayoutName"
                 android:layout_width="match_parent"
-                android:layout_below="@+id/appBarLayout"
+                android:layout_height="wrap_content"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentStart="true"
-                android:id="@+id/textInputLayoutName"
                 android:layout_marginLeft="15dp"
                 android:layout_marginRight="15dp"
 
                 >
+
                 <EditText
                     android:id="@+id/txtDrName"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_marginEnd="14dp"
+                    android:layout_marginStart="14dp"
                     android:drawableLeft="@mipmap/doctor"
                     android:drawablePadding="10dp"
                     android:ems="10"
                     android:hint="Name"
-                    android:layout_marginStart="14dp"
-                    android:layout_marginEnd="14dp"
                     android:inputType="textPersonName"
-                    android:textColor="@android:color/darker_gray"
-                    />
+                    android:textColor="@android:color/darker_gray" />
             </android.support.design.widget.TextInputLayout>
 
             <android.support.design.widget.TextInputLayout
                 android:id="@+id/textInputLayoutEmail"
-                android:layout_height="wrap_content"
                 android:layout_width="match_parent"
-                android:layout_below="@+id/textInputLayoutName"
+                android:layout_height="wrap_content"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentStart="true"
+                android:layout_below="@+id/textInputLayoutName"
                 android:layout_marginLeft="15dp"
                 android:layout_marginRight="15dp"
 
                 >
+
                 <EditText
                     android:id="@+id/txtDrEmail"
                     android:layout_width="match_parent"
@@ -117,10 +118,10 @@
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true"
                     android:layout_below="@+id/textInputLayoutName"
+                    android:layout_marginEnd="14dp"
+                    android:layout_marginStart="14dp"
                     android:drawableLeft="@mipmap/email"
                     android:drawablePadding="10dp"
-                    android:layout_marginStart="14dp"
-                    android:layout_marginEnd="14dp"
                     android:ems="10"
                     android:hint="example@gmail.com"
                     android:inputType="textEmailAddress"
@@ -129,37 +130,37 @@
 
             <android.support.design.widget.TextInputLayout
                 android:id="@+id/textInputLayoutPass"
-                android:layout_height="wrap_content"
                 android:layout_width="match_parent"
-                android:layout_below="@+id/textInputLayoutEmail"
+                android:layout_height="wrap_content"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentStart="true"
+                android:layout_below="@+id/textInputLayoutEmail"
                 android:layout_marginLeft="15dp"
                 android:layout_marginRight="15dp"
 
                 >
+
                 <EditText
                     android:id="@+id/txtDrPassword"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_marginEnd="14dp"
+                    android:layout_marginStart="14dp"
                     android:drawableLeft="@mipmap/password"
                     android:drawablePadding="10dp"
                     android:ems="10"
-                    android:layout_marginStart="14dp"
-                    android:layout_marginEnd="14dp"
                     android:hint="Password"
                     android:inputType="textPassword"
-                    android:textColor="@android:color/darker_gray"
-                    />
+                    android:textColor="@android:color/darker_gray" />
             </android.support.design.widget.TextInputLayout>
 
             <android.support.design.widget.TextInputLayout
                 android:id="@+id/LocationPLayout"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_below="@+id/textInputLayoutPass"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentStart="true"
+                android:layout_below="@+id/textInputLayoutPass"
                 android:layout_marginLeft="15dp"
                 android:layout_marginRight="15dp"
 
@@ -172,11 +173,11 @@
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true"
                     android:layout_below="@+id/civilPLayout"
+                    android:layout_marginEnd="14dp"
+                    android:layout_marginStart="14dp"
                     android:layout_marginTop="74dp"
                     android:drawableLeft="@mipmap/map"
                     android:drawablePadding="10dp"
-                    android:layout_marginStart="14dp"
-                    android:layout_marginEnd="14dp"
                     android:ems="10"
                     android:hint="Location"
                     android:textColor="@android:color/darker_gray" />
@@ -186,12 +187,12 @@
                 android:id="@+id/NarionalityIL"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="54dp"
-                android:layout_below="@+id/LocationPLayout"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentStart="true"
+                android:layout_below="@+id/LocationPLayout"
                 android:layout_marginLeft="15dp"
                 android:layout_marginRight="15dp"
+                android:layout_marginTop="54dp"
 
                 >
 
@@ -201,8 +202,8 @@
                     android:layout_height="wrap_content"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true"
-                    android:layout_marginStart="14dp"
                     android:layout_marginEnd="14dp"
+                    android:layout_marginStart="14dp"
                     android:layout_marginTop="74dp"
                     android:drawableLeft="@mipmap/maps_and_flags"
                     android:drawablePadding="10dp"
@@ -210,14 +211,15 @@
                     android:hint="Nationality"
                     android:textColor="@android:color/darker_gray" />
             </android.support.design.widget.TextInputLayout>
+
             <android.support.design.widget.TextInputLayout
                 android:id="@+id/Specialty"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_centerVertical="true"
-                android:layout_below="@+id/NarionalityIL"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentStart="true"
+                android:layout_below="@+id/NarionalityIL"
+                android:layout_centerVertical="true"
                 android:layout_marginLeft="15dp"
                 android:layout_marginRight="15dp"
 
@@ -229,8 +231,8 @@
                     android:layout_height="wrap_content"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true"
-                    android:layout_marginStart="14dp"
                     android:layout_marginEnd="14dp"
+                    android:layout_marginStart="14dp"
                     android:layout_marginTop="74dp"
                     android:drawableLeft="@mipmap/stethoscope_profile"
                     android:drawablePadding="10dp"
@@ -243,10 +245,10 @@
                 android:id="@+id/Birthdate"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_centerVertical="true"
-                android:layout_below="@+id/Specialty"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentStart="true"
+                android:layout_below="@+id/Specialty"
+                android:layout_centerVertical="true"
                 android:layout_marginLeft="15dp"
                 android:layout_marginRight="15dp"
 
@@ -258,8 +260,8 @@
                     android:layout_height="wrap_content"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true"
-                    android:layout_marginStart="14dp"
                     android:layout_marginEnd="14dp"
+                    android:layout_marginStart="14dp"
                     android:layout_marginTop="74dp"
                     android:drawableLeft="@mipmap/calendar_prof"
                     android:drawablePadding="10dp"
@@ -276,6 +278,8 @@
                 android:layout_centerHorizontal="true"
                 android:layout_marginLeft="35dp"
                 android:layout_marginRight="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp"
 
                 >
 
@@ -316,6 +320,7 @@
                     />
 
             </RelativeLayout>
+
             <view
                 android:id="@+id/view6"
                 class="android.support.v7.widget.Toolbar"
@@ -334,11 +339,11 @@
                 android:id="@+id/Bio"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
                 android:layout_below="@+id/GenderRL"
                 android:layout_marginLeft="15dp"
                 android:layout_marginRight="15dp"
-                android:layout_alignParentLeft="true"
-                android:layout_alignParentStart="true"
 
                 >
 
@@ -355,17 +360,14 @@
                     android:textColor="@android:color/darker_gray" />
 
 
-
-
             </android.support.design.widget.TextInputLayout>
 
 
         </RelativeLayout>
-
     </ScrollView>
 
     <Button
-        android:id="@+id/btnRegister"
+        android:id="@+id/btnEdit"
         style="@style/Widget.AppCompat.Button.Colored"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
