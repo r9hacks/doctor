@@ -73,7 +73,7 @@ public class loginActivity extends AppCompatActivity {
                                 if ((response.getString("errorMsgEn")).equalsIgnoreCase("Error")) {
                                     //error login
                                     //show message
-                                   // Toast.makeText(loginActivity.this, "Error response: " + response.toString(), Toast.LENGTH_SHORT).show();
+                                    Toast.makeText(loginActivity.this, "Error response: " + response.toString(), Toast.LENGTH_SHORT).show();
 
                                     return;
                                 }
@@ -81,7 +81,7 @@ public class loginActivity extends AppCompatActivity {
                                 JSONObject profileJson = response.getJSONObject("items");
                                 Doctor doctor = new Gson().fromJson(profileJson.toString(), Doctor.class);
 
-                                  //  Toast.makeText(loginActivity.this, "response: " + response.toString(), Toast.LENGTH_SHORT).show();
+                                    Toast.makeText(loginActivity.this, "" + doctor.getJSONDoctor().toString(), Toast.LENGTH_SHORT).show();
 
                                     // save profile to shared refrences
                                     SharedPreferences preference = getSharedPreferences("settings", MODE_PRIVATE);

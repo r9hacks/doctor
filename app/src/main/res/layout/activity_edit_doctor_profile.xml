@@ -31,51 +31,28 @@
 
 
     <ScrollView
+        android:id="@+id/scrollView2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_above="@+id/btnEdit"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_below="@+id/appBarLayout"
-        android:layout_above="@+id/btnEdit"
-        android:scrollbars="vertical"
-        android:id="@+id/scrollView2">
+        android:scrollbars="vertical">
 
-        <RelativeLayout
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
-            android:layout_below="@+id/appBarLayout">
+            android:layout_below="@+id/appBarLayout"
+            android:orientation="vertical">
 
-            <android.support.design.widget.TextInputLayout
-                android:id="@+id/textInputLayoutCivil"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_alignParentLeft="true"
-                android:layout_alignParentStart="true"
-                android:layout_below="@+id/LocationPLayout"
-                android:layout_marginLeft="15dp"
-                android:layout_marginRight="15dp">
-
-                <EditText
-                    android:id="@+id/txtDrCivil"
-                    android:layout_width="match_parent"
-                    android:layout_height="39dp"
-                    android:layout_marginBottom="37dp"
-                    android:layout_marginEnd="14dp"
-                    android:layout_marginStart="14dp"
-                    android:drawableLeft="@mipmap/id_card"
-                    android:drawablePadding="10dp"
-                    android:ems="10"
-                    android:hint="Civil ID"
-                    android:inputType="textEmailAddress"
-                    android:textColor="@android:color/darker_gray" />
-            </android.support.design.widget.TextInputLayout>
 
             <android.support.design.widget.TextInputLayout
                 android:id="@+id/textInputLayoutName"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentStart="true"
                 android:layout_marginLeft="15dp"
@@ -86,7 +63,7 @@
                 <EditText
                     android:id="@+id/txtDrName"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="match_parent"
                     android:layout_marginEnd="14dp"
                     android:layout_marginStart="14dp"
                     android:drawableLeft="@mipmap/doctor"
@@ -100,7 +77,7 @@
             <android.support.design.widget.TextInputLayout
                 android:id="@+id/textInputLayoutEmail"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentStart="true"
                 android:layout_below="@+id/textInputLayoutName"
@@ -112,7 +89,7 @@
                 <EditText
                     android:id="@+id/txtDrEmail"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="match_parent"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true"
                     android:layout_below="@+id/textInputLayoutName"
@@ -129,7 +106,7 @@
             <android.support.design.widget.TextInputLayout
                 android:id="@+id/textInputLayoutPass"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentStart="true"
                 android:layout_below="@+id/textInputLayoutEmail"
@@ -155,7 +132,7 @@
             <android.support.design.widget.TextInputLayout
                 android:id="@+id/LocationPLayout"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentStart="true"
                 android:layout_below="@+id/textInputLayoutPass"
@@ -167,7 +144,7 @@
                 <EditText
                     android:id="@+id/txtLocation"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="match_parent"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true"
                     android:layout_below="@+id/civilPLayout"
@@ -182,27 +159,49 @@
             </android.support.design.widget.TextInputLayout>
 
             <android.support.design.widget.TextInputLayout
+                android:id="@+id/textInputLayoutCivil"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/LocationPLayout"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp">
+
+                <EditText
+                    android:id="@+id/txtDrCivil"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginEnd="14dp"
+                    android:layout_marginStart="14dp"
+                    android:drawableLeft="@mipmap/id_card"
+                    android:drawablePadding="10dp"
+                    android:ems="10"
+                    android:hint="Civil ID"
+                    android:inputType="textEmailAddress"
+                    android:textColor="@android:color/darker_gray" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
                 android:id="@+id/NarionalityIL"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentStart="true"
                 android:layout_below="@+id/LocationPLayout"
                 android:layout_marginLeft="15dp"
                 android:layout_marginRight="15dp"
-                android:layout_marginTop="54dp"
 
                 >
 
                 <EditText
                     android:id="@+id/txtNationality"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="match_parent"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true"
                     android:layout_marginEnd="14dp"
                     android:layout_marginStart="14dp"
-                    android:layout_marginTop="74dp"
                     android:drawableLeft="@mipmap/maps_and_flags"
                     android:drawablePadding="10dp"
                     android:ems="10"
@@ -213,7 +212,7 @@
             <android.support.design.widget.TextInputLayout
                 android:id="@+id/Specialty"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentStart="true"
                 android:layout_below="@+id/NarionalityIL"
@@ -226,12 +225,11 @@
                 <EditText
                     android:id="@+id/txtSpecialty"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="match_parent"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true"
                     android:layout_marginEnd="14dp"
                     android:layout_marginStart="14dp"
-                    android:layout_marginTop="74dp"
                     android:drawableLeft="@mipmap/stethoscope_profile"
                     android:drawablePadding="10dp"
                     android:ems="10"
@@ -239,82 +237,104 @@
                     android:textColor="@android:color/darker_gray" />
             </android.support.design.widget.TextInputLayout>
 
-            <android.support.design.widget.TextInputLayout
-                android:id="@+id/Birthdate"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_alignParentLeft="true"
-                android:layout_alignParentStart="true"
-                android:layout_below="@+id/Specialty"
-                android:layout_centerVertical="true"
-                android:layout_marginLeft="15dp"
-                android:layout_marginRight="15dp"
-
-                >
-
-                <EditText
-                    android:id="@+id/txtBirthdate"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentLeft="true"
-                    android:layout_alignParentStart="true"
-                    android:layout_marginEnd="14dp"
-                    android:layout_marginStart="14dp"
-                    android:layout_marginTop="74dp"
-                    android:drawableLeft="@mipmap/calendar_prof"
-                    android:drawablePadding="10dp"
-                    android:ems="10"
-                    android:hint="Birthdate"
-                    android:textColor="@android:color/darker_gray" />
-            </android.support.design.widget.TextInputLayout>
-
             <LinearLayout
-                android:id="@+id/GenderRL"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_below="@+id/Birthdate"
+                android:layout_height="match_parent"
                 android:layout_marginLeft="15dp"
                 android:layout_marginRight="15dp"
-                android:layout_marginTop="17dp"
-                android:weightSum="1"
+                android:layout_marginTop="10dp"
                 android:orientation="horizontal">
 
-
-
                 <ImageView
-                    android:id="@+id/imageView8"
-                    android:layout_width="0dp"
-                    android:layout_height="23dp"
-                    android:scaleType="fitXY"
+                    android:id="@+id/imageView16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.05"
+                    android:layout_marginEnd="14dp"
+                    android:layout_marginStart="14dp"
+                    android:layout_marginTop="7dp"
+                    android:layout_marginBottom="7dp"
+                    app:srcCompat="@mipmap/calendar_prof" />
+
+                <TextView
+                    android:id="@+id/txtBirthdate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="7dp"
+                    android:layout_marginTop="7dp"
                     android:layout_weight="1"
-                    android:paddingLeft="16dp"
-                    app:srcCompat="@mipmap/genders" />
+                    android:text="01-01-2017"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar6"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="35dp"
+                android:layout_marginRight="35dp"
+                android:layout_weight="0.05"
+                android:background="@android:color/black"
+                android:minHeight="?attr/actionBarSize"
+                android:theme="?attr/actionBarTheme" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="15dp">
+
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="32dp"
+                    android:layout_marginStart="32dp"
+                    android:paddingLeft="10dp"
+                    android:text="Gender"
+                    android:textSize="13sp"
+                    android:layout_marginBottom="5dp"/>
+
+                <LinearLayout
+                    android:id="@+id/GenderRL"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="17dp"
+                    android:orientation="horizontal"
+                    android:weightSum="1">
 
 
-
-
+                    <ImageView
+                        android:id="@+id/imageView8"
+                        android:layout_width="0dp"
+                        android:layout_height="23dp"
+                        android:layout_weight="1"
+                        android:paddingLeft="16dp"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@mipmap/genders" />
 
 
                     <!--<ImageView-->
-                        <!--android:id="@+id/imgBtnMale"-->
-                        <!--android:layout_width="25dp"-->
-                        <!--android:layout_height="25dp"-->
-                        <!--android:layout_below="@+id/textView17"-->
-                        <!--android:layout_marginLeft="30dp"-->
-                        <!--android:layout_marginStart="30dp"-->
-                        <!--android:layout_toEndOf="@+id/imageView8"-->
-                        <!--android:layout_toRightOf="@+id/imageView8"-->
-                        <!--android:layout_weight="0.45"-->
-                        <!--android:backgroundTint="@android:color/transparent"-->
-                        <!--app:srcCompat="@mipmap/male_symbol" />-->
+                    <!--android:id="@+id/imgBtnMale"-->
+                    <!--android:layout_width="25dp"-->
+                    <!--android:layout_height="25dp"-->
+                    <!--android:layout_below="@+id/textView17"-->
+                    <!--android:layout_marginLeft="30dp"-->
+                    <!--android:layout_marginStart="30dp"-->
+                    <!--android:layout_toEndOf="@+id/imageView8"-->
+                    <!--android:layout_toRightOf="@+id/imageView8"-->
+                    <!--android:layout_weight="0.45"-->
+                    <!--android:backgroundTint="@android:color/transparent"-->
+                    <!--app:srcCompat="@mipmap/male_symbol" />-->
 
                     <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+                        android:id="@+id/radioGroupGender"
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
-                        android:id="@+id/radioGroupGender"
                         android:orientation="horizontal"
-                        android:paddingLeft="20dp"
-                        >
+                        android:paddingLeft="20dp">
 
                         <RadioButton
                             android:id="@+id/radioMale"
@@ -338,57 +358,42 @@
                         <!--android:backgroundTint="@android:color/transparent"-->
                         <!--app:srcCompat="@mipmap/femenine" />-->
 
-                    <RadioButton
-                        android:id="@+id/radioFemale"
-                        android:layout_width="25dp"
-                        android:layout_height="25dp"
-                        android:text="Female"
-                        android:layout_below="@+id/textView17"
-                        android:layout_toEndOf="@+id/imgBtnFemale"
-                        android:layout_toRightOf="@+id/imgBtnFemale"
-                        android:layout_weight="0.1" />
+                        <RadioButton
+                            android:id="@+id/radioFemale"
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:layout_below="@+id/textView17"
+                            android:layout_toEndOf="@+id/imgBtnFemale"
+                            android:layout_toRightOf="@+id/imgBtnFemale"
+                            android:layout_weight="0.1"
+                            android:text="Female" />
                     </RadioGroup>
 
 
-            </LinearLayout>
-            <TextView
-                android:id="@+id/textView17"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:paddingLeft="10dp"
-                android:text="Gender"
-                android:textSize="13sp"
-                android:layout_below="@+id/Birthdate"
-                android:layout_alignLeft="@+id/view6"
-                android:layout_alignStart="@+id/view6"
-                android:layout_marginLeft="32dp"
-                android:layout_marginStart="32dp" />
+                </LinearLayout>
+            </RelativeLayout>
 
-            <view
-                android:id="@+id/view6"
-                class="android.support.v7.widget.Toolbar"
-                layout_width="match_parent"
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar7"
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
-                android:layout_below="@id/GenderRL"
-                android:layout_marginLeft="20dp"
-                android:layout_marginRight="20dp"
-                android:layout_marginTop="7dp"
+                android:layout_marginLeft="35dp"
+                android:layout_marginRight="35dp"
+                android:layout_weight="0.05"
                 android:background="@android:color/black"
-                android:textColor="@android:color/darker_gray"
-
-                />
+                android:minHeight="?attr/actionBarSize"
+                android:theme="?attr/actionBarTheme"
+                android:layout_marginTop="6dp"/>
 
             <android.support.design.widget.TextInputLayout
                 android:id="@+id/Bio"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentStart="true"
-                android:layout_below="@+id/GenderRL"
                 android:layout_marginLeft="15dp"
                 android:layout_marginRight="15dp"
-                android:layout_marginTop="15dp"
+                android:layout_marginTop="7dp"
 
                 >
 
@@ -400,6 +405,8 @@
                     android:layout_alignParentStart="true"
                     android:drawableLeft="@mipmap/info"
                     android:drawablePadding="10dp"
+                    android:layout_marginEnd="14dp"
+                    android:layout_marginStart="14dp"
                     android:ems="10"
                     android:hint="Extra info.."
                     android:textColor="@android:color/darker_gray" />
@@ -407,10 +414,9 @@
 
             </android.support.design.widget.TextInputLayout>
 
+        </LinearLayout>
 
 
-
-        </RelativeLayout>
     </ScrollView>
 
     <Button

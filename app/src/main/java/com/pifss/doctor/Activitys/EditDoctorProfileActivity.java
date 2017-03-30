@@ -1,5 +1,6 @@
 package com.pifss.doctor.Activitys;
 
+import android.app.DatePickerDialog;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.graphics.Color;
@@ -9,8 +10,10 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.view.WindowManager;
 import android.widget.Button;
+import android.widget.DatePicker;
 import android.widget.EditText;
 import android.widget.ImageButton;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.android.volley.Request;
@@ -70,13 +73,28 @@ public class EditDoctorProfileActivity extends AppCompatActivity {
         final EditText txtDrSpecialty = (EditText) findViewById(R.id.txtSpecialty);
         txtDrSpecialty.setText(doctor.getSpecialityId());
 
-//        EditText txtBirthday = (EditText) findViewById(R.id.txtBirthdate);
+        final TextView txtBirthday = (TextView) findViewById(R.id.txtBirthdate);
+        //txtBirthday.setEnabled(false);
+        txtBirthday.setText(doctor.getBDay()+"-"+doctor.getBMonth()+"-"+doctor.getBYear());
+
+        txtBirthday.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                DatePickerDialog d = new DatePickerDialog(EditDoctorProfileActivity.this, new DatePickerDialog.OnDateSetListener() {
+                    @Override
+                    public void onDateSet(DatePicker view, int year, int month, int dayOfMonth) {
+                        txtBirthday.setText(dayOfMonth+"-"+month+"-"+year);
+                    }
+                },doctor.getBYear(),doctor.getBMonth(),doctor.getBDay());
+                d.show();
+            }
+        });
 //        txtBirthday.setText(doctor.getBDay());
 
         final EditText txtInfo = (EditText) findViewById(R.id.txtBio);
         txtInfo.setText(doctor.getExtraInfo());
 
-    btnSaveChange.setOnClickListener(new View.OnClickListener() {
+        btnSaveChange.setOnClickListener(new View.OnClickListener() {
         @Override
         public void onClick(View view) {
 
@@ -90,7 +108,6 @@ public class EditDoctorProfileActivity extends AppCompatActivity {
                // Toast.makeText(EditDoctorProfileActivity.this, "Wrong password", Toast.LENGTH_SHORT).show();
                 return;
             }
-
 
             doctor.setFirstName(txtName.getText().toString());
             doctor.setLastName(txtName.getText().toString());
