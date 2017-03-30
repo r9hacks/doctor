@@ -24,10 +24,12 @@ import com.android.volley.toolbox.HttpHeaderParser;
 import com.android.volley.toolbox.JsonArrayRequest;
 import com.android.volley.toolbox.StringRequest;
 import com.google.gson.Gson;
+import com.google.gson.reflect.TypeToken;
 import com.pifss.doctor.Activitys.MyPatientActivity;
 import com.pifss.doctor.Activitys.ReportDetailActivity;
 import com.pifss.doctor.Adapters.ReportAdapter;
 import com.pifss.doctor.Model.Doctor;
+import com.pifss.doctor.Model.Report;
 import com.pifss.doctor.Model.ReportCell;
 import com.pifss.doctor.R;
 import com.pifss.doctor.RequestQueueSingleTon;
@@ -57,14 +59,25 @@ public class Replied extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_replied, container, false);
-        fillModel();
 
         RequestQueue queue= RequestQueueSingleTon.getInstance().getRequestQueue(getActivity());
         SharedPreferences preference = getActivity().getSharedPreferences("settings",getActivity().MODE_PRIVATE);
         String doctorProfile = preference.getString(links.PrefDoctorProfile,"notfound");
         Doctor doctor = new Gson().fromJson(doctorProfile,Doctor.class);
 
+        final ReportAdapter adapter = new ReportAdapter(getActivity(),model);
 
+        ListView myList = (ListView) view.findViewById(R.id.listView);
+
+        myList.setAdapter(adapter);
+
+        myList.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                Intent i = new Intent(getActivity(), ReportDetailActivity.class);
+                startActivity(i);
+            }
+        });
 
         try {
             JSONObject jsonBody = new JSONObject();
@@ -94,6 +107,12 @@ public class Replied extends Fragment {
                         }
 
                     }
+
+                        ArrayList<Report> report = new Gson().fromJson(repliedArray.toString(), new TypeToken<ArrayList<Report>>(){}.getType());
+                        for (Report r:report) {
+                            model.add(new ReportCell(r.getName(),r.getTimestamp(),r.getComments(),r.getImg(),r.getGender(),r.getHeartbeatRate(),r.getBloodPressure(),r));
+                            adapter.notifyDataSetChanged();
+                        }
 
                     Toast.makeText(getActivity(), "report replied list: "+repliedArray.toString(), Toast.LENGTH_SHORT).show();
                     System.out.println("report replied list: "+repliedArray.toString());
@@ -147,31 +166,10 @@ public class Replied extends Fragment {
             e.printStackTrace();
         }
 
-        final ReportAdapter adapter = new ReportAdapter(getActivity(),model);
 
-        ListView myList = (ListView) view.findViewById(R.id.listView);
-
-        myList.setAdapter(adapter);
-
-        myList.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-            @Override
-            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                Intent i = new Intent(getActivity(), ReportDetailActivity.class);
-                startActivity(i);
-            }
-        });
 
         return view;
     }
 
-    void fillModel(){
-        model.add(new ReportCell("Sophie ALSaffar","Today","i dont feel good today ha ha ha","","Female","80","120/80"));
-        model.add(new ReportCell("Sophie ALSaffar","Today","i dont feel good today ha ha ha","","Female","80","120/80"));
-        model.add(new ReportCell("Sophie ALSaffar","Today","i dont feel good today ha ha ha","","Female","80","120/80"));
-        model.add(new ReportCell("Sophie ALSaffar","Today","i dont feel good today ha ha ha","","Female","80","120/80"));
-        model.add(new ReportCell("Sophie ALSaffar","Today","i dont feel good today ha ha ha","","Female","80","120/80"));
-        model.add(new ReportCell("Sophie ALSaffar","Today","i dont feel good today ha ha ha","","Female","80","120/80"));
-        model.add(new ReportCell("Sophie ALSaffar","Today","i dont feel good today ha ha ha","","Female","80","120/80"));
-        model.add(new ReportCell("Sophie ALSaffar","Today","i dont feel good today ha ha ha","","Female","80","120/80"));
-    }
+
 }
