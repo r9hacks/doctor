@@ -23,7 +23,7 @@ public class links {
 
     public static String PendingRequest = "http://34.196.107.188:8081/MhealthWeb/webresources/doctor/pendingdoctor/";
     public static String MyPatient = "http://34.196.107.188:8081/MhealthWeb/webresources/doctor/accepteddoctor/";
-public static String GetRepliedReport = "http://34.196.107.188:8081/MhealthWeb/webresources/patientreport/getPatientReport/";
+public static String GetRepliedReport = "http://34.196.107.188:8081/MhealthWeb/webresources/patientreport/getReports/";
 
     public static String PrefDoctorProfile = "doctorProfile";
 

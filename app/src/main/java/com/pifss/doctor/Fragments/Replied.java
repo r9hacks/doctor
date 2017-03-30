@@ -68,16 +68,38 @@ public class Replied extends Fragment {
 
         try {
             JSONObject jsonBody = new JSONObject();
-            jsonBody.put("patientId","2");
+            jsonBody.put("time",0);
             jsonBody.put("drId",doctor.getDrId());
             final String requestBody = jsonBody.toString();
 
             StringRequest stringRequest = new StringRequest(Request.Method.POST, links.GetRepliedReport, new Response.Listener<String>() {
                 @Override
                 public void onResponse(String response) {
+                    try {
 
-                    Toast.makeText(getActivity(), "report replied list: "+response.toString(), Toast.LENGTH_SHORT).show();
-                    System.out.println("report replied list: "+response.toString());
+                        JSONArray repliedArray = new JSONArray();
+                        JSONArray repliedArrayTemp = new JSONArray(response);
+                    for (int i = 0 ; i< repliedArrayTemp.length();i++){
+
+                        JSONObject report = repliedArrayTemp.getJSONObject(i);
+
+                        if (report.has("drcomment")){
+                            String drcomment = null;
+
+                                drcomment = report.getString("drcomment");
+
+                            if (!drcomment.equalsIgnoreCase("")){
+                                repliedArray.put(report);
+                            }
+                        }
+
+                    }
+
+                    Toast.makeText(getActivity(), "report replied list: "+repliedArray.toString(), Toast.LENGTH_SHORT).show();
+                    System.out.println("report replied list: "+repliedArray.toString());
+                    } catch (JSONException e) {
+                        e.printStackTrace();
+                    }
                 }
             }, new Response.ErrorListener() {
                 @Override
