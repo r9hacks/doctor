@@ -1,6 +1,7 @@
 package com.pifss.doctor.Activitys;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.graphics.Color;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -9,13 +10,18 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.EditText;
 import android.widget.ListView;
+import android.widget.TextView;
 import android.widget.Toast;
 
+import com.google.gson.Gson;
 import com.pifss.doctor.Adapters.ReportListAdapter;
+import com.pifss.doctor.Model.Doctor;
 import com.pifss.doctor.Model.MyPatient;
+import com.pifss.doctor.Model.Patient;
 import com.pifss.doctor.Model.ReportCell;
 import com.pifss.doctor.Model.ReportList;
 import com.pifss.doctor.R;
+import com.pifss.doctor.links;
 
 import java.util.ArrayList;
 
@@ -40,8 +46,31 @@ public class PatientProfileActivity extends AppCompatActivity {
 //        medication.setKeyListener(null);
 
 
+        SharedPreferences preference = getSharedPreferences("settings",MODE_PRIVATE);
+        String patientProfile = preference.getString(links.PrefPatientProfile,"notfound");
+        Patient patient = new Gson().fromJson(patientProfile,Patient.class);
 
 
+        TextView name = (TextView) findViewById(R.id.textViewName);
+        TextView age = (TextView) findViewById(R.id.textViewAge);
+        TextView gender = (TextView) findViewById(R.id.textViewGender);
+        TextView phone = (TextView) findViewById(R.id.textViewPhone);
+        TextView bloodType = (TextView) findViewById(R.id.textViewBloodType);
+        TextView asthma = (TextView) findViewById(R.id.textViewAsthma);
+        TextView diabities = (TextView) findViewById(R.id.textViewDiabetes);
+        TextView allergy = (TextView) findViewById(R.id.textViewAllergies);
+        TextView medication = (TextView) findViewById(R.id.textViewMedication);
+
+
+        name.setText(patient.getFirstName()+" "+patient.getLastName());
+        age.setText(patient.getDateOfBirth());
+        gender.setText(patient.getGender());
+        phone.setText(patient.getPhoneNumber());
+        bloodType.setText(patient.getBloodType());
+        asthma.setText(patient.getAsthma()+"");
+        diabities.setText(patient.getDiabetes()+"");
+        allergy.setText(patient.getAllergies());
+        medication.setText(patient.getMedications());
 
 
         //list
@@ -70,7 +99,7 @@ public class PatientProfileActivity extends AppCompatActivity {
 
                 ReportList patient = model.get(position);
 
-                Toast.makeText(PatientProfileActivity.this, patient.getComment(), Toast.LENGTH_SHORT).show();
+               // Toast.makeText(PatientProfileActivity.this, patient.getComment(), Toast.LENGTH_SHORT).show();
 
 
               //here go to report

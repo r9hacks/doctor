@@ -1,11 +1,11 @@
 [
     {
-        "merged": "/Users/Entisar/Desktop/Android/doctor/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/ic_launcher.png",
-        "source": "/Users/Entisar/Desktop/Android/doctor/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
-    },
-    {
         "merged": "/Users/Entisar/Desktop/Android/doctor/C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v3\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\ic_launcher_round.png",
         "source": "/Users/Entisar/Desktop/Android/doctor/C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v3\\doctor\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/Entisar/Desktop/Android/doctor/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/ic_launcher.png",
+        "source": "/Users/Entisar/Desktop/Android/doctor/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
     },
     {
         "merged": "/Users/Entisar/Desktop/Android/doctor/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/ic_launcher_round.png",

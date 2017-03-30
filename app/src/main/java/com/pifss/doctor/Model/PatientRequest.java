@@ -6,19 +6,22 @@ package com.pifss.doctor.Model;
 
 public class PatientRequest {
 
-    public PatientRequest(String name, int age, String civilId, String gender) {
+
+
+    private String name;
+    private String age;
+    private String civilId;
+
+    public PatientRequest(String name, String age, String civilId, String gender, String image) {
         this.name = name;
         this.age = age;
         this.civilId = civilId;
         this.gender = gender;
+        this.image = image;
     }
 
-    private String name;
-    private int age;
-    private String civilId;
     private String gender;
-
-    // String image;
+    private String image;
 
     public String getName() {
         return name;
@@ -28,13 +31,6 @@ public class PatientRequest {
         this.name = name;
     }
 
-    public int getAge() {
-        return age;
-    }
-
-    public void setAge(int age) {
-        this.age = age;
-    }
 
     public String getCivilId() {
         return civilId;
@@ -53,5 +49,19 @@ public class PatientRequest {
     }
 
 
+    public String getAge() {
+        return age;
+    }
 
+    public void setAge(String age) {
+        this.age = age;
+    }
+
+    public String getImage() {
+        return image;
+    }
+
+    public void setImage(String image) {
+        this.image = image;
+    }
 }

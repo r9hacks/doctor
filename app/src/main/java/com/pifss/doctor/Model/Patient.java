@@ -2,26 +2,43 @@
 package com.pifss.doctor.Model;
 
 
+import org.json.JSONException;
+import org.json.JSONObject;
+
 public class Patient {
 
-    private String allergies;
-    private Boolean asthma;
-    private String bloodType;
+    private String firstName;
+    private String middleName;
+    private String lastName;
+
+    private String gender;
     private String civilId;
     private String dateOfBirth;
-    private Integer deleted;
-    private Boolean diabetes;
-    private String email;
-    private String firstName;
-    private String gender;
-    private String imageUrl;
-    private String lastName;
-    private String middleName;
     private String nationality;
+    private String phoneNumber;
+    private String emergencyNumber;
+
+
+    private String bloodType;
+    private String allergies;
+    private Boolean asthma;
+    private Boolean diabetes;
+
+    private String imageUrl;
+
+    private String email;
     private String password;
+    private Integer deleted;
     private Integer patientId;
     private Boolean status;
-    private String phoneNumber;
+
+    private String medications;
+
+
+
+
+
+
 
 
     public String getAllergies() {
@@ -167,4 +184,63 @@ public class Patient {
     public void setPhoneNumber(String phoneNumber) {
         this.phoneNumber = phoneNumber;
     }
+
+    public String getMedications() {
+        return medications;
+    }
+
+    public void setMedications(String medications) {
+        this.medications = medications;
+    }
+
+    public String getEmergencyNumber() {
+        return emergencyNumber;
+    }
+
+    public void setEmergencyNumber(String emergencyNumber) {
+        this.emergencyNumber = emergencyNumber;
+    }
+
+
+    public JSONObject getJSONPatient() throws JSONException {
+        JSONObject jsonPatient = new JSONObject();
+
+        jsonPatient.put("firstName",getFirstName());
+        jsonPatient.put("middleName",getMiddleName());
+        jsonPatient.put("lastName",getLastName());
+
+
+        jsonPatient.put("civilId",getCivilId());
+        jsonPatient.put("deleted",getDeleted());
+
+        jsonPatient.put("patientId",getPatientId());
+        jsonPatient.put("email",getEmail());
+
+        jsonPatient.put("gender",getGender());
+        jsonPatient.put("imageUrl",getImageUrl());
+        jsonPatient.put("dateOfBirth",getDateOfBirth());
+
+
+        jsonPatient.put("nationality",getNationality());
+        jsonPatient.put("password",getPassword());
+        jsonPatient.put("phoneNumber",getPhoneNumber());
+
+
+        jsonPatient.put("status",getStatus());
+
+        jsonPatient.put("allergies",getAllergies());
+        jsonPatient.put("asthma",getAsthma());
+        jsonPatient.put("bloodType",getBloodType());
+        jsonPatient.put("diabetes",getDiabetes());
+        jsonPatient.put("medications",getMedications());
+        jsonPatient.put("emergencyNumber",getEmergencyNumber());
+
+
+        return jsonPatient;
+    }
+
+
+
+
+
 }
