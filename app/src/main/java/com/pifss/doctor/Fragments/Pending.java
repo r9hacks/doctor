@@ -125,6 +125,7 @@ public class Pending extends Fragment {
                 @Override
                 protected Response<String> parseNetworkResponse(NetworkResponse response) {
                     try {
+
                         String jsonString = new String(response.data,
                                 HttpHeaderParser.parseCharset(response.headers, "utf-8"));
                         //Allow null
