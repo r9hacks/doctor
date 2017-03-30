@@ -1,31 +1,27 @@
 [
     {
-        "merged": "C:\\Users\\Entisar\\Desktop\\Android\\doctor\\C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v3\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\ic_launcher_round.png",
-        "source": "C:\\Users\\Entisar\\Desktop\\Android\\doctor\\C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v3\\doctor\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+        "merged": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor mar30\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\ic_launcher.png",
+        "source": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor mar30\\doctor\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
     },
     {
         "merged": "C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v3\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\ic_launcher.png",
         "source": "C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v3\\doctor\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor mar30\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\ic_launcher_round.png",
-        "source": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor mar30\\doctor\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+        "merged": "C:\\Users\\Entisar\\Desktop\\Android\\doctor\\C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v3\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\ic_launcher.png",
+        "source": "C:\\Users\\Entisar\\Desktop\\Android\\doctor\\C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v3\\doctor\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
     },
     {
         "merged": "C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v3\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\decline_icon.png",
         "source": "C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v3\\doctor\\app\\src\\main\\res\\mipmap-mdpi\\decline_icon.png"
     },
     {
-        "merged": "C:\\Users\\Entisar\\Desktop\\Android\\doctor\\C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v3\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\ic_launcher.png",
-        "source": "C:\\Users\\Entisar\\Desktop\\Android\\doctor\\C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v3\\doctor\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
-    },
-    {
         "merged": "C:\\Users\\Entisar\\Desktop\\Android\\doctor\\C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v3\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\accept_icon.png",
         "source": "C:\\Users\\Entisar\\Desktop\\Android\\doctor\\C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v3\\doctor\\app\\src\\main\\res\\mipmap-mdpi\\accept_icon.png"
     },
     {
-        "merged": "C:\\Users\\Entisar\\Desktop\\Android\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\ic_launcher_round.png",
-        "source": "C:\\Users\\Entisar\\Desktop\\Android\\doctor\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+        "merged": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor mar30\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\ic_launcher_round.png",
+        "source": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor mar30\\doctor\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
     },
     {
         "merged": "C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v3\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\accept_icon.png",
@@ -40,27 +36,31 @@
         "source": "C:\\Users\\Entisar\\Desktop\\Android\\doctor\\C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v3\\doctor\\app\\src\\main\\res\\mipmap-mdpi\\decline_icon.png"
     },
     {
-        "merged": "C:\\Users\\Entisar\\Desktop\\Android\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\accept_icon.png",
-        "source": "C:\\Users\\Entisar\\Desktop\\Android\\doctor\\app\\src\\main\\res\\mipmap-mdpi\\accept_icon.png"
-    },
-    {
-        "merged": "C:\\Users\\Entisar\\Desktop\\Android\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\decline_icon.png",
-        "source": "C:\\Users\\Entisar\\Desktop\\Android\\doctor\\app\\src\\main\\res\\mipmap-mdpi\\decline_icon.png"
+        "merged": "C:\\Users\\Entisar\\Desktop\\Android\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\ic_launcher.png",
+        "source": "C:\\Users\\Entisar\\Desktop\\Android\\doctor\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
     },
     {
         "merged": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor mar30\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\accept_icon.png",
         "source": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor mar30\\doctor\\app\\src\\main\\res\\mipmap-mdpi\\accept_icon.png"
     },
     {
+        "merged": "C:\\Users\\Entisar\\Desktop\\Android\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\decline_icon.png",
+        "source": "C:\\Users\\Entisar\\Desktop\\Android\\doctor\\app\\src\\main\\res\\mipmap-mdpi\\decline_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\Entisar\\Desktop\\Android\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\ic_launcher_round.png",
+        "source": "C:\\Users\\Entisar\\Desktop\\Android\\doctor\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Entisar\\Desktop\\Android\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\accept_icon.png",
+        "source": "C:\\Users\\Entisar\\Desktop\\Android\\doctor\\app\\src\\main\\res\\mipmap-mdpi\\accept_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\Entisar\\Desktop\\Android\\doctor\\C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v3\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\ic_launcher_round.png",
+        "source": "C:\\Users\\Entisar\\Desktop\\Android\\doctor\\C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v3\\doctor\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
         "merged": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor mar30\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\decline_icon.png",
         "source": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor mar30\\doctor\\app\\src\\main\\res\\mipmap-mdpi\\decline_icon.png"
-    },
-    {
-        "merged": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor mar30\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\ic_launcher.png",
-        "source": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor mar30\\doctor\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
-    },
-    {
-        "merged": "C:\\Users\\Entisar\\Desktop\\Android\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\ic_launcher.png",
-        "source": "C:\\Users\\Entisar\\Desktop\\Android\\doctor\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
     }
 ]

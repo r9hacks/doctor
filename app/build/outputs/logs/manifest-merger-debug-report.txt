@@ -36,6 +36,7 @@ MERGED from [com.android.support:support-core-ui:25.2.0] C:\Users\PIFSS\.android
 MERGED from [com.android.support:support-core-utils:25.2.0] C:\Users\PIFSS\.android\build-cache\721d5bccd4ce3891b8caba99415e645cd166735b\output\AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:support-compat:25.2.0] C:\Users\PIFSS\.android\build-cache\f5742759326f761fe67daef4220fa871e498b427\output\AndroidManifest.xml:25:5-20
 MERGED from [com.android.volley:volley:1.0.0] C:\Users\PIFSS\.android\build-cache\51948d736cb39d598f1360d88d887d39a867cfc4\output\AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:2.1.0] C:\Users\PIFSS\.android\build-cache\9de7580feba04a1dfd3a39958af8d55e1e23021d\output\AndroidManifest.xml:9:5-20
 	android:label
 		ADDED from C:\Users\PIFSS\Desktop\Block_6\MHealth\v3\doctor\app\src\main\AndroidManifest.xml:11:9-41
 	android:supportsRtl
@@ -144,6 +145,7 @@ MERGED from [com.android.support:support-core-ui:25.2.0] C:\Users\PIFSS\.android
 MERGED from [com.android.support:support-core-utils:25.2.0] C:\Users\PIFSS\.android\build-cache\721d5bccd4ce3891b8caba99415e645cd166735b\output\AndroidManifest.xml:21:5-23:61
 MERGED from [com.android.support:support-compat:25.2.0] C:\Users\PIFSS\.android\build-cache\f5742759326f761fe67daef4220fa871e498b427\output\AndroidManifest.xml:21:5-23:58
 MERGED from [com.android.volley:volley:1.0.0] C:\Users\PIFSS\.android\build-cache\51948d736cb39d598f1360d88d887d39a867cfc4\output\AndroidManifest.xml:7:5-43
+MERGED from [de.hdodenhof:circleimageview:2.1.0] C:\Users\PIFSS\.android\build-cache\9de7580feba04a1dfd3a39958af8d55e1e23021d\output\AndroidManifest.xml:5:5-7:41
 	tools:overrideLibrary
 		ADDED from [com.android.support:design:25.2.0] C:\Users\PIFSS\.android\build-cache\d95c42289955b75427320c3f826eb531f131da8f\output\AndroidManifest.xml:23:9-59
 	android:targetSdkVersion

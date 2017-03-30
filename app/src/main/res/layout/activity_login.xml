@@ -110,17 +110,16 @@
         style="@style/Widget.AppCompat.Button.Colored"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/btnRegister"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginBottom="70dp"
         android:alpha="0.75"
         android:background="@color/colorAccent"
         android:text="@string/Login"
         android:textSize="23sp"
         android:textStyle="bold"
         tools:layout_editor_absoluteX="23dp"
-        tools:layout_editor_absoluteY="421dp" />
+        tools:layout_editor_absoluteY="421dp"
+        android:layout_below="@+id/textView4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 
     <Button
         android:id="@+id/btnRegister"
