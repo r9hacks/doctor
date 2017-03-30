@@ -59,34 +59,39 @@ public class loginActivity extends AppCompatActivity {
                 try {
 
                     JSONObject jsonBody = new JSONObject();
-                    jsonBody.put("email",email.getText().toString());
+                    jsonBody.put("username",email.getText().toString());
                     jsonBody.put("password",password.getText().toString());
 
 
                     JsonObjectRequest jsonObjRequest = new JsonObjectRequest(Request.Method.POST, links.login, jsonBody, new Response.Listener<JSONObject>() {
                         @Override
                         public void onResponse(JSONObject response) {
-                            System.out.println("response: "+response.toString());
+                            try {
+                                if ((response.getString("errorMsgEn")).equalsIgnoreCase("Error")) {
+                                    //error login
+                                    //show message
+                                    Toast.makeText(loginActivity.this, "Error response: " + response.toString(), Toast.LENGTH_SHORT).show();
 
-                            Doctor doctor = new Gson().fromJson(response.toString(),Doctor.class);
+                                    return;
+                                }
+                                System.out.println("response: " + response.toString());
+                                JSONObject profileJson = response.getJSONObject("items");
+                                Doctor doctor = new Gson().fromJson(profileJson.toString(), Doctor.class);
 
-                            if (doctor.getStatus() == true){
-                                Toast.makeText(loginActivity.this, "response: "+response.toString(), Toast.LENGTH_SHORT).show();
+                                    Toast.makeText(loginActivity.this, "response: " + response.toString(), Toast.LENGTH_SHORT).show();
 
-                                // save profile to shared refrences
-                                SharedPreferences preference = getSharedPreferences("settings",MODE_PRIVATE);
-                                SharedPreferences.Editor editor = preference.edit();
-                                editor.putString(links.PrefDoctorProfile,response.toString());
-                                editor.commit();
+                                    // save profile to shared refrences
+                                    SharedPreferences preference = getSharedPreferences("settings", MODE_PRIVATE);
+                                    SharedPreferences.Editor editor = preference.edit();
+                                    editor.putString(links.PrefDoctorProfile, profileJson.toString());
+                                    editor.commit();
 
-                                Intent i = new Intent(loginActivity.this,HomeReportActivity.class);
-                                startActivity(i);
-                                finish();
-                            }else{
-                                //error login
-                                //show message
-                                Toast.makeText(loginActivity.this, "Error response: "+response.toString(), Toast.LENGTH_SHORT).show();
+                                    Intent i = new Intent(loginActivity.this, HomeReportActivity.class);
+                                    startActivity(i);
+                                    finish();
 
+                            } catch (JSONException e) {
+                                e.printStackTrace();
                             }
                         }
                     }, new Response.ErrorListener() {

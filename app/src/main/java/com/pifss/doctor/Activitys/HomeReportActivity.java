@@ -78,7 +78,7 @@ public class HomeReportActivity extends AppCompatActivity {
                 .build();
 
        // headerResult.getActiveProfile().
-        Toast.makeText(this, ""+doctor.getImageUrl(), Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "doctor.getImageUrl()"+doctor.getImageUrl(), Toast.LENGTH_SHORT).show();
 
         drab = new DrawerBuilder();
         drab.withActivity(this)
