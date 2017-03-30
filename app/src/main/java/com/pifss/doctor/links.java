@@ -28,6 +28,7 @@ public class links {
     public static String GetRepliedReport = PatientReport + "/getReports/";
 
     public static String PrefDoctorProfile = "doctorProfile";
+    public static String PrefReport = "PatientReport";
 
 
 }

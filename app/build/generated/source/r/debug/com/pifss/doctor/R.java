@@ -3795,7 +3795,7 @@ containing a value of this type.
         public static final int design_menu_item_text=0x7f0d0112;
         public static final int design_navigation_view=0x7f0d0111;
         public static final int disableHome=0x7f0d0032;
-        public static final int editText=0x7f0d00dc;
+        public static final int editTextReply=0x7f0d00dc;
         public static final int edit_query=0x7f0d0084;
         public static final int emailIT=0x7f0d00b2;
         public static final int end=0x7f0d0049;

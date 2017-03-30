@@ -1230,7 +1230,7 @@ int id design_menu_item_action_area_stub 0x7f0d0113
 int id design_menu_item_text 0x7f0d0112
 int id design_navigation_view 0x7f0d0111
 int id disableHome 0x7f0d0032
-int id editText 0x7f0d00dc
+int id editTextReply 0x7f0d00dc
 int id edit_query 0x7f0d0084
 int id emailIT 0x7f0d00b2
 int id end 0x7f0d0049

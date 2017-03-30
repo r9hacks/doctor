@@ -4,6 +4,7 @@ package com.pifss.doctor.Fragments;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.preference.PreferenceManager;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -74,6 +75,18 @@ public class Replied extends Fragment {
         myList.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+
+                ReportCell rCell = model.get(position);
+                try {
+                    JSONObject jsonReport = rCell.getReportObject().getJSONReport();
+                    SharedPreferences preference = getActivity().getSharedPreferences("settings",getActivity().MODE_PRIVATE);
+                    SharedPreferences.Editor editor = preference.edit();
+                    editor.putString(links.PrefReport, jsonReport.toString());
+                    editor.commit();
+                } catch (JSONException e) {
+                    e.printStackTrace();
+                }
+
                 Intent i = new Intent(getActivity(), ReportDetailActivity.class);
                 startActivity(i);
             }

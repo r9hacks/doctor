@@ -1,6 +1,9 @@
 package com.pifss.doctor.Model;
 
 
+import org.json.JSONException;
+import org.json.JSONObject;
+
 public class Report {
 
     private String coughing;
@@ -270,4 +273,35 @@ public class Report {
         return this;
     }
 
+    public JSONObject getJSONReport() throws JSONException {
+        JSONObject jsonReport = new JSONObject();
+
+        jsonReport.put("coughing",getCoughing());
+        jsonReport.put("sugarLevel",getSugarLevel());
+        jsonReport.put("drId",getDrId());
+
+        jsonReport.put("img",getImg());
+        jsonReport.put("drcomment",getDrcomment());
+        jsonReport.put("pain",getPain());
+
+        jsonReport.put("fever",getFever());
+        jsonReport.put("reportId",getReportId());
+        jsonReport.put("dizziness",getDizziness());
+
+        jsonReport.put("timestamp",getTimestamp());
+        jsonReport.put("painlocation",getPain());
+        jsonReport.put("patientId",getPatientId());
+
+        jsonReport.put("nauseous",getNauseous());
+        jsonReport.put("headache",getHeadache());
+        jsonReport.put("bloodPressure",getBloodPressure());
+
+        jsonReport.put("name",getName());
+        jsonReport.put("gender",getGender());
+        jsonReport.put("comments",getComments());
+
+        jsonReport.put("heartbeatRate",getHeartbeatRate());
+
+        return jsonReport;
+    }
 }

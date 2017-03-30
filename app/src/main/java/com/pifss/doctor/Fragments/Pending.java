@@ -69,6 +69,18 @@ public class Pending extends Fragment {
         myList.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+
+                ReportCell rCell = model.get(position);
+                try {
+                    JSONObject jsonReport = rCell.getReportObject().getJSONReport();
+                    SharedPreferences preference = getActivity().getSharedPreferences("settings",getActivity().MODE_PRIVATE);
+                    SharedPreferences.Editor editor = preference.edit();
+                    editor.putString(links.PrefReport, jsonReport.toString());
+                    editor.commit();
+                } catch (JSONException e) {
+                    e.printStackTrace();
+                }
+
                 Intent i = new Intent(getActivity(), ReportDetailActivity.class);
                 startActivity(i);
             }
