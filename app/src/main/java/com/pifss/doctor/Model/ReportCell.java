@@ -13,9 +13,9 @@ public class ReportCell {
     private String gender;
     private String heartRate;
     private String bloodPreassure;
+    private Report reportObject;
 
-
-    public ReportCell(String name, String date, String comment, String imageURL, String gender, String heartRate, String bloodPreassure) {
+    public ReportCell(String name, String date, String comment, String imageURL, String gender, String heartRate, String bloodPreassure,Report reportObject) {
         this.name = name;
         this.date = date;
         this.comment = comment;
@@ -23,6 +23,7 @@ public class ReportCell {
         this.gender = gender;
         this.heartRate = heartRate;
         this.bloodPreassure = bloodPreassure;
+        this.reportObject = reportObject;
     }
 
     public String getName() {
@@ -79,5 +80,13 @@ public class ReportCell {
 
     public void setBloodPreassure(String bloodPreassure) {
         this.bloodPreassure = bloodPreassure;
+    }
+
+    public Report getReportObject() {
+        return reportObject;
+    }
+
+    public void setReportObject(Report reportObject) {
+        this.reportObject = reportObject;
     }
 }

@@ -26,8 +26,11 @@ public class links {
     public static String PendingRequest = Doctor + "/pendingdoctor/";
     public static String MyPatient = Doctor + "/accepteddoctor/";
     public static String GetRepliedReport = PatientReport + "/getReports/";
+    public static String ReplyReport = PatientReport +"/UpdatePatientReportDRec/";
+
 
     public static String PrefDoctorProfile = "doctorProfile";
+    public static String PrefReport = "PatientReport";
 
     public static String PrefPatientProfile = "patientProfile";
 

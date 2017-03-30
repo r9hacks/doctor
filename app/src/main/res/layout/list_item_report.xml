@@ -28,19 +28,18 @@
         android:id="@+id/textViewComments"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/textViewName"
-        android:layout_margin="5dp"
-        android:layout_toEndOf="@+id/imageView"
-        android:layout_toRightOf="@+id/imageView"
         android:text="textView"
-        android:textSize="12sp" />
+        android:textSize="12sp"
+        android:layout_below="@+id/textDate"
+        android:layout_toRightOf="@+id/imageView"
+        android:layout_toEndOf="@+id/imageView" />
 
     <TextView
         android:id="@+id/textDate"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="TextView"
-        android:layout_alignBottom="@+id/textViewName"
+        android:layout_below="@+id/textViewName"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true" />
 
