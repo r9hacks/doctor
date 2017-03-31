@@ -170,9 +170,9 @@ public class HomeReportActivity extends AppCompatActivity {
                 headerResult.getActiveProfile().withIcon(bitmap);
                 System.out.println("load image profile");
 
-                PrimaryDrawerItem item1 = new PrimaryDrawerItem().withIdentifier(1).withName("View Reports").withIcon(R.mipmap.medical_report_icon).withBadge("10");
-                PrimaryDrawerItem item2 = new PrimaryDrawerItem().withIdentifier(2).withName("Patient Requests").withIcon(R.mipmap.add_icon).withBadge("3");
-                PrimaryDrawerItem item3 = new PrimaryDrawerItem().withIdentifier(3).withName("My Patients").withIcon(R.mipmap.my_patient_icon).withBadge("7");
+                PrimaryDrawerItem item1 = new PrimaryDrawerItem().withIdentifier(1).withName("View Reports").withIcon(R.mipmap.medical_report_icon);
+                PrimaryDrawerItem item2 = new PrimaryDrawerItem().withIdentifier(2).withName("Patient Requests").withIcon(R.mipmap.add_icon);
+                PrimaryDrawerItem item3 = new PrimaryDrawerItem().withIdentifier(3).withName("My Patients").withIcon(R.mipmap.my_patient_icon);
                 PrimaryDrawerItem item5 = new PrimaryDrawerItem().withIdentifier(5).withName("Share").withIcon(R.mipmap.share_icon).withSelectable(false);
                 PrimaryDrawerItem item6 = new PrimaryDrawerItem().withIdentifier(6).withName("Settings").withIcon(R.mipmap.settings_icon);
                 PrimaryDrawerItem item7 = new PrimaryDrawerItem().withIdentifier(7).withName("About us").withIcon(R.mipmap.aboutus_icon);
