@@ -179,6 +179,7 @@ public class Replied extends Fragment {
             e.printStackTrace();
         }
 
+        myList.setEmptyView(view.findViewById(R.id.emptyElement));
 
 
         return view;
