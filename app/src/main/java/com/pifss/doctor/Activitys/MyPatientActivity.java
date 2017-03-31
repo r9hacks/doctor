@@ -147,6 +147,7 @@ public class MyPatientActivity extends AppCompatActivity {
             }
         });
 
+        lv.setEmptyView(findViewById(R.id.emptyElement));
     }
 
 

@@ -117,7 +117,7 @@ public class PatientRequestActivity extends AppCompatActivity {
 
             }
         });
-
+        lv.setEmptyView(findViewById(R.id.emptyElement));
     }
     @Override
     public boolean onSupportNavigateUp() {

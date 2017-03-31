@@ -18,5 +18,14 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_below="@+id/mytoolbar" />
-
+    <TextView android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/emptyElement"
+        android:text="No Patient Request"
+        android:textStyle="bold"
+        android:gravity="center_vertical|center_horizontal"
+        android:textSize="15sp"
+        android:visibility="gone"
+        android:layout_centerInParent="true"
+        android:textColor="@android:color/darker_gray"/>
 </RelativeLayout>

@@ -89,9 +89,7 @@ public class ReportAdapter extends BaseAdapter {
 
             Calendar calendar = GregorianCalendar.getInstance(); // creates a new calendar instance
             calendar.setTime(startDate);   // assigns calendar to given date
-            calendar.get(Calendar.DAY_OF_MONTH); // gets hour in 24h format
-            calendar.get(Calendar.MONTH);
-            calendar.get(Calendar.YEAR);
+
 
             date.setText(calendar.get(Calendar.DAY_OF_MONTH)+"-"+(calendar.get(Calendar.MONTH)+1)+"-"+calendar.get(Calendar.YEAR));
 
