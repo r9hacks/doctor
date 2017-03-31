@@ -45,7 +45,7 @@ public class RegisterActivity extends AppCompatActivity {
 
         final Toolbar toolbar = (Toolbar) findViewById(R.id.myToolbar);
 
-        toolbar.setTitle("Register");
+        toolbar.setTitle(R.string.Register);
         toolbar.setTitleTextColor(Color.WHITE);
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);

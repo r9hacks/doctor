@@ -58,7 +58,7 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="20dp"
-        android:text="Because we care."
+        android:text="@string/Becausewecare"
         android:textSize="16sp" />
 
     <EditText
@@ -75,7 +75,7 @@
         android:layout_toStartOf="@+id/imageView18"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="About"
+        android:text="@string/Aboutus"
         android:textAlignment="center"
         android:textSize="20sp"
         android:textStyle="bold" />

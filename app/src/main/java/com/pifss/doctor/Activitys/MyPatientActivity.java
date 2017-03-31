@@ -40,7 +40,7 @@ public class MyPatientActivity extends AppCompatActivity {
         setContentView(R.layout.activity_my_patient);
         final Toolbar toolbar = (Toolbar) findViewById(R.id.mytoolbar);
 
-        toolbar.setTitle("My Patient");
+        toolbar.setTitle(R.string.MyPatients);
         toolbar.setTitleTextColor(Color.WHITE);
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);

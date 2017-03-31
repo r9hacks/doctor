@@ -12,7 +12,7 @@
     <string name="ForgotPassword">Forgot Password?</string>
 
     <string name="PatientName">Patient Name....</string>
-    <string name="PatientAge">Patient Age</string>
+    <string name="PatientAge">Age</string>
     <string name="PatientPhone">Patient Phone</string>
     <string name="PatientGender">Patient Gender</string>
     <string name="PatientCivilID">Patient Civil ID</string>
@@ -47,6 +47,68 @@
 
     <string name="ChangeLanguage">Change Language</string>
     <string name="LangButton">Please change the language of the device</string>
+
+//frieday
+    <string name="Becausewecare">Because we care</string>
+    <string name="Aboutus">About</string>
+    <string name="civilId">civil Id</string>
+
+    <string name="Specialty">Specialty</string>
+    <string name="Location">Location</string>
+    <string name="EditProfile">Edit Profile</string>
+    <string name="FirstName">First Name</string>
+    <string name="MiddleName">Middle Name</string>
+    <string name="LastName">Last Name</string>
+    <string name="Email">Email</string>
+    <string name="PhoneNumber">Phone Number</string>
+    <string name="Nationality">Nationality</string>
+    <string name="Save">Save</string>
+    <string name="Birthdate">Birthdate</string>
+    <string name="Male">Male</string>
+    <string name="Female">Female</string>
+    <string name="Gender">Gender</string>
+    <string name="Donthaveanaccount">Don not have an account?</string>
+    <string name="YourReplysentsuccessfully">Your reply sent successfully</string>
+    <string name="Chooselanguage">Choose language</string>
+
+//activities
+
+    <string name="Myprofile">My profile</string>
+    //could not put notfound in activity
+    <string name="notfound">notfound</string>
+    <string name="Editprofile">Edit profile</string>
+    <string name="Allfieldsarerequired">All fields are required</string>
+    <string name="ProfileUpdated">Profile Updated</string>
+    <string name="Errortryagainlater">Error try again later</string>
+    <string name="AllReports">All Reports</string>
+    <string name="ForgetPasswordAct">Forget Password</string>
+
+    <string name="ViewReports">View Reports</string>
+    <string name="PatientRequests">Patient Requests</string>
+    <string name="MyPatients">My Patients</string>
+    <string name="Share">Share</string>
+    <string name="Settings">Settings</string>
+    <string name="Logout">Logout</string>
+    <string name="AboutusAct">About us</string>
+    <string name="Recommend">Let me recommend you this application</string>
+
+    //could not put chooseone in activity
+    <string name="chooseone">Choose one</string>
+    <string name="PatientProfile">Patient Profile</string>
+
+    <string name="Request">Request</string>
+    <string name="ReplySent">Reply Sent</string>
+    <string name="ReplytoReport">Reply to Report</string>
+    <string name="ReportDetail">Report Detail</string>
+
+
+
+
+//
+
+    <string name="Pending">Pending</string>
+    <string name="Replied">Replied</string>
+
 
 
 </resources>

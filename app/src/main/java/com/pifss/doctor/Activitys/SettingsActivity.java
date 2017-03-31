@@ -23,7 +23,7 @@ public class SettingsActivity extends AppCompatActivity {
         setContentView(R.layout.activity_settings);
         final Toolbar toolbar = (Toolbar) findViewById(R.id.mytoolbar);
 
-        toolbar.setTitle("Settings");
+        toolbar.setTitle(R.string.Settings);
         toolbar.setTitleTextColor(Color.WHITE);
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);

@@ -42,23 +42,22 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="22dp" />
 
-        <EditText
-            android:id="@+id/txtDrSpeciality"
-            android:layout_width="match_parent"
-            android:layout_height="39dp"
-            android:drawableLeft="@mipmap/stethoscope"
-            android:drawablePadding="10dp"
-            android:hint="Specialty"
-            android:ems="10"
-            android:layout_marginStart="14dp"
-            android:layout_marginEnd="14dp"
-            android:layout_marginLeft="15dp"
-            android:layout_marginRight="15dp"
-            android:inputType="textEmailAddress"
-            android:textColor="@android:color/darker_gray"
-            android:layout_marginTop="12dp"
-            android:layout_below="@+id/txtDrCivil"
-            />
+    <EditText
+        android:id="@+id/txtDrSpeciality"
+        android:layout_width="match_parent"
+        android:layout_height="39dp"
+        android:layout_below="@+id/txtDrCivil"
+        android:layout_marginEnd="14dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="12dp"
+        android:drawableLeft="@mipmap/stethoscope"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:hint="@string/Specialty"
+        android:inputType="textEmailAddress"
+        android:textColor="@android:color/darker_gray" />
 
     <Button
         android:id="@+id/btnRegister"
@@ -70,7 +69,7 @@
         android:layout_alignParentStart="true"
         android:alpha="0.75"
         android:background="@color/colorAccent"
-        android:text="Edit Profile"
+        android:text="@string/EditProfile"
         android:textSize="23sp"
         android:textStyle="bold"
         tools:layout_editor_absoluteX="23dp"
@@ -96,45 +95,44 @@
             android:layout_marginTop="34dp" />
 
 
-        <EditText
-            android:id="@+id/txtDrCivil"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:drawableLeft="@mipmap/id_card"
-            android:drawablePadding="10dp"
-            android:ems="10"
-            android:hint="civil ID"
-            android:layout_marginStart="14dp"
-            android:layout_marginEnd="14dp"
-            android:inputType="textEmailAddress"
-            android:textColor="@android:color/darker_gray"
-            android:layout_marginTop="19dp"
-            android:layout_marginLeft="15dp"
-            android:layout_marginRight="15dp"
-            android:layout_below="@+id/txtDrEmail"
-            android:layout_centerHorizontal="true" />
+    <EditText
+        android:id="@+id/txtDrCivil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtDrEmail"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="14dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="19dp"
+        android:drawableLeft="@mipmap/id_card"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:hint="@string/civilId"
+        android:inputType="textEmailAddress"
+        android:textColor="@android:color/darker_gray" />
 
 
-
-        <EditText
-            android:id="@+id/txtDrLocation"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:drawableLeft="@mipmap/map"
-            android:drawablePadding="10dp"
-            android:ems="10"
-            android:gravity=""
-            android:hint="Location"
-            android:layout_marginStart="14dp"
-            android:layout_marginEnd="14dp"
-            android:inputType="textEmailAddress"
-            android:textColor="@android:color/darker_gray"
-            android:layout_below="@+id/txtDrSpeciality"
-            android:layout_alignParentRight="true"
-            android:layout_marginLeft="15dp"
-            android:layout_marginRight="15dp"
-            android:layout_alignParentEnd="true"
-            android:layout_marginTop="12dp" />
+    <EditText
+        android:id="@+id/txtDrLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/txtDrSpeciality"
+        android:layout_marginEnd="14dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="12dp"
+        android:drawableLeft="@mipmap/map"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:gravity=""
+        android:hint="@string/Location"
+        android:inputType="textEmailAddress"
+        android:textColor="@android:color/darker_gray" />
 
 
     <TextView

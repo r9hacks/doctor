@@ -24,7 +24,7 @@ public class ReportDetailActivity extends AppCompatActivity {
         setContentView(R.layout.activity_report_detail);
         final Toolbar toolbar = (Toolbar) findViewById(R.id.mytoolbar);
 
-        toolbar.setTitle("Report Detail");
+        toolbar.setTitle(R.string.ReportDetail);
         toolbar.setTitleTextColor(Color.WHITE);
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);

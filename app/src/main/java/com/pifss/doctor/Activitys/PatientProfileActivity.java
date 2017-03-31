@@ -56,7 +56,7 @@ public class PatientProfileActivity extends AppCompatActivity {
 
         final Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar2);
 
-        toolbar.setTitle("Patient Profile");
+        toolbar.setTitle(R.string.PatientProfile);
         toolbar.setTitleTextColor(Color.WHITE);
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);

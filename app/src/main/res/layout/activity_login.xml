@@ -73,7 +73,7 @@
             android:drawablePadding="10dp"
             android:ems="10"
 
-            android:hint="Email"
+            android:hint="@string/Email"
             android:inputType="textEmailAddress"
             android:text="r9hacks@gmail.com"
             android:textColor="@android:color/darker_gray" />
@@ -161,11 +161,11 @@
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="11dp"
-        android:text="Don't have an account?"
-        android:textSize="16sp"
         android:layout_above="@+id/btnRegister"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="11dp"
+        android:text="@string/Donthaveanaccount"
+        android:textSize="16sp" />
 
 </RelativeLayout>
 

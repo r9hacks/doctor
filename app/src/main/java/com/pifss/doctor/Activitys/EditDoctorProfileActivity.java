@@ -47,7 +47,7 @@ public class EditDoctorProfileActivity extends AppCompatActivity {
 
         final Toolbar toolbar = (Toolbar) findViewById(R.id.myToolbar);
 
-        toolbar.setTitle("Edit profile");
+        toolbar.setTitle(R.string.Editprofile);
         toolbar.setTitleTextColor(Color.WHITE);
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
@@ -133,7 +133,7 @@ public class EditDoctorProfileActivity extends AppCompatActivity {
             if (txtName.getText().toString() == "" || txtEmail.getText().toString() == "" || txtPassword.getText().toString() == "" || txtLocation.getText().toString() == "" || txtCivil.getText().toString() == ""
                     || txtDrNationality.getText().toString() == "" || txtDrSpecialty.getText().toString() == "" || txtInfo.getText().toString() == ""){
 
-                Toast.makeText(EditDoctorProfileActivity.this, "All fields are required", Toast.LENGTH_SHORT).show();
+                Toast.makeText(EditDoctorProfileActivity.this, R.string.Allfieldsarerequired, Toast.LENGTH_SHORT).show();
                 return;
             }
             if (!(txtPassword.getText().toString()).equals(doctor.getPassword()) ){
@@ -184,14 +184,14 @@ public class EditDoctorProfileActivity extends AppCompatActivity {
                     try {
                         if (response.getString("errorMsgEn").equalsIgnoreCase("Done")){
 
-                            Toast.makeText(EditDoctorProfileActivity.this, "Profile Updated", Toast.LENGTH_SHORT).show();
+                            Toast.makeText(EditDoctorProfileActivity.this, R.string.ProfileUpdated, Toast.LENGTH_SHORT).show();
 
                             SharedPreferences preference = getSharedPreferences("settings", MODE_PRIVATE);
                             SharedPreferences.Editor editor = preference.edit();
                             editor.putString(links.PrefDoctorProfile, doctor.getJSONDoctor().toString());
                             editor.commit();
                         }else{
-                            Toast.makeText(EditDoctorProfileActivity.this, "Error try again later", Toast.LENGTH_SHORT).show();
+                            Toast.makeText(EditDoctorProfileActivity.this, R.string.Errortryagainlater, Toast.LENGTH_SHORT).show();
 
                         }
                     } catch (JSONException e) {

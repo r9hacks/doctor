@@ -1,24 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="Aboutus">عن</string>
+    <string name="AboutusAct">من نحن</string>
+    <string name="AllReports">التقارير</string>
     <string name="Allergies">الحساسية</string>
+    <string name="Allfieldsarerequired">كل الحقول مطلوبة</string>
     <string name="Asthma">الربو</string>
+    <string name="Becausewecare">لأننا نهتم</string>
+    <string name="Birthdate">يوم الميلاد</string>
     <string name="BloodPressure">ضغط الدم</string>
     <string name="BloodType">فصيلة الدم</string>
     <string name="ChangeLanguage">تغيير اللغة</string>
+    <string name="Chooselanguage">اختر اللغة</string>
     <string name="Comments">التعليقات</string>
     <string name="Coughing">السعال</string>
     <string name="Diabetes">سكر الدم</string>
     <string name="Dizziness">الدوخة</string>
     <string name="DoctorReply">تعليق الدكتور</string>
+    <string name="Donthaveanaccount">ليس لديك حساب؟</string>
+    <string name="EditProfile">تعديل الملف الشخصي</string>
+    <string name="Editprofile">تعديل الملف الشخصي</string>
+    <string name="Email">البريد الإلكتروني</string>
     <string name="EnteryourCivilID">ادخل الرقم المدني</string>
+    <string name="Errortryagainlater">خطأ. حاول لاحقا</string>
+    <string name="Female">أنثى</string>
     <string name="Fever">الحمى</string>
+    <string name="FirstName">الاسم الأول</string>
+    <string name="ForgetPasswordAct">نسيت كلمة السر</string>
     <string name="ForgotPassword">نسيت كلمة السر؟</string>
+    <string name="Gender">الجنس</string>
     <string name="Headache">الصداع</string>
     <string name="HeartRate">نبض القلب</string>
     <string name="LangButton">الرجاء تغيير لغة الجهاز</string>
+    <string name="LastName">الاسم الأخير</string>
+    <string name="Location">الموقع</string>
     <string name="Login">تسجيل الدخول</string>
+    <string name="Logout">تسجيل الخروج</string>
+    <string name="Male">ذكر</string>
     <string name="Medication">الأدوية</string>
+    <string name="MiddleName">الاسم الأوسط</string>
+    <string name="MyPatients">مرضاي</string>
+    <string name="Myprofile">ملفي الشخصي</string>
     <string name="Name">الاسم</string>
+    <string name="Nationality">الجنسية</string>
     <string name="Nauseous">الغثيان</string>
     <string name="PainLocation">موضع الألم</string>
     <string name="Password">كلمة السر</string>
@@ -27,11 +51,28 @@
     <string name="PatientGender">الجنس</string>
     <string name="PatientName">الاسم</string>
     <string name="PatientPhone">الرقم</string>
+    <string name="PatientProfile">ملف المريض</string>
+    <string name="PatientRequests">إضافات المرضى</string>
+    <string name="Pending">الحديثة</string>
+    <string name="PhoneNumber">رقم الهاتف</string>
+    <string name="ProfileUpdated">تم التحديث</string>
+    <string name="Recommend">اسمح لي أن أوصي لك هذا التطبيق</string>
     <string name="Register">التسجيل</string>
+    <string name="Replied">القديمة</string>
     <string name="Reply">الرد</string>
+    <string name="ReplySent">الرد</string>
+    <string name="ReplytoReport">الرد على التقرير</string>
+    <string name="ReportDetail">تفاصيل التقرير</string>
+    <string name="Request">الإضافات</string>
     <string name="ResetPassword">تغيير كلمة السر</string>
+    <string name="Save">حفظ</string>
     <string name="SendReply">إرسال الرد</string>
+    <string name="Settings">الإعدادات</string>
+    <string name="Share">شارك</string>
+    <string name="Specialty">التخصص</string>
     <string name="SugarLevel">مستوى السكر</string>
+    <string name="ViewReports">عرض التقارير</string>
+    <string name="YourReplysentsuccessfully">تم إرسال الرد بنجاح</string>
     <string msgid="4600421777120114993" name="abc_action_bar_home_description">"التنقل إلى الشاشة الرئيسية"</string>
     <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s، %2$s"</string>
     <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"%1$s، %2$s، %3$s"</string>
@@ -52,6 +93,10 @@
     <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"‏مشاركة مع %s"</string>
     <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"تصغير"</string>
     <string name="app_name">الدكتور</string>
+    <string name="chooseone">اختر واحد</string>
+    <string name="civilId">الرقم المدني</string>
+    <string name="hello_blank_fragment">مرحبا</string>
+    <string name="notfound">غير موجود</string>
     <string msgid="146198913615257606" name="search_menu_title">"البحث"</string>
     <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"+999"</string>
 </resources>

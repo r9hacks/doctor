@@ -35,7 +35,7 @@ public class ForgetPasswordActivity extends AppCompatActivity {
         final Toolbar toolbar = (Toolbar) findViewById(R.id.myToolbar);
         this.getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_STATE_ALWAYS_HIDDEN);
 
-        toolbar.setTitle("Forget Password");
+        toolbar.setTitle(R.string.ForgetPasswordAct);
         toolbar.setTitleTextColor(Color.WHITE);
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);

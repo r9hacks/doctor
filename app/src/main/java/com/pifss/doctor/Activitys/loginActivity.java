@@ -39,7 +39,7 @@ public class loginActivity extends AppCompatActivity {
 
         final Toolbar toolbar = (Toolbar) findViewById(R.id.myToolbar);
 
-        toolbar.setTitle("Login");
+        toolbar.setTitle(R.string.Login);
         toolbar.setTitleTextColor(Color.WHITE);
 
         Button loginButton = (Button) findViewById(R.id.btnLogin);

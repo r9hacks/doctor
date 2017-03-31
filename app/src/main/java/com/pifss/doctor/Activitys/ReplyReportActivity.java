@@ -37,7 +37,7 @@ public class ReplyReportActivity extends AppCompatActivity {
         this.getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_STATE_ALWAYS_HIDDEN);
 
         final Toolbar toolbar = (Toolbar) findViewById(R.id.mytoolbar);
-        toolbar.setTitle("Reply to Report");
+        toolbar.setTitle(R.string.ReplytoReport);
         toolbar.setTitleTextColor(Color.WHITE);
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);

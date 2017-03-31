@@ -16,7 +16,7 @@ public class AboutUsActivity extends AppCompatActivity {
         setContentView(R.layout.activity_about_us);
         final Toolbar toolbar = (Toolbar) findViewById(R.id.mytoolbar);
 
-        toolbar.setTitle("About us");
+        toolbar.setTitle(R.string.Aboutus);
         toolbar.setTitleTextColor(Color.WHITE);
         EditText txtAbout =(EditText) findViewById(R.id.editText2);
         txtAbout.setEnabled(false);

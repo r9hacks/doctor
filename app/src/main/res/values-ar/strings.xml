@@ -48,4 +48,71 @@
     <string name="LangButton">الرجاء تغيير لغة الجهاز</string>
 
 
+    //
+
+    <string name="Becausewecare">لأننا نهتم</string>
+    <string name="Aboutus">عن</string>
+    <string name="civilId">الرقم المدني</string>
+
+    <string name="Specialty">التخصص</string>
+    <string name="Location">الموقع</string>
+    <string name="EditProfile">تعديل الملف الشخصي</string>
+    <string name="FirstName">الاسم الأول</string>
+    <string name="MiddleName">الاسم الأوسط</string>
+    <string name="LastName">الاسم الأخير</string>
+    <string name="Email">البريد الإلكتروني</string>
+    <string name="PhoneNumber">رقم الهاتف</string>
+    <string name="Nationality">الجنسية</string>
+    <string name="Save">حفظ</string>
+    <string name="Birthdate">يوم الميلاد</string>
+    <string name="Male">ذكر</string>
+    <string name="Female">أنثى</string>
+    <string name="Gender">الجنس</string>
+    <string name="Donthaveanaccount">ليس لديك حساب؟</string>
+    <string name="YourReplysentsuccessfully">تم إرسال الرد بنجاح</string>
+    <string name="Chooselanguage">اختر اللغة</string>
+    <string name="hello_blank_fragment">مرحبا</string>
+
+
+
+
+    //activities
+
+    <string name="Myprofile">ملفي الشخصي</string>
+    //could not put notfound in activity
+    <string name="notfound">غير موجود</string>
+    <string name="Editprofile">تعديل الملف الشخصي</string>
+    <string name="Allfieldsarerequired">كل الحقول مطلوبة</string>
+    <string name="ProfileUpdated">تم التحديث</string>
+    <string name="Errortryagainlater">خطأ. حاول لاحقا</string>
+    <string name="AllReports">التقارير</string>
+
+
+    <string name="ViewReports">عرض التقارير</string>
+    <string name="PatientRequests">إضافات المرضى</string>
+    <string name="MyPatients">مرضاي</string>
+    <string name="Share">شارك</string>
+    <string name="Settings">الإعدادات</string>
+    <string name="Logout">تسجيل الخروج</string>
+    <string name="AboutusAct">من نحن</string>
+    <string name="Recommend">اسمح لي أن أوصي لك هذا التطبيق</string>
+
+    //could not put chooseone in activity
+    <string name="chooseone">اختر واحد</string>
+
+    <string name="PatientProfile">ملف المريض</string>
+
+    <string name="Request">الإضافات</string>
+    <string name="ReplySent">الرد</string>
+    <string name="ReplytoReport">الرد على التقرير</string>
+    <string name="ReportDetail">تفاصيل التقرير</string>
+    <string name="ForgetPasswordAct">نسيت كلمة السر</string>
+
+
+    <string name="Pending">الحديثة</string>
+    <string name="Replied">القديمة</string>
+
+
+
+
 </resources>

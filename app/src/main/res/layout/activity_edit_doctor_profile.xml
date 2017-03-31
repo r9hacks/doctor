@@ -71,7 +71,7 @@
                     android:drawableLeft="@mipmap/doctor"
                     android:drawablePadding="10dp"
                     android:ems="10"
-                    android:hint="First Name"
+                    android:hint="@string/FirstName"
                     android:inputType="textPersonName"
                     android:textColor="@android:color/darker_gray" />
             </android.support.design.widget.TextInputLayout>
@@ -95,7 +95,7 @@
                     android:layout_marginStart="14dp"
                     android:drawablePadding="10dp"
                     android:ems="10"
-                    android:hint="Middle Name"
+                    android:hint="@string/MiddleName"
                     android:inputType="textPersonName"
                     android:textColor="@android:color/darker_gray" />
             </android.support.design.widget.TextInputLayout>
@@ -119,7 +119,7 @@
                     android:layout_marginStart="14dp"
                     android:drawablePadding="10dp"
                     android:ems="10"
-                    android:hint="Last Name"
+                    android:hint="@string/LastName"
                     android:inputType="textPersonName"
                     android:textColor="@android:color/darker_gray" />
             </android.support.design.widget.TextInputLayout>
@@ -148,7 +148,7 @@
                     android:drawableLeft="@mipmap/email"
                     android:drawablePadding="10dp"
                     android:ems="10"
-                    android:hint="Email"
+                    android:hint="@string/Email"
                     android:inputType="textEmailAddress"
                     android:textColor="@android:color/darker_gray" />
             </android.support.design.widget.TextInputLayout>
@@ -174,7 +174,7 @@
                     android:drawableLeft="@mipmap/password"
                     android:drawablePadding="10dp"
                     android:ems="10"
-                    android:hint="Password"
+                    android:hint="@string/Password"
                     android:inputType="textPassword"
                     android:textColor="@android:color/darker_gray" />
 
@@ -201,7 +201,7 @@
                     android:drawableLeft="@mipmap/phonecall"
                     android:drawablePadding="10dp"
                     android:ems="10"
-                    android:hint="Phone Number"
+                    android:hint="@string/PhoneNumber"
                     android:inputType="phone"
                     android:textColor="@android:color/darker_gray" />
             </android.support.design.widget.TextInputLayout>
@@ -231,7 +231,7 @@
                     android:drawableLeft="@mipmap/map"
                     android:drawablePadding="10dp"
                     android:ems="10"
-                    android:hint="Location"
+                    android:hint="@string/Location"
                     android:textColor="@android:color/darker_gray" />
             </android.support.design.widget.TextInputLayout>
 
@@ -254,7 +254,7 @@
                     android:drawableLeft="@mipmap/id_card"
                     android:drawablePadding="10dp"
                     android:ems="10"
-                    android:hint="Civil ID"
+                    android:hint="@string/civilId"
                     android:inputType="textEmailAddress"
                     android:textColor="@android:color/darker_gray" />
             </android.support.design.widget.TextInputLayout>
@@ -282,7 +282,7 @@
                     android:drawableLeft="@mipmap/maps_and_flags"
                     android:drawablePadding="10dp"
                     android:ems="10"
-                    android:hint="Nationality"
+                    android:hint="@string/Nationality"
                     android:textColor="@android:color/darker_gray" />
             </android.support.design.widget.TextInputLayout>
 
@@ -310,7 +310,7 @@
                     android:drawableLeft="@mipmap/stethoscope_profile"
                     android:drawablePadding="10dp"
                     android:ems="10"
-                    android:hint="Specialty"
+                    android:hint="@string/Specialty"
                     android:textColor="@android:color/darker_gray" />
             </android.support.design.widget.TextInputLayout>
 
@@ -322,16 +322,17 @@
                 android:layout_marginLeft="15dp"
                 android:layout_marginRight="15dp"
                 >
+
                 <TextView
                     android:id="@+id/txtbday"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
                     android:layout_marginLeft="32dp"
                     android:layout_marginStart="32dp"
                     android:paddingLeft="10dp"
-                    android:text="Birthdate"
-                    android:textSize="13sp"
-                    android:layout_marginBottom="5dp"/>
+                    android:text="@string/Birthdate"
+                    android:textSize="13sp" />
 
 
                 <LinearLayout
@@ -392,12 +393,12 @@
                     android:id="@+id/textView11"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
                     android:layout_marginLeft="32dp"
                     android:layout_marginStart="32dp"
                     android:paddingLeft="10dp"
-                    android:text="Gender"
-                    android:textSize="13sp"
-                    android:layout_marginBottom="5dp"/>
+                    android:text="@string/Gender"
+                    android:textSize="13sp" />
 
                 <LinearLayout
                     android:id="@+id/GenderRL"
@@ -446,7 +447,7 @@
                             android:layout_toEndOf="@+id/imgBtnMale"
                             android:layout_toRightOf="@+id/imgBtnMale"
                             android:layout_weight="0.1"
-                            android:text="Male" />
+                            android:text="@string/Male" />
 
                         <!--<ImageView-->
                         <!--android:id="@+id/imgBtnFemale"-->
@@ -468,7 +469,7 @@
                             android:layout_toEndOf="@+id/imgBtnFemale"
                             android:layout_toRightOf="@+id/imgBtnFemale"
                             android:layout_weight="0.1"
-                            android:text="Female" />
+                            android:text="@string/Female" />
                     </RadioGroup>
 
 
@@ -531,7 +532,7 @@
         android:layout_alignParentStart="true"
         android:alpha="0.75"
         android:background="@color/colorAccent"
-        android:text="Save"
+        android:text="@string/Save"
         android:textSize="23sp"
         android:textStyle="bold" />
 

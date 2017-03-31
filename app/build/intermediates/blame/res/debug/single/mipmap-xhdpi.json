@@ -1,55 +1,35 @@
 [
     {
-        "merged": "/Users/trn24/Desktop/IBM/Andriod/Project/doctor mar312/doctor/app/build/intermediates/res/merged/debug/mipmap-xhdpi/gender_icon.png",
-        "source": "/Users/trn24/Desktop/IBM/Andriod/Project/doctor mar312/doctor/app/src/main/res/mipmap-xhdpi/gender_icon.png"
+        "merged": "/Users/Entisar/Desktop/Android/doctor/app/build/intermediates/res/merged/debug/mipmap-xhdpi/ic_launcher_round.png",
+        "source": "/Users/Entisar/Desktop/Android/doctor/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "/Users/trn24/Desktop/IBM/Andriod/Project/doctor mar312/doctor/app/build/intermediates/res/merged/debug/mipmap-xhdpi/ic_launcher.png",
-        "source": "/Users/trn24/Desktop/IBM/Andriod/Project/doctor mar312/doctor/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+        "merged": "/Users/Entisar/Desktop/Android/doctor/app/build/intermediates/res/merged/debug/mipmap-xhdpi/comment.png",
+        "source": "/Users/Entisar/Desktop/Android/doctor/app/src/main/res/mipmap-xhdpi/comment.png"
     },
     {
-        "merged": "/Users/trn24/Desktop/IBM/Andriod/Project/doctor mar312/doctor/app/build/intermediates/res/merged/debug/mipmap-xhdpi/heart_rate.png",
-        "source": "/Users/trn24/Desktop/IBM/Andriod/Project/doctor mar312/doctor/app/src/main/res/mipmap-xhdpi/heart_rate.png"
+        "merged": "/Users/Entisar/Desktop/Android/doctor/app/build/intermediates/res/merged/debug/mipmap-xhdpi/blood_pressure_icon.png",
+        "source": "/Users/Entisar/Desktop/Android/doctor/app/src/main/res/mipmap-xhdpi/blood_pressure_icon.png"
     },
     {
-        "merged": "/Users/trn24/Desktop/IBM/Andriod/Project/doctor mar312/doctor/app/build/intermediates/res/merged/debug/mipmap-xhdpi/coughing.png",
-        "source": "/Users/trn24/Desktop/IBM/Andriod/Project/doctor mar312/doctor/app/src/main/res/mipmap-xhdpi/coughing.png"
+        "merged": "/Users/Entisar/Desktop/Android/doctor/app/build/intermediates/res/merged/debug/mipmap-xhdpi/candy.png",
+        "source": "/Users/Entisar/Desktop/Android/doctor/app/src/main/res/mipmap-xhdpi/candy.png"
     },
     {
-        "merged": "/Users/trn24/Desktop/IBM/Andriod/Project/doctor mar312/doctor/app/build/intermediates/res/merged/debug/mipmap-xhdpi/pain_location.png",
-        "source": "/Users/trn24/Desktop/IBM/Andriod/Project/doctor mar312/doctor/app/src/main/res/mipmap-xhdpi/pain_location.png"
-    },
-    {
-        "merged": "/Users/trn24/Desktop/IBM/Andriod/Project/doctor mar312/doctor/app/build/intermediates/res/merged/debug/mipmap-xhdpi/allergy_icon.png",
-        "source": "/Users/trn24/Desktop/IBM/Andriod/Project/doctor mar312/doctor/app/src/main/res/mipmap-xhdpi/allergy_icon.png"
-    },
-    {
-        "merged": "/Users/trn24/Desktop/IBM/Andriod/Project/doctor mar312/doctor/app/build/intermediates/res/merged/debug/mipmap-xhdpi/blood_pressure_icon.png",
-        "source": "/Users/trn24/Desktop/IBM/Andriod/Project/doctor mar312/doctor/app/src/main/res/mipmap-xhdpi/blood_pressure_icon.png"
+        "merged": "/Users/Entisar/Desktop/Android/doctor/app/build/intermediates/res/merged/debug/mipmap-xhdpi/faint.png",
+        "source": "/Users/Entisar/Desktop/Android/doctor/app/src/main/res/mipmap-xhdpi/faint.png"
     },
     {
         "merged": "/Users/trn24/Desktop/IBM/Andriod/Project/doctor mar312/doctor/app/build/intermediates/res/merged/debug/mipmap-xhdpi/material_bacground.png",
         "source": "/Users/trn24/Desktop/IBM/Andriod/Project/doctor mar312/doctor/app/src/main/res/mipmap-xhdpi/material_bacground.png"
     },
     {
-        "merged": "/Users/trn24/Desktop/IBM/Andriod/Project/doctor mar312/doctor/app/build/intermediates/res/merged/debug/mipmap-xhdpi/painn.png",
-        "source": "/Users/trn24/Desktop/IBM/Andriod/Project/doctor mar312/doctor/app/src/main/res/mipmap-xhdpi/painn.png"
-    },
-    {
-        "merged": "/Users/trn24/Desktop/IBM/Andriod/Project/doctor mar312/doctor/app/build/intermediates/res/merged/debug/mipmap-xhdpi/share_icon.png",
-        "source": "/Users/trn24/Desktop/IBM/Andriod/Project/doctor mar312/doctor/app/src/main/res/mipmap-xhdpi/share_icon.png"
-    },
-    {
-        "merged": "/Users/trn24/Desktop/IBM/Andriod/Project/doctor mar312/doctor/app/build/intermediates/res/merged/debug/mipmap-xhdpi/cough.png",
-        "source": "/Users/trn24/Desktop/IBM/Andriod/Project/doctor mar312/doctor/app/src/main/res/mipmap-xhdpi/cough.png"
-    },
-    {
         "merged": "/Users/trn24/Desktop/IBM/Andriod/Project/doctor mar312/doctor/app/build/intermediates/res/merged/debug/mipmap-xhdpi/faint.png",
         "source": "/Users/trn24/Desktop/IBM/Andriod/Project/doctor mar312/doctor/app/src/main/res/mipmap-xhdpi/faint.png"
     },
     {
-        "merged": "/Users/trn24/Desktop/IBM/Andriod/Project/doctor mar312/doctor/app/build/intermediates/res/merged/debug/mipmap-xhdpi/ic_launcher_round.png",
-        "source": "/Users/trn24/Desktop/IBM/Andriod/Project/doctor mar312/doctor/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
+        "merged": "/Users/Entisar/Desktop/Android/doctor/app/build/intermediates/res/merged/debug/mipmap-xhdpi/allergy_icon.png",
+        "source": "/Users/Entisar/Desktop/Android/doctor/app/src/main/res/mipmap-xhdpi/allergy_icon.png"
     },
     {
         "merged": "/Users/trn24/Desktop/IBM/Andriod/Project/doctor mar312/doctor/app/build/intermediates/res/merged/debug/mipmap-xhdpi/blood_drop_icon.png",
@@ -60,60 +40,68 @@
         "source": "/Users/trn24/Desktop/IBM/Andriod/Project/doctor mar312/doctor/app/src/main/res/mipmap-xhdpi/doctor_profile_icon_two.png"
     },
     {
-        "merged": "/Users/trn24/Desktop/IBM/Andriod/Project/doctor mar312/doctor/app/build/intermediates/res/merged/debug/mipmap-xhdpi/logout_icon.png",
-        "source": "/Users/trn24/Desktop/IBM/Andriod/Project/doctor mar312/doctor/app/src/main/res/mipmap-xhdpi/logout_icon.png"
+        "merged": "/Users/Entisar/Desktop/Android/doctor/app/build/intermediates/res/merged/debug/mipmap-xhdpi/doctor_profile_icon.png",
+        "source": "/Users/Entisar/Desktop/Android/doctor/app/src/main/res/mipmap-xhdpi/doctor_profile_icon.png"
     },
     {
         "merged": "/Users/trn24/Desktop/IBM/Andriod/Project/doctor mar312/doctor/app/build/intermediates/res/merged/debug/mipmap-xhdpi/add_icon.png",
         "source": "/Users/trn24/Desktop/IBM/Andriod/Project/doctor mar312/doctor/app/src/main/res/mipmap-xhdpi/add_icon.png"
     },
     {
-        "merged": "/Users/trn24/Desktop/IBM/Andriod/Project/doctor mar312/doctor/app/build/intermediates/res/merged/debug/mipmap-xhdpi/asthma_icon.png",
-        "source": "/Users/trn24/Desktop/IBM/Andriod/Project/doctor mar312/doctor/app/src/main/res/mipmap-xhdpi/asthma_icon.png"
+        "merged": "/Users/trn24/Desktop/IBM/Andriod/Project/doctor mar312/doctor/app/build/intermediates/res/merged/debug/mipmap-xhdpi/logout_icon.png",
+        "source": "/Users/trn24/Desktop/IBM/Andriod/Project/doctor mar312/doctor/app/src/main/res/mipmap-xhdpi/logout_icon.png"
     },
     {
-        "merged": "/Users/trn24/Desktop/IBM/Andriod/Project/doctor mar312/doctor/app/build/intermediates/res/merged/debug/mipmap-xhdpi/diabetes.png",
-        "source": "/Users/trn24/Desktop/IBM/Andriod/Project/doctor mar312/doctor/app/src/main/res/mipmap-xhdpi/diabetes.png"
+        "merged": "/Users/Entisar/Desktop/Android/doctor/app/build/intermediates/res/merged/debug/mipmap-xhdpi/settings_icon.png",
+        "source": "/Users/Entisar/Desktop/Android/doctor/app/src/main/res/mipmap-xhdpi/settings_icon.png"
     },
     {
-        "merged": "/Users/trn24/Desktop/IBM/Andriod/Project/doctor mar312/doctor/app/build/intermediates/res/merged/debug/mipmap-xhdpi/comment_icon.png",
-        "source": "/Users/trn24/Desktop/IBM/Andriod/Project/doctor mar312/doctor/app/src/main/res/mipmap-xhdpi/comment_icon.png"
+        "merged": "/Users/Entisar/Desktop/Android/doctor/app/build/intermediates/res/merged/debug/mipmap-xhdpi/checked.png",
+        "source": "/Users/Entisar/Desktop/Android/doctor/app/src/main/res/mipmap-xhdpi/checked.png"
+    },
+    {
+        "merged": "/Users/Entisar/Desktop/Android/doctor/app/build/intermediates/res/merged/debug/mipmap-xhdpi/my_patient_icon.png",
+        "source": "/Users/Entisar/Desktop/Android/doctor/app/src/main/res/mipmap-xhdpi/my_patient_icon.png"
+    },
+    {
+        "merged": "/Users/Entisar/Desktop/Android/doctor/app/build/intermediates/res/merged/debug/mipmap-xhdpi/add_icon.png",
+        "source": "/Users/Entisar/Desktop/Android/doctor/app/src/main/res/mipmap-xhdpi/add_icon.png"
+    },
+    {
+        "merged": "/Users/Entisar/Desktop/Android/doctor/app/build/intermediates/res/merged/debug/mipmap-xhdpi/doctor_profile_icon_two.png",
+        "source": "/Users/Entisar/Desktop/Android/doctor/app/src/main/res/mipmap-xhdpi/doctor_profile_icon_two.png"
     },
     {
         "merged": "/Users/trn24/Desktop/IBM/Andriod/Project/doctor mar312/doctor/app/build/intermediates/res/merged/debug/mipmap-xhdpi/comment.png",
         "source": "/Users/trn24/Desktop/IBM/Andriod/Project/doctor mar312/doctor/app/src/main/res/mipmap-xhdpi/comment.png"
     },
     {
-        "merged": "/Users/trn24/Desktop/IBM/Andriod/Project/doctor mar312/doctor/app/build/intermediates/res/merged/debug/mipmap-xhdpi/medical_report_icon.png",
-        "source": "/Users/trn24/Desktop/IBM/Andriod/Project/doctor mar312/doctor/app/src/main/res/mipmap-xhdpi/medical_report_icon.png"
-    },
-    {
-        "merged": "/Users/trn24/Desktop/IBM/Andriod/Project/doctor mar312/doctor/app/build/intermediates/res/merged/debug/mipmap-xhdpi/settings_icon.png",
-        "source": "/Users/trn24/Desktop/IBM/Andriod/Project/doctor mar312/doctor/app/src/main/res/mipmap-xhdpi/settings_icon.png"
+        "merged": "/Users/Entisar/Desktop/Android/doctor/app/build/intermediates/res/merged/debug/mipmap-xhdpi/dizzyhead.png",
+        "source": "/Users/Entisar/Desktop/Android/doctor/app/src/main/res/mipmap-xhdpi/dizzyhead.png"
     },
     {
         "merged": "/Users/trn24/Desktop/IBM/Andriod/Project/doctor mar312/doctor/app/build/intermediates/res/merged/debug/mipmap-xhdpi/dizzyhead.png",
         "source": "/Users/trn24/Desktop/IBM/Andriod/Project/doctor mar312/doctor/app/src/main/res/mipmap-xhdpi/dizzyhead.png"
     },
     {
+        "merged": "/Users/Entisar/Desktop/Android/doctor/app/build/intermediates/res/merged/debug/mipmap-xhdpi/nausness.png",
+        "source": "/Users/Entisar/Desktop/Android/doctor/app/src/main/res/mipmap-xhdpi/nausness.png"
+    },
+    {
+        "merged": "/Users/Entisar/Desktop/Android/doctor/app/build/intermediates/res/merged/debug/mipmap-xhdpi/aboutus_icon.png",
+        "source": "/Users/Entisar/Desktop/Android/doctor/app/src/main/res/mipmap-xhdpi/aboutus_icon.png"
+    },
+    {
         "merged": "/Users/trn24/Desktop/IBM/Andriod/Project/doctor mar312/doctor/app/build/intermediates/res/merged/debug/mipmap-xhdpi/profile_icon.png",
         "source": "/Users/trn24/Desktop/IBM/Andriod/Project/doctor mar312/doctor/app/src/main/res/mipmap-xhdpi/profile_icon.png"
     },
     {
-        "merged": "/Users/trn24/Desktop/IBM/Andriod/Project/doctor mar312/doctor/app/build/intermediates/res/merged/debug/mipmap-xhdpi/medical_thermometer.png",
-        "source": "/Users/trn24/Desktop/IBM/Andriod/Project/doctor mar312/doctor/app/src/main/res/mipmap-xhdpi/medical_thermometer.png"
-    },
-    {
-        "merged": "/Users/trn24/Desktop/IBM/Andriod/Project/doctor mar312/doctor/app/build/intermediates/res/merged/debug/mipmap-xhdpi/medicine_icon.png",
-        "source": "/Users/trn24/Desktop/IBM/Andriod/Project/doctor mar312/doctor/app/src/main/res/mipmap-xhdpi/medicine_icon.png"
+        "merged": "/Users/Entisar/Desktop/Android/doctor/app/build/intermediates/res/merged/debug/mipmap-xhdpi/painn.png",
+        "source": "/Users/Entisar/Desktop/Android/doctor/app/src/main/res/mipmap-xhdpi/painn.png"
     },
     {
         "merged": "/Users/trn24/Desktop/IBM/Andriod/Project/doctor mar312/doctor/app/build/intermediates/res/merged/debug/mipmap-xhdpi/diabity_icon.png",
         "source": "/Users/trn24/Desktop/IBM/Andriod/Project/doctor mar312/doctor/app/src/main/res/mipmap-xhdpi/diabity_icon.png"
-    },
-    {
-        "merged": "/Users/trn24/Desktop/IBM/Andriod/Project/doctor mar312/doctor/app/build/intermediates/res/merged/debug/mipmap-xhdpi/declinee.png",
-        "source": "/Users/trn24/Desktop/IBM/Andriod/Project/doctor mar312/doctor/app/src/main/res/mipmap-xhdpi/declinee.png"
     },
     {
         "merged": "/Users/trn24/Desktop/IBM/Andriod/Project/doctor mar312/doctor/app/build/intermediates/res/merged/debug/mipmap-xhdpi/replyl.png",
@@ -124,8 +112,8 @@
         "source": "/Users/trn24/Desktop/IBM/Andriod/Project/doctor mar312/doctor/app/src/main/res/mipmap-xhdpi/nausness.png"
     },
     {
-        "merged": "/Users/trn24/Desktop/IBM/Andriod/Project/doctor mar312/doctor/app/build/intermediates/res/merged/debug/mipmap-xhdpi/message_icon_blue.png",
-        "source": "/Users/trn24/Desktop/IBM/Andriod/Project/doctor mar312/doctor/app/src/main/res/mipmap-xhdpi/message_icon_blue.png"
+        "merged": "/Users/Entisar/Desktop/Android/doctor/app/build/intermediates/res/merged/debug/mipmap-xhdpi/acceptt.png",
+        "source": "/Users/Entisar/Desktop/Android/doctor/app/src/main/res/mipmap-xhdpi/acceptt.png"
     },
     {
         "merged": "/Users/trn24/Desktop/IBM/Andriod/Project/doctor mar312/doctor/app/build/intermediates/res/merged/debug/mipmap-xhdpi/fever_icon.png",
@@ -136,12 +124,12 @@
         "source": "/Users/trn24/Desktop/IBM/Andriod/Project/doctor mar312/doctor/app/src/main/res/mipmap-xhdpi/acceptt.png"
     },
     {
-        "merged": "/Users/trn24/Desktop/IBM/Andriod/Project/doctor mar312/doctor/app/build/intermediates/res/merged/debug/mipmap-xhdpi/my_patient_icon.png",
-        "source": "/Users/trn24/Desktop/IBM/Andriod/Project/doctor mar312/doctor/app/src/main/res/mipmap-xhdpi/my_patient_icon.png"
+        "merged": "/Users/Entisar/Desktop/Android/doctor/app/build/intermediates/res/merged/debug/mipmap-xhdpi/logout_icon.png",
+        "source": "/Users/Entisar/Desktop/Android/doctor/app/src/main/res/mipmap-xhdpi/logout_icon.png"
     },
     {
-        "merged": "/Users/trn24/Desktop/IBM/Andriod/Project/doctor mar312/doctor/app/build/intermediates/res/merged/debug/mipmap-xhdpi/headachee.png",
-        "source": "/Users/trn24/Desktop/IBM/Andriod/Project/doctor mar312/doctor/app/src/main/res/mipmap-xhdpi/headachee.png"
+        "merged": "/Users/Entisar/Desktop/Android/doctor/app/build/intermediates/res/merged/debug/mipmap-xhdpi/share_icon.png",
+        "source": "/Users/Entisar/Desktop/Android/doctor/app/src/main/res/mipmap-xhdpi/share_icon.png"
     },
     {
         "merged": "/Users/trn24/Desktop/IBM/Andriod/Project/doctor mar312/doctor/app/build/intermediates/res/merged/debug/mipmap-xhdpi/doctor_profile_icon.png",
@@ -156,12 +144,196 @@
         "source": "/Users/trn24/Desktop/IBM/Andriod/Project/doctor mar312/doctor/app/src/main/res/mipmap-xhdpi/heart_icon.png"
     },
     {
-        "merged": "/Users/trn24/Desktop/IBM/Andriod/Project/doctor mar312/doctor/app/build/intermediates/res/merged/debug/mipmap-xhdpi/checked.png",
-        "source": "/Users/trn24/Desktop/IBM/Andriod/Project/doctor mar312/doctor/app/src/main/res/mipmap-xhdpi/checked.png"
+        "merged": "/Users/Entisar/Desktop/Android/doctor/app/build/intermediates/res/merged/debug/mipmap-xhdpi/pain_location.png",
+        "source": "/Users/Entisar/Desktop/Android/doctor/app/src/main/res/mipmap-xhdpi/pain_location.png"
+    },
+    {
+        "merged": "/Users/Entisar/Desktop/Android/doctor/app/build/intermediates/res/merged/debug/mipmap-xhdpi/replyl.png",
+        "source": "/Users/Entisar/Desktop/Android/doctor/app/src/main/res/mipmap-xhdpi/replyl.png"
     },
     {
         "merged": "/Users/trn24/Desktop/IBM/Andriod/Project/doctor mar312/doctor/app/build/intermediates/res/merged/debug/mipmap-xhdpi/aboutus_icon.png",
         "source": "/Users/trn24/Desktop/IBM/Andriod/Project/doctor mar312/doctor/app/src/main/res/mipmap-xhdpi/aboutus_icon.png"
+    },
+    {
+        "merged": "/Users/Entisar/Desktop/Android/doctor/app/build/intermediates/res/merged/debug/mipmap-xhdpi/heart_icon.png",
+        "source": "/Users/Entisar/Desktop/Android/doctor/app/src/main/res/mipmap-xhdpi/heart_icon.png"
+    },
+    {
+        "merged": "/Users/trn24/Desktop/IBM/Andriod/Project/doctor mar312/doctor/app/build/intermediates/res/merged/debug/mipmap-xhdpi/gender_icon.png",
+        "source": "/Users/trn24/Desktop/IBM/Andriod/Project/doctor mar312/doctor/app/src/main/res/mipmap-xhdpi/gender_icon.png"
+    },
+    {
+        "merged": "/Users/trn24/Desktop/IBM/Andriod/Project/doctor mar312/doctor/app/build/intermediates/res/merged/debug/mipmap-xhdpi/ic_launcher.png",
+        "source": "/Users/trn24/Desktop/IBM/Andriod/Project/doctor mar312/doctor/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/trn24/Desktop/IBM/Andriod/Project/doctor mar312/doctor/app/build/intermediates/res/merged/debug/mipmap-xhdpi/heart_rate.png",
+        "source": "/Users/trn24/Desktop/IBM/Andriod/Project/doctor mar312/doctor/app/src/main/res/mipmap-xhdpi/heart_rate.png"
+    },
+    {
+        "merged": "/Users/Entisar/Desktop/Android/doctor/app/build/intermediates/res/merged/debug/mipmap-xhdpi/fever_icon.png",
+        "source": "/Users/Entisar/Desktop/Android/doctor/app/src/main/res/mipmap-xhdpi/fever_icon.png"
+    },
+    {
+        "merged": "/Users/trn24/Desktop/IBM/Andriod/Project/doctor mar312/doctor/app/build/intermediates/res/merged/debug/mipmap-xhdpi/coughing.png",
+        "source": "/Users/trn24/Desktop/IBM/Andriod/Project/doctor mar312/doctor/app/src/main/res/mipmap-xhdpi/coughing.png"
+    },
+    {
+        "merged": "/Users/Entisar/Desktop/Android/doctor/app/build/intermediates/res/merged/debug/mipmap-xhdpi/message_icon_blue.png",
+        "source": "/Users/Entisar/Desktop/Android/doctor/app/src/main/res/mipmap-xhdpi/message_icon_blue.png"
+    },
+    {
+        "merged": "/Users/trn24/Desktop/IBM/Andriod/Project/doctor mar312/doctor/app/build/intermediates/res/merged/debug/mipmap-xhdpi/pain_location.png",
+        "source": "/Users/trn24/Desktop/IBM/Andriod/Project/doctor mar312/doctor/app/src/main/res/mipmap-xhdpi/pain_location.png"
+    },
+    {
+        "merged": "/Users/trn24/Desktop/IBM/Andriod/Project/doctor mar312/doctor/app/build/intermediates/res/merged/debug/mipmap-xhdpi/allergy_icon.png",
+        "source": "/Users/trn24/Desktop/IBM/Andriod/Project/doctor mar312/doctor/app/src/main/res/mipmap-xhdpi/allergy_icon.png"
+    },
+    {
+        "merged": "/Users/Entisar/Desktop/Android/doctor/app/build/intermediates/res/merged/debug/mipmap-xhdpi/headachee.png",
+        "source": "/Users/Entisar/Desktop/Android/doctor/app/src/main/res/mipmap-xhdpi/headachee.png"
+    },
+    {
+        "merged": "/Users/trn24/Desktop/IBM/Andriod/Project/doctor mar312/doctor/app/build/intermediates/res/merged/debug/mipmap-xhdpi/blood_pressure_icon.png",
+        "source": "/Users/trn24/Desktop/IBM/Andriod/Project/doctor mar312/doctor/app/src/main/res/mipmap-xhdpi/blood_pressure_icon.png"
+    },
+    {
+        "merged": "/Users/trn24/Desktop/IBM/Andriod/Project/doctor mar312/doctor/app/build/intermediates/res/merged/debug/mipmap-xhdpi/painn.png",
+        "source": "/Users/trn24/Desktop/IBM/Andriod/Project/doctor mar312/doctor/app/src/main/res/mipmap-xhdpi/painn.png"
+    },
+    {
+        "merged": "/Users/trn24/Desktop/IBM/Andriod/Project/doctor mar312/doctor/app/build/intermediates/res/merged/debug/mipmap-xhdpi/share_icon.png",
+        "source": "/Users/trn24/Desktop/IBM/Andriod/Project/doctor mar312/doctor/app/src/main/res/mipmap-xhdpi/share_icon.png"
+    },
+    {
+        "merged": "/Users/Entisar/Desktop/Android/doctor/app/build/intermediates/res/merged/debug/mipmap-xhdpi/material_bacground.png",
+        "source": "/Users/Entisar/Desktop/Android/doctor/app/src/main/res/mipmap-xhdpi/material_bacground.png"
+    },
+    {
+        "merged": "/Users/trn24/Desktop/IBM/Andriod/Project/doctor mar312/doctor/app/build/intermediates/res/merged/debug/mipmap-xhdpi/cough.png",
+        "source": "/Users/trn24/Desktop/IBM/Andriod/Project/doctor mar312/doctor/app/src/main/res/mipmap-xhdpi/cough.png"
+    },
+    {
+        "merged": "/Users/Entisar/Desktop/Android/doctor/app/build/intermediates/res/merged/debug/mipmap-xhdpi/headache.png",
+        "source": "/Users/Entisar/Desktop/Android/doctor/app/src/main/res/mipmap-xhdpi/headache.png"
+    },
+    {
+        "merged": "/Users/trn24/Desktop/IBM/Andriod/Project/doctor mar312/doctor/app/build/intermediates/res/merged/debug/mipmap-xhdpi/ic_launcher_round.png",
+        "source": "/Users/trn24/Desktop/IBM/Andriod/Project/doctor mar312/doctor/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/Entisar/Desktop/Android/doctor/app/build/intermediates/res/merged/debug/mipmap-xhdpi/mhealth.png",
+        "source": "/Users/Entisar/Desktop/Android/doctor/app/src/main/res/mipmap-xhdpi/mhealth.png"
+    },
+    {
+        "merged": "/Users/Entisar/Desktop/Android/doctor/app/build/intermediates/res/merged/debug/mipmap-xhdpi/asthma_icon.png",
+        "source": "/Users/Entisar/Desktop/Android/doctor/app/src/main/res/mipmap-xhdpi/asthma_icon.png"
+    },
+    {
+        "merged": "/Users/trn24/Desktop/IBM/Andriod/Project/doctor mar312/doctor/app/build/intermediates/res/merged/debug/mipmap-xhdpi/asthma_icon.png",
+        "source": "/Users/trn24/Desktop/IBM/Andriod/Project/doctor mar312/doctor/app/src/main/res/mipmap-xhdpi/asthma_icon.png"
+    },
+    {
+        "merged": "/Users/trn24/Desktop/IBM/Andriod/Project/doctor mar312/doctor/app/build/intermediates/res/merged/debug/mipmap-xhdpi/diabetes.png",
+        "source": "/Users/trn24/Desktop/IBM/Andriod/Project/doctor mar312/doctor/app/src/main/res/mipmap-xhdpi/diabetes.png"
+    },
+    {
+        "merged": "/Users/Entisar/Desktop/Android/doctor/app/build/intermediates/res/merged/debug/mipmap-xhdpi/gender_icon.png",
+        "source": "/Users/Entisar/Desktop/Android/doctor/app/src/main/res/mipmap-xhdpi/gender_icon.png"
+    },
+    {
+        "merged": "/Users/trn24/Desktop/IBM/Andriod/Project/doctor mar312/doctor/app/build/intermediates/res/merged/debug/mipmap-xhdpi/comment_icon.png",
+        "source": "/Users/trn24/Desktop/IBM/Andriod/Project/doctor mar312/doctor/app/src/main/res/mipmap-xhdpi/comment_icon.png"
+    },
+    {
+        "merged": "/Users/trn24/Desktop/IBM/Andriod/Project/doctor mar312/doctor/app/build/intermediates/res/merged/debug/mipmap-xhdpi/medical_report_icon.png",
+        "source": "/Users/trn24/Desktop/IBM/Andriod/Project/doctor mar312/doctor/app/src/main/res/mipmap-xhdpi/medical_report_icon.png"
+    },
+    {
+        "merged": "/Users/Entisar/Desktop/Android/doctor/app/build/intermediates/res/merged/debug/mipmap-xhdpi/coughing.png",
+        "source": "/Users/Entisar/Desktop/Android/doctor/app/src/main/res/mipmap-xhdpi/coughing.png"
+    },
+    {
+        "merged": "/Users/Entisar/Desktop/Android/doctor/app/build/intermediates/res/merged/debug/mipmap-xhdpi/declinee.png",
+        "source": "/Users/Entisar/Desktop/Android/doctor/app/src/main/res/mipmap-xhdpi/declinee.png"
+    },
+    {
+        "merged": "/Users/trn24/Desktop/IBM/Andriod/Project/doctor mar312/doctor/app/build/intermediates/res/merged/debug/mipmap-xhdpi/settings_icon.png",
+        "source": "/Users/trn24/Desktop/IBM/Andriod/Project/doctor mar312/doctor/app/src/main/res/mipmap-xhdpi/settings_icon.png"
+    },
+    {
+        "merged": "/Users/Entisar/Desktop/Android/doctor/app/build/intermediates/res/merged/debug/mipmap-xhdpi/cough.png",
+        "source": "/Users/Entisar/Desktop/Android/doctor/app/src/main/res/mipmap-xhdpi/cough.png"
+    },
+    {
+        "merged": "/Users/Entisar/Desktop/Android/doctor/app/build/intermediates/res/merged/debug/mipmap-xhdpi/comment_icon.png",
+        "source": "/Users/Entisar/Desktop/Android/doctor/app/src/main/res/mipmap-xhdpi/comment_icon.png"
+    },
+    {
+        "merged": "/Users/Entisar/Desktop/Android/doctor/app/build/intermediates/res/merged/debug/mipmap-xhdpi/medical_report_icon.png",
+        "source": "/Users/Entisar/Desktop/Android/doctor/app/src/main/res/mipmap-xhdpi/medical_report_icon.png"
+    },
+    {
+        "merged": "/Users/Entisar/Desktop/Android/doctor/app/build/intermediates/res/merged/debug/mipmap-xhdpi/ic_launcher.png",
+        "source": "/Users/Entisar/Desktop/Android/doctor/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/Entisar/Desktop/Android/doctor/app/build/intermediates/res/merged/debug/mipmap-xhdpi/medicine_icon.png",
+        "source": "/Users/Entisar/Desktop/Android/doctor/app/src/main/res/mipmap-xhdpi/medicine_icon.png"
+    },
+    {
+        "merged": "/Users/trn24/Desktop/IBM/Andriod/Project/doctor mar312/doctor/app/build/intermediates/res/merged/debug/mipmap-xhdpi/medical_thermometer.png",
+        "source": "/Users/trn24/Desktop/IBM/Andriod/Project/doctor mar312/doctor/app/src/main/res/mipmap-xhdpi/medical_thermometer.png"
+    },
+    {
+        "merged": "/Users/trn24/Desktop/IBM/Andriod/Project/doctor mar312/doctor/app/build/intermediates/res/merged/debug/mipmap-xhdpi/medicine_icon.png",
+        "source": "/Users/trn24/Desktop/IBM/Andriod/Project/doctor mar312/doctor/app/src/main/res/mipmap-xhdpi/medicine_icon.png"
+    },
+    {
+        "merged": "/Users/trn24/Desktop/IBM/Andriod/Project/doctor mar312/doctor/app/build/intermediates/res/merged/debug/mipmap-xhdpi/declinee.png",
+        "source": "/Users/trn24/Desktop/IBM/Andriod/Project/doctor mar312/doctor/app/src/main/res/mipmap-xhdpi/declinee.png"
+    },
+    {
+        "merged": "/Users/Entisar/Desktop/Android/doctor/app/build/intermediates/res/merged/debug/mipmap-xhdpi/medical_thermometer.png",
+        "source": "/Users/Entisar/Desktop/Android/doctor/app/src/main/res/mipmap-xhdpi/medical_thermometer.png"
+    },
+    {
+        "merged": "/Users/Entisar/Desktop/Android/doctor/app/build/intermediates/res/merged/debug/mipmap-xhdpi/profile_icon.png",
+        "source": "/Users/Entisar/Desktop/Android/doctor/app/src/main/res/mipmap-xhdpi/profile_icon.png"
+    },
+    {
+        "merged": "/Users/trn24/Desktop/IBM/Andriod/Project/doctor mar312/doctor/app/build/intermediates/res/merged/debug/mipmap-xhdpi/message_icon_blue.png",
+        "source": "/Users/trn24/Desktop/IBM/Andriod/Project/doctor mar312/doctor/app/src/main/res/mipmap-xhdpi/message_icon_blue.png"
+    },
+    {
+        "merged": "/Users/trn24/Desktop/IBM/Andriod/Project/doctor mar312/doctor/app/build/intermediates/res/merged/debug/mipmap-xhdpi/my_patient_icon.png",
+        "source": "/Users/trn24/Desktop/IBM/Andriod/Project/doctor mar312/doctor/app/src/main/res/mipmap-xhdpi/my_patient_icon.png"
+    },
+    {
+        "merged": "/Users/trn24/Desktop/IBM/Andriod/Project/doctor mar312/doctor/app/build/intermediates/res/merged/debug/mipmap-xhdpi/headachee.png",
+        "source": "/Users/trn24/Desktop/IBM/Andriod/Project/doctor mar312/doctor/app/src/main/res/mipmap-xhdpi/headachee.png"
+    },
+    {
+        "merged": "/Users/Entisar/Desktop/Android/doctor/app/build/intermediates/res/merged/debug/mipmap-xhdpi/diabity_icon.png",
+        "source": "/Users/Entisar/Desktop/Android/doctor/app/src/main/res/mipmap-xhdpi/diabity_icon.png"
+    },
+    {
+        "merged": "/Users/Entisar/Desktop/Android/doctor/app/build/intermediates/res/merged/debug/mipmap-xhdpi/diabetes.png",
+        "source": "/Users/Entisar/Desktop/Android/doctor/app/src/main/res/mipmap-xhdpi/diabetes.png"
+    },
+    {
+        "merged": "/Users/trn24/Desktop/IBM/Andriod/Project/doctor mar312/doctor/app/build/intermediates/res/merged/debug/mipmap-xhdpi/checked.png",
+        "source": "/Users/trn24/Desktop/IBM/Andriod/Project/doctor mar312/doctor/app/src/main/res/mipmap-xhdpi/checked.png"
+    },
+    {
+        "merged": "/Users/Entisar/Desktop/Android/doctor/app/build/intermediates/res/merged/debug/mipmap-xhdpi/blood_drop_icon.png",
+        "source": "/Users/Entisar/Desktop/Android/doctor/app/src/main/res/mipmap-xhdpi/blood_drop_icon.png"
+    },
+    {
+        "merged": "/Users/Entisar/Desktop/Android/doctor/app/build/intermediates/res/merged/debug/mipmap-xhdpi/heart_rate.png",
+        "source": "/Users/Entisar/Desktop/Android/doctor/app/src/main/res/mipmap-xhdpi/heart_rate.png"
     },
     {
         "merged": "/Users/trn24/Desktop/IBM/Andriod/Project/doctor mar312/doctor/app/build/intermediates/res/merged/debug/mipmap-xhdpi/mhealth.png",

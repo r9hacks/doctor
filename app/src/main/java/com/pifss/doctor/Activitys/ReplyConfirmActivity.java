@@ -17,7 +17,7 @@ public class ReplyConfirmActivity extends AppCompatActivity {
         setContentView(R.layout.activity_reply_confirm);
 
         final Toolbar toolbar = (Toolbar) findViewById(R.id.mytoolbar);
-        toolbar.setTitle("Reply Sent");
+        toolbar.setTitle(R.string.ReplySent);
         toolbar.setTitleTextColor(Color.WHITE);
 
         TextView message = (TextView) findViewById(R.id.messageTextView);

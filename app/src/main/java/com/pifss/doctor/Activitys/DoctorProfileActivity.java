@@ -28,7 +28,7 @@ public class DoctorProfileActivity extends AppCompatActivity {
         setContentView(R.layout.activity_doctor_profile);
         final Toolbar toolbar = (Toolbar) findViewById(R.id.myToolbar);
 
-        toolbar.setTitle("My profile");
+        toolbar.setTitle(R.string.Myprofile);
         toolbar.setTitleTextColor(Color.WHITE);
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);

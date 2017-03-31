@@ -41,16 +41,16 @@ public class HomeReportActivity extends AppCompatActivity {
 
         final Toolbar toolbar = (Toolbar) findViewById(R.id.mytoolbar);
 
-        toolbar.setTitle("All Reports");
+        toolbar.setTitle(R.string.AllReports);
         toolbar.setTitleTextColor(Color.WHITE);
 
-        PrimaryDrawerItem item1 = new PrimaryDrawerItem().withIdentifier(1).withName("View Reports").withIcon(R.mipmap.medical_report_icon);
-        PrimaryDrawerItem item2 = new PrimaryDrawerItem().withIdentifier(2).withName("Patient Requests").withIcon(R.mipmap.add_icon);
-        PrimaryDrawerItem item3 = new PrimaryDrawerItem().withIdentifier(3).withName("My Patients").withIcon(R.mipmap.my_patient_icon);
-        PrimaryDrawerItem item5 = new PrimaryDrawerItem().withIdentifier(5).withName("Share").withIcon(R.mipmap.share_icon).withSelectable(false);
-        PrimaryDrawerItem item6 = new PrimaryDrawerItem().withIdentifier(6).withName("Settings").withIcon(R.mipmap.settings_icon);
-        PrimaryDrawerItem item7 = new PrimaryDrawerItem().withIdentifier(7).withName("About us").withIcon(R.mipmap.aboutus_icon);
-        PrimaryDrawerItem item8 = new PrimaryDrawerItem().withIdentifier(8).withName("Logout").withIcon(R.mipmap.logout_icon);
+        PrimaryDrawerItem item1 = new PrimaryDrawerItem().withIdentifier(1).withName(R.string.ViewReports).withIcon(R.mipmap.medical_report_icon);
+        PrimaryDrawerItem item2 = new PrimaryDrawerItem().withIdentifier(2).withName(R.string.PatientRequests).withIcon(R.mipmap.add_icon);
+        PrimaryDrawerItem item3 = new PrimaryDrawerItem().withIdentifier(3).withName(R.string.MyPatients).withIcon(R.mipmap.my_patient_icon);
+        PrimaryDrawerItem item5 = new PrimaryDrawerItem().withIdentifier(5).withName(R.string.Share).withIcon(R.mipmap.share_icon).withSelectable(false);
+        PrimaryDrawerItem item6 = new PrimaryDrawerItem().withIdentifier(6).withName(R.string.Settings).withIcon(R.mipmap.settings_icon);
+        PrimaryDrawerItem item7 = new PrimaryDrawerItem().withIdentifier(7).withName(R.string.AboutusAct).withIcon(R.mipmap.aboutus_icon);
+        PrimaryDrawerItem item8 = new PrimaryDrawerItem().withIdentifier(8).withName(R.string.Logout).withIcon(R.mipmap.logout_icon);
         DividerDrawerItem d = new DividerDrawerItem();
 
         SharedPreferences preference = getSharedPreferences("settings",MODE_PRIVATE);
@@ -109,7 +109,7 @@ public class HomeReportActivity extends AppCompatActivity {
                                      i = new Intent(Intent.ACTION_SEND);
                                     i.setType("text/plain");
                                     i.putExtra(Intent.EXTRA_SUBJECT, "MHealth");
-                                    String sAux = "\nLet me recommend you this application\n\n";
+                                    String sAux = "\n"+R.string.Recommend+"\n\n";
                                     sAux = sAux + "here i put the link of the application in google play \n\n";
                                     i.putExtra(Intent.EXTRA_TEXT, sAux);
                                     startActivity(Intent.createChooser(i, "choose one"));
@@ -148,9 +148,9 @@ public class HomeReportActivity extends AppCompatActivity {
 
         tabLayout.setupWithViewPager(vp);
 
-        tabLayout.getTabAt(0).setText("Pending");
+        tabLayout.getTabAt(0).setText(R.string.Pending);
         //tabLayout.getTabAt(0).setIcon(R.mipmap.ic_launcher_round);
-        tabLayout.getTabAt(1).setText("Replied");
+        tabLayout.getTabAt(1).setText(R.string.Replied);
 
 
     }
@@ -170,13 +170,13 @@ public class HomeReportActivity extends AppCompatActivity {
                 headerResult.getActiveProfile().withIcon(bitmap);
                 System.out.println("load image profile");
 
-                PrimaryDrawerItem item1 = new PrimaryDrawerItem().withIdentifier(1).withName("View Reports").withIcon(R.mipmap.medical_report_icon);
-                PrimaryDrawerItem item2 = new PrimaryDrawerItem().withIdentifier(2).withName("Patient Requests").withIcon(R.mipmap.add_icon);
-                PrimaryDrawerItem item3 = new PrimaryDrawerItem().withIdentifier(3).withName("My Patients").withIcon(R.mipmap.my_patient_icon);
-                PrimaryDrawerItem item5 = new PrimaryDrawerItem().withIdentifier(5).withName("Share").withIcon(R.mipmap.share_icon).withSelectable(false);
-                PrimaryDrawerItem item6 = new PrimaryDrawerItem().withIdentifier(6).withName("Settings").withIcon(R.mipmap.settings_icon);
-                PrimaryDrawerItem item7 = new PrimaryDrawerItem().withIdentifier(7).withName("About us").withIcon(R.mipmap.aboutus_icon);
-                PrimaryDrawerItem item8 = new PrimaryDrawerItem().withIdentifier(8).withName("Logout").withIcon(R.mipmap.logout_icon);
+                PrimaryDrawerItem item1 = new PrimaryDrawerItem().withIdentifier(1).withName(R.string.ViewReports).withIcon(R.mipmap.medical_report_icon);
+                PrimaryDrawerItem item2 = new PrimaryDrawerItem().withIdentifier(2).withName(R.string.PatientRequests).withIcon(R.mipmap.add_icon);
+                PrimaryDrawerItem item3 = new PrimaryDrawerItem().withIdentifier(3).withName(R.string.MyPatients).withIcon(R.mipmap.my_patient_icon);
+                PrimaryDrawerItem item5 = new PrimaryDrawerItem().withIdentifier(5).withName(R.string.Share).withIcon(R.mipmap.share_icon).withSelectable(false);
+                PrimaryDrawerItem item6 = new PrimaryDrawerItem().withIdentifier(6).withName(R.string.Settings).withIcon(R.mipmap.settings_icon);
+                PrimaryDrawerItem item7 = new PrimaryDrawerItem().withIdentifier(7).withName(R.string.AboutusAct).withIcon(R.mipmap.aboutus_icon);
+                PrimaryDrawerItem item8 = new PrimaryDrawerItem().withIdentifier(8).withName(R.string.Logout).withIcon(R.mipmap.logout_icon);
                 DividerDrawerItem d = new DividerDrawerItem();
 
                 headerResult = new AccountHeaderBuilder()
@@ -229,10 +229,10 @@ public class HomeReportActivity extends AppCompatActivity {
                                             i = new Intent(Intent.ACTION_SEND);
                                             i.setType("text/plain");
                                             i.putExtra(Intent.EXTRA_SUBJECT, "MHealth");
-                                            String sAux = "\nLet me recommend you this application\n\n";
+                                            String sAux = "\n"+R.string.Recommend+"\n\n";
                                             sAux = sAux + "here i put the link of the application in google play \n\n";
                                             i.putExtra(Intent.EXTRA_TEXT, sAux);
-                                            startActivity(Intent.createChooser(i, "choose one"));
+                                            startActivity(Intent.createChooser(i,"choose one"));
                                         } catch(Exception e) {
                                             //e.toString();
                                         }
