@@ -20,13 +20,12 @@ public class links {
     public static String resetPassword = Doctor + "/reset/";
     public static String login = Doctor + "/login/";
 
-    public static String PatientDrLink = BASE + "patientdrlink";
-    public static String getLinkPatient = PatientDrLink + "/getLinkedPatient/";
 
     public static String PendingRequest = Doctor + "/pendingdoctor/";
     public static String MyPatient = Doctor + "/accepteddoctor/";
     public static String GetRepliedReport = PatientReport + "/getReports/";
     public static String ReplyReport = PatientReport +"/UpdatePatientReportDRec/";
+    public static String GetPatientReport = PatientReport +"/getPatientReport/";
 
 
     public static String PrefDoctorProfile = "doctorProfile";

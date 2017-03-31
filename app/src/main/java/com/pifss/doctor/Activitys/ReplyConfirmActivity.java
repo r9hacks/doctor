@@ -22,6 +22,7 @@ public class ReplyConfirmActivity extends AppCompatActivity {
 
         TextView message = (TextView) findViewById(R.id.messageTextView);
         message.setText(getIntent().getStringExtra("message"));
+        final String goTo = getIntent().getStringExtra("goTo");
         Thread background = new Thread() {
             public void run() {
 
@@ -30,8 +31,15 @@ public class ReplyConfirmActivity extends AppCompatActivity {
                     sleep(3*1000);
 
                     // After 5 seconds redirect to another intent
-                    Intent i=new Intent(ReplyConfirmActivity.this,HomeReportActivity.class);
-                    startActivity(i);
+                    if (goTo.equalsIgnoreCase("patient")){
+                        Intent i=new Intent(ReplyConfirmActivity.this,PatientProfileActivity.class);
+                        startActivity(i);
+                    }
+                    if (goTo.equalsIgnoreCase("report")){
+                        Intent i=new Intent(ReplyConfirmActivity.this,HomeReportActivity.class);
+                        startActivity(i);
+                    }
+
 
                     //Remove activity
                     finish();

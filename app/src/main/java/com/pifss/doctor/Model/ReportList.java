@@ -16,12 +16,24 @@ public class ReportList {
     private String bloodPreassure;
     private String fever;
 
-    public ReportList(String comment, String date, String heartRate, String bloodPreassure, String fever) {
+    public Report getReportObject() {
+        return reportObject;
+    }
+
+    public void setReportObject(Report reportObject) {
+        this.reportObject = reportObject;
+    }
+
+    private Report reportObject;
+
+
+    public ReportList(String comment, String date, String heartRate, String bloodPreassure, String fever, Report report) {
         this.comment = comment;
         this.date = date;
         this.heartRate = heartRate;
         this.bloodPreassure = bloodPreassure;
         this.fever = fever;
+        this.reportObject = report;
     }
 
     public String getComment() {

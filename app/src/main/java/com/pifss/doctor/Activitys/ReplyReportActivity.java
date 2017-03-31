@@ -82,6 +82,7 @@ public class ReplyReportActivity extends AppCompatActivity {
                                     i.putExtra("message","Your Reply sent Failed");
 
                                 }
+                                i.putExtra("goTo","report");
                                 startActivity(i);
 
                             } catch (JSONException e) {

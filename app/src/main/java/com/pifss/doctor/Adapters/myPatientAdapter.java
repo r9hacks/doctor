@@ -11,6 +11,7 @@ import android.widget.Toast;
 
 import com.pifss.doctor.Model.MyPatient;
 import com.pifss.doctor.R;
+import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;
 
@@ -69,6 +70,11 @@ public class myPatientAdapter extends BaseAdapter {
 
         MyPatient patient = model.get(position);
         // img.setImageResource(Integer.parseInt(patient.getImage()));
+
+        if (!patient.getImage().equals("")){
+
+            Picasso.with(this.context).load(patient.getImage()).into(img);
+        }
 
         name.setText(patient.getName());
 
