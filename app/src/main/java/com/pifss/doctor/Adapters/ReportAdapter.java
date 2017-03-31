@@ -7,12 +7,19 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.pifss.doctor.R;
 import com.pifss.doctor.Model.ReportCell;
 import com.squareup.picasso.Picasso;
 
+import java.text.DateFormat;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Calendar;
+import java.util.Date;
+import java.util.GregorianCalendar;
 
 /**
  * Created by PIFSS on 3/27/2017.
@@ -71,7 +78,27 @@ public class ReportAdapter extends BaseAdapter {
 
         name.setText(report.getName());
         comments.setText(report.getComment());
-        date.setText(report.getDate());
+
+        DateFormat df = new SimpleDateFormat("EEE MMM dd HH:mm:ss zzz yyyy");
+        Date startDate;
+        try {
+            startDate = df.parse(report.getDate());
+
+            String newDateString = df.format(startDate);
+            System.out.println(newDateString);
+
+            Calendar calendar = GregorianCalendar.getInstance(); // creates a new calendar instance
+            calendar.setTime(startDate);   // assigns calendar to given date
+            calendar.get(Calendar.DAY_OF_MONTH); // gets hour in 24h format
+            calendar.get(Calendar.MONTH);
+            calendar.get(Calendar.YEAR);
+
+            date.setText(calendar.get(Calendar.DAY_OF_MONTH)+"-"+(calendar.get(Calendar.MONTH)+1)+"-"+calendar.get(Calendar.YEAR));
+
+        } catch (ParseException e) {
+            e.printStackTrace();
+        }
+
         heartRate.setText(report.getHeartRate());
         bloodPressure.setText(report.getBloodPreassure());
 
