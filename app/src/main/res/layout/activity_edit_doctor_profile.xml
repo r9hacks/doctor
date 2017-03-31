@@ -69,7 +69,57 @@
                     android:drawableLeft="@mipmap/doctor"
                     android:drawablePadding="10dp"
                     android:ems="10"
-                    android:hint="Name"
+                    android:hint="First Name"
+                    android:inputType="textPersonName"
+                    android:textColor="@android:color/darker_gray" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/textInputLayoutMiddleName"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+
+                >
+
+                <EditText
+                    android:id="@+id/txtDrMiddleName"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginEnd="14dp"
+                    android:layout_marginStart="14dp"
+                    android:drawableLeft="@mipmap/doctor"
+                    android:drawablePadding="10dp"
+                    android:ems="10"
+                    android:hint="Middle Name"
+                    android:inputType="textPersonName"
+                    android:textColor="@android:color/darker_gray" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/textInputLayoutLastName"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+
+                >
+
+                <EditText
+                    android:id="@+id/txtDrLastName"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginEnd="14dp"
+                    android:layout_marginStart="14dp"
+                    android:drawableLeft="@mipmap/doctor"
+                    android:drawablePadding="10dp"
+                    android:ems="10"
+                    android:hint="Last Name"
                     android:inputType="textPersonName"
                     android:textColor="@android:color/darker_gray" />
             </android.support.design.widget.TextInputLayout>
@@ -126,6 +176,33 @@
                     android:ems="10"
                     android:hint="Password"
                     android:inputType="textPassword"
+                    android:textColor="@android:color/darker_gray" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/textInputLayoutPhone"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/textInputLayoutEmail"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+
+                >
+
+                <EditText
+                    android:id="@+id/txtDrPhone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="14dp"
+                    android:layout_marginStart="14dp"
+                    android:drawableLeft="@mipmap/password"
+                    android:drawablePadding="10dp"
+                    android:ems="10"
+                    android:hint="Phone Number"
+                    android:inputType="phone"
                     android:textColor="@android:color/darker_gray" />
             </android.support.design.widget.TextInputLayout>
 
