@@ -81,7 +81,6 @@
             android:layout_height="wrap_content"
             android:layout_gravity="bottom"
             android:layout_weight=".25"
-
             android:text="@string/PatientGender" />
 
 
@@ -91,25 +90,39 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:layout_above="@+id/linearLayout"
+        android:id="@+id/linearLayout5"
+        android:weightSum="1"
+        android:layout_alignTop="@+id/textViewName"
         android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true">
-
-
-        <ImageButton
-            android:id="@+id/imageButtonDecline"
-            android:layout_width="60dp"
-            android:layout_height="50dp"
-            android:background="@android:color/transparent"
-            app:srcCompat="@mipmap/decline_icon" />
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="10dp">
 
         <ImageButton
             android:id="@+id/imageButtonAccept"
             android:layout_width="60dp"
-            android:layout_height="50dp"
+            android:layout_height="60dp"
+            android:layout_below="@+id/linearLayout5"
+            android:layout_toEndOf="@+id/textViewAge"
+            android:layout_toRightOf="@+id/textViewAge"
+            android:layout_weight=".5"
             android:background="@android:color/transparent"
-            app:srcCompat="@mipmap/accept_icon" />
+            app:srcCompat="@mipmap/acceptt" />
+
+        <ImageButton
+            android:layout_weight=".5"
+            android:id="@+id/imageButtonDecline"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_alignBottom="@+id/imgBtnAccept"
+            android:layout_toEndOf="@+id/textViewName"
+            android:layout_toRightOf="@+id/textViewName"
+            android:background="@android:color/transparent"
+            app:srcCompat="@mipmap/declinee"
+             />
+
     </LinearLayout>
+
+
 
     <!--<LinearLayout-->
     <!--android:layout_width="match_parent"-->

@@ -104,7 +104,7 @@
                         android:layout_alignParentLeft="true"
                         android:layout_alignParentStart="true"
                         android:layout_alignParentTop="true"
-                        app:srcCompat="@mipmap/cough" />
+                        app:srcCompat="@mipmap/coughing" />
 
                     <TextView
                         android:id="@+id/textViewcoughing"
@@ -155,7 +155,7 @@
                         android:layout_alignParentLeft="true"
                         android:layout_alignParentStart="true"
                         android:layout_alignParentTop="true"
-                        app:srcCompat="@mipmap/dizzyhead" />
+                        app:srcCompat="@mipmap/faint" />
 
                     <TextView
                         android:id="@+id/textViewdizzness"
@@ -206,7 +206,7 @@
                         android:layout_alignParentLeft="true"
                         android:layout_alignParentStart="true"
                         android:layout_alignParentTop="true"
-                        app:srcCompat="@mipmap/medical_thermometer" />
+                        app:srcCompat="@mipmap/fever" />
 
                     <TextView
                         android:id="@+id/textViewfever"
@@ -255,7 +255,7 @@
                         android:layout_alignParentLeft="true"
                         android:layout_alignParentStart="true"
                         android:layout_alignParentTop="true"
-                        app:srcCompat="@mipmap/headache" />
+                        app:srcCompat="@mipmap/headachee" />
 
                     <TextView
                         android:id="@+id/textViewheadache"
@@ -306,7 +306,7 @@
                         android:layout_alignParentLeft="true"
                         android:layout_alignParentStart="true"
                         android:layout_alignParentTop="true"
-                        app:srcCompat="@mipmap/heart_rate" />
+                        app:srcCompat="@mipmap/heartrate" />
 
                     <TextView
                         android:id="@+id/textViewheartRate"
@@ -408,7 +408,7 @@
                         android:layout_alignParentLeft="true"
                         android:layout_alignParentStart="true"
                         android:layout_alignParentTop="true"
-                        app:srcCompat="@mipmap/pain_location" />
+                        app:srcCompat="@mipmap/painn" />
 
                     <TextView
                         android:id="@+id/textViewpainLocation"
@@ -459,7 +459,7 @@
                         android:layout_alignParentLeft="true"
                         android:layout_alignParentStart="true"
                         android:layout_alignParentTop="true"
-                        app:srcCompat="@mipmap/candy" />
+                        app:srcCompat="@mipmap/diabetes" />
 
                     <TextView
                         android:id="@+id/textViewsugar"
@@ -511,7 +511,7 @@
                         android:layout_alignParentLeft="true"
                         android:layout_alignParentStart="true"
                         android:layout_alignParentTop="true"
-                        app:srcCompat="@mipmap/comment" />
+                        app:srcCompat="@mipmap/message_icon_blue" />
 
                     <TextView
                         android:id="@+id/textViewcomments"

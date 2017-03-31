@@ -1093,7 +1093,7 @@
     <string name="PatientAge">Patient Age</string>
     <string name="PatientCivilID">Patient Civil ID</string>
     <string name="PatientGender">Patient Gender</string>
-    <string name="PatientName">Patient Name</string>
+    <string name="PatientName">Patient Name....</string>
     <string name="PatientPhone">Patient Phone</string>
     <string name="Register">Register</string>
     <string name="Reply">Reply...</string>

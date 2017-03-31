@@ -11,7 +11,7 @@
     <string name="Password">Password</string>
     <string name="ForgotPassword">Forgot Password?</string>
 
-    <string name="PatientName">Patient Name</string>
+    <string name="PatientName">Patient Name....</string>
     <string name="PatientAge">Patient Age</string>
     <string name="PatientPhone">Patient Phone</string>
     <string name="PatientGender">Patient Gender</string>

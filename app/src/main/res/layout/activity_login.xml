@@ -5,6 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
     tools:context="com.pifss.doctor.Activitys.loginActivity">
 
 
@@ -36,10 +38,10 @@
         android:id="@+id/imageViewLogo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="23dp"
+        app:srcCompat="@mipmap/mhealth"
         android:layout_below="@+id/appBarLayout"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="38dp"
-        app:srcCompat="@mipmap/mhealth">
+        android:layout_centerHorizontal="true">
 
         <requestFocus />
 
@@ -71,7 +73,7 @@
             android:drawablePadding="10dp"
             android:ems="10"
 
-            android:hint="example@gmail.com"
+            android:hint="Email"
             android:inputType="textEmailAddress"
             android:text="r9hacks@gmail.com"
             android:textColor="@android:color/darker_gray" />
@@ -108,9 +110,9 @@
     <Button
         android:id="@+id/btnLogin"
         style="@style/Widget.AppCompat.Button.Colored"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:alpha="0.75"
+        android:alpha="0.50"
         android:background="@color/colorAccent"
         android:text="@string/Login"
         android:textSize="23sp"
@@ -118,8 +120,11 @@
         tools:layout_editor_absoluteX="23dp"
         tools:layout_editor_absoluteY="421dp"
         android:layout_below="@+id/textView4"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_alignStart="@+id/textView3"
+        android:layout_marginTop="11dp"
+        android:layout_alignRight="@+id/textView3"
+        android:layout_alignEnd="@+id/textView3" />
 
     <Button
         android:id="@+id/btnRegister"
@@ -141,17 +146,26 @@
         android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true"
+        android:layout_alignEnd="@+id/passIT"
+        android:layout_alignRight="@+id/passIT"
         android:layout_below="@+id/passIT"
-        android:layout_marginEnd="24dp"
-        android:layout_marginRight="24dp"
-        android:layout_marginTop="6dp"
+        android:layout_marginEnd="14dp"
+        android:layout_marginRight="14dp"
+        android:layout_marginTop="12dp"
         android:text="@string/ForgotPassword"
         android:textColor="@color/colorAccent"
-        android:textSize="17sp"
-        android:textStyle="bold"
-        />
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="11dp"
+        android:text="Don't have an account?"
+        android:textSize="16sp"
+        android:layout_above="@+id/btnRegister"
+        android:layout_centerHorizontal="true" />
 
 </RelativeLayout>
 
