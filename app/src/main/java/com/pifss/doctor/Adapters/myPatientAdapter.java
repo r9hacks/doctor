@@ -13,7 +13,16 @@ import com.pifss.doctor.Model.MyPatient;
 import com.pifss.doctor.R;
 import com.squareup.picasso.Picasso;
 
+import org.joda.time.LocalDate;
+import org.joda.time.Years;
+
+import java.text.DateFormat;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Calendar;
+import java.util.Date;
+import java.util.GregorianCalendar;
 
 /**
  * Created by Entisar on 3/27/17.
@@ -80,7 +89,28 @@ public class myPatientAdapter extends BaseAdapter {
 
         gender.setText(patient.getGender());
 
-        age.setText(patient.getAge()+"");
+        DateFormat df = new SimpleDateFormat("yyyy-mm-dd");
+        Date startDate;
+        try {
+            startDate = df.parse(patient.getAge());
+
+            String newDateString = df.format(startDate);
+            System.out.println(newDateString);
+
+            Calendar calendar = GregorianCalendar.getInstance(); // creates a new calendar instance
+            calendar.setTime(startDate);   // assigns calendar to given date
+
+
+            LocalDate birthdate = new LocalDate (calendar.get(Calendar.YEAR), calendar.get(Calendar.MONTH)+1, calendar.get(Calendar.DAY_OF_MONTH));
+            LocalDate now = new LocalDate();
+            Years patientAge = Years.yearsBetween(birthdate, now);
+
+            age.setText("Age: "+patientAge.getYears());
+        } catch (ParseException e) {
+            e.printStackTrace();
+        }
+
+
         phone.setText(patient.getPhoneNum());
 
 
