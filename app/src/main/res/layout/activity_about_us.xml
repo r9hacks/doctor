@@ -22,10 +22,10 @@
         android:id="@+id/imageView18"
         android:layout_width="150dp"
         android:layout_height="150dp"
+        android:layout_marginTop="43dp"
+        app:srcCompat="@mipmap/mhealth"
         android:layout_below="@+id/mytoolbar"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="41dp"
-        app:srcCompat="@mipmap/mhealth" />
+        android:layout_centerHorizontal="true" />
 
     <view
         android:id="@+id/view"
@@ -45,21 +45,25 @@
         android:id="@+id/txtAbout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="33dp"
-        android:text="TextView"
-        android:textSize="18sp"
+        android:layout_alignEnd="@+id/view"
+        android:layout_alignRight="@+id/view"
         android:layout_below="@+id/editText2"
-        android:layout_centerHorizontal="true" />
+        android:layout_marginLeft="17dp"
+        android:layout_marginRight="17dp"
+        android:layout_marginTop="29dp"
+        android:text="Our aim is to improve public health, by facilitating doctor-patient communications. The application allows doctors to ubiquity access patient's information, view reports and reply to comments instantly and accurately. As well as accept or decline patients requests."
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textSize="18sp" />
 
     <TextView
         android:id="@+id/textView10"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="20dp"
         android:text="@string/Becausewecare"
-        android:textSize="16sp" />
+        android:textSize="16sp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
 
     <EditText
         android:id="@+id/editText2"

@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor mar312\\doctor\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-land\\values-land.xml",
+        "outputFile": "/Users/trn24/Desktop/IBM/Andriod/Project/april1/doctor/C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v4\\doctor\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-land\\values-land.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 120
                 },
                 "from": {
-                    "file": "C:\\Users\\trn24\\.android\\build-cache\\f5bbc6ff808a4ac74405d8a761d68a423887319a\\output\\res\\values-land\\values-land.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/april1/doctor/C:\\Users\\PIFSS\\.android\\build-cache\\9b85976bda791bd9abdfdd3cb34cce2b0455d7aa\\output\\res\\values-land\\values-land.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -30,7 +30,7 @@
                     "endOffset": 184
                 },
                 "from": {
-                    "file": "C:\\Users\\trn24\\.android\\build-cache\\f5bbc6ff808a4ac74405d8a761d68a423887319a\\output\\res\\values-land\\values-land.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/april1/doctor/C:\\Users\\PIFSS\\.android\\build-cache\\9b85976bda791bd9abdfdd3cb34cce2b0455d7aa\\output\\res\\values-land\\values-land.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -49,7 +49,7 @@
                     "endOffset": 255
                 },
                 "from": {
-                    "file": "C:\\Users\\trn24\\.android\\build-cache\\f5bbc6ff808a4ac74405d8a761d68a423887319a\\output\\res\\values-land\\values-land.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/april1/doctor/C:\\Users\\PIFSS\\.android\\build-cache\\9b85976bda791bd9abdfdd3cb34cce2b0455d7aa\\output\\res\\values-land\\values-land.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -68,7 +68,7 @@
                     "endOffset": 323
                 },
                 "from": {
-                    "file": "C:\\Users\\trn24\\.android\\build-cache\\f5bbc6ff808a4ac74405d8a761d68a423887319a\\output\\res\\values-land\\values-land.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/april1/doctor/C:\\Users\\PIFSS\\.android\\build-cache\\9b85976bda791bd9abdfdd3cb34cce2b0455d7aa\\output\\res\\values-land\\values-land.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -88,7 +88,7 @@
                     "endOffset": 505
                 },
                 "from": {
-                    "file": "C:\\Users\\trn24\\.android\\build-cache\\b72f8c878670e3cfcbd2a2719560109540c875de\\output\\res\\values-land\\values-land.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/april1/doctor/C:\\Users\\PIFSS\\.android\\build-cache\\d95c42289955b75427320c3f826eb531f131da8f\\output\\res\\values-land\\values-land.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -102,7 +102,7 @@
         ]
     },
     {
-        "outputFile": "C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v4\\doctor\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-land\\values-land.xml",
+        "outputFile": "/Users/trn24/Desktop/IBM/Andriod/Project/april1/doctor/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-land/values-land.xml",
         "map": [
             {
                 "to": {
@@ -113,7 +113,7 @@
                     "endOffset": 120
                 },
                 "from": {
-                    "file": "C:\\Users\\PIFSS\\.android\\build-cache\\9b85976bda791bd9abdfdd3cb34cce2b0455d7aa\\output\\res\\values-land\\values-land.xml",
+                    "file": "/Users/trn24/.android/build-cache/f5bbc6ff808a4ac74405d8a761d68a423887319a/output/res/values-land/values-land.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -132,7 +132,7 @@
                     "endOffset": 184
                 },
                 "from": {
-                    "file": "C:\\Users\\PIFSS\\.android\\build-cache\\9b85976bda791bd9abdfdd3cb34cce2b0455d7aa\\output\\res\\values-land\\values-land.xml",
+                    "file": "/Users/trn24/.android/build-cache/f5bbc6ff808a4ac74405d8a761d68a423887319a/output/res/values-land/values-land.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -151,7 +151,7 @@
                     "endOffset": 255
                 },
                 "from": {
-                    "file": "C:\\Users\\PIFSS\\.android\\build-cache\\9b85976bda791bd9abdfdd3cb34cce2b0455d7aa\\output\\res\\values-land\\values-land.xml",
+                    "file": "/Users/trn24/.android/build-cache/f5bbc6ff808a4ac74405d8a761d68a423887319a/output/res/values-land/values-land.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -170,7 +170,7 @@
                     "endOffset": 323
                 },
                 "from": {
-                    "file": "C:\\Users\\PIFSS\\.android\\build-cache\\9b85976bda791bd9abdfdd3cb34cce2b0455d7aa\\output\\res\\values-land\\values-land.xml",
+                    "file": "/Users/trn24/.android/build-cache/f5bbc6ff808a4ac74405d8a761d68a423887319a/output/res/values-land/values-land.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -190,7 +190,7 @@
                     "endOffset": 505
                 },
                 "from": {
-                    "file": "C:\\Users\\PIFSS\\.android\\build-cache\\d95c42289955b75427320c3f826eb531f131da8f\\output\\res\\values-land\\values-land.xml",
+                    "file": "/Users/trn24/.android/build-cache/b72f8c878670e3cfcbd2a2719560109540c875de/output/res/values-land/values-land.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -204,7 +204,7 @@
         ]
     },
     {
-        "outputFile": "C:\\Users\\Entisar\\Desktop\\Android\\doctor\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-land\\values-land.xml",
+        "outputFile": "/Users/trn24/Desktop/IBM/Andriod/Project/april1/doctor/C:\\Users\\Entisar\\Desktop\\Android\\doctor\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-land\\values-land.xml",
         "map": [
             {
                 "to": {
@@ -215,7 +215,7 @@
                     "endOffset": 120
                 },
                 "from": {
-                    "file": "C:\\Users\\Entisar\\.android\\build-cache\\752ac81f1b1993e8602d14a1f3fecad31afcf050\\output\\res\\values-land\\values-land.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/april1/doctor/C:\\Users\\Entisar\\.android\\build-cache\\752ac81f1b1993e8602d14a1f3fecad31afcf050\\output\\res\\values-land\\values-land.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -234,7 +234,7 @@
                     "endOffset": 184
                 },
                 "from": {
-                    "file": "C:\\Users\\Entisar\\.android\\build-cache\\752ac81f1b1993e8602d14a1f3fecad31afcf050\\output\\res\\values-land\\values-land.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/april1/doctor/C:\\Users\\Entisar\\.android\\build-cache\\752ac81f1b1993e8602d14a1f3fecad31afcf050\\output\\res\\values-land\\values-land.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -253,7 +253,7 @@
                     "endOffset": 255
                 },
                 "from": {
-                    "file": "C:\\Users\\Entisar\\.android\\build-cache\\752ac81f1b1993e8602d14a1f3fecad31afcf050\\output\\res\\values-land\\values-land.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/april1/doctor/C:\\Users\\Entisar\\.android\\build-cache\\752ac81f1b1993e8602d14a1f3fecad31afcf050\\output\\res\\values-land\\values-land.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -272,7 +272,7 @@
                     "endOffset": 323
                 },
                 "from": {
-                    "file": "C:\\Users\\Entisar\\.android\\build-cache\\752ac81f1b1993e8602d14a1f3fecad31afcf050\\output\\res\\values-land\\values-land.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/april1/doctor/C:\\Users\\Entisar\\.android\\build-cache\\752ac81f1b1993e8602d14a1f3fecad31afcf050\\output\\res\\values-land\\values-land.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -292,7 +292,109 @@
                     "endOffset": 505
                 },
                 "from": {
-                    "file": "C:\\Users\\Entisar\\.android\\build-cache\\7da7010fc8ba9c73b7bbd44e32707d8abcc97463\\output\\res\\values-land\\values-land.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/april1/doctor/C:\\Users\\Entisar\\.android\\build-cache\\7da7010fc8ba9c73b7bbd44e32707d8abcc97463\\output\\res\\values-land\\values-land.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endLine": 5,
+                        "endColumn": 12,
+                        "endOffset": 232
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "/Users/trn24/Desktop/IBM/Andriod/Project/april1/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor mar312\\doctor\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-land\\values-land.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 69,
+                    "endOffset": 120
+                },
+                "from": {
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/april1/doctor/C:\\Users\\trn24\\.android\\build-cache\\f5bbc6ff808a4ac74405d8a761d68a423887319a\\output\\res\\values-land\\values-land.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 69,
+                        "endOffset": 120
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 125,
+                    "endColumn": 63,
+                    "endOffset": 184
+                },
+                "from": {
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/april1/doctor/C:\\Users\\trn24\\.android\\build-cache\\f5bbc6ff808a4ac74405d8a761d68a423887319a\\output\\res\\values-land\\values-land.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 125,
+                        "endColumn": 63,
+                        "endOffset": 184
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 189,
+                    "endColumn": 70,
+                    "endOffset": 255
+                },
+                "from": {
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/april1/doctor/C:\\Users\\trn24\\.android\\build-cache\\f5bbc6ff808a4ac74405d8a761d68a423887319a\\output\\res\\values-land\\values-land.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 189,
+                        "endColumn": 70,
+                        "endOffset": 255
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 260,
+                    "endColumn": 67,
+                    "endOffset": 323
+                },
+                "from": {
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/april1/doctor/C:\\Users\\trn24\\.android\\build-cache\\f5bbc6ff808a4ac74405d8a761d68a423887319a\\output\\res\\values-land\\values-land.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 260,
+                        "endColumn": 67,
+                        "endOffset": 323
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 328,
+                    "endLine": 9,
+                    "endColumn": 12,
+                    "endOffset": 505
+                },
+                "from": {
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/april1/doctor/C:\\Users\\trn24\\.android\\build-cache\\b72f8c878670e3cfcbd2a2719560109540c875de\\output\\res\\values-land\\values-land.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,

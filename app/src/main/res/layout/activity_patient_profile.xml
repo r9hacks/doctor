@@ -74,7 +74,7 @@
                 android:layout_gravity="bottom"
                 android:layout_marginRight="5dp"
                 android:layout_weight=".25"
-                app:srcCompat="@mipmap/phone_icon" />
+                app:srcCompat="@mipmap/phonecall" />
 
             <TextView
                 android:id="@+id/textViewPhone"
@@ -132,7 +132,7 @@
             android:layout_marginStart="20dp"
             android:layout_toEndOf="@+id/toolbar"
             android:layout_toRightOf="@+id/toolbar"
-            app:srcCompat="@mipmap/diabity_icon" />
+            app:srcCompat="@mipmap/diabetes" />
 
         <TextView
             android:id="@+id/textView5"
@@ -208,7 +208,7 @@
             android:layout_alignLeft="@+id/imageView11"
             android:layout_alignStart="@+id/imageView11"
             android:layout_alignTop="@+id/textView7"
-            app:srcCompat="@mipmap/allergy_icon" />
+            app:srcCompat="@mipmap/allergies_icon" />
 
         <TextView
             android:id="@+id/textView8"
