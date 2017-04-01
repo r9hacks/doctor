@@ -98,7 +98,7 @@
     <bool name="abc_config_actionMenuItemAllCaps">true</bool>
     <bool name="abc_config_closeDialogWhenTouchOutside">true</bool>
     <bool name="abc_config_showMenuShortcutsWhenKeyboardPresent">false</bool>
-    <color name="ImageBoarderColor">#FF000000</color>
+    <color name="ImageBoarderColor">#00BCD4</color>
     <color name="TapIconColor">#ffffff</color>
     <color name="TapNotSelectedColor">#AAFFFFFF</color>
     <color name="TapSelectedColor">#FFFFFF</color>

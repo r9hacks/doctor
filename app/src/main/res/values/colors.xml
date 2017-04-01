@@ -8,5 +8,5 @@
     <color name="TapIconColor">#ffffff</color>
     <color name="TapSelectedColor">#FFFFFF</color>
     <color name="TapNotSelectedColor">#AAFFFFFF</color>
-    <color name="ImageBoarderColor">#FF000000</color>
+    <color name="ImageBoarderColor">#00BCD4</color>
 </resources>
