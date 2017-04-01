@@ -48,7 +48,7 @@
         android:layout_below="@+id/textViewAge">
 
         <ImageView
-            android:id="@+id/Phone"
+            android:id="@+id/PhoneImage"
             android:layout_width="30dp"
             android:layout_height="30dp"
             android:layout_gravity="bottom"

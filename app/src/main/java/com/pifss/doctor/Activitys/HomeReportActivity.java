@@ -61,7 +61,7 @@ public class HomeReportActivity extends AppCompatActivity {
 
         headerResult = new AccountHeaderBuilder()
                 .withActivity(this)
-                .withHeaderBackground(R.mipmap.material_bacground)
+                .withHeaderBackground(R.mipmap.material_bacground_a)
                 .addProfiles(
                         new ProfileDrawerItem().withName(doctor.getFirstName()+" "+doctor.getMiddleName()+" "+doctor.getLastName()).withEmail(doctor.getEmail())
                 )
@@ -181,7 +181,7 @@ public class HomeReportActivity extends AppCompatActivity {
 
                 headerResult = new AccountHeaderBuilder()
                         .withActivity(HomeReportActivity.this)
-                        .withHeaderBackground(R.mipmap.material_bacground)
+                        .withHeaderBackground(R.mipmap.material_bacground_a)
                         .addProfiles(
                                 new ProfileDrawerItem().withName(doctor.getFirstName()+" "+doctor.getMiddleName()+" "+doctor.getLastName()).withEmail(doctor.getEmail()).withIcon(bitmap)
                         )

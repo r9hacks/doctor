@@ -68,7 +68,7 @@
             android:id="@+id/linearLayout2">
 
             <ImageView
-                android:id="@+id/Phone"
+                android:id="@+id/PhoneImage"
                 android:layout_width="25dp"
                 android:layout_height="25dp"
                 android:layout_gravity="bottom"

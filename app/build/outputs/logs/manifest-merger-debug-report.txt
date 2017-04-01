@@ -42,11 +42,11 @@ MERGED from [de.hdodenhof:circleimageview:2.1.0] C:\Users\PIFSS\.android\build-c
 	android:supportsRtl
 		ADDED from C:\Users\PIFSS\Desktop\Block_6\MHealth\v4\doctor\app\src\main\AndroidManifest.xml:13:9-35
 	android:roundIcon
-		ADDED from C:\Users\PIFSS\Desktop\Block_6\MHealth\v4\doctor\app\src\main\AndroidManifest.xml:12:9-54
+		ADDED from C:\Users\PIFSS\Desktop\Block_6\MHealth\v4\doctor\app\src\main\AndroidManifest.xml:12:9-44
 	android:allowBackup
 		ADDED from C:\Users\PIFSS\Desktop\Block_6\MHealth\v4\doctor\app\src\main\AndroidManifest.xml:9:9-35
 	android:icon
-		ADDED from C:\Users\PIFSS\Desktop\Block_6\MHealth\v4\doctor\app\src\main\AndroidManifest.xml:10:9-43
+		ADDED from C:\Users\PIFSS\Desktop\Block_6\MHealth\v4\doctor\app\src\main\AndroidManifest.xml:10:9-39
 	android:theme
 		ADDED from C:\Users\PIFSS\Desktop\Block_6\MHealth\v4\doctor\app\src\main\AndroidManifest.xml:14:9-40
 activity#com.pifss.doctor.Activitys.MainActivity

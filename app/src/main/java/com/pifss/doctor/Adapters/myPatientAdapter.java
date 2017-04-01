@@ -1,6 +1,12 @@
 package com.pifss.doctor.Adapters;
 
 import android.app.Activity;
+import android.app.Dialog;
+import android.content.DialogInterface;
+import android.content.Intent;
+import android.media.Image;
+import android.net.Uri;
+import android.support.v7.app.AlertDialog;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -63,7 +69,7 @@ public class myPatientAdapter extends BaseAdapter {
     }
 
     @Override
-    public View getView(int position, View convertView, ViewGroup parent) {
+    public View getView(int position, View convertView, final ViewGroup parent) {
 
 
         View view = inflater.inflate(R.layout.list_item_my_patient,null);
@@ -77,7 +83,7 @@ public class myPatientAdapter extends BaseAdapter {
 
 
 
-        MyPatient patient = model.get(position);
+        final MyPatient patient = model.get(position);
         // img.setImageResource(Integer.parseInt(patient.getImage()));
 
         if (!patient.getImage().equals("")){
@@ -113,17 +119,43 @@ public class myPatientAdapter extends BaseAdapter {
 
         phone.setText(patient.getPhoneNum());
 
+        ImageView phoneImage = (ImageView) view.findViewById(R.id.PhoneImage);
+        phoneImage.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                AlertDialog.Builder builder=new AlertDialog.Builder(context);
 
-//
-//
-//
-//        img.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                Toast.makeText(context, "User clicked Image", Toast.LENGTH_SHORT).show();
-//            }
-//        });
+                builder.setTitle("Call "+patient.getName())
+                        .setMessage("Are you sure you wanna call "+patient.getName()+" ?")
+                        .setIcon(android.R.drawable.ic_menu_call)
+                        .setNegativeButton("No", new DialogInterface.OnClickListener() {
+                            @Override
+                            public void onClick(DialogInterface dialog, int which) {
 
+                            }
+                        })
+                        .setPositiveButton("Yes", new DialogInterface.OnClickListener() {
+                            @Override
+                            public void onClick(DialogInterface dialog, int which) {
+                                Intent i=new Intent();
+                                i.setAction(Intent.ACTION_DIAL);
+                                i.setData(Uri.parse("tel:"+patient.getPhoneNum()));
+
+                                context.startActivity(i);
+                            }
+                        }).setNeutralButton("Cancel", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+
+                    }
+                });
+
+
+
+                Dialog dConfirm=builder.create();
+                dConfirm.show();
+            }
+        });
         return view;
 
     }
