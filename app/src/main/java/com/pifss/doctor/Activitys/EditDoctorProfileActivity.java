@@ -140,6 +140,12 @@ public class EditDoctorProfileActivity extends AppCompatActivity {
                Toast.makeText(EditDoctorProfileActivity.this, "Wrong password", Toast.LENGTH_SHORT).show();
                 return;
             }
+            EditText newPassEditText = (EditText) findViewById(R.id.txtDrNewPassword);
+            String newPassword = newPassEditText.getText().toString();
+            if (newPassword.length()>0 && newPassword.length()<8){
+                Toast.makeText(EditDoctorProfileActivity.this, "New Password must be more than 8 characters", Toast.LENGTH_SHORT).show();
+                return;
+            }
 
             RadioGroup radioGroup = (RadioGroup) findViewById(R.id.radioGroupGender);
 
@@ -148,6 +154,10 @@ public class EditDoctorProfileActivity extends AppCompatActivity {
                 doctor.setGender("f");
             }else{
                 doctor.setGender("m");
+            }
+
+            if (newPassword.length()>=8){
+                doctor.setPassword(newPassword);
             }
 
             doctor.setFirstName(txtName.getText().toString());
@@ -170,13 +180,13 @@ public class EditDoctorProfileActivity extends AppCompatActivity {
             JSONObject jsonBody = null;
             try {
                 jsonBody = doctor.getJSONDoctor();
-                jsonBody.remove("drId");
             } catch (JSONException e) {
                 e.printStackTrace();
             }
 
             String URL =links.Doctor + "/" + doctor.getDrId();
-
+            System.out.println("body:"+jsonBody.toString());
+            System.out.println("link:"+URL);
             JsonObjectRequest jsonObjRequest = new JsonObjectRequest(Request.Method.PUT, URL, jsonBody, new Response.Listener<JSONObject>() {
                 @Override
                 public void onResponse(JSONObject response) {

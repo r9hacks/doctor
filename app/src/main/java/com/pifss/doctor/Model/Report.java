@@ -9,7 +9,7 @@ public class Report {
     private String coughing;
     private String sugarLevel;
     private Integer drId;
-    private String img;
+    private String img ="";
     private String drcomment;
     private Boolean pain;
     private String fever;
@@ -22,7 +22,7 @@ public class Report {
     private String headache;
     private String bloodPressure;
     private String name;
-    private String gender;
+    private String gender ="f";
     private String comments;
     private String heartbeatRate;
 
