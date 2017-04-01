@@ -154,7 +154,7 @@ public class RequestAdapter extends BaseAdapter {
                     e.printStackTrace();
                 }
 
-                String URL = links.PatientDrLink + "/" + patient.getPatientObject().getLinkId();
+                String URL = links.UpdateRequestStatus + patient.getPatientObject().getLinkId();
                 System.out.println("body:"+jsonBody.toString());
                 System.out.println("link:"+URL);
                 JsonObjectRequest jsonObjRequest = new JsonObjectRequest(Request.Method.PUT, URL, jsonBody, new Response.Listener<JSONObject>() {
@@ -209,7 +209,7 @@ public class RequestAdapter extends BaseAdapter {
                     e.printStackTrace();
                 }
 
-                String URL = links.PatientDrLink + "/" + patient.getPatientObject().getLinkId();
+                String URL = links.UpdateRequestStatus + patient.getPatientObject().getLinkId();
                 System.out.println("body:"+jsonBody.toString());
                 System.out.println("link:"+URL);
                 JsonObjectRequest jsonObjRequest = new JsonObjectRequest(Request.Method.PUT, URL, jsonBody, new Response.Listener<JSONObject>() {

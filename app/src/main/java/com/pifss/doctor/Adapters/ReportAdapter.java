@@ -95,6 +95,7 @@ public class ReportAdapter extends BaseAdapter {
 
         } catch (ParseException e) {
             e.printStackTrace();
+            date.setText("");
         }
 
         heartRate.setText(report.getHeartRate());

@@ -12,11 +12,9 @@ import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.AdapterView;
-import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.android.volley.AuthFailureError;
 import com.android.volley.NetworkResponse;
@@ -32,17 +30,14 @@ import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 import com.pifss.doctor.Adapters.ReportListAdapter;
 import com.pifss.doctor.Model.Doctor;
-import com.pifss.doctor.Model.MyPatient;
 import com.pifss.doctor.Model.Patient;
 import com.pifss.doctor.Model.Report;
-import com.pifss.doctor.Model.ReportCell;
 import com.pifss.doctor.Model.ReportList;
 import com.pifss.doctor.R;
 import com.pifss.doctor.RequestQueueSingleTon;
 import com.pifss.doctor.links;
 import com.squareup.picasso.Picasso;
 
-import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
