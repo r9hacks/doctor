@@ -4328,6 +4328,7 @@ containing a value of this type.
         public static final int share_icon=0x7f03003e;
         public static final int stethoscope=0x7f03003f;
         public static final int stethoscope_profile=0x7f030040;
+        public static final int viewreports=0x7f030041;
     }
     public static final class string {
         public static final int Aboutus=0x7f070015;

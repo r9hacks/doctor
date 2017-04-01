@@ -22,10 +22,10 @@
         android:id="@+id/imageView18"
         android:layout_width="150dp"
         android:layout_height="150dp"
-        android:layout_marginTop="41dp"
-        app:srcCompat="@mipmap/heart_logo"
         android:layout_below="@+id/mytoolbar"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="41dp"
+        app:srcCompat="@mipmap/mhealth" />
 
     <view
         android:id="@+id/view"

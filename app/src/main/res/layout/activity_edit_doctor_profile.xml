@@ -59,7 +59,7 @@
                 android:layout_alignParentStart="true"
                 android:layout_marginLeft="15dp"
                 android:layout_marginRight="15dp"
-
+                android:layout_marginTop="10dp"
                 >
 
                 <EditText
@@ -524,6 +524,7 @@
                 android:layout_marginLeft="15dp"
                 android:layout_marginRight="15dp"
                 android:layout_marginTop="7dp"
+                android:layout_marginBottom="10dp"
 
                 >
 

@@ -1725,6 +1725,7 @@ int mipmap settings_icon 0x7f03003d
 int mipmap share_icon 0x7f03003e
 int mipmap stethoscope 0x7f03003f
 int mipmap stethoscope_profile 0x7f030040
+int mipmap viewreports 0x7f030041
 int string Aboutus 0x7f070015
 int string AboutusAct 0x7f070016
 int string AllReports 0x7f070017
