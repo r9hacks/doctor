@@ -26,7 +26,18 @@ import com.pifss.doctor.links;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
 public class ForgetPasswordActivity extends AppCompatActivity {
+
+    public static final Pattern VALID_EMAIL_ADDRESS_REGEX =
+            Pattern.compile("^[A-Z0-9._%+-]+@[A-Z0-9.-]+\\.[A-Z]{2,6}$", Pattern.CASE_INSENSITIVE);
+
+    public static boolean validate(String emailStr) {
+        Matcher matcher = VALID_EMAIL_ADDRESS_REGEX .matcher(emailStr);
+        return matcher.find();
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -46,32 +57,43 @@ public class ForgetPasswordActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 RequestQueue queue= RequestQueueSingleTon.getInstance().getRequestQueue(ForgetPasswordActivity.this);
-
                 final EditText email = (EditText) findViewById(R.id.txtDrEmail);
-                try {
 
-                    JSONObject jsonBody = new JSONObject();
-                    jsonBody.put("email",email.getText().toString());
-
-
-                    JsonObjectRequest jsonObjRequest = new JsonObjectRequest(Request.Method.POST, links.resetPassword, jsonBody, new Response.Listener<JSONObject>() {
-                        @Override
-                        public void onResponse(JSONObject response) {
-                            System.out.println("reset password: "+response.toString());
-                            email.setText("");
-                       //     Toast.makeText(ForgetPasswordActivity.this, "reset password: "+response.toString(), Toast.LENGTH_SHORT).show();
-                        }
-                    }, new Response.ErrorListener() {
-                        @Override
-                        public void onErrorResponse(VolleyError error) {
-
-                        }
-                    });
-
-                    queue.add(jsonObjRequest);
-                } catch (JSONException e) {
-                    e.printStackTrace();
+                //validate email
+                if (validate(email.getText().toString()) == false){
+                    Toast.makeText(ForgetPasswordActivity.this, "Please enter a valid email address", Toast.LENGTH_SHORT).show();
+                    return;
                 }
+
+                JSONObject jsonBody = new JSONObject();
+
+                String URL = links.resetPassword + email.getText().toString();
+
+                JsonObjectRequest jsonObjRequest = new JsonObjectRequest(Request.Method.GET, URL, jsonBody, new Response.Listener<JSONObject>() {
+                    @Override
+                    public void onResponse(JSONObject response) {
+
+                        try {
+                            if (response.getString("errorMsgEn").equalsIgnoreCase("Done")){
+                                email.setText("");
+                                Toast.makeText(ForgetPasswordActivity.this, "Email sent successfully", Toast.LENGTH_SHORT).show();
+
+                            }else {
+                                Toast.makeText(ForgetPasswordActivity.this, "Connection failed", Toast.LENGTH_SHORT).show();
+                            }
+
+                        } catch (JSONException e) {
+                            e.printStackTrace();
+                        }
+                    }
+                }, new Response.ErrorListener() {
+                    @Override
+                    public void onErrorResponse(VolleyError error) {
+
+                    }
+                });
+
+                queue.add(jsonObjRequest);
             }
         });
 
