@@ -34,6 +34,7 @@ public class links {
     public static String PrefReport = "PatientReport";
 
     public static String PrefPatientProfile = "patientProfile";
+    public static String PrefLanguage = "APPLanguage";
 
 
 }

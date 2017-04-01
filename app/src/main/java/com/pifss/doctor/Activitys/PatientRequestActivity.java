@@ -5,21 +5,15 @@ import android.graphics.Color;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
-import android.view.View;
-import android.widget.AdapterView;
-import android.widget.ImageButton;
 import android.widget.ListView;
-import android.widget.Toast;
 
 import com.android.volley.Request;
 import com.android.volley.RequestQueue;
 import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.JsonArrayRequest;
-import com.android.volley.toolbox.JsonObjectRequest;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
-import com.pifss.doctor.Adapters.myPatientAdapter;
 import com.pifss.doctor.Model.Doctor;
 import com.pifss.doctor.Model.Patient;
 import com.pifss.doctor.Model.PatientRequest;
@@ -29,8 +23,6 @@ import com.pifss.doctor.RequestQueueSingleTon;
 import com.pifss.doctor.links;
 
 import org.json.JSONArray;
-import org.json.JSONException;
-import org.json.JSONObject;
 
 import java.util.ArrayList;
 
@@ -106,17 +98,7 @@ public class PatientRequestActivity extends AppCompatActivity {
 
 
 
-        lv.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-            @Override
-            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
 
-                PatientRequest request = model.get(position);
-               // Toast.makeText(PatientRequestActivity.this, request.getName(), Toast.LENGTH_SHORT).show();
-                
-
-
-            }
-        });
         lv.setEmptyView(findViewById(R.id.emptyElement));
     }
     @Override
@@ -124,4 +106,5 @@ public class PatientRequestActivity extends AppCompatActivity {
         onBackPressed();
         return true;
     }
+
 }
