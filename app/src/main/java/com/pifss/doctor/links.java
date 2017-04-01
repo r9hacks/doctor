@@ -12,6 +12,8 @@ public class links {
     public static String BASE = "http://34.196.107.188:8081/MhealthWeb/webresources/";
 
     public static String Doctor = BASE + "doctor";
+    public static String PatientDrLink = BASE + "patientdrlink";
+
     public static String getDoctor = Doctor + "/getDoctor/";
 
     public static String Patient = BASE + "patient";

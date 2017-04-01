@@ -79,7 +79,7 @@ public class PatientRequestActivity extends AppCompatActivity {
                     for (int i = 0 ; i < patients.size(); i++) {
 
 
-                        PatientRequest request =  new PatientRequest(patients.get(i).getFirstName()+" "+patients.get(i).getLastName(), patients.get(i).getDateOfBirth(), patients.get(i).getCivilId(), patients.get(i).getGender(), patients.get(i).getImageUrl());
+                        PatientRequest request =  new PatientRequest(patients.get(i).getFirstName()+" "+patients.get(i).getLastName(), patients.get(i).getDateOfBirth(), patients.get(i).getCivilId(), patients.get(i).getGender(), patients.get(i).getImageUrl(),patients.get(i));
                                 model.add(request);
 
 

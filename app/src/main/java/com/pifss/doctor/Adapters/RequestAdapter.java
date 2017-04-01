@@ -1,6 +1,7 @@
 package com.pifss.doctor.Adapters;
 
 import android.app.Activity;
+import android.content.SharedPreferences;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -10,13 +11,23 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.android.volley.Request;
+import com.android.volley.RequestQueue;
+import com.android.volley.Response;
+import com.android.volley.VolleyError;
+import com.android.volley.toolbox.JsonObjectRequest;
+import com.pifss.doctor.Activitys.EditDoctorProfileActivity;
 import com.pifss.doctor.Activitys.PatientRequestActivity;
 import com.pifss.doctor.Model.PatientRequest;
 import com.pifss.doctor.R;
+import com.pifss.doctor.RequestQueueSingleTon;
+import com.pifss.doctor.links;
 import com.squareup.picasso.Picasso;
 
 import org.joda.time.LocalDate;
 import org.joda.time.Years;
+import org.json.JSONException;
+import org.json.JSONObject;
 
 import java.text.DateFormat;
 import java.text.ParseException;
@@ -63,7 +74,7 @@ public class RequestAdapter extends BaseAdapter {
     }
 
     @Override
-    public View getView(int position, View convertView, ViewGroup parent) {
+    public View getView(final int position, View convertView, ViewGroup parent) {
 
 
 
@@ -82,7 +93,7 @@ public class RequestAdapter extends BaseAdapter {
 
 
 
-        PatientRequest patient = model.get(position);
+        final PatientRequest patient = model.get(position);
         // img.setImageResource(Integer.parseInt(patient.getImage()));
         if (!patient.getImage().equals("")){
 
@@ -124,11 +135,59 @@ public class RequestAdapter extends BaseAdapter {
         civil.setText(patient.getCivilId());
 
 
+        final RequestQueue queue= RequestQueueSingleTon.getInstance().getRequestQueue(context);
         accept.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
-                Toast.makeText(context, "clicked accept", Toast.LENGTH_SHORT).show();
+                //Toast.makeText(context, "clicked accept", Toast.LENGTH_SHORT).show();
+
+                JSONObject jsonBody = new JSONObject();
+                try {
+                    jsonBody.put("addingTime",patient.getPatientObject().getAddingTime());
+                    jsonBody.put("drId",patient.getPatientObject().getDrId());
+                    jsonBody.put("linkId",patient.getPatientObject().getLinkId());
+                    jsonBody.put("patientId",patient.getPatientObject().getPatientId());
+                    jsonBody.put("status",1);
+
+                } catch (JSONException e) {
+                    e.printStackTrace();
+                }
+
+                String URL = links.PatientDrLink + "/" + patient.getPatientObject().getLinkId();
+                System.out.println("body:"+jsonBody.toString());
+                System.out.println("link:"+URL);
+                JsonObjectRequest jsonObjRequest = new JsonObjectRequest(Request.Method.PUT, URL, jsonBody, new Response.Listener<JSONObject>() {
+                    @Override
+                    public void onResponse(JSONObject response) {
+
+                        try {
+                            if (response.getString("errorMsgEn").equalsIgnoreCase("Done")){
+
+                                Toast.makeText(context, "Patient accepted successfully", Toast.LENGTH_SHORT).show();
+                                model.remove(position);
+                                notifyDataSetChanged();
+                            }else{
+                                Toast.makeText(context, "Patient accepted failed", Toast.LENGTH_SHORT).show();
+
+                            }
+                        } catch (JSONException e) {
+                            e.printStackTrace();
+                        }
+
+                        System.out.println("response: "+response.toString());
+
+
+                    }
+                }, new Response.ErrorListener() {
+                    @Override
+                    public void onErrorResponse(VolleyError error) {
+
+                    }
+                });
+
+                queue.add(jsonObjRequest);
+
             }
         });
 
@@ -137,17 +196,57 @@ public class RequestAdapter extends BaseAdapter {
             @Override
             public void onClick(View v) {
 
-                Toast.makeText(context, "clicked decline", Toast.LENGTH_SHORT).show();
+                //Toast.makeText(context, "clicked decline", Toast.LENGTH_SHORT).show();
+                JSONObject jsonBody = new JSONObject();
+                try {
+                    jsonBody.put("addingTime",patient.getPatientObject().getAddingTime());
+                    jsonBody.put("drId",patient.getPatientObject().getDrId());
+                    jsonBody.put("linkId",patient.getPatientObject().getLinkId());
+                    jsonBody.put("patientId",patient.getPatientObject().getPatientId());
+                    jsonBody.put("status",-1);
+
+                } catch (JSONException e) {
+                    e.printStackTrace();
+                }
+
+                String URL = links.PatientDrLink + "/" + patient.getPatientObject().getLinkId();
+                System.out.println("body:"+jsonBody.toString());
+                System.out.println("link:"+URL);
+                JsonObjectRequest jsonObjRequest = new JsonObjectRequest(Request.Method.PUT, URL, jsonBody, new Response.Listener<JSONObject>() {
+                    @Override
+                    public void onResponse(JSONObject response) {
+
+                        try {
+                            if (response.getString("errorMsgEn").equalsIgnoreCase("Done")){
+
+                                Toast.makeText(context, "Patient declined successfully", Toast.LENGTH_SHORT).show();
+                                model.remove(position);
+                                notifyDataSetChanged();
+                            }else{
+                                Toast.makeText(context, "Patient declined failed", Toast.LENGTH_SHORT).show();
+
+                            }
+                        } catch (JSONException e) {
+                            e.printStackTrace();
+                        }
+
+                        System.out.println("response: "+response.toString());
+
+
+                    }
+                }, new Response.ErrorListener() {
+                    @Override
+                    public void onErrorResponse(VolleyError error) {
+
+                    }
+                });
+
+                queue.add(jsonObjRequest);
             }
         });
 
 
-        img.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Toast.makeText(context, "User clicked Image", Toast.LENGTH_SHORT).show();
-            }
-        });
+
 
         return view;
 

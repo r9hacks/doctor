@@ -12,16 +12,27 @@ public class PatientRequest {
     private String age;
     private String civilId;
 
-    public PatientRequest(String name, String age, String civilId, String gender, String image) {
+    public PatientRequest(String name, String age, String civilId, String gender, String image, Patient patient) {
         this.name = name;
         this.age = age;
         this.civilId = civilId;
         this.gender = gender;
         this.image = image;
+        this.patientObject = patient;
     }
 
     private String gender;
     private String image;
+    private Patient patientObject;
+
+    public Patient getPatientObject() {
+        return patientObject;
+    }
+
+    public void setPatientObject(Patient patientObject) {
+        this.patientObject = patientObject;
+    }
+
 
     public String getName() {
         return name;
