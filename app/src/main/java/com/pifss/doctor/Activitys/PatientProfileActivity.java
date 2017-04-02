@@ -234,7 +234,7 @@ public class PatientProfileActivity extends AppCompatActivity {
 
                 builder.setTitle("Call "+patient.getFirstName()+" "+patient.getLastName())
                         .setMessage("Are you sure you wanna call "+patient.getFirstName()+" "+patient.getLastName()+" ?")
-                        .setIcon(android.R.drawable.ic_menu_call)
+                        .setIcon(R.mipmap.phonecall)
                         .setNegativeButton("No", new DialogInterface.OnClickListener() {
                             @Override
                             public void onClick(DialogInterface dialog, int which) {

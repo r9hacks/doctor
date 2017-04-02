@@ -127,7 +127,7 @@ public class myPatientAdapter extends BaseAdapter {
 
                 builder.setTitle("Call "+patient.getName())
                         .setMessage("Are you sure you wanna call "+patient.getName()+" ?")
-                        .setIcon(android.R.drawable.ic_menu_call)
+                        .setIcon(R.mipmap.phonecall)
                         .setNegativeButton("No", new DialogInterface.OnClickListener() {
                             @Override
                             public void onClick(DialogInterface dialog, int which) {
