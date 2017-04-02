@@ -11,10 +11,12 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.android.volley.NetworkResponse;
 import com.android.volley.Request;
 import com.android.volley.RequestQueue;
 import com.android.volley.Response;
 import com.android.volley.VolleyError;
+import com.android.volley.toolbox.HttpHeaderParser;
 import com.android.volley.toolbox.JsonObjectRequest;
 import com.pifss.doctor.Activitys.EditDoctorProfileActivity;
 import com.pifss.doctor.Activitys.PatientRequestActivity;
@@ -29,6 +31,7 @@ import org.joda.time.Years;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import java.io.UnsupportedEncodingException;
 import java.text.DateFormat;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
@@ -162,7 +165,7 @@ public class RequestAdapter extends BaseAdapter {
                     public void onResponse(JSONObject response) {
 
                         try {
-                            if (response.getString("errorMsgEn").equalsIgnoreCase("Done")){
+                            if (response.getBoolean("status") == true){
 
                                 Toast.makeText(context, "Patient accepted successfully", Toast.LENGTH_SHORT).show();
                                 model.remove(position);
@@ -182,9 +185,46 @@ public class RequestAdapter extends BaseAdapter {
                 }, new Response.ErrorListener() {
                     @Override
                     public void onErrorResponse(VolleyError error) {
+                        Toast.makeText(context, "Patient accepted failed", Toast.LENGTH_SHORT).show();
 
                     }
-                });
+                }){
+                    @Override
+                    protected Response<JSONObject> parseNetworkResponse(NetworkResponse response) {
+                        String jsonString = "";
+                        JSONObject object = new JSONObject();
+
+                        try {
+                            System.out.println("statuscode: "+response.statusCode);
+                            if (response.statusCode <200 || response.statusCode >300){
+
+                                object.put("status",false);
+                                return Response.success(object,
+                                        HttpHeaderParser.parseCacheHeaders(response));
+                            }
+                            jsonString = new String(response.data, "UTF-8");
+                            System.out.println("jsonString");
+
+                            System.out.println("\""+jsonString+"\"");
+                            if (jsonString.equals("")){
+                                object.put("status",true);
+                            }else{
+                                object.put("status",false);
+                            }
+
+                            return Response.success(object,
+                                    HttpHeaderParser.parseCacheHeaders(response));
+
+                        } catch (UnsupportedEncodingException e) {
+                            e.printStackTrace();
+                        } catch (JSONException e) {
+                            e.printStackTrace();
+                        }
+                        return Response.success(object,
+                                HttpHeaderParser.parseCacheHeaders(response));
+
+                    }
+                };
 
                 queue.add(jsonObjRequest);
 
@@ -217,7 +257,7 @@ public class RequestAdapter extends BaseAdapter {
                     public void onResponse(JSONObject response) {
 
                         try {
-                            if (response.getString("errorMsgEn").equalsIgnoreCase("Done")){
+                            if (response.getBoolean("status") == true){
 
                                 Toast.makeText(context, "Patient declined successfully", Toast.LENGTH_SHORT).show();
                                 model.remove(position);
@@ -237,9 +277,46 @@ public class RequestAdapter extends BaseAdapter {
                 }, new Response.ErrorListener() {
                     @Override
                     public void onErrorResponse(VolleyError error) {
+                        Toast.makeText(context, "Patient declined failed", Toast.LENGTH_SHORT).show();
 
                     }
-                });
+                }){
+                    @Override
+                    protected Response<JSONObject> parseNetworkResponse(NetworkResponse response) {
+                        String jsonString = "";
+                        JSONObject object = new JSONObject();
+
+                        try {
+                            System.out.println("statuscode: "+response.statusCode);
+                            if (response.statusCode <200 || response.statusCode >300){
+
+                                object.put("status",false);
+                                return Response.success(object,
+                                        HttpHeaderParser.parseCacheHeaders(response));
+                            }
+                            jsonString = new String(response.data, "UTF-8");
+                            System.out.println("jsonString");
+
+                            System.out.println("\""+jsonString+"\"");
+                            if (jsonString.equals("")){
+                                object.put("status",true);
+                            }else{
+                                object.put("status",false);
+                            }
+
+                            return Response.success(object,
+                                    HttpHeaderParser.parseCacheHeaders(response));
+
+                        } catch (UnsupportedEncodingException e) {
+                            e.printStackTrace();
+                        } catch (JSONException e) {
+                            e.printStackTrace();
+                        }
+                        return Response.success(object,
+                                HttpHeaderParser.parseCacheHeaders(response));
+
+                    }
+                };
 
                 queue.add(jsonObjRequest);
             }
