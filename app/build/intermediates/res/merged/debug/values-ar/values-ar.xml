@@ -34,7 +34,7 @@
     <string name="LangButton">الرجاء تغيير لغة الجهاز</string>
     <string name="LastName">الاسم الأخير</string>
     <string name="Location">الموقع</string>
-    <string name="Login">تسجيل الدخول</string>
+    <string name="Login">دخول</string>
     <string name="Logout">تسجيل الخروج</string>
     <string name="Male">ذكر</string>
     <string name="Medication">الأدوية</string>
