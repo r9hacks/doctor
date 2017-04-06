@@ -40,7 +40,7 @@ MERGED from [de.hdodenhof:circleimageview:2.1.0] C:\Users\PIFSS\.android\build-c
 	android:label
 		ADDED from C:\Users\PIFSS\Desktop\Block_6\MHealth\v4\doctor\app\src\main\AndroidManifest.xml:11:9-41
 	android:supportsRtl
-		ADDED from C:\Users\PIFSS\Desktop\Block_6\MHealth\v4\doctor\app\src\main\AndroidManifest.xml:13:9-35
+		ADDED from C:\Users\PIFSS\Desktop\Block_6\MHealth\v4\doctor\app\src\main\AndroidManifest.xml:13:9-36
 	android:roundIcon
 		ADDED from C:\Users\PIFSS\Desktop\Block_6\MHealth\v4\doctor\app\src\main\AndroidManifest.xml:12:9-44
 	android:allowBackup
