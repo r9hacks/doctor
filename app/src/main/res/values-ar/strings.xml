@@ -4,7 +4,7 @@
     <!-- TODO: Remove or change this placeholder text -->
 
 
-    <string name="Login">تسجيل الدخول</string>
+    <string name="Login">دخول</string>
     <string name="Register">التسجيل</string>
     <string name="ResetPassword">تغيير كلمة السر</string>
     <string name="Password">كلمة السر</string>

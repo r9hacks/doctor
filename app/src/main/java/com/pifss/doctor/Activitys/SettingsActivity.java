@@ -51,7 +51,7 @@ public class SettingsActivity extends AppCompatActivity {
                 //Toast.makeText(SettingsActivity.this, R.string.LangButton, Toast.LENGTH_SHORT).show();
                 Configuration config = getResources().getConfiguration();
 
-                    config.locale = new Locale("en");
+                config.locale = new Locale("en");
 
                 getResources().updateConfiguration(config,getResources().getDisplayMetrics());
 
@@ -61,6 +61,7 @@ public class SettingsActivity extends AppCompatActivity {
                 editor.commit();
 
                 Intent i = new Intent(SettingsActivity.this,SplashActivity.class);
+                i.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
                 finish();
                 startActivity(i);
             }
@@ -76,10 +77,9 @@ public class SettingsActivity extends AppCompatActivity {
             //    Toast.makeText(SettingsActivity.this, R.string.LangButton, Toast.LENGTH_SHORT).show();
                 Configuration config = getResources().getConfiguration();
 
-                    config.locale = new Locale("ar");
+                config.locale = new Locale("ar");
 
-
-                    getResources().updateConfiguration(config,getResources().getDisplayMetrics());
+                getResources().updateConfiguration(config,getResources().getDisplayMetrics());
 
                 SharedPreferences preference = getSharedPreferences("settings", MODE_PRIVATE);
                 SharedPreferences.Editor editor = preference.edit();
@@ -87,6 +87,8 @@ public class SettingsActivity extends AppCompatActivity {
                 editor.commit();
 
                 Intent i = new Intent(SettingsActivity.this,SplashActivity.class);
+                i.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
+
                 finish();
                 startActivity(i);
             }
