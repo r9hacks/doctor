@@ -254,7 +254,6 @@
                     android:layout_below="@+id/civilPLayout"
                     android:layout_marginEnd="14dp"
                     android:layout_marginStart="14dp"
-                    android:layout_marginTop="74dp"
                     android:drawableLeft="@mipmap/map"
                     android:drawablePadding="10dp"
                     android:ems="10"
