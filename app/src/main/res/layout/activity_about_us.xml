@@ -51,7 +51,7 @@
         android:layout_marginLeft="17dp"
         android:layout_marginRight="17dp"
         android:layout_marginTop="29dp"
-        android:text="Our aim is to improve public health, by facilitating doctor-patient communications. The application allows doctors to ubiquity access patient's information, view reports and reply to comments instantly and accurately. As well as accept or decline patients requests."
+        android:text="@string/OurAim"
         android:textAlignment="center"
         android:textAllCaps="false"
         android:textSize="18sp" />
@@ -75,8 +75,7 @@
         android:layout_marginLeft="32dp"
         android:layout_marginStart="32dp"
         android:layout_marginTop="25dp"
-        android:layout_toLeftOf="@+id/imageView18"
-        android:layout_toStartOf="@+id/imageView18"
+        android:layout_toStartOf="@+id/textView10"
         android:ems="10"
         android:inputType="textPersonName"
         android:text="@string/Aboutus"

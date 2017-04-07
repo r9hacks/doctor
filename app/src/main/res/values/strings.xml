@@ -50,7 +50,7 @@
 
 //frieday
     <string name="Becausewecare">Because we care</string>
-    <string name="Aboutus">About</string>
+    <string name="Aboutus">About us</string>
     <string name="civilId">civil Id</string>
 
     <string name="Specialty">Specialty</string>
@@ -100,7 +100,7 @@
     <string name="ReplySent">Reply Sent</string>
     <string name="ReplytoReport">Reply to Report</string>
     <string name="ReportDetail">Report Detail</string>
-
+    <string name="OurAim">Our aim is to improve public health, by facilitating doctor-patient communications. The application allows doctors to ubiquity access patient\'s information, view reports and reply to comments instantly and accurately. As well as accept or decline patients requests.</string>
 
 
 
