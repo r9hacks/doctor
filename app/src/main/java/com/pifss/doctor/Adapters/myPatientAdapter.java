@@ -123,6 +123,8 @@ public class myPatientAdapter extends BaseAdapter {
 //        }
 
 
+
+        
         phone.setText(patient.getPhoneNum());
 
         ImageView phoneImage = (ImageView) view.findViewById(R.id.PhoneImage);
