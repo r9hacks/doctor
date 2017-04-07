@@ -76,18 +76,19 @@ public class MyPatientActivity extends AppCompatActivity {
                     for (int i = 0 ; i < patients.size(); i++) {
 
 
-                        String g = patients.get(i).getGender();
-                        if(( g.charAt(0)+"").equalsIgnoreCase("f") )
+                        String gender = patients.get(i).getGender();
+                        if(( gender.charAt(0)+"").equalsIgnoreCase("f") )
                         {
-                            g="Female";
+                            gender="Female";
 
                         }
 
                         else
                         {
-                            g="Male";
+                            gender="Male";
                         }
-                        MyPatient myPatient =  new MyPatient(patients.get(i).getFirstName()+" "+patients.get(i).getLastName(), patients.get(i).getDateOfBirth(), patients.get(i).getPhoneNumber(), g ,patients.get(i).getImageUrl());
+                                                                                                                                                    //String name, String BDay, String phoneNum, String gender, String image, String BloodType
+                        MyPatient myPatient =  new MyPatient(patients.get(i).getFirstName()+" "+patients.get(i).getLastName(), patients.get(i).getDateOfBirth(), patients.get(i).getPhoneNumber(), gender ,patients.get(i).getImageUrl(), patients.get(i).getBloodType());
                         myPatient.setPatient(patients.get(i));
                         model.add(myPatient);
 

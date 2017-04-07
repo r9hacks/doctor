@@ -79,6 +79,8 @@ public class myPatientAdapter extends BaseAdapter {
         TextView age = (TextView) view.findViewById(R.id.textViewAge);
         TextView phone= (TextView) view.findViewById(R.id.textViewPhone);
         TextView gender= (TextView) view.findViewById(R.id.textViewGender);
+        TextView BDay= (TextView) view.findViewById(R.id.BDay);
+        TextView BloodType= (TextView) view.findViewById(R.id.BloodType);
 
 
 
@@ -93,28 +95,32 @@ public class myPatientAdapter extends BaseAdapter {
 
         name.setText(patient.getName());
 
+        BDay.setText(patient.getBDay());
+
+        BloodType.setText(patient.getBloodType());
         gender.setText(patient.getGender());
 
-        DateFormat df = new SimpleDateFormat("yyyy-mm-dd");
-        Date startDate;
-        try {
-            startDate = df.parse(patient.getAge());
-
-            String newDateString = df.format(startDate);
-            System.out.println(newDateString);
-
-            Calendar calendar = GregorianCalendar.getInstance(); // creates a new calendar instance
-            calendar.setTime(startDate);   // assigns calendar to given date
-
-
-            LocalDate birthdate = new LocalDate (calendar.get(Calendar.YEAR), calendar.get(Calendar.MONTH)+1, calendar.get(Calendar.DAY_OF_MONTH));
-            LocalDate now = new LocalDate();
-            Years patientAge = Years.yearsBetween(birthdate, now);
-
-            age.setText("Age: "+patientAge.getYears());
-        } catch (ParseException e) {
-            e.printStackTrace();
-        }
+//
+//        DateFormat df = new SimpleDateFormat("yyyy-mm-dd");
+//        Date startDate;
+//        try {
+//            startDate = df.parse(patient.getAge());
+//
+//            String newDateString = df.format(startDate);
+//            System.out.println(newDateString);
+//
+//            Calendar calendar = GregorianCalendar.getInstance(); // creates a new calendar instance
+//            calendar.setTime(startDate);   // assigns calendar to given date
+//
+//
+//            LocalDate birthdate = new LocalDate (calendar.get(Calendar.YEAR), calendar.get(Calendar.MONTH)+1, calendar.get(Calendar.DAY_OF_MONTH));
+//            LocalDate now = new LocalDate();
+//            Years patientAge = Years.yearsBetween(birthdate, now);
+//
+//            age.setText("Age: "+patientAge.getYears());
+//        } catch (ParseException e) {
+//            e.printStackTrace();
+//        }
 
 
         phone.setText(patient.getPhoneNum());

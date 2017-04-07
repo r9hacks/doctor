@@ -7,23 +7,30 @@ package com.pifss.doctor.Model;
 public class MyPatient {
 
 
-    public MyPatient(String name, String age, String phoneNum, String gender, String image) {
+    public MyPatient(String name, String BDay, String phoneNum, String gender, String image, String BloodType) {
         this.name = name;
-        this.age = age;
+        this.BDay = BDay;
         this.phoneNum = phoneNum;
         this.gender = gender;
         this.image = image;
+        this.BloodType = BloodType;
 
     }
 
 
 
     private String name;
-    private String age;
+   // private String age;
     private String phoneNum;
     private String gender;
     private String image;
     private Patient patient;
+
+    //aded blood type
+
+    private String BloodType;
+    private String BDay;
+
 
     public String getName() {
         return name;
@@ -67,11 +74,27 @@ public class MyPatient {
         this.patient = patient;
     }
 
-    public String getAge() {
-        return age;
+//    public String getAge() {
+//        return age;
+//    }
+//
+//    public void setAge(String age) {
+//        this.age = age;
+//    }
+
+    public String getBloodType() {
+        return BloodType;
     }
 
-    public void setAge(String age) {
-        this.age = age;
+    public void setBloodType(String bloodType) {
+        BloodType = bloodType;
+    }
+
+    public String getBDay() {
+        return BDay;
+    }
+
+    public void setBDay(String BDay) {
+        this.BDay = BDay;
     }
 }

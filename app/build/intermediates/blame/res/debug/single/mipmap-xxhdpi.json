@@ -1,382 +1,458 @@
 [
     {
-        "merged": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\stethoscope.png",
-        "source": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\stethoscope.png"
+        "merged": "/Users/Entisar/Desktop/Android/modifications/doctor/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/doctor.png",
+        "source": "/Users/Entisar/Desktop/Android/modifications/doctor/app/src/main/res/mipmap-xxhdpi/doctor.png"
     },
     {
-        "merged": "C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v4\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\id_card.png",
-        "source": "C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v4\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\id_card.png"
+        "merged": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v4\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\id_card.png",
+        "source": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v4\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\id_card.png"
     },
     {
-        "merged": "C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v4\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\heartrate.png",
-        "source": "C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v4\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\heartrate.png"
+        "merged": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v4\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\fever.png",
+        "source": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v4\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\fever.png"
     },
     {
-        "merged": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor mar312\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\password.png",
-        "source": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor mar312\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\password.png"
+        "merged": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\id_card.png",
+        "source": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\id_card.png"
     },
     {
-        "merged": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\doctor_profile.png",
-        "source": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\doctor_profile.png"
+        "merged": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v4\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\maps_and_flags.png",
+        "source": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v4\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\maps_and_flags.png"
     },
     {
-        "merged": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\calendar_prof.png",
-        "source": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\calendar_prof.png"
+        "merged": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v4\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\info.png",
+        "source": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v4\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\info.png"
     },
     {
-        "merged": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v4\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\heartrate.png",
-        "source": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v4\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\heartrate.png"
+        "merged": "/Users/Entisar/Desktop/Android/modifications/doctor/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/ic_launcher_round.png",
+        "source": "/Users/Entisar/Desktop/Android/modifications/doctor/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\femenine.png",
-        "source": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\femenine.png"
+        "merged": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\map.png",
+        "source": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\map.png"
     },
     {
-        "merged": "C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v4\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\info.png",
-        "source": "C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v4\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\info.png"
+        "merged": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v4\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ic_launcher_round.png",
+        "source": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v4\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\heartrate.png",
-        "source": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\heartrate.png"
+        "merged": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v4\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\phone_icon.png",
+        "source": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v4\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\phone_icon.png"
     },
     {
-        "merged": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v4\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\maps_and_flags.png",
-        "source": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v4\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\maps_and_flags.png"
+        "merged": "/Users/Entisar/Desktop/Android/modifications/doctor/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/genders.png",
+        "source": "/Users/Entisar/Desktop/Android/modifications/doctor/app/src/main/res/mipmap-xxhdpi/genders.png"
     },
     {
-        "merged": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v4\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\femenine.png",
-        "source": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v4\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\femenine.png"
+        "merged": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\femenine.png",
+        "source": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\femenine.png"
     },
     {
-        "merged": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\map.png",
-        "source": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\map.png"
+        "merged": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ic_launcher.png",
+        "source": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor mar312\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ic_launcher.png",
-        "source": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor mar312\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+        "merged": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor mar312\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ic_launcher_round.png",
+        "source": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor mar312\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\genders.png",
-        "source": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\genders.png"
+        "merged": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\calendar_prof.png",
+        "source": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\calendar_prof.png"
     },
     {
-        "merged": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\male_symbol.png",
-        "source": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\male_symbol.png"
+        "merged": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\fever.png",
+        "source": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\fever.png"
     },
     {
-        "merged": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\stethoscope_profile.png",
-        "source": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\stethoscope_profile.png"
+        "merged": "/Users/Entisar/Desktop/Android/modifications/doctor/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/map.png",
+        "source": "/Users/Entisar/Desktop/Android/modifications/doctor/app/src/main/res/mipmap-xxhdpi/map.png"
     },
     {
-        "merged": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\maps_and_flags.png",
-        "source": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\maps_and_flags.png"
+        "merged": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\heartrate.png",
+        "source": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\heartrate.png"
     },
     {
-        "merged": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v4\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\email.png",
-        "source": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v4\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\email.png"
+        "merged": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\password.png",
+        "source": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\password.png"
     },
     {
-        "merged": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor mar312\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\stethoscope.png",
-        "source": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor mar312\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\stethoscope.png"
+        "merged": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\stethoscope_profile.png",
+        "source": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\stethoscope_profile.png"
     },
     {
-        "merged": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\map.png",
-        "source": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\map.png"
+        "merged": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v4\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\password.png",
+        "source": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v4\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\password.png"
     },
     {
-        "merged": "C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v4\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\phone_icon.png",
-        "source": "C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v4\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\phone_icon.png"
+        "merged": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\phone_icon.png",
+        "source": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\phone_icon.png"
     },
     {
-        "merged": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v4\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\doctor_profile.png",
-        "source": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v4\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\doctor_profile.png"
+        "merged": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v4\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\email.png",
+        "source": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v4\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\email.png"
     },
     {
-        "merged": "C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v4\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\stethoscope.png",
-        "source": "C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v4\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\stethoscope.png"
+        "merged": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor mar312\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\email.png",
+        "source": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor mar312\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\email.png"
     },
     {
-        "merged": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ic_launcher.png",
-        "source": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+        "merged": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v4\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\doctor.png",
+        "source": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v4\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\doctor.png"
     },
     {
-        "merged": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\email.png",
-        "source": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\email.png"
+        "merged": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v4\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\password.png",
+        "source": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v4\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\password.png"
     },
     {
-        "merged": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v4\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\password.png",
-        "source": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v4\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\password.png"
+        "merged": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v4\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\phone_icon.png",
+        "source": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v4\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\phone_icon.png"
     },
     {
-        "merged": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v4\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\id_card.png",
-        "source": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v4\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\id_card.png"
+        "merged": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\fever.png",
+        "source": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\fever.png"
     },
     {
-        "merged": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ic_launcher_round.png",
-        "source": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+        "merged": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\email.png",
+        "source": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\email.png"
     },
     {
-        "merged": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\id_card.png",
-        "source": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\id_card.png"
+        "merged": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v4\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\calendar_prof.png",
+        "source": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v4\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\calendar_prof.png"
     },
     {
-        "merged": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\phone_icon.png",
-        "source": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\phone_icon.png"
+        "merged": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor mar312\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\id_card.png",
+        "source": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor mar312\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\id_card.png"
     },
     {
-        "merged": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ic_launcher_round.png",
-        "source": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+        "merged": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\id_card.png",
+        "source": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\id_card.png"
     },
     {
-        "merged": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\femenine.png",
-        "source": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\femenine.png"
+        "merged": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor mar312\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\maps_and_flags.png",
+        "source": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor mar312\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\maps_and_flags.png"
     },
     {
-        "merged": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor mar312\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\male_symbol.png",
-        "source": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor mar312\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\male_symbol.png"
+        "merged": "/Users/Entisar/Desktop/Android/modifications/doctor/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/stethoscope.png",
+        "source": "/Users/Entisar/Desktop/Android/modifications/doctor/app/src/main/res/mipmap-xxhdpi/stethoscope.png"
     },
     {
-        "merged": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\maps_and_flags.png",
-        "source": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\maps_and_flags.png"
+        "merged": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor mar312\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\info.png",
+        "source": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor mar312\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\info.png"
     },
     {
-        "merged": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\genders.png",
-        "source": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\genders.png"
+        "merged": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\stethoscope.png",
+        "source": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\stethoscope.png"
     },
     {
-        "merged": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v4\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\phone_icon.png",
-        "source": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v4\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\phone_icon.png"
+        "merged": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v4\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\maps_and_flags.png",
+        "source": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v4\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\maps_and_flags.png"
     },
     {
-        "merged": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v4\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\fever.png",
-        "source": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v4\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\fever.png"
+        "merged": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v4\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\stethoscope_profile.png",
+        "source": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v4\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\stethoscope_profile.png"
     },
     {
-        "merged": "C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v4\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\password.png",
-        "source": "C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v4\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\password.png"
+        "merged": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v4\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ic_launcher.png",
+        "source": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v4\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v4\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\map.png",
-        "source": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v4\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\map.png"
+        "merged": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor mar312\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\fever.png",
+        "source": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor mar312\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\fever.png"
     },
     {
-        "merged": "C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v4\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\doctor.png",
-        "source": "C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v4\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\doctor.png"
+        "merged": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\male_symbol.png",
+        "source": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\male_symbol.png"
     },
     {
-        "merged": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\male_symbol.png",
-        "source": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\male_symbol.png"
+        "merged": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v4\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\email.png",
+        "source": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v4\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\email.png"
     },
     {
-        "merged": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\info.png",
-        "source": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\info.png"
+        "merged": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor mar312\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\doctor_profile.png",
+        "source": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor mar312\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\doctor_profile.png"
     },
     {
-        "merged": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor mar312\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\fever.png",
-        "source": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor mar312\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\fever.png"
+        "merged": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v4\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\id_card.png",
+        "source": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v4\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\id_card.png"
     },
     {
-        "merged": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor mar312\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\maps_and_flags.png",
-        "source": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor mar312\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\maps_and_flags.png"
+        "merged": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v4\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\genders.png",
+        "source": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v4\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\genders.png"
     },
     {
-        "merged": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v4\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ic_launcher_round.png",
-        "source": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v4\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+        "merged": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ic_launcher_round.png",
+        "source": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v4\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\info.png",
-        "source": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v4\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\info.png"
+        "merged": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\doctor_profile.png",
+        "source": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\doctor_profile.png"
     },
     {
-        "merged": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\stethoscope.png",
-        "source": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\stethoscope.png"
+        "merged": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\calendar_prof.png",
+        "source": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\calendar_prof.png"
     },
     {
-        "merged": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\doctor.png",
-        "source": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\doctor.png"
+        "merged": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor mar312\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\calendar_prof.png",
+        "source": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor mar312\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\calendar_prof.png"
     },
     {
-        "merged": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ic_launcher.png",
-        "source": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+        "merged": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\maps_and_flags.png",
+        "source": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\maps_and_flags.png"
     },
     {
-        "merged": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor mar312\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\heartrate.png",
-        "source": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor mar312\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\heartrate.png"
+        "merged": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v4\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\doctor.png",
+        "source": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v4\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\doctor.png"
     },
     {
-        "merged": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor mar312\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\map.png",
-        "source": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor mar312\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\map.png"
+        "merged": "/Users/Entisar/Desktop/Android/modifications/doctor/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/ic_launcher.png",
+        "source": "/Users/Entisar/Desktop/Android/modifications/doctor/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v4\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\maps_and_flags.png",
-        "source": "C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v4\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\maps_and_flags.png"
+        "merged": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v4\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\stethoscope_profile.png",
+        "source": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v4\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\stethoscope_profile.png"
     },
     {
-        "merged": "C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v4\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\femenine.png",
-        "source": "C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v4\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\femenine.png"
+        "merged": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\genders.png",
+        "source": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\genders.png"
     },
     {
-        "merged": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor mar312\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\doctor_profile.png",
-        "source": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor mar312\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\doctor_profile.png"
+        "merged": "/Users/Entisar/Desktop/Android/modifications/doctor/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/doctor_profile.png",
+        "source": "/Users/Entisar/Desktop/Android/modifications/doctor/app/src/main/res/mipmap-xxhdpi/doctor_profile.png"
     },
     {
-        "merged": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\info.png",
-        "source": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\info.png"
+        "merged": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\maps_and_flags.png",
+        "source": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\maps_and_flags.png"
     },
     {
-        "merged": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\calendar_prof.png",
-        "source": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\calendar_prof.png"
+        "merged": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\stethoscope_profile.png",
+        "source": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\stethoscope_profile.png"
     },
     {
-        "merged": "C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v4\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\email.png",
-        "source": "C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v4\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\email.png"
+        "merged": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v4\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\doctor_profile.png",
+        "source": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v4\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\doctor_profile.png"
     },
     {
-        "merged": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\heartrate.png",
-        "source": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\heartrate.png"
+        "merged": "/Users/Entisar/Desktop/Android/modifications/doctor/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/calendar_prof.png",
+        "source": "/Users/Entisar/Desktop/Android/modifications/doctor/app/src/main/res/mipmap-xxhdpi/calendar_prof.png"
     },
     {
-        "merged": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor mar312\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\calendar_prof.png",
-        "source": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor mar312\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\calendar_prof.png"
+        "merged": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor mar312\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\phone_icon.png",
+        "source": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor mar312\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\phone_icon.png"
     },
     {
-        "merged": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v4\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\stethoscope_profile.png",
-        "source": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v4\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\stethoscope_profile.png"
+        "merged": "/Users/Entisar/Desktop/Android/modifications/doctor/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/femenine.png",
+        "source": "/Users/Entisar/Desktop/Android/modifications/doctor/app/src/main/res/mipmap-xxhdpi/femenine.png"
     },
     {
-        "merged": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v4\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\doctor.png",
-        "source": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v4\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\doctor.png"
+        "merged": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v4\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\femenine.png",
+        "source": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v4\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\femenine.png"
     },
     {
-        "merged": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\password.png",
-        "source": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\password.png"
+        "merged": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v4\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ic_launcher.png",
+        "source": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v4\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v4\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ic_launcher.png",
-        "source": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v4\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+        "merged": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor mar312\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\femenine.png",
+        "source": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor mar312\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\femenine.png"
     },
     {
-        "merged": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\email.png",
-        "source": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\email.png"
+        "merged": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v4\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\genders.png",
+        "source": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v4\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\genders.png"
     },
     {
-        "merged": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor mar312\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\id_card.png",
-        "source": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor mar312\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\id_card.png"
+        "merged": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ic_launcher.png",
+        "source": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v4\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\calendar_prof.png",
-        "source": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v4\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\calendar_prof.png"
+        "merged": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor mar312\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\password.png",
+        "source": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor mar312\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\password.png"
     },
     {
-        "merged": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\password.png",
-        "source": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\password.png"
+        "merged": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\phone_icon.png",
+        "source": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\phone_icon.png"
     },
     {
-        "merged": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor mar312\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\genders.png",
-        "source": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor mar312\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\genders.png"
+        "merged": "/Users/Entisar/Desktop/Android/modifications/doctor/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/id_card.png",
+        "source": "/Users/Entisar/Desktop/Android/modifications/doctor/app/src/main/res/mipmap-xxhdpi/id_card.png"
     },
     {
-        "merged": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v4\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\stethoscope.png",
-        "source": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v4\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\stethoscope.png"
+        "merged": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v4\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\heartrate.png",
+        "source": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v4\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\heartrate.png"
     },
     {
-        "merged": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor mar312\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ic_launcher_round.png",
-        "source": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor mar312\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+        "merged": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor mar312\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\male_symbol.png",
+        "source": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor mar312\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\male_symbol.png"
     },
     {
-        "merged": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\fever.png",
-        "source": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\fever.png"
+        "merged": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v4\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\map.png",
+        "source": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v4\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\map.png"
     },
     {
-        "merged": "C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v4\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\calendar_prof.png",
-        "source": "C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v4\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\calendar_prof.png"
+        "merged": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\info.png",
+        "source": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\info.png"
     },
     {
-        "merged": "C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v4\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\stethoscope_profile.png",
-        "source": "C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v4\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\stethoscope_profile.png"
+        "merged": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v4\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\stethoscope.png",
+        "source": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v4\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\stethoscope.png"
     },
     {
-        "merged": "C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v4\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\fever.png",
-        "source": "C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v4\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\fever.png"
+        "merged": "/Users/Entisar/Desktop/Android/modifications/doctor/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/maps_and_flags.png",
+        "source": "/Users/Entisar/Desktop/Android/modifications/doctor/app/src/main/res/mipmap-xxhdpi/maps_and_flags.png"
     },
     {
-        "merged": "C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v4\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ic_launcher_round.png",
-        "source": "C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v4\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+        "merged": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor mar312\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\stethoscope.png",
+        "source": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor mar312\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\stethoscope.png"
     },
     {
-        "merged": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor mar312\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\email.png",
-        "source": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor mar312\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\email.png"
+        "merged": "/Users/Entisar/Desktop/Android/modifications/doctor/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/stethoscope_profile.png",
+        "source": "/Users/Entisar/Desktop/Android/modifications/doctor/app/src/main/res/mipmap-xxhdpi/stethoscope_profile.png"
     },
     {
-        "merged": "C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v4\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\male_symbol.png",
-        "source": "C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v4\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\male_symbol.png"
+        "merged": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\genders.png",
+        "source": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\genders.png"
     },
     {
-        "merged": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\fever.png",
-        "source": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\fever.png"
+        "merged": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor mar312\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ic_launcher.png",
+        "source": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor mar312\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor mar312\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\phone_icon.png",
-        "source": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor mar312\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\phone_icon.png"
+        "merged": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v4\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\doctor_profile.png",
+        "source": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v4\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\doctor_profile.png"
     },
     {
-        "merged": "C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v4\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\doctor_profile.png",
-        "source": "C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v4\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\doctor_profile.png"
+        "merged": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\doctor.png",
+        "source": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\doctor.png"
     },
     {
-        "merged": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\phone_icon.png",
-        "source": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\phone_icon.png"
+        "merged": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ic_launcher_round.png",
+        "source": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor mar312\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\femenine.png",
-        "source": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor mar312\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\femenine.png"
+        "merged": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\doctor_profile.png",
+        "source": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\doctor_profile.png"
     },
     {
-        "merged": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor mar312\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\doctor.png",
-        "source": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor mar312\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\doctor.png"
+        "merged": "/Users/Entisar/Desktop/Android/modifications/doctor/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/fever.png",
+        "source": "/Users/Entisar/Desktop/Android/modifications/doctor/app/src/main/res/mipmap-xxhdpi/fever.png"
     },
     {
-        "merged": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor mar312\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\info.png",
-        "source": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor mar312\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\info.png"
+        "merged": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor mar312\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\map.png",
+        "source": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor mar312\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\map.png"
     },
     {
-        "merged": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\stethoscope_profile.png",
-        "source": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\stethoscope_profile.png"
+        "merged": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor mar312\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\doctor.png",
+        "source": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor mar312\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\doctor.png"
     },
     {
-        "merged": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v4\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\genders.png",
-        "source": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v4\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\genders.png"
+        "merged": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor mar312\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\heartrate.png",
+        "source": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor mar312\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\heartrate.png"
     },
     {
-        "merged": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor mar312\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\stethoscope_profile.png",
-        "source": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor mar312\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\stethoscope_profile.png"
+        "merged": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v4\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\femenine.png",
+        "source": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v4\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\femenine.png"
     },
     {
-        "merged": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v4\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\male_symbol.png",
-        "source": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v4\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\male_symbol.png"
+        "merged": "/Users/Entisar/Desktop/Android/modifications/doctor/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/info.png",
+        "source": "/Users/Entisar/Desktop/Android/modifications/doctor/app/src/main/res/mipmap-xxhdpi/info.png"
     },
     {
-        "merged": "C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v4\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ic_launcher.png",
-        "source": "C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v4\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+        "merged": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\password.png",
+        "source": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\password.png"
     },
     {
-        "merged": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\doctor_profile.png",
-        "source": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\doctor_profile.png"
+        "merged": "/Users/Entisar/Desktop/Android/modifications/doctor/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/male_symbol.png",
+        "source": "/Users/Entisar/Desktop/Android/modifications/doctor/app/src/main/res/mipmap-xxhdpi/male_symbol.png"
     },
     {
-        "merged": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\doctor.png",
-        "source": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\doctor.png"
+        "merged": "/Users/Entisar/Desktop/Android/modifications/doctor/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/password.png",
+        "source": "/Users/Entisar/Desktop/Android/modifications/doctor/app/src/main/res/mipmap-xxhdpi/password.png"
     },
     {
-        "merged": "C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v4\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\map.png",
-        "source": "C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v4\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\map.png"
+        "merged": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor mar312\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\genders.png",
+        "source": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor mar312\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\genders.png"
     },
     {
-        "merged": "C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v4\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\genders.png",
-        "source": "C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v4\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\genders.png"
+        "merged": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\stethoscope.png",
+        "source": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\stethoscope.png"
     },
     {
-        "merged": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\id_card.png",
-        "source": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\id_card.png"
+        "merged": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\heartrate.png",
+        "source": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\heartrate.png"
+    },
+    {
+        "merged": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\email.png",
+        "source": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\email.png"
+    },
+    {
+        "merged": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\male_symbol.png",
+        "source": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\male_symbol.png"
+    },
+    {
+        "merged": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v4\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\male_symbol.png",
+        "source": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v4\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\male_symbol.png"
+    },
+    {
+        "merged": "/Users/Entisar/Desktop/Android/modifications/doctor/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/email.png",
+        "source": "/Users/Entisar/Desktop/Android/modifications/doctor/app/src/main/res/mipmap-xxhdpi/email.png"
+    },
+    {
+        "merged": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v4\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\calendar_prof.png",
+        "source": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v4\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\calendar_prof.png"
+    },
+    {
+        "merged": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v4\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\fever.png",
+        "source": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v4\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\fever.png"
+    },
+    {
+        "merged": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v4\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ic_launcher_round.png",
+        "source": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v4\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v4\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\male_symbol.png",
+        "source": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v4\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\male_symbol.png"
+    },
+    {
+        "merged": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v4\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\heartrate.png",
+        "source": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v4\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\heartrate.png"
+    },
+    {
+        "merged": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v4\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\stethoscope.png",
+        "source": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v4\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\stethoscope.png"
+    },
+    {
+        "merged": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\map.png",
+        "source": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\map.png"
+    },
+    {
+        "merged": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v4\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\info.png",
+        "source": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v4\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\info.png"
+    },
+    {
+        "merged": "/Users/Entisar/Desktop/Android/modifications/doctor/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/phone_icon.png",
+        "source": "/Users/Entisar/Desktop/Android/modifications/doctor/app/src/main/res/mipmap-xxhdpi/phone_icon.png"
+    },
+    {
+        "merged": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\info.png",
+        "source": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\info.png"
+    },
+    {
+        "merged": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor mar312\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\stethoscope_profile.png",
+        "source": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor mar312\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\stethoscope_profile.png"
+    },
+    {
+        "merged": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\doctor.png",
+        "source": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\doctor.png"
+    },
+    {
+        "merged": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v4\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\map.png",
+        "source": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v4\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\map.png"
+    },
+    {
+        "merged": "/Users/Entisar/Desktop/Android/modifications/doctor/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/heartrate.png",
+        "source": "/Users/Entisar/Desktop/Android/modifications/doctor/app/src/main/res/mipmap-xxhdpi/heartrate.png"
+    },
+    {
+        "merged": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\femenine.png",
+        "source": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\femenine.png"
     }
 ]
