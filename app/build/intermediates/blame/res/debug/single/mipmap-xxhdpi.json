@@ -116,12 +116,12 @@
         "source": "/Users/trn24/Desktop/IBM/Andriod/Project/april1/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\femenine.png"
     },
     {
-        "merged": "/Users/trn24/Desktop/IBM/Andriod/Project/april1/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v4\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\heartrate.png",
-        "source": "/Users/trn24/Desktop/IBM/Andriod/Project/april1/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v4\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\heartrate.png"
-    },
-    {
         "merged": "/Users/trn24/Desktop/IBM/Andriod/Project/april1/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\email.png",
         "source": "/Users/trn24/Desktop/IBM/Andriod/Project/april1/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\email.png"
+    },
+    {
+        "merged": "/Users/trn24/Desktop/IBM/Andriod/Project/april1/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v4\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\heartrate.png",
+        "source": "/Users/trn24/Desktop/IBM/Andriod/Project/april1/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v4\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\heartrate.png"
     },
     {
         "merged": "/Users/trn24/Desktop/IBM/Andriod/Project/april1/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\phone_icon.png",
@@ -330,6 +330,10 @@
     {
         "merged": "/Users/trn24/Desktop/IBM/Andriod/Project/april1/doctor/C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v4\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\doctor.png",
         "source": "/Users/trn24/Desktop/IBM/Andriod/Project/april1/doctor/C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v4\\doctor\\app\\src\\main\\res\\mipmap-xxhdpi\\doctor.png"
+    },
+    {
+        "merged": "/Users/trn24/Desktop/IBM/Andriod/Project/april1/doctor/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/finger.png",
+        "source": "/Users/trn24/Desktop/IBM/Andriod/Project/april1/doctor/app/src/main/res/mipmap-xxhdpi/finger.png"
     },
     {
         "merged": "/Users/trn24/Desktop/IBM/Andriod/Project/april1/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor mar312\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ic_launcher.png",

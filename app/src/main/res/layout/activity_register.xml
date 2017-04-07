@@ -36,10 +36,10 @@
         android:id="@+id/imageViewLogo"
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:layout_below="@+id/appBarLayout"
+        app:srcCompat="@mipmap/mhealth"
+        android:layout_above="@+id/textInputLayout"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="22dp"
-        app:srcCompat="@mipmap/mhealth" />
+        android:layout_marginBottom="55dp" />
 
 
     <android.support.design.widget.TextInputLayout
@@ -97,7 +97,7 @@
             android:layout_marginLeft="15dp"
             android:layout_marginRight="15dp"
 
-            >
+            android:id="@+id/textInputLayout">
 
             <EditText
                 android:id="@+id/txtDrName"
