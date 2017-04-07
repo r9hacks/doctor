@@ -41,22 +41,68 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_alignBottom="@+id/imageViewPatient"
-        android:layout_toEndOf="@+id/imageViewPatient"
-        android:layout_toRightOf="@+id/imageViewPatient"
+        android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:weightSum="1"
-        android:layout_below="@+id/textViewAge"
-        android:id="@+id/linearLayout">
+        android:id="@+id/linearLayout2"
+        android:layout_below="@+id/imageViewPatient"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <ImageView
+            android:id="@+id/civilId1"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="bottom"
+            android:layout_weight="0.13"
+            app:srcCompat="@mipmap/transfusion" />
+
+        <TextView
+            android:id="@+id/newxxx"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_weight=".25"
+            android:text="new" />
+
+        <ImageView
+            android:id="@+id/Gender1"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="bottom"
+            android:layout_weight="0.13"
+            app:srcCompat="@mipmap/flag" />
+
+        <TextView
+            android:id="@+id/new2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_weight=".25"
+            android:text="new2" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:id="@+id/linearLayout"
+        android:layout_marginTop="13dp"
+        android:layout_below="@+id/linearLayout3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
 
         <ImageView
             android:id="@+id/civilId"
+
             android:layout_width="30dp"
             android:layout_height="30dp"
             android:layout_gravity="bottom"
             android:layout_weight=".25"
-            app:srcCompat="@mipmap/id_card" />
+            app:srcCompat="@mipmap/idd_card" />
 
         <TextView
             android:id="@+id/textViewCivilId"
@@ -64,7 +110,6 @@
             android:layout_height="wrap_content"
             android:layout_gravity="bottom"
             android:layout_weight=".25"
-
             android:text="@string/PatientCivilID" />
 
         <ImageView
@@ -72,8 +117,8 @@
             android:layout_width="30dp"
             android:layout_height="30dp"
             android:layout_gravity="bottom"
-
-            app:srcCompat="@mipmap/gender_icon" />
+            android:layout_weight="0.13"
+            app:srcCompat="@mipmap/gendersss" />
 
         <TextView
             android:id="@+id/textViewGender"
@@ -122,6 +167,51 @@
 
     </LinearLayout>
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:id="@+id/linearLayout3"
+        android:layout_marginTop="11dp"
+        android:layout_below="@+id/linearLayout2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <ImageView
+            android:id="@+id/newwwww"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="bottom"
+            android:layout_weight="0.14"
+            app:srcCompat="@mipmap/bday14" />
+
+        <TextView
+            android:id="@+id/newwww"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_weight=".25"
+            android:text="Bithdate" />
+
+        <ImageView
+            android:id="@+id/neww1"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="bottom"
+            android:layout_weight="0.13"
+            app:srcCompat="@mipmap/telephone_3" />
+
+        <TextView
+            android:id="@+id/neww2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_weight=".25"
+            android:text="newww" />
+
+
+    </LinearLayout>
 
 
     <!--<LinearLayout-->

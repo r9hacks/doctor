@@ -145,7 +145,7 @@
                     android:layout_below="@+id/textInputLayoutName"
                     android:layout_marginEnd="14dp"
                     android:layout_marginStart="14dp"
-                    android:drawableLeft="@mipmap/email"
+                    android:drawableLeft="@mipmap/email_2"
                     android:drawablePadding="10dp"
                     android:ems="10"
                     android:hint="@string/Email"
@@ -225,7 +225,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginEnd="14dp"
                     android:layout_marginStart="14dp"
-                    android:drawableLeft="@mipmap/phonecall"
+                    android:drawableLeft="@mipmap/telephone_3"
                     android:drawablePadding="10dp"
                     android:ems="10"
                     android:hint="@string/PhoneNumber"
@@ -277,7 +277,7 @@
                     android:layout_height="match_parent"
                     android:layout_marginEnd="14dp"
                     android:layout_marginStart="14dp"
-                    android:drawableLeft="@mipmap/id_card"
+                    android:drawableLeft="@mipmap/idd_card"
                     android:drawablePadding="10dp"
                     android:ems="10"
                     android:hint="@string/civilId"
@@ -305,7 +305,7 @@
                     android:layout_alignParentStart="true"
                     android:layout_marginEnd="14dp"
                     android:layout_marginStart="14dp"
-                    android:drawableLeft="@mipmap/maps_and_flags"
+                    android:drawableLeft="@mipmap/map"
                     android:drawablePadding="10dp"
                     android:ems="10"
                     android:hint="@string/Nationality"
@@ -333,7 +333,7 @@
                     android:layout_alignParentStart="true"
                     android:layout_marginEnd="14dp"
                     android:layout_marginStart="14dp"
-                    android:drawableLeft="@mipmap/stethoscope_profile"
+                    android:drawableLeft="@mipmap/sama3a"
                     android:drawablePadding="10dp"
                     android:ems="10"
                     android:hint="@string/Specialty"
@@ -377,7 +377,7 @@
                     android:layout_marginStart="14dp"
                     android:layout_marginTop="7dp"
                     android:layout_marginBottom="7dp"
-                    app:srcCompat="@mipmap/calendar_prof" />
+                    app:srcCompat="@mipmap/bday14" />
 
                 <TextView
                     android:id="@+id/txtBirthdate"
@@ -441,7 +441,7 @@
                         android:layout_weight="1"
                         android:paddingLeft="16dp"
                         android:scaleType="fitXY"
-                        app:srcCompat="@mipmap/genders" />
+                        app:srcCompat="@mipmap/gendersss" />
 
 
                     <!--<ImageView-->

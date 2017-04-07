@@ -357,7 +357,7 @@
                         android:layout_alignParentLeft="true"
                         android:layout_alignParentStart="true"
                         android:layout_alignParentTop="true"
-                        app:srcCompat="@mipmap/nausness" />
+                        app:srcCompat="@mipmap/nauseousss" />
 
                     <TextView
                         android:id="@+id/textViewnaouseou"
@@ -408,7 +408,7 @@
                         android:layout_alignParentLeft="true"
                         android:layout_alignParentStart="true"
                         android:layout_alignParentTop="true"
-                        app:srcCompat="@mipmap/painn" />
+                        app:srcCompat="@mipmap/painnn" />
 
                     <TextView
                         android:id="@+id/textViewpainLocation"
@@ -459,7 +459,7 @@
                         android:layout_alignParentLeft="true"
                         android:layout_alignParentStart="true"
                         android:layout_alignParentTop="true"
-                        app:srcCompat="@mipmap/diabetes" />
+                        app:srcCompat="@mipmap/finger" />
 
                     <TextView
                         android:id="@+id/textViewsugar"

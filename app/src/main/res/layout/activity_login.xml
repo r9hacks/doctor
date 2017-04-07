@@ -69,7 +69,7 @@
             android:layout_alignParentStart="true"
             android:layout_marginBottom="27dp"
             android:layout_weight="1"
-            android:drawableLeft="@mipmap/email"
+            android:drawableLeft="@mipmap/email_2"
             android:drawablePadding="10dp"
             android:ems="10"
 
