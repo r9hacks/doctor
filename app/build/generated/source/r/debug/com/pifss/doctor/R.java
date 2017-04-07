@@ -3768,7 +3768,7 @@ containing a value of this type.
         public static final int Gender=0x7f0d00d8;
         public static final int Gender1=0x7f0d0139;
         public static final int GenderRL=0x7f0d00bc;
-        public static final int LocationPLayout=0x7f0d00af;
+        public static final int LocationPLayout=0x7f0d00ae;
         public static final int NarionalityIL=0x7f0d00b3;
         public static final int PhoneImage=0x7f0d00d6;
         public static final int Specialty=0x7f0d00b5;
@@ -3822,7 +3822,7 @@ containing a value of this type.
         public static final int chronometer=0x7f0d017f;
         public static final int civilId=0x7f0d013d;
         public static final int civilId1=0x7f0d0137;
-        public static final int civilPLayout=0x7f0d00b1;
+        public static final int civilPLayout=0x7f0d00b0;
         public static final int clip_horizontal=0x7f0d0051;
         public static final int clip_vertical=0x7f0d0052;
         public static final int collapseActionView=0x7f0d0059;
@@ -4048,7 +4048,7 @@ containing a value of this type.
         public static final int text2=0x7f0d0186;
         public static final int textDate=0x7f0d0152;
         public static final int textInputLayout=0x7f0d00f0;
-        public static final int textInputLayoutCivil=0x7f0d00b2;
+        public static final int textInputLayoutCivil=0x7f0d00b1;
         public static final int textInputLayoutEmail=0x7f0d00a8;
         public static final int textInputLayoutLastName=0x7f0d00a6;
         public static final int textInputLayoutMiddleName=0x7f0d00a4;
@@ -4125,7 +4125,7 @@ containing a value of this type.
         public static final int txtBio=0x7f0d00c6;
         public static final int txtBirthdate=0x7f0d00b9;
         public static final int txtChooseLang=0x7f0d0122;
-        public static final int txtDrCivil=0x7f0d009b;
+        public static final int txtDrCivil=0x7f0d00b2;
         public static final int txtDrEmail=0x7f0d009d;
         public static final int txtDrLastName=0x7f0d00a7;
         public static final int txtDrLocation=0x7f0d009f;
@@ -4134,9 +4134,9 @@ containing a value of this type.
         public static final int txtDrNameView=0x7f0d009e;
         public static final int txtDrNewPassword=0x7f0d00ac;
         public static final int txtDrPassword=0x7f0d00aa;
-        public static final int txtDrPhone=0x7f0d00ae;
+        public static final int txtDrPhone=0x7f0d009b;
         public static final int txtDrSpeciality=0x7f0d009a;
-        public static final int txtLocation=0x7f0d00b0;
+        public static final int txtLocation=0x7f0d00af;
         public static final int txtNationality=0x7f0d00b4;
         public static final int txtSpecialty=0x7f0d00b6;
         public static final int txtbday=0x7f0d00b7;

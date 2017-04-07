@@ -62,8 +62,8 @@ public class DoctorProfileActivity extends AppCompatActivity {
         txtEmail.setText(doctor.getEmail());
         txtEmail.setEnabled(false);
 
-        EditText txtCivilID = (EditText) findViewById(R.id.txtDrCivil);
-        txtCivilID.setText(doctor.getCivilId());
+        EditText txtCivilID = (EditText) findViewById(R.id.txtDrPhone);
+        txtCivilID.setText(doctor.getPhoneNumber());
         txtCivilID.setEnabled(false);
 
         EditText txtSpecialty = (EditText) findViewById(R.id.txtDrSpeciality);

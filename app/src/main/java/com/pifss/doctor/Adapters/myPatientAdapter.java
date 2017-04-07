@@ -99,7 +99,6 @@ public class myPatientAdapter extends BaseAdapter {
 
         BloodType.setText(patient.getBloodType());
         gender.setText(patient.getGender());
-
 //
 //        DateFormat df = new SimpleDateFormat("yyyy-mm-dd");
 //        Date startDate;
@@ -123,8 +122,6 @@ public class myPatientAdapter extends BaseAdapter {
 //        }
 
 
-
-        
         phone.setText(patient.getPhoneNum());
 
         ImageView phoneImage = (ImageView) view.findViewById(R.id.PhoneImage);
