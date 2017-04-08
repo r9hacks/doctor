@@ -17,7 +17,7 @@ public class ReportCell {
     private Report reportObject;
 
 
-    public ReportCell(String name, String date, String comment, String imageURL, String gender, String heartRate,String fever, String bloodPreassure,Report reportObject) {
+    public ReportCell(String name, String date, String comment, String imageURL, String gender, String heartRate, String bloodPreassure,String fever,Report reportObject) {
         this.name = name;
         this.date = date;
         this.comment = comment;

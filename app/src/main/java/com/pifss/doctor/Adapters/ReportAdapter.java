@@ -100,7 +100,8 @@ public class ReportAdapter extends BaseAdapter {
 
         heartRate.setText(report.getHeartRate());
         bloodPressure.setText(report.getBloodPreassure());
-
+        System.out.println("report: "+ report.getReportObject().getReportId());
+        System.out.println("Blood pressure: "+ report.getBloodPreassure());
 //        String g = report.getGender();
 //        if ( (g.charAt(0) + "").equalsIgnoreCase("f")){
 //            gender.setText("Female");

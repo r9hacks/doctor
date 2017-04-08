@@ -362,7 +362,6 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:layout_marginRight="15dp"
                     android:layout_marginTop="15dp"
                     android:orientation="horizontal">
 
@@ -370,9 +369,10 @@
                         android:id="@+id/imageView16"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_weight="0.05"
-                        android:layout_marginEnd="14dp"
-                        android:layout_marginStart="14dp"
+                        android:layout_marginEnd="15dp"
+                        android:layout_marginStart="15dp"
+                        android:layout_marginRight="15dp"
+                        android:layout_marginLeft="15dp"
                         android:layout_marginTop="7dp"
                         android:layout_marginBottom="7dp"
                         app:srcCompat="@mipmap/bday14" />
@@ -428,7 +428,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:orientation="horizontal"
-                    android:layout_marginLeft="20dp"
+                    android:layout_marginLeft="15dp"
                     android:weightSum="1">
 
 
@@ -468,7 +468,7 @@
                             android:layout_below="@+id/textView17"
                             android:layout_toEndOf="@+id/imgBtnMale"
                             android:layout_toRightOf="@+id/imgBtnMale"
-                            android:layout_weight="0.1"
+                            android:layout_weight="0.5"
                             android:text="@string/Male"
                             android:textSize="18sp" />
 
@@ -491,7 +491,7 @@
                             android:layout_below="@+id/textView17"
                             android:layout_toEndOf="@+id/imgBtnFemale"
                             android:layout_toRightOf="@+id/imgBtnFemale"
-                            android:layout_weight="0.1"
+                            android:layout_weight="0.5"
                             android:text="@string/Female"
                             android:textSize="18sp" />
                     </RadioGroup>

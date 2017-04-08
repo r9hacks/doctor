@@ -55,7 +55,8 @@
             android:layout_alignLeft="@+id/textViewName"
             android:layout_alignStart="@+id/textViewName"
             android:layout_centerVertical="true"
-            android:text="@string/PatientAge" />
+            android:text="@string/PatientAge"
+            android:visibility="invisible" />
 
         <LinearLayout
             android:layout_width="wrap_content"
@@ -73,6 +74,7 @@
                 android:layout_gravity="bottom"
                 android:layout_marginRight="5dp"
                 android:layout_weight=".25"
+                android:visibility="invisible"
                 app:srcCompat="@mipmap/telephone_icon" />
 
             <TextView
@@ -81,7 +83,8 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="bottom"
 
-                android:text="@string/PatientPhone" />
+                android:text="@string/PatientPhone"
+                android:visibility="invisible" />
 
             <ImageView
                 android:id="@+id/Gender"
@@ -91,6 +94,7 @@
                 android:layout_marginLeft="5dp"
                 android:layout_marginRight="5dp"
                 android:layout_weight=".25"
+                android:visibility="invisible"
                 app:srcCompat="@mipmap/gendersss" />
 
             <TextView
@@ -100,7 +104,8 @@
                 android:layout_gravity="bottom"
                 android:layout_weight=".25"
 
-                android:text="@string/PatientGender" />
+                android:text="@string/PatientGender"
+                android:visibility="invisible" />
 
 
         </LinearLayout>
