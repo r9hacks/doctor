@@ -28,21 +28,6 @@
         android:layout_alignTop="@+id/imageViewPatient" />
 
 
-    <TextView
-        android:id="@+id/textViewAge"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/textViewName"
-        android:layout_marginTop="14dp"
-        android:layout_toEndOf="@+id/imageViewPatient"
-        android:layout_toRightOf="@+id/imageViewPatient"
-        android:text="@string/PatientAge" />
-
-
-
-
-
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -67,7 +52,7 @@
             android:layout_height="20dp"
             android:layout_gravity="bottom"
             android:layout_weight="0.5"
-            android:text="CivilID" />
+            android:text="" />
 
         <ImageView
             android:id="@+id/Gender"
@@ -83,7 +68,7 @@
             android:layout_height="20dp"
             android:layout_gravity="bottom"
             android:layout_weight="0.19"
-            android:text="@string/PatientGender" />
+            android:text="" />
     </LinearLayout>
 
     <LinearLayout
@@ -104,13 +89,14 @@
             android:layout_gravity="bottom"
             android:layout_weight="0.07"
             app:srcCompat="@mipmap/bday14"/>
+
         <TextView
             android:id="@+id/txtbday"
             android:layout_width="10dp"
             android:layout_height="20dp"
             android:layout_gravity="bottom"
             android:layout_weight="0.53"
-            android:text="birthdate" />
+            android:text="" />
         <ImageView
             android:id="@+id/PhoneNumber"
             android:layout_width="30dp"
@@ -124,7 +110,7 @@
             android:layout_height="20dp"
             android:layout_gravity="bottom"
             android:layout_weight="0.19"
-            android:text="@string/PhoneNumber" />
+            android:text="" />
 
     </LinearLayout>
 
@@ -152,7 +138,7 @@
             android:layout_height="20dp"
             android:layout_gravity="bottom"
             android:layout_weight="0.53"
-            android:text="@string/BloodType" />
+            android:text="" />
         <ImageView
             android:id="@+id/imgNationality"
             android:layout_width="30dp"
@@ -166,7 +152,7 @@
             android:layout_height="20dp"
             android:layout_gravity="bottom"
             android:layout_weight="0.19"
-            android:text="@string/Nationality" />
+            android:text="" />
 
     </LinearLayout>
 

@@ -30,17 +30,16 @@
     </android.support.design.widget.AppBarLayout>
 
 
-    <de.hdodenhof.circleimageview.CircleImageView
-        xmlns:app="http://schemas.android.com/apk/res-auto"
-        app:civ_border_width="0.5dp"
-        app:civ_border_color="@color/ImageBoarderColor"
+    <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
         android:id="@+id/imageViewLogo"
         android:layout_width="100dp"
         android:layout_height="100dp"
-        app:srcCompat="@mipmap/doctor_profile"
         android:layout_below="@+id/appBarLayout"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="22dp" />
+        android:layout_marginTop="22dp"
+        app:civ_border_color="@color/ImageBoarderColor"
+        app:civ_border_width="0.5dp"
+        app:srcCompat="@mipmap/profile_image" />
 
     <EditText
         android:id="@+id/txtDrSpeciality"
