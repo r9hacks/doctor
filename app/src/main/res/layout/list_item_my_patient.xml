@@ -7,7 +7,7 @@
 
     <de.hdodenhof.circleimageview.CircleImageView
         xmlns:app="http://schemas.android.com/apk/res-auto"
-        app:civ_border_width="2dp"
+        app:civ_border_width="0.5dp"
         app:civ_border_color="@color/ImageBoarderColor"
         android:id="@+id/imageViewPatient"
         android:layout_width="95dp"
@@ -55,34 +55,30 @@
             android:layout_width="30dp"
             android:layout_height="30dp"
             android:layout_gravity="bottom"
-            android:layout_weight="0.25"
+            android:layout_weight="0.1"
             app:srcCompat="@mipmap/valentines_icon" />
 
         <TextView
             android:id="@+id/BDay"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/imageViewPatient"
-            android:layout_toEndOf="@+id/imageViewPatient"
-            android:layout_toRightOf="@+id/imageViewPatient"
+            android:layout_width="10dp"
+            android:layout_height="20dp"
             android:layout_gravity="bottom"
-            android:layout_weight="0.25"
-            android:text="BDay" />
+            android:layout_weight="0.60"
+            android:text="Birthdate" />
 
         <ImageView
             android:id="@+id/bloodtypeimg"
             android:layout_width="30dp"
             android:layout_height="30dp"
             android:layout_gravity="bottom"
-            android:layout_weight="0.20"
+            android:layout_weight="0.1"
             app:srcCompat="@mipmap/transfusion_icon" />
 
         <TextView
             android:id="@+id/BloodType"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="50dp"
+            android:layout_height="20dp"
             android:layout_gravity="bottom"
-
             android:layout_weight="0.25"
             android:text="BloodType" />
 
@@ -107,17 +103,16 @@
             android:layout_width="30dp"
             android:layout_height="30dp"
             android:layout_gravity="bottom"
-            android:layout_weight="0.25"
+            android:layout_weight="0.1"
             app:srcCompat="@mipmap/telephone_icon" />
 
         <TextView
             android:id="@+id/textViewPhone"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="10dp"
+            android:layout_height="20dp"
             android:layout_gravity="bottom"
-            android:layout_weight=".25"
-
-            android:text="@string/PatientPhone" />
+            android:layout_weight="0.6"
+            android:text="Phone" />
 
 
         <ImageView
@@ -125,18 +120,18 @@
             android:layout_width="30dp"
             android:layout_height="30dp"
             android:layout_gravity="bottom"
-            android:layout_weight="0.43"
+            android:layout_weight="0.1"
 
             app:srcCompat="@mipmap/gendersss_icon" />
 
 
         <TextView
             android:id="@+id/textViewGender"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="50dp"
+            android:layout_height="20dp"
             android:layout_gravity="bottom"
             android:layout_weight=".25"
-            android:text="@string/PatientGender" />
+            android:text="Gender" />
     </LinearLayout>
 
     <!--<LinearLayout-->
