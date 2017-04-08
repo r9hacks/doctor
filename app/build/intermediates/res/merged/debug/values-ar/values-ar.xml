@@ -2,6 +2,7 @@
 <resources>
     <string name="Aboutus">معلومات عنا</string>
     <string name="AboutusAct">من نحن</string>
+    <string name="Age">العمر</string>
     <string name="AllReports">التقارير</string>
     <string name="Allergies">الحساسية</string>
     <string name="Allfieldsarerequired">كل الحقول مطلوبة</string>

@@ -56,7 +56,7 @@ public class DoctorProfileActivity extends AppCompatActivity {
 
 
         ImageView img = (ImageView) findViewById(R.id.imageViewLogo);
-        Picasso.with(DoctorProfileActivity.this).load(doctor.getImageUrl()).into(img);
+        Picasso.with(DoctorProfileActivity.this).load(doctor.getImageUrl()).placeholder(R.mipmap.profile_image).into(img);
 
         EditText txtEmail =(EditText) findViewById(R.id.txtDrEmail);
         txtEmail.setText(doctor.getEmail());

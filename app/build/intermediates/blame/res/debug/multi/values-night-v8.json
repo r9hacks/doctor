@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "/Users/Entisar/Desktop/Android/modifications/doctor/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-night-v8/values-night-v8.xml",
+        "outputFile": "C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-night-v8\\values-night-v8.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 136
                 },
                 "from": {
-                    "file": "/Users/Entisar/.android/build-cache/654d0fc8704bb7b334e5bf800426e673e3876052/output/res/values-night-v8/values-night-v8.xml",
+                    "file": "C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\.android\\build-cache\\767e0eac95804b8f2599ade09cd7788c5a556c4e\\output\\res\\values-night-v8\\values-night-v8.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -30,7 +30,7 @@
                     "endOffset": 258
                 },
                 "from": {
-                    "file": "/Users/Entisar/.android/build-cache/654d0fc8704bb7b334e5bf800426e673e3876052/output/res/values-night-v8/values-night-v8.xml",
+                    "file": "C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\.android\\build-cache\\767e0eac95804b8f2599ade09cd7788c5a556c4e\\output\\res\\values-night-v8\\values-night-v8.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -49,7 +49,7 @@
                     "endOffset": 356
                 },
                 "from": {
-                    "file": "/Users/Entisar/.android/build-cache/654d0fc8704bb7b334e5bf800426e673e3876052/output/res/values-night-v8/values-night-v8.xml",
+                    "file": "C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\.android\\build-cache\\767e0eac95804b8f2599ade09cd7788c5a556c4e\\output\\res\\values-night-v8\\values-night-v8.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -68,7 +68,7 @@
                     "endOffset": 490
                 },
                 "from": {
-                    "file": "/Users/Entisar/.android/build-cache/654d0fc8704bb7b334e5bf800426e673e3876052/output/res/values-night-v8/values-night-v8.xml",
+                    "file": "C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\.android\\build-cache\\767e0eac95804b8f2599ade09cd7788c5a556c4e\\output\\res\\values-night-v8\\values-night-v8.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -87,7 +87,7 @@
                     "endOffset": 568
                 },
                 "from": {
-                    "file": "/Users/Entisar/.android/build-cache/654d0fc8704bb7b334e5bf800426e673e3876052/output/res/values-night-v8/values-night-v8.xml",
+                    "file": "C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\.android\\build-cache\\767e0eac95804b8f2599ade09cd7788c5a556c4e\\output\\res\\values-night-v8\\values-night-v8.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -106,7 +106,7 @@
                     "endOffset": 682
                 },
                 "from": {
-                    "file": "/Users/Entisar/.android/build-cache/654d0fc8704bb7b334e5bf800426e673e3876052/output/res/values-night-v8/values-night-v8.xml",
+                    "file": "C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\.android\\build-cache\\767e0eac95804b8f2599ade09cd7788c5a556c4e\\output\\res\\values-night-v8\\values-night-v8.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -125,7 +125,7 @@
                     "endOffset": 748
                 },
                 "from": {
-                    "file": "/Users/Entisar/.android/build-cache/654d0fc8704bb7b334e5bf800426e673e3876052/output/res/values-night-v8/values-night-v8.xml",
+                    "file": "C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\.android\\build-cache\\767e0eac95804b8f2599ade09cd7788c5a556c4e\\output\\res\\values-night-v8\\values-night-v8.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -144,7 +144,7 @@
                     "endOffset": 850
                 },
                 "from": {
-                    "file": "/Users/Entisar/.android/build-cache/654d0fc8704bb7b334e5bf800426e673e3876052/output/res/values-night-v8/values-night-v8.xml",
+                    "file": "C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\.android\\build-cache\\767e0eac95804b8f2599ade09cd7788c5a556c4e\\output\\res\\values-night-v8\\values-night-v8.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
@@ -163,7 +163,7 @@
                     "endOffset": 920
                 },
                 "from": {
-                    "file": "/Users/Entisar/.android/build-cache/752ac81f1b1993e8602d14a1f3fecad31afcf050/output/res/values-night-v8/values-night-v8.xml",
+                    "file": "C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\.android\\build-cache\\f5bbc6ff808a4ac74405d8a761d68a423887319a\\output\\res\\values-night-v8\\values-night-v8.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -182,7 +182,7 @@
                     "endOffset": 1004
                 },
                 "from": {
-                    "file": "/Users/Entisar/.android/build-cache/752ac81f1b1993e8602d14a1f3fecad31afcf050/output/res/values-night-v8/values-night-v8.xml",
+                    "file": "C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\.android\\build-cache\\f5bbc6ff808a4ac74405d8a761d68a423887319a\\output\\res\\values-night-v8\\values-night-v8.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -201,7 +201,7 @@
                     "endOffset": 1088
                 },
                 "from": {
-                    "file": "/Users/Entisar/.android/build-cache/752ac81f1b1993e8602d14a1f3fecad31afcf050/output/res/values-night-v8/values-night-v8.xml",
+                    "file": "C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\.android\\build-cache\\f5bbc6ff808a4ac74405d8a761d68a423887319a\\output\\res\\values-night-v8\\values-night-v8.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -220,7 +220,7 @@
                     "endOffset": 1184
                 },
                 "from": {
-                    "file": "/Users/Entisar/.android/build-cache/752ac81f1b1993e8602d14a1f3fecad31afcf050/output/res/values-night-v8/values-night-v8.xml",
+                    "file": "C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\.android\\build-cache\\f5bbc6ff808a4ac74405d8a761d68a423887319a\\output\\res\\values-night-v8\\values-night-v8.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -239,7 +239,7 @@
                     "endOffset": 1286
                 },
                 "from": {
-                    "file": "/Users/Entisar/.android/build-cache/752ac81f1b1993e8602d14a1f3fecad31afcf050/output/res/values-night-v8/values-night-v8.xml",
+                    "file": "C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\.android\\build-cache\\f5bbc6ff808a4ac74405d8a761d68a423887319a\\output\\res\\values-night-v8\\values-night-v8.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -258,7 +258,7 @@
                     "endOffset": 1388
                 },
                 "from": {
-                    "file": "/Users/Entisar/.android/build-cache/752ac81f1b1993e8602d14a1f3fecad31afcf050/output/res/values-night-v8/values-night-v8.xml",
+                    "file": "C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\.android\\build-cache\\f5bbc6ff808a4ac74405d8a761d68a423887319a\\output\\res\\values-night-v8\\values-night-v8.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -277,7 +277,7 @@
                     "endOffset": 1482
                 },
                 "from": {
-                    "file": "/Users/Entisar/.android/build-cache/752ac81f1b1993e8602d14a1f3fecad31afcf050/output/res/values-night-v8/values-night-v8.xml",
+                    "file": "C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\.android\\build-cache\\f5bbc6ff808a4ac74405d8a761d68a423887319a\\output\\res\\values-night-v8\\values-night-v8.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -290,7 +290,7 @@
         ]
     },
     {
-        "outputFile": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\doctor\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-night-v8\\values-night-v8.xml",
+        "outputFile": "C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v4\\doctor\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-night-v8\\values-night-v8.xml",
         "map": [
             {
                 "to": {
@@ -301,7 +301,7 @@
                     "endOffset": 136
                 },
                 "from": {
-                    "file": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\Entisar\\.android\\build-cache\\654d0fc8704bb7b334e5bf800426e673e3876052\\output\\res\\values-night-v8\\values-night-v8.xml",
+                    "file": "C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\PIFSS\\.android\\build-cache\\949177878d74a023d4b66948a99a2ccc99e58143\\output\\res\\values-night-v8\\values-night-v8.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -320,7 +320,7 @@
                     "endOffset": 258
                 },
                 "from": {
-                    "file": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\Entisar\\.android\\build-cache\\654d0fc8704bb7b334e5bf800426e673e3876052\\output\\res\\values-night-v8\\values-night-v8.xml",
+                    "file": "C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\PIFSS\\.android\\build-cache\\949177878d74a023d4b66948a99a2ccc99e58143\\output\\res\\values-night-v8\\values-night-v8.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -339,7 +339,7 @@
                     "endOffset": 356
                 },
                 "from": {
-                    "file": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\Entisar\\.android\\build-cache\\654d0fc8704bb7b334e5bf800426e673e3876052\\output\\res\\values-night-v8\\values-night-v8.xml",
+                    "file": "C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\PIFSS\\.android\\build-cache\\949177878d74a023d4b66948a99a2ccc99e58143\\output\\res\\values-night-v8\\values-night-v8.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -358,7 +358,7 @@
                     "endOffset": 490
                 },
                 "from": {
-                    "file": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\Entisar\\.android\\build-cache\\654d0fc8704bb7b334e5bf800426e673e3876052\\output\\res\\values-night-v8\\values-night-v8.xml",
+                    "file": "C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\PIFSS\\.android\\build-cache\\949177878d74a023d4b66948a99a2ccc99e58143\\output\\res\\values-night-v8\\values-night-v8.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -377,7 +377,7 @@
                     "endOffset": 568
                 },
                 "from": {
-                    "file": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\Entisar\\.android\\build-cache\\654d0fc8704bb7b334e5bf800426e673e3876052\\output\\res\\values-night-v8\\values-night-v8.xml",
+                    "file": "C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\PIFSS\\.android\\build-cache\\949177878d74a023d4b66948a99a2ccc99e58143\\output\\res\\values-night-v8\\values-night-v8.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -396,7 +396,7 @@
                     "endOffset": 682
                 },
                 "from": {
-                    "file": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\Entisar\\.android\\build-cache\\654d0fc8704bb7b334e5bf800426e673e3876052\\output\\res\\values-night-v8\\values-night-v8.xml",
+                    "file": "C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\PIFSS\\.android\\build-cache\\949177878d74a023d4b66948a99a2ccc99e58143\\output\\res\\values-night-v8\\values-night-v8.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -415,7 +415,7 @@
                     "endOffset": 748
                 },
                 "from": {
-                    "file": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\Entisar\\.android\\build-cache\\654d0fc8704bb7b334e5bf800426e673e3876052\\output\\res\\values-night-v8\\values-night-v8.xml",
+                    "file": "C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\PIFSS\\.android\\build-cache\\949177878d74a023d4b66948a99a2ccc99e58143\\output\\res\\values-night-v8\\values-night-v8.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -434,7 +434,7 @@
                     "endOffset": 850
                 },
                 "from": {
-                    "file": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\Entisar\\.android\\build-cache\\654d0fc8704bb7b334e5bf800426e673e3876052\\output\\res\\values-night-v8\\values-night-v8.xml",
+                    "file": "C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\PIFSS\\.android\\build-cache\\949177878d74a023d4b66948a99a2ccc99e58143\\output\\res\\values-night-v8\\values-night-v8.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
@@ -453,7 +453,7 @@
                     "endOffset": 920
                 },
                 "from": {
-                    "file": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\Entisar\\.android\\build-cache\\752ac81f1b1993e8602d14a1f3fecad31afcf050\\output\\res\\values-night-v8\\values-night-v8.xml",
+                    "file": "C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\PIFSS\\.android\\build-cache\\9b85976bda791bd9abdfdd3cb34cce2b0455d7aa\\output\\res\\values-night-v8\\values-night-v8.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -472,7 +472,7 @@
                     "endOffset": 1004
                 },
                 "from": {
-                    "file": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\Entisar\\.android\\build-cache\\752ac81f1b1993e8602d14a1f3fecad31afcf050\\output\\res\\values-night-v8\\values-night-v8.xml",
+                    "file": "C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\PIFSS\\.android\\build-cache\\9b85976bda791bd9abdfdd3cb34cce2b0455d7aa\\output\\res\\values-night-v8\\values-night-v8.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -491,7 +491,7 @@
                     "endOffset": 1088
                 },
                 "from": {
-                    "file": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\Entisar\\.android\\build-cache\\752ac81f1b1993e8602d14a1f3fecad31afcf050\\output\\res\\values-night-v8\\values-night-v8.xml",
+                    "file": "C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\PIFSS\\.android\\build-cache\\9b85976bda791bd9abdfdd3cb34cce2b0455d7aa\\output\\res\\values-night-v8\\values-night-v8.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -510,7 +510,7 @@
                     "endOffset": 1184
                 },
                 "from": {
-                    "file": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\Entisar\\.android\\build-cache\\752ac81f1b1993e8602d14a1f3fecad31afcf050\\output\\res\\values-night-v8\\values-night-v8.xml",
+                    "file": "C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\PIFSS\\.android\\build-cache\\9b85976bda791bd9abdfdd3cb34cce2b0455d7aa\\output\\res\\values-night-v8\\values-night-v8.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -529,7 +529,7 @@
                     "endOffset": 1286
                 },
                 "from": {
-                    "file": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\Entisar\\.android\\build-cache\\752ac81f1b1993e8602d14a1f3fecad31afcf050\\output\\res\\values-night-v8\\values-night-v8.xml",
+                    "file": "C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\PIFSS\\.android\\build-cache\\9b85976bda791bd9abdfdd3cb34cce2b0455d7aa\\output\\res\\values-night-v8\\values-night-v8.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -548,7 +548,7 @@
                     "endOffset": 1388
                 },
                 "from": {
-                    "file": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\Entisar\\.android\\build-cache\\752ac81f1b1993e8602d14a1f3fecad31afcf050\\output\\res\\values-night-v8\\values-night-v8.xml",
+                    "file": "C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\PIFSS\\.android\\build-cache\\9b85976bda791bd9abdfdd3cb34cce2b0455d7aa\\output\\res\\values-night-v8\\values-night-v8.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -567,7 +567,7 @@
                     "endOffset": 1482
                 },
                 "from": {
-                    "file": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\Entisar\\.android\\build-cache\\752ac81f1b1993e8602d14a1f3fecad31afcf050\\output\\res\\values-night-v8\\values-night-v8.xml",
+                    "file": "C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\PIFSS\\.android\\build-cache\\9b85976bda791bd9abdfdd3cb34cce2b0455d7aa\\output\\res\\values-night-v8\\values-night-v8.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -580,7 +580,7 @@
         ]
     },
     {
-        "outputFile": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor mar312\\doctor\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-night-v8\\values-night-v8.xml",
+        "outputFile": "C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor mar312\\doctor\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-night-v8\\values-night-v8.xml",
         "map": [
             {
                 "to": {
@@ -591,7 +591,7 @@
                     "endOffset": 136
                 },
                 "from": {
-                    "file": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\trn24\\.android\\build-cache\\767e0eac95804b8f2599ade09cd7788c5a556c4e\\output\\res\\values-night-v8\\values-night-v8.xml",
+                    "file": "C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\trn24\\.android\\build-cache\\767e0eac95804b8f2599ade09cd7788c5a556c4e\\output\\res\\values-night-v8\\values-night-v8.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -610,7 +610,7 @@
                     "endOffset": 258
                 },
                 "from": {
-                    "file": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\trn24\\.android\\build-cache\\767e0eac95804b8f2599ade09cd7788c5a556c4e\\output\\res\\values-night-v8\\values-night-v8.xml",
+                    "file": "C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\trn24\\.android\\build-cache\\767e0eac95804b8f2599ade09cd7788c5a556c4e\\output\\res\\values-night-v8\\values-night-v8.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -629,7 +629,7 @@
                     "endOffset": 356
                 },
                 "from": {
-                    "file": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\trn24\\.android\\build-cache\\767e0eac95804b8f2599ade09cd7788c5a556c4e\\output\\res\\values-night-v8\\values-night-v8.xml",
+                    "file": "C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\trn24\\.android\\build-cache\\767e0eac95804b8f2599ade09cd7788c5a556c4e\\output\\res\\values-night-v8\\values-night-v8.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -648,7 +648,7 @@
                     "endOffset": 490
                 },
                 "from": {
-                    "file": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\trn24\\.android\\build-cache\\767e0eac95804b8f2599ade09cd7788c5a556c4e\\output\\res\\values-night-v8\\values-night-v8.xml",
+                    "file": "C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\trn24\\.android\\build-cache\\767e0eac95804b8f2599ade09cd7788c5a556c4e\\output\\res\\values-night-v8\\values-night-v8.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -667,7 +667,7 @@
                     "endOffset": 568
                 },
                 "from": {
-                    "file": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\trn24\\.android\\build-cache\\767e0eac95804b8f2599ade09cd7788c5a556c4e\\output\\res\\values-night-v8\\values-night-v8.xml",
+                    "file": "C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\trn24\\.android\\build-cache\\767e0eac95804b8f2599ade09cd7788c5a556c4e\\output\\res\\values-night-v8\\values-night-v8.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -686,7 +686,7 @@
                     "endOffset": 682
                 },
                 "from": {
-                    "file": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\trn24\\.android\\build-cache\\767e0eac95804b8f2599ade09cd7788c5a556c4e\\output\\res\\values-night-v8\\values-night-v8.xml",
+                    "file": "C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\trn24\\.android\\build-cache\\767e0eac95804b8f2599ade09cd7788c5a556c4e\\output\\res\\values-night-v8\\values-night-v8.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -705,7 +705,7 @@
                     "endOffset": 748
                 },
                 "from": {
-                    "file": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\trn24\\.android\\build-cache\\767e0eac95804b8f2599ade09cd7788c5a556c4e\\output\\res\\values-night-v8\\values-night-v8.xml",
+                    "file": "C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\trn24\\.android\\build-cache\\767e0eac95804b8f2599ade09cd7788c5a556c4e\\output\\res\\values-night-v8\\values-night-v8.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -724,7 +724,7 @@
                     "endOffset": 850
                 },
                 "from": {
-                    "file": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\trn24\\.android\\build-cache\\767e0eac95804b8f2599ade09cd7788c5a556c4e\\output\\res\\values-night-v8\\values-night-v8.xml",
+                    "file": "C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\trn24\\.android\\build-cache\\767e0eac95804b8f2599ade09cd7788c5a556c4e\\output\\res\\values-night-v8\\values-night-v8.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
@@ -743,7 +743,7 @@
                     "endOffset": 920
                 },
                 "from": {
-                    "file": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\trn24\\.android\\build-cache\\f5bbc6ff808a4ac74405d8a761d68a423887319a\\output\\res\\values-night-v8\\values-night-v8.xml",
+                    "file": "C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\trn24\\.android\\build-cache\\f5bbc6ff808a4ac74405d8a761d68a423887319a\\output\\res\\values-night-v8\\values-night-v8.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -762,7 +762,7 @@
                     "endOffset": 1004
                 },
                 "from": {
-                    "file": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\trn24\\.android\\build-cache\\f5bbc6ff808a4ac74405d8a761d68a423887319a\\output\\res\\values-night-v8\\values-night-v8.xml",
+                    "file": "C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\trn24\\.android\\build-cache\\f5bbc6ff808a4ac74405d8a761d68a423887319a\\output\\res\\values-night-v8\\values-night-v8.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -781,7 +781,7 @@
                     "endOffset": 1088
                 },
                 "from": {
-                    "file": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\trn24\\.android\\build-cache\\f5bbc6ff808a4ac74405d8a761d68a423887319a\\output\\res\\values-night-v8\\values-night-v8.xml",
+                    "file": "C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\trn24\\.android\\build-cache\\f5bbc6ff808a4ac74405d8a761d68a423887319a\\output\\res\\values-night-v8\\values-night-v8.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -800,7 +800,7 @@
                     "endOffset": 1184
                 },
                 "from": {
-                    "file": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\trn24\\.android\\build-cache\\f5bbc6ff808a4ac74405d8a761d68a423887319a\\output\\res\\values-night-v8\\values-night-v8.xml",
+                    "file": "C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\trn24\\.android\\build-cache\\f5bbc6ff808a4ac74405d8a761d68a423887319a\\output\\res\\values-night-v8\\values-night-v8.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -819,7 +819,7 @@
                     "endOffset": 1286
                 },
                 "from": {
-                    "file": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\trn24\\.android\\build-cache\\f5bbc6ff808a4ac74405d8a761d68a423887319a\\output\\res\\values-night-v8\\values-night-v8.xml",
+                    "file": "C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\trn24\\.android\\build-cache\\f5bbc6ff808a4ac74405d8a761d68a423887319a\\output\\res\\values-night-v8\\values-night-v8.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -838,7 +838,7 @@
                     "endOffset": 1388
                 },
                 "from": {
-                    "file": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\trn24\\.android\\build-cache\\f5bbc6ff808a4ac74405d8a761d68a423887319a\\output\\res\\values-night-v8\\values-night-v8.xml",
+                    "file": "C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\trn24\\.android\\build-cache\\f5bbc6ff808a4ac74405d8a761d68a423887319a\\output\\res\\values-night-v8\\values-night-v8.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -857,7 +857,7 @@
                     "endOffset": 1482
                 },
                 "from": {
-                    "file": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\trn24\\.android\\build-cache\\f5bbc6ff808a4ac74405d8a761d68a423887319a\\output\\res\\values-night-v8\\values-night-v8.xml",
+                    "file": "C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\trn24\\.android\\build-cache\\f5bbc6ff808a4ac74405d8a761d68a423887319a\\output\\res\\values-night-v8\\values-night-v8.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -870,7 +870,7 @@
         ]
     },
     {
-        "outputFile": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v4\\doctor\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-night-v8\\values-night-v8.xml",
+        "outputFile": "C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\doctor\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-night-v8\\values-night-v8.xml",
         "map": [
             {
                 "to": {
@@ -881,7 +881,7 @@
                     "endOffset": 136
                 },
                 "from": {
-                    "file": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\PIFSS\\.android\\build-cache\\949177878d74a023d4b66948a99a2ccc99e58143\\output\\res\\values-night-v8\\values-night-v8.xml",
+                    "file": "C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\Entisar\\.android\\build-cache\\654d0fc8704bb7b334e5bf800426e673e3876052\\output\\res\\values-night-v8\\values-night-v8.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -900,7 +900,7 @@
                     "endOffset": 258
                 },
                 "from": {
-                    "file": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\PIFSS\\.android\\build-cache\\949177878d74a023d4b66948a99a2ccc99e58143\\output\\res\\values-night-v8\\values-night-v8.xml",
+                    "file": "C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\Entisar\\.android\\build-cache\\654d0fc8704bb7b334e5bf800426e673e3876052\\output\\res\\values-night-v8\\values-night-v8.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -919,7 +919,7 @@
                     "endOffset": 356
                 },
                 "from": {
-                    "file": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\PIFSS\\.android\\build-cache\\949177878d74a023d4b66948a99a2ccc99e58143\\output\\res\\values-night-v8\\values-night-v8.xml",
+                    "file": "C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\Entisar\\.android\\build-cache\\654d0fc8704bb7b334e5bf800426e673e3876052\\output\\res\\values-night-v8\\values-night-v8.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -938,7 +938,7 @@
                     "endOffset": 490
                 },
                 "from": {
-                    "file": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\PIFSS\\.android\\build-cache\\949177878d74a023d4b66948a99a2ccc99e58143\\output\\res\\values-night-v8\\values-night-v8.xml",
+                    "file": "C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\Entisar\\.android\\build-cache\\654d0fc8704bb7b334e5bf800426e673e3876052\\output\\res\\values-night-v8\\values-night-v8.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -957,7 +957,7 @@
                     "endOffset": 568
                 },
                 "from": {
-                    "file": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\PIFSS\\.android\\build-cache\\949177878d74a023d4b66948a99a2ccc99e58143\\output\\res\\values-night-v8\\values-night-v8.xml",
+                    "file": "C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\Entisar\\.android\\build-cache\\654d0fc8704bb7b334e5bf800426e673e3876052\\output\\res\\values-night-v8\\values-night-v8.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -976,7 +976,7 @@
                     "endOffset": 682
                 },
                 "from": {
-                    "file": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\PIFSS\\.android\\build-cache\\949177878d74a023d4b66948a99a2ccc99e58143\\output\\res\\values-night-v8\\values-night-v8.xml",
+                    "file": "C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\Entisar\\.android\\build-cache\\654d0fc8704bb7b334e5bf800426e673e3876052\\output\\res\\values-night-v8\\values-night-v8.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -995,7 +995,7 @@
                     "endOffset": 748
                 },
                 "from": {
-                    "file": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\PIFSS\\.android\\build-cache\\949177878d74a023d4b66948a99a2ccc99e58143\\output\\res\\values-night-v8\\values-night-v8.xml",
+                    "file": "C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\Entisar\\.android\\build-cache\\654d0fc8704bb7b334e5bf800426e673e3876052\\output\\res\\values-night-v8\\values-night-v8.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -1014,7 +1014,7 @@
                     "endOffset": 850
                 },
                 "from": {
-                    "file": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\PIFSS\\.android\\build-cache\\949177878d74a023d4b66948a99a2ccc99e58143\\output\\res\\values-night-v8\\values-night-v8.xml",
+                    "file": "C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\Entisar\\.android\\build-cache\\654d0fc8704bb7b334e5bf800426e673e3876052\\output\\res\\values-night-v8\\values-night-v8.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
@@ -1033,7 +1033,7 @@
                     "endOffset": 920
                 },
                 "from": {
-                    "file": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\PIFSS\\.android\\build-cache\\9b85976bda791bd9abdfdd3cb34cce2b0455d7aa\\output\\res\\values-night-v8\\values-night-v8.xml",
+                    "file": "C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\Entisar\\.android\\build-cache\\752ac81f1b1993e8602d14a1f3fecad31afcf050\\output\\res\\values-night-v8\\values-night-v8.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -1052,7 +1052,7 @@
                     "endOffset": 1004
                 },
                 "from": {
-                    "file": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\PIFSS\\.android\\build-cache\\9b85976bda791bd9abdfdd3cb34cce2b0455d7aa\\output\\res\\values-night-v8\\values-night-v8.xml",
+                    "file": "C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\Entisar\\.android\\build-cache\\752ac81f1b1993e8602d14a1f3fecad31afcf050\\output\\res\\values-night-v8\\values-night-v8.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -1071,7 +1071,7 @@
                     "endOffset": 1088
                 },
                 "from": {
-                    "file": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\PIFSS\\.android\\build-cache\\9b85976bda791bd9abdfdd3cb34cce2b0455d7aa\\output\\res\\values-night-v8\\values-night-v8.xml",
+                    "file": "C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\Entisar\\.android\\build-cache\\752ac81f1b1993e8602d14a1f3fecad31afcf050\\output\\res\\values-night-v8\\values-night-v8.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -1090,7 +1090,7 @@
                     "endOffset": 1184
                 },
                 "from": {
-                    "file": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\PIFSS\\.android\\build-cache\\9b85976bda791bd9abdfdd3cb34cce2b0455d7aa\\output\\res\\values-night-v8\\values-night-v8.xml",
+                    "file": "C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\Entisar\\.android\\build-cache\\752ac81f1b1993e8602d14a1f3fecad31afcf050\\output\\res\\values-night-v8\\values-night-v8.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -1109,7 +1109,7 @@
                     "endOffset": 1286
                 },
                 "from": {
-                    "file": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\PIFSS\\.android\\build-cache\\9b85976bda791bd9abdfdd3cb34cce2b0455d7aa\\output\\res\\values-night-v8\\values-night-v8.xml",
+                    "file": "C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\Entisar\\.android\\build-cache\\752ac81f1b1993e8602d14a1f3fecad31afcf050\\output\\res\\values-night-v8\\values-night-v8.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -1128,7 +1128,7 @@
                     "endOffset": 1388
                 },
                 "from": {
-                    "file": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\PIFSS\\.android\\build-cache\\9b85976bda791bd9abdfdd3cb34cce2b0455d7aa\\output\\res\\values-night-v8\\values-night-v8.xml",
+                    "file": "C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\Entisar\\.android\\build-cache\\752ac81f1b1993e8602d14a1f3fecad31afcf050\\output\\res\\values-night-v8\\values-night-v8.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -1147,7 +1147,7 @@
                     "endOffset": 1482
                 },
                 "from": {
-                    "file": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\PIFSS\\.android\\build-cache\\9b85976bda791bd9abdfdd3cb34cce2b0455d7aa\\output\\res\\values-night-v8\\values-night-v8.xml",
+                    "file": "C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\Entisar\\.android\\build-cache\\752ac81f1b1993e8602d14a1f3fecad31afcf050\\output\\res\\values-night-v8\\values-night-v8.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -1160,7 +1160,7 @@
         ]
     },
     {
-        "outputFile": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-night-v8\\values-night-v8.xml",
+        "outputFile": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-night-v8\\values-night-v8.xml",
         "map": [
             {
                 "to": {
@@ -1171,7 +1171,7 @@
                     "endOffset": 136
                 },
                 "from": {
-                    "file": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\.android\\build-cache\\767e0eac95804b8f2599ade09cd7788c5a556c4e\\output\\res\\values-night-v8\\values-night-v8.xml",
+                    "file": "C:\\Users\\trn24\\.android\\build-cache\\767e0eac95804b8f2599ade09cd7788c5a556c4e\\output\\res\\values-night-v8\\values-night-v8.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -1190,7 +1190,7 @@
                     "endOffset": 258
                 },
                 "from": {
-                    "file": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\.android\\build-cache\\767e0eac95804b8f2599ade09cd7788c5a556c4e\\output\\res\\values-night-v8\\values-night-v8.xml",
+                    "file": "C:\\Users\\trn24\\.android\\build-cache\\767e0eac95804b8f2599ade09cd7788c5a556c4e\\output\\res\\values-night-v8\\values-night-v8.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -1209,7 +1209,7 @@
                     "endOffset": 356
                 },
                 "from": {
-                    "file": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\.android\\build-cache\\767e0eac95804b8f2599ade09cd7788c5a556c4e\\output\\res\\values-night-v8\\values-night-v8.xml",
+                    "file": "C:\\Users\\trn24\\.android\\build-cache\\767e0eac95804b8f2599ade09cd7788c5a556c4e\\output\\res\\values-night-v8\\values-night-v8.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -1228,7 +1228,7 @@
                     "endOffset": 490
                 },
                 "from": {
-                    "file": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\.android\\build-cache\\767e0eac95804b8f2599ade09cd7788c5a556c4e\\output\\res\\values-night-v8\\values-night-v8.xml",
+                    "file": "C:\\Users\\trn24\\.android\\build-cache\\767e0eac95804b8f2599ade09cd7788c5a556c4e\\output\\res\\values-night-v8\\values-night-v8.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -1247,7 +1247,7 @@
                     "endOffset": 568
                 },
                 "from": {
-                    "file": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\.android\\build-cache\\767e0eac95804b8f2599ade09cd7788c5a556c4e\\output\\res\\values-night-v8\\values-night-v8.xml",
+                    "file": "C:\\Users\\trn24\\.android\\build-cache\\767e0eac95804b8f2599ade09cd7788c5a556c4e\\output\\res\\values-night-v8\\values-night-v8.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -1266,7 +1266,7 @@
                     "endOffset": 682
                 },
                 "from": {
-                    "file": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\.android\\build-cache\\767e0eac95804b8f2599ade09cd7788c5a556c4e\\output\\res\\values-night-v8\\values-night-v8.xml",
+                    "file": "C:\\Users\\trn24\\.android\\build-cache\\767e0eac95804b8f2599ade09cd7788c5a556c4e\\output\\res\\values-night-v8\\values-night-v8.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -1285,7 +1285,7 @@
                     "endOffset": 748
                 },
                 "from": {
-                    "file": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\.android\\build-cache\\767e0eac95804b8f2599ade09cd7788c5a556c4e\\output\\res\\values-night-v8\\values-night-v8.xml",
+                    "file": "C:\\Users\\trn24\\.android\\build-cache\\767e0eac95804b8f2599ade09cd7788c5a556c4e\\output\\res\\values-night-v8\\values-night-v8.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -1304,7 +1304,7 @@
                     "endOffset": 850
                 },
                 "from": {
-                    "file": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\.android\\build-cache\\767e0eac95804b8f2599ade09cd7788c5a556c4e\\output\\res\\values-night-v8\\values-night-v8.xml",
+                    "file": "C:\\Users\\trn24\\.android\\build-cache\\767e0eac95804b8f2599ade09cd7788c5a556c4e\\output\\res\\values-night-v8\\values-night-v8.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
@@ -1323,7 +1323,7 @@
                     "endOffset": 920
                 },
                 "from": {
-                    "file": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\.android\\build-cache\\f5bbc6ff808a4ac74405d8a761d68a423887319a\\output\\res\\values-night-v8\\values-night-v8.xml",
+                    "file": "C:\\Users\\trn24\\.android\\build-cache\\f5bbc6ff808a4ac74405d8a761d68a423887319a\\output\\res\\values-night-v8\\values-night-v8.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -1342,7 +1342,7 @@
                     "endOffset": 1004
                 },
                 "from": {
-                    "file": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\.android\\build-cache\\f5bbc6ff808a4ac74405d8a761d68a423887319a\\output\\res\\values-night-v8\\values-night-v8.xml",
+                    "file": "C:\\Users\\trn24\\.android\\build-cache\\f5bbc6ff808a4ac74405d8a761d68a423887319a\\output\\res\\values-night-v8\\values-night-v8.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -1361,7 +1361,7 @@
                     "endOffset": 1088
                 },
                 "from": {
-                    "file": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\.android\\build-cache\\f5bbc6ff808a4ac74405d8a761d68a423887319a\\output\\res\\values-night-v8\\values-night-v8.xml",
+                    "file": "C:\\Users\\trn24\\.android\\build-cache\\f5bbc6ff808a4ac74405d8a761d68a423887319a\\output\\res\\values-night-v8\\values-night-v8.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -1380,7 +1380,7 @@
                     "endOffset": 1184
                 },
                 "from": {
-                    "file": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\.android\\build-cache\\f5bbc6ff808a4ac74405d8a761d68a423887319a\\output\\res\\values-night-v8\\values-night-v8.xml",
+                    "file": "C:\\Users\\trn24\\.android\\build-cache\\f5bbc6ff808a4ac74405d8a761d68a423887319a\\output\\res\\values-night-v8\\values-night-v8.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -1399,7 +1399,7 @@
                     "endOffset": 1286
                 },
                 "from": {
-                    "file": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\.android\\build-cache\\f5bbc6ff808a4ac74405d8a761d68a423887319a\\output\\res\\values-night-v8\\values-night-v8.xml",
+                    "file": "C:\\Users\\trn24\\.android\\build-cache\\f5bbc6ff808a4ac74405d8a761d68a423887319a\\output\\res\\values-night-v8\\values-night-v8.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -1418,7 +1418,7 @@
                     "endOffset": 1388
                 },
                 "from": {
-                    "file": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\.android\\build-cache\\f5bbc6ff808a4ac74405d8a761d68a423887319a\\output\\res\\values-night-v8\\values-night-v8.xml",
+                    "file": "C:\\Users\\trn24\\.android\\build-cache\\f5bbc6ff808a4ac74405d8a761d68a423887319a\\output\\res\\values-night-v8\\values-night-v8.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -1437,7 +1437,7 @@
                     "endOffset": 1482
                 },
                 "from": {
-                    "file": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\.android\\build-cache\\f5bbc6ff808a4ac74405d8a761d68a423887319a\\output\\res\\values-night-v8\\values-night-v8.xml",
+                    "file": "C:\\Users\\trn24\\.android\\build-cache\\f5bbc6ff808a4ac74405d8a761d68a423887319a\\output\\res\\values-night-v8\\values-night-v8.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -1450,7 +1450,7 @@
         ]
     },
     {
-        "outputFile": "/Users/trn24/Desktop/IBM/Andriod/Project/doctor april 88/doctor/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-night-v8/values-night-v8.xml",
+        "outputFile": "C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v4\\doctor\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-night-v8\\values-night-v8.xml",
         "map": [
             {
                 "to": {
@@ -1461,7 +1461,7 @@
                     "endOffset": 136
                 },
                 "from": {
-                    "file": "/Users/trn24/.android/build-cache/767e0eac95804b8f2599ade09cd7788c5a556c4e/output/res/values-night-v8/values-night-v8.xml",
+                    "file": "C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\PIFSS\\.android\\build-cache\\949177878d74a023d4b66948a99a2ccc99e58143\\output\\res\\values-night-v8\\values-night-v8.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -1480,7 +1480,7 @@
                     "endOffset": 258
                 },
                 "from": {
-                    "file": "/Users/trn24/.android/build-cache/767e0eac95804b8f2599ade09cd7788c5a556c4e/output/res/values-night-v8/values-night-v8.xml",
+                    "file": "C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\PIFSS\\.android\\build-cache\\949177878d74a023d4b66948a99a2ccc99e58143\\output\\res\\values-night-v8\\values-night-v8.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -1499,7 +1499,7 @@
                     "endOffset": 356
                 },
                 "from": {
-                    "file": "/Users/trn24/.android/build-cache/767e0eac95804b8f2599ade09cd7788c5a556c4e/output/res/values-night-v8/values-night-v8.xml",
+                    "file": "C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\PIFSS\\.android\\build-cache\\949177878d74a023d4b66948a99a2ccc99e58143\\output\\res\\values-night-v8\\values-night-v8.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -1518,7 +1518,7 @@
                     "endOffset": 490
                 },
                 "from": {
-                    "file": "/Users/trn24/.android/build-cache/767e0eac95804b8f2599ade09cd7788c5a556c4e/output/res/values-night-v8/values-night-v8.xml",
+                    "file": "C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\PIFSS\\.android\\build-cache\\949177878d74a023d4b66948a99a2ccc99e58143\\output\\res\\values-night-v8\\values-night-v8.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -1537,7 +1537,7 @@
                     "endOffset": 568
                 },
                 "from": {
-                    "file": "/Users/trn24/.android/build-cache/767e0eac95804b8f2599ade09cd7788c5a556c4e/output/res/values-night-v8/values-night-v8.xml",
+                    "file": "C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\PIFSS\\.android\\build-cache\\949177878d74a023d4b66948a99a2ccc99e58143\\output\\res\\values-night-v8\\values-night-v8.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -1556,7 +1556,7 @@
                     "endOffset": 682
                 },
                 "from": {
-                    "file": "/Users/trn24/.android/build-cache/767e0eac95804b8f2599ade09cd7788c5a556c4e/output/res/values-night-v8/values-night-v8.xml",
+                    "file": "C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\PIFSS\\.android\\build-cache\\949177878d74a023d4b66948a99a2ccc99e58143\\output\\res\\values-night-v8\\values-night-v8.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -1575,7 +1575,7 @@
                     "endOffset": 748
                 },
                 "from": {
-                    "file": "/Users/trn24/.android/build-cache/767e0eac95804b8f2599ade09cd7788c5a556c4e/output/res/values-night-v8/values-night-v8.xml",
+                    "file": "C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\PIFSS\\.android\\build-cache\\949177878d74a023d4b66948a99a2ccc99e58143\\output\\res\\values-night-v8\\values-night-v8.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -1594,7 +1594,7 @@
                     "endOffset": 850
                 },
                 "from": {
-                    "file": "/Users/trn24/.android/build-cache/767e0eac95804b8f2599ade09cd7788c5a556c4e/output/res/values-night-v8/values-night-v8.xml",
+                    "file": "C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\PIFSS\\.android\\build-cache\\949177878d74a023d4b66948a99a2ccc99e58143\\output\\res\\values-night-v8\\values-night-v8.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
@@ -1613,7 +1613,7 @@
                     "endOffset": 920
                 },
                 "from": {
-                    "file": "/Users/trn24/.android/build-cache/f5bbc6ff808a4ac74405d8a761d68a423887319a/output/res/values-night-v8/values-night-v8.xml",
+                    "file": "C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\PIFSS\\.android\\build-cache\\9b85976bda791bd9abdfdd3cb34cce2b0455d7aa\\output\\res\\values-night-v8\\values-night-v8.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -1632,7 +1632,7 @@
                     "endOffset": 1004
                 },
                 "from": {
-                    "file": "/Users/trn24/.android/build-cache/f5bbc6ff808a4ac74405d8a761d68a423887319a/output/res/values-night-v8/values-night-v8.xml",
+                    "file": "C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\PIFSS\\.android\\build-cache\\9b85976bda791bd9abdfdd3cb34cce2b0455d7aa\\output\\res\\values-night-v8\\values-night-v8.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -1651,7 +1651,7 @@
                     "endOffset": 1088
                 },
                 "from": {
-                    "file": "/Users/trn24/.android/build-cache/f5bbc6ff808a4ac74405d8a761d68a423887319a/output/res/values-night-v8/values-night-v8.xml",
+                    "file": "C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\PIFSS\\.android\\build-cache\\9b85976bda791bd9abdfdd3cb34cce2b0455d7aa\\output\\res\\values-night-v8\\values-night-v8.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -1670,7 +1670,7 @@
                     "endOffset": 1184
                 },
                 "from": {
-                    "file": "/Users/trn24/.android/build-cache/f5bbc6ff808a4ac74405d8a761d68a423887319a/output/res/values-night-v8/values-night-v8.xml",
+                    "file": "C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\PIFSS\\.android\\build-cache\\9b85976bda791bd9abdfdd3cb34cce2b0455d7aa\\output\\res\\values-night-v8\\values-night-v8.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -1689,7 +1689,7 @@
                     "endOffset": 1286
                 },
                 "from": {
-                    "file": "/Users/trn24/.android/build-cache/f5bbc6ff808a4ac74405d8a761d68a423887319a/output/res/values-night-v8/values-night-v8.xml",
+                    "file": "C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\PIFSS\\.android\\build-cache\\9b85976bda791bd9abdfdd3cb34cce2b0455d7aa\\output\\res\\values-night-v8\\values-night-v8.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -1708,7 +1708,7 @@
                     "endOffset": 1388
                 },
                 "from": {
-                    "file": "/Users/trn24/.android/build-cache/f5bbc6ff808a4ac74405d8a761d68a423887319a/output/res/values-night-v8/values-night-v8.xml",
+                    "file": "C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\PIFSS\\.android\\build-cache\\9b85976bda791bd9abdfdd3cb34cce2b0455d7aa\\output\\res\\values-night-v8\\values-night-v8.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -1727,7 +1727,7 @@
                     "endOffset": 1482
                 },
                 "from": {
-                    "file": "/Users/trn24/.android/build-cache/f5bbc6ff808a4ac74405d8a761d68a423887319a/output/res/values-night-v8/values-night-v8.xml",
+                    "file": "C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\PIFSS\\.android\\build-cache\\9b85976bda791bd9abdfdd3cb34cce2b0455d7aa\\output\\res\\values-night-v8\\values-night-v8.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -1740,7 +1740,7 @@
         ]
     },
     {
-        "outputFile": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v4\\doctor\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-night-v8\\values-night-v8.xml",
+        "outputFile": "C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-night-v8\\values-night-v8.xml",
         "map": [
             {
                 "to": {
@@ -1751,7 +1751,7 @@
                     "endOffset": 136
                 },
                 "from": {
-                    "file": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\PIFSS\\.android\\build-cache\\949177878d74a023d4b66948a99a2ccc99e58143\\output\\res\\values-night-v8\\values-night-v8.xml",
+                    "file": "C:\\Users\\Entisar\\.android\\build-cache\\654d0fc8704bb7b334e5bf800426e673e3876052\\output\\res\\values-night-v8\\values-night-v8.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -1770,7 +1770,7 @@
                     "endOffset": 258
                 },
                 "from": {
-                    "file": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\PIFSS\\.android\\build-cache\\949177878d74a023d4b66948a99a2ccc99e58143\\output\\res\\values-night-v8\\values-night-v8.xml",
+                    "file": "C:\\Users\\Entisar\\.android\\build-cache\\654d0fc8704bb7b334e5bf800426e673e3876052\\output\\res\\values-night-v8\\values-night-v8.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -1789,7 +1789,7 @@
                     "endOffset": 356
                 },
                 "from": {
-                    "file": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\PIFSS\\.android\\build-cache\\949177878d74a023d4b66948a99a2ccc99e58143\\output\\res\\values-night-v8\\values-night-v8.xml",
+                    "file": "C:\\Users\\Entisar\\.android\\build-cache\\654d0fc8704bb7b334e5bf800426e673e3876052\\output\\res\\values-night-v8\\values-night-v8.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -1808,7 +1808,7 @@
                     "endOffset": 490
                 },
                 "from": {
-                    "file": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\PIFSS\\.android\\build-cache\\949177878d74a023d4b66948a99a2ccc99e58143\\output\\res\\values-night-v8\\values-night-v8.xml",
+                    "file": "C:\\Users\\Entisar\\.android\\build-cache\\654d0fc8704bb7b334e5bf800426e673e3876052\\output\\res\\values-night-v8\\values-night-v8.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -1827,7 +1827,7 @@
                     "endOffset": 568
                 },
                 "from": {
-                    "file": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\PIFSS\\.android\\build-cache\\949177878d74a023d4b66948a99a2ccc99e58143\\output\\res\\values-night-v8\\values-night-v8.xml",
+                    "file": "C:\\Users\\Entisar\\.android\\build-cache\\654d0fc8704bb7b334e5bf800426e673e3876052\\output\\res\\values-night-v8\\values-night-v8.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -1846,7 +1846,7 @@
                     "endOffset": 682
                 },
                 "from": {
-                    "file": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\PIFSS\\.android\\build-cache\\949177878d74a023d4b66948a99a2ccc99e58143\\output\\res\\values-night-v8\\values-night-v8.xml",
+                    "file": "C:\\Users\\Entisar\\.android\\build-cache\\654d0fc8704bb7b334e5bf800426e673e3876052\\output\\res\\values-night-v8\\values-night-v8.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -1865,7 +1865,7 @@
                     "endOffset": 748
                 },
                 "from": {
-                    "file": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\PIFSS\\.android\\build-cache\\949177878d74a023d4b66948a99a2ccc99e58143\\output\\res\\values-night-v8\\values-night-v8.xml",
+                    "file": "C:\\Users\\Entisar\\.android\\build-cache\\654d0fc8704bb7b334e5bf800426e673e3876052\\output\\res\\values-night-v8\\values-night-v8.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -1884,7 +1884,7 @@
                     "endOffset": 850
                 },
                 "from": {
-                    "file": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\PIFSS\\.android\\build-cache\\949177878d74a023d4b66948a99a2ccc99e58143\\output\\res\\values-night-v8\\values-night-v8.xml",
+                    "file": "C:\\Users\\Entisar\\.android\\build-cache\\654d0fc8704bb7b334e5bf800426e673e3876052\\output\\res\\values-night-v8\\values-night-v8.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
@@ -1903,7 +1903,7 @@
                     "endOffset": 920
                 },
                 "from": {
-                    "file": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\PIFSS\\.android\\build-cache\\9b85976bda791bd9abdfdd3cb34cce2b0455d7aa\\output\\res\\values-night-v8\\values-night-v8.xml",
+                    "file": "C:\\Users\\Entisar\\.android\\build-cache\\752ac81f1b1993e8602d14a1f3fecad31afcf050\\output\\res\\values-night-v8\\values-night-v8.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -1922,7 +1922,7 @@
                     "endOffset": 1004
                 },
                 "from": {
-                    "file": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\PIFSS\\.android\\build-cache\\9b85976bda791bd9abdfdd3cb34cce2b0455d7aa\\output\\res\\values-night-v8\\values-night-v8.xml",
+                    "file": "C:\\Users\\Entisar\\.android\\build-cache\\752ac81f1b1993e8602d14a1f3fecad31afcf050\\output\\res\\values-night-v8\\values-night-v8.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -1941,7 +1941,7 @@
                     "endOffset": 1088
                 },
                 "from": {
-                    "file": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\PIFSS\\.android\\build-cache\\9b85976bda791bd9abdfdd3cb34cce2b0455d7aa\\output\\res\\values-night-v8\\values-night-v8.xml",
+                    "file": "C:\\Users\\Entisar\\.android\\build-cache\\752ac81f1b1993e8602d14a1f3fecad31afcf050\\output\\res\\values-night-v8\\values-night-v8.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -1960,7 +1960,7 @@
                     "endOffset": 1184
                 },
                 "from": {
-                    "file": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\PIFSS\\.android\\build-cache\\9b85976bda791bd9abdfdd3cb34cce2b0455d7aa\\output\\res\\values-night-v8\\values-night-v8.xml",
+                    "file": "C:\\Users\\Entisar\\.android\\build-cache\\752ac81f1b1993e8602d14a1f3fecad31afcf050\\output\\res\\values-night-v8\\values-night-v8.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -1979,7 +1979,7 @@
                     "endOffset": 1286
                 },
                 "from": {
-                    "file": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\PIFSS\\.android\\build-cache\\9b85976bda791bd9abdfdd3cb34cce2b0455d7aa\\output\\res\\values-night-v8\\values-night-v8.xml",
+                    "file": "C:\\Users\\Entisar\\.android\\build-cache\\752ac81f1b1993e8602d14a1f3fecad31afcf050\\output\\res\\values-night-v8\\values-night-v8.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -1998,7 +1998,7 @@
                     "endOffset": 1388
                 },
                 "from": {
-                    "file": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\PIFSS\\.android\\build-cache\\9b85976bda791bd9abdfdd3cb34cce2b0455d7aa\\output\\res\\values-night-v8\\values-night-v8.xml",
+                    "file": "C:\\Users\\Entisar\\.android\\build-cache\\752ac81f1b1993e8602d14a1f3fecad31afcf050\\output\\res\\values-night-v8\\values-night-v8.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -2017,7 +2017,297 @@
                     "endOffset": 1482
                 },
                 "from": {
-                    "file": "/Users/Entisar/Desktop/Android/modifications/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\PIFSS\\.android\\build-cache\\9b85976bda791bd9abdfdd3cb34cce2b0455d7aa\\output\\res\\values-night-v8\\values-night-v8.xml",
+                    "file": "C:\\Users\\Entisar\\.android\\build-cache\\752ac81f1b1993e8602d14a1f3fecad31afcf050\\output\\res\\values-night-v8\\values-night-v8.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 593,
+                        "endColumn": 93,
+                        "endOffset": 682
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v5\\doctor\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-night-v8\\values-night-v8.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 85,
+                    "endOffset": 136
+                },
+                "from": {
+                    "file": "C:\\Users\\PIFSS\\.android\\build-cache\\949177878d74a023d4b66948a99a2ccc99e58143\\output\\res\\values-night-v8\\values-night-v8.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 85,
+                        "endOffset": 136
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 141,
+                    "endColumn": 121,
+                    "endOffset": 258
+                },
+                "from": {
+                    "file": "C:\\Users\\PIFSS\\.android\\build-cache\\949177878d74a023d4b66948a99a2ccc99e58143\\output\\res\\values-night-v8\\values-night-v8.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 141,
+                        "endColumn": 121,
+                        "endOffset": 258
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 263,
+                    "endColumn": 97,
+                    "endOffset": 356
+                },
+                "from": {
+                    "file": "C:\\Users\\PIFSS\\.android\\build-cache\\949177878d74a023d4b66948a99a2ccc99e58143\\output\\res\\values-night-v8\\values-night-v8.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 263,
+                        "endColumn": 97,
+                        "endOffset": 356
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 361,
+                    "endColumn": 133,
+                    "endOffset": 490
+                },
+                "from": {
+                    "file": "C:\\Users\\PIFSS\\.android\\build-cache\\949177878d74a023d4b66948a99a2ccc99e58143\\output\\res\\values-night-v8\\values-night-v8.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 361,
+                        "endColumn": 133,
+                        "endOffset": 490
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 495,
+                    "endColumn": 77,
+                    "endOffset": 568
+                },
+                "from": {
+                    "file": "C:\\Users\\PIFSS\\.android\\build-cache\\949177878d74a023d4b66948a99a2ccc99e58143\\output\\res\\values-night-v8\\values-night-v8.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 495,
+                        "endColumn": 77,
+                        "endOffset": 568
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 573,
+                    "endColumn": 113,
+                    "endOffset": 682
+                },
+                "from": {
+                    "file": "C:\\Users\\PIFSS\\.android\\build-cache\\949177878d74a023d4b66948a99a2ccc99e58143\\output\\res\\values-night-v8\\values-night-v8.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 573,
+                        "endColumn": 113,
+                        "endOffset": 682
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 687,
+                    "endColumn": 65,
+                    "endOffset": 748
+                },
+                "from": {
+                    "file": "C:\\Users\\PIFSS\\.android\\build-cache\\949177878d74a023d4b66948a99a2ccc99e58143\\output\\res\\values-night-v8\\values-night-v8.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 687,
+                        "endColumn": 65,
+                        "endOffset": 748
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 753,
+                    "endColumn": 101,
+                    "endOffset": 850
+                },
+                "from": {
+                    "file": "C:\\Users\\PIFSS\\.android\\build-cache\\949177878d74a023d4b66948a99a2ccc99e58143\\output\\res\\values-night-v8\\values-night-v8.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 753,
+                        "endColumn": 101,
+                        "endOffset": 850
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 855,
+                    "endColumn": 69,
+                    "endOffset": 920
+                },
+                "from": {
+                    "file": "C:\\Users\\PIFSS\\.android\\build-cache\\9b85976bda791bd9abdfdd3cb34cce2b0455d7aa\\output\\res\\values-night-v8\\values-night-v8.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 69,
+                        "endOffset": 120
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 925,
+                    "endColumn": 83,
+                    "endOffset": 1004
+                },
+                "from": {
+                    "file": "C:\\Users\\PIFSS\\.android\\build-cache\\9b85976bda791bd9abdfdd3cb34cce2b0455d7aa\\output\\res\\values-night-v8\\values-night-v8.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 125,
+                        "endColumn": 83,
+                        "endOffset": 204
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 1009,
+                    "endColumn": 83,
+                    "endOffset": 1088
+                },
+                "from": {
+                    "file": "C:\\Users\\PIFSS\\.android\\build-cache\\9b85976bda791bd9abdfdd3cb34cce2b0455d7aa\\output\\res\\values-night-v8\\values-night-v8.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 209,
+                        "endColumn": 83,
+                        "endOffset": 288
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 1093,
+                    "endColumn": 95,
+                    "endOffset": 1184
+                },
+                "from": {
+                    "file": "C:\\Users\\PIFSS\\.android\\build-cache\\9b85976bda791bd9abdfdd3cb34cce2b0455d7aa\\output\\res\\values-night-v8\\values-night-v8.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 293,
+                        "endColumn": 95,
+                        "endOffset": 384
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 1189,
+                    "endColumn": 101,
+                    "endOffset": 1286
+                },
+                "from": {
+                    "file": "C:\\Users\\PIFSS\\.android\\build-cache\\9b85976bda791bd9abdfdd3cb34cce2b0455d7aa\\output\\res\\values-night-v8\\values-night-v8.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 389,
+                        "endColumn": 101,
+                        "endOffset": 486
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 1291,
+                    "endColumn": 101,
+                    "endOffset": 1388
+                },
+                "from": {
+                    "file": "C:\\Users\\PIFSS\\.android\\build-cache\\9b85976bda791bd9abdfdd3cb34cce2b0455d7aa\\output\\res\\values-night-v8\\values-night-v8.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 491,
+                        "endColumn": 101,
+                        "endOffset": 588
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 1393,
+                    "endColumn": 93,
+                    "endOffset": 1482
+                },
+                "from": {
+                    "file": "C:\\Users\\PIFSS\\.android\\build-cache\\9b85976bda791bd9abdfdd3cb34cce2b0455d7aa\\output\\res\\values-night-v8\\values-night-v8.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,

@@ -1,7 +1,12 @@
 package com.pifss.doctor.Adapters;
 
 import android.app.Activity;
+import android.app.Dialog;
+import android.content.DialogInterface;
+import android.content.Intent;
 import android.content.SharedPreferences;
+import android.net.Uri;
+import android.support.v7.app.AlertDialog;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -85,10 +90,14 @@ public class RequestAdapter extends BaseAdapter {
 
         ImageView img= (ImageView) view.findViewById(R.id.imageViewPatient);
         TextView name = (TextView) view.findViewById(R.id.textViewName);
-        TextView age = (TextView) view.findViewById(R.id.textViewAge);
+
         TextView civil = (TextView) view.findViewById(R.id.textViewCivilId);
         TextView gender= (TextView) view.findViewById(R.id.textViewGender);
 
+        TextView txtbday = (TextView) view.findViewById(R.id.txtbday);
+        TextView phone = (TextView) view.findViewById(R.id.txtPhoneP);
+        TextView bloodType = (TextView) view.findViewById(R.id.txtBloodType);
+        TextView nationality = (TextView) view.findViewById(R.id.txtNationalityP);
 
         final ImageButton accept = (ImageButton) view.findViewById(R.id.imageButtonAccept);
         final ImageButton decline = (ImageButton) view.findViewById(R.id.imageButtonDecline);
@@ -97,10 +106,15 @@ public class RequestAdapter extends BaseAdapter {
 
 
         final PatientRequest patient = model.get(position);
+
+        phone.setText(patient.getPatientObject().getPhoneNumber());
+        bloodType.setText(patient.getPatientObject().getBloodType());
+        nationality.setText(patient.getPatientObject().getNationality());
+
         // img.setImageResource(Integer.parseInt(patient.getImage()));
         if (!patient.getImage().equals("")){
 
-            Picasso.with(this.context).load(patient.getImage()).into(img);
+            Picasso.with(this.context).load(patient.getImage()).placeholder(R.mipmap.profile_image).into(img);
         }
         name.setText(patient.getName());
 
@@ -111,6 +125,9 @@ public class RequestAdapter extends BaseAdapter {
             gender.setText("Male");
         }
 
+        txtbday.setText(patient.getAge());
+
+        /*
 
         DateFormat df = new SimpleDateFormat("yyyy-mm-dd");
         Date startDate;
@@ -128,10 +145,13 @@ public class RequestAdapter extends BaseAdapter {
             LocalDate now = new LocalDate();
             Years patientAge = Years.yearsBetween(birthdate, now);
 
-            age.setText("Age: "+patientAge.getYears());
+            String ageLocalized = context.getString(R.string.Age);
+            txtbday.setText(ageLocalized + ": "+patientAge.getYears());
         } catch (ParseException e) {
             e.printStackTrace();
         }
+
+        */
 
 
 
@@ -322,7 +342,44 @@ public class RequestAdapter extends BaseAdapter {
             }
         });
 
+        ImageView phoneImage = (ImageView) view.findViewById(R.id.PhoneNumber);
 
+        phoneImage.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                AlertDialog.Builder builder=new AlertDialog.Builder(context);
+
+                builder.setTitle("Call "+patient.getName())
+                        .setMessage("Are you sure you wanna call "+patient.getName()+" ?")
+                        .setIcon(R.mipmap.phonecall)
+                        .setNegativeButton("No", new DialogInterface.OnClickListener() {
+                            @Override
+                            public void onClick(DialogInterface dialog, int which) {
+
+                            }
+                        })
+                        .setPositiveButton("Yes", new DialogInterface.OnClickListener() {
+                            @Override
+                            public void onClick(DialogInterface dialog, int which) {
+                                Intent i=new Intent();
+                                i.setAction(Intent.ACTION_DIAL);
+                                i.setData(Uri.parse("tel:"+patient.getPatientObject().getPhoneNumber()));
+
+                                context.startActivity(i);
+                            }
+                        }).setNeutralButton("Cancel", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+
+                    }
+                });
+
+
+
+                Dialog dConfirm=builder.create();
+                dConfirm.show();
+            }
+        });
 
 
         return view;
