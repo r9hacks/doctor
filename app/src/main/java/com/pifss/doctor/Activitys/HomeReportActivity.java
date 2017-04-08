@@ -45,7 +45,7 @@ public class HomeReportActivity extends AppCompatActivity {
         toolbar.setTitleTextColor(Color.WHITE);
 
         PrimaryDrawerItem item1 = new PrimaryDrawerItem().withIdentifier(1).withName(R.string.ViewReports).withIcon(R.mipmap.viewreports);
-        PrimaryDrawerItem item2 = new PrimaryDrawerItem().withIdentifier(2).withName(R.string.PatientRequests).withIcon(R.mipmap.add_icon);
+        PrimaryDrawerItem item2 = new PrimaryDrawerItem().withIdentifier(2).withName(R.string.PatientRequests).withIcon(R.mipmap.add_patient);
         PrimaryDrawerItem item3 = new PrimaryDrawerItem().withIdentifier(3).withName(R.string.MyPatients).withIcon(R.mipmap.my_patient_icon);
         PrimaryDrawerItem item5 = new PrimaryDrawerItem().withIdentifier(5).withName(R.string.Share).withIcon(R.mipmap.share_icon).withSelectable(false);
         PrimaryDrawerItem item6 = new PrimaryDrawerItem().withIdentifier(6).withName(R.string.Settings).withIcon(R.mipmap.settings_icon);
@@ -171,7 +171,7 @@ public class HomeReportActivity extends AppCompatActivity {
                 System.out.println("load image profile");
 
                 PrimaryDrawerItem item1 = new PrimaryDrawerItem().withIdentifier(1).withName(R.string.ViewReports).withIcon(R.mipmap.viewreports);
-                PrimaryDrawerItem item2 = new PrimaryDrawerItem().withIdentifier(2).withName(R.string.PatientRequests).withIcon(R.mipmap.add_icon);
+                PrimaryDrawerItem item2 = new PrimaryDrawerItem().withIdentifier(2).withName(R.string.PatientRequests).withIcon(R.mipmap.add_patient);
                 PrimaryDrawerItem item3 = new PrimaryDrawerItem().withIdentifier(3).withName(R.string.MyPatients).withIcon(R.mipmap.my_patient_icon);
                 PrimaryDrawerItem item5 = new PrimaryDrawerItem().withIdentifier(5).withName(R.string.Share).withIcon(R.mipmap.share_icon).withSelectable(false);
                 PrimaryDrawerItem item6 = new PrimaryDrawerItem().withIdentifier(6).withName(R.string.Settings).withIcon(R.mipmap.settings_icon);

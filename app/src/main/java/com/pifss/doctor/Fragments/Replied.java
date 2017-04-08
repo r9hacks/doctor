@@ -123,7 +123,7 @@ public class Replied extends Fragment {
 
                         ArrayList<Report> report = new Gson().fromJson(repliedArray.toString(), new TypeToken<ArrayList<Report>>(){}.getType());
                         for (Report r:report) {
-                            model.add(new ReportCell(r.getName(),r.getTimestamp(),r.getComments(),r.getImg(),r.getGender(),r.getHeartbeatRate(),r.getBloodPressure(),r));
+                            model.add(new ReportCell(r.getName(),r.getTimestamp(),r.getComments(),r.getImg(),r.getGender(),r.getHeartbeatRate(),r.getBloodPressure(),r.getFever(),r));
                             adapter.notifyDataSetChanged();
                         }
 
