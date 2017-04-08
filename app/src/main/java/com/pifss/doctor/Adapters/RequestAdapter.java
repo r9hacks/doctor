@@ -1,7 +1,12 @@
 package com.pifss.doctor.Adapters;
 
 import android.app.Activity;
+import android.app.Dialog;
+import android.content.DialogInterface;
+import android.content.Intent;
 import android.content.SharedPreferences;
+import android.net.Uri;
+import android.support.v7.app.AlertDialog;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -337,7 +342,44 @@ public class RequestAdapter extends BaseAdapter {
             }
         });
 
+        ImageView phoneImage = (ImageView) view.findViewById(R.id.PhoneNumber);
 
+        phoneImage.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                AlertDialog.Builder builder=new AlertDialog.Builder(context);
+
+                builder.setTitle("Call "+patient.getName())
+                        .setMessage("Are you sure you wanna call "+patient.getName()+" ?")
+                        .setIcon(R.mipmap.phonecall)
+                        .setNegativeButton("No", new DialogInterface.OnClickListener() {
+                            @Override
+                            public void onClick(DialogInterface dialog, int which) {
+
+                            }
+                        })
+                        .setPositiveButton("Yes", new DialogInterface.OnClickListener() {
+                            @Override
+                            public void onClick(DialogInterface dialog, int which) {
+                                Intent i=new Intent();
+                                i.setAction(Intent.ACTION_DIAL);
+                                i.setData(Uri.parse("tel:"+patient.getPatientObject().getPhoneNumber()));
+
+                                context.startActivity(i);
+                            }
+                        }).setNeutralButton("Cancel", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+
+                    }
+                });
+
+
+
+                Dialog dConfirm=builder.create();
+                dConfirm.show();
+            }
+        });
 
 
         return view;
