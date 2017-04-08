@@ -13,6 +13,8 @@ import com.pifss.doctor.R;
 import com.pifss.doctor.Model.ReportCell;
 import com.squareup.picasso.Picasso;
 
+import org.ocpsoft.prettytime.PrettyTime;
+
 import java.text.DateFormat;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
@@ -90,8 +92,11 @@ public class ReportAdapter extends BaseAdapter {
             Calendar calendar = GregorianCalendar.getInstance(); // creates a new calendar instance
             calendar.setTime(startDate);   // assigns calendar to given date
 
-
             date.setText(calendar.get(Calendar.DAY_OF_MONTH)+"-"+(calendar.get(Calendar.MONTH)+1)+"-"+calendar.get(Calendar.YEAR));
+            PrettyTime t = new PrettyTime();
+            date.setText(t.format(startDate));
+
+
 
         } catch (ParseException e) {
             e.printStackTrace();
