@@ -86,7 +86,7 @@ public class PatientProfileActivity extends AppCompatActivity {
         CircleImageView img = (CircleImageView) findViewById(R.id.imageViewPatient);
         if (!patient.getImageUrl().equals("")){
 
-            Picasso.with(this).load(patient.getImageUrl()).into(img);
+            Picasso.with(this).load(patient.getImageUrl()).placeholder(R.mipmap.profile_image).into(img);
         }
 
         name.setText(patient.getFirstName()+" "+patient.getLastName());

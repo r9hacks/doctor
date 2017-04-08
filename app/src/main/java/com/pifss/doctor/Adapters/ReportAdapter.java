@@ -73,7 +73,7 @@ public class ReportAdapter extends BaseAdapter {
 //        Picasso.with(context).invalidate(m.getImage());
         if (!report.getImageURL().equals("")){
 
-            Picasso.with(this.context).load(report.getImageURL()).into(image);
+            Picasso.with(this.context).load(report.getImageURL()).placeholder(R.mipmap.profile_image).into(image);
         }
 
         name.setText(report.getName());

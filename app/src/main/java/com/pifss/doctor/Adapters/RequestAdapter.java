@@ -109,7 +109,7 @@ public class RequestAdapter extends BaseAdapter {
         // img.setImageResource(Integer.parseInt(patient.getImage()));
         if (!patient.getImage().equals("")){
 
-            Picasso.with(this.context).load(patient.getImage()).into(img);
+            Picasso.with(this.context).load(patient.getImage()).placeholder(R.mipmap.profile_image).into(img);
         }
         name.setText(patient.getName());
 

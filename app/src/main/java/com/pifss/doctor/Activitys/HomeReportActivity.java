@@ -163,7 +163,7 @@ public class HomeReportActivity extends AppCompatActivity {
         String doctorProfile = preference.getString(links.PrefDoctorProfile,"notfound");
         final Doctor doctor = new Gson().fromJson(doctorProfile,Doctor.class);
 
-        Picasso.with(HomeReportActivity.this).load(doctor.getImageUrl()).into(new Target() {
+        Picasso.with(HomeReportActivity.this).load(doctor.getImageUrl()).placeholder(R.mipmap.profile_image).into(new Target() {
             @Override
             public void onBitmapLoaded(Bitmap bitmap, Picasso.LoadedFrom from) {
                 //Toast.makeText(HomeReportActivity.this, "Load image", Toast.LENGTH_SHORT).show();
