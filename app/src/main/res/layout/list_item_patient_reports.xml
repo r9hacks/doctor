@@ -83,7 +83,7 @@
             android:layout_height="25dp"
             android:layout_weight="0.16"
             android:gravity="bottom"
-            app:srcCompat="@mipmap/blood_pressure_icon" />
+            app:srcCompat="@mipmap/bpiconnn" />
 
 
         <TextView

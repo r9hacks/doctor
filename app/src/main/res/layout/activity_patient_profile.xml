@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context="com.pifss.doctor.Activitys.PatientProfileActivity"
-    >
+    android:weightSum="1">
 
     <android.support.v7.widget.Toolbar
         android:id="@+id/toolbar2"
@@ -132,7 +132,7 @@
             android:layout_marginStart="20dp"
             android:layout_toEndOf="@+id/toolbar"
             android:layout_toRightOf="@+id/toolbar"
-            app:srcCompat="@mipmap/diabetes" />
+            app:srcCompat="@mipmap/finger" />
 
         <TextView
             android:id="@+id/textView5"
@@ -163,7 +163,7 @@
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
-            app:srcCompat="@mipmap/blood_drop_icon" />
+            app:srcCompat="@mipmap/drop_counter" />
 
         <TextView
             android:id="@+id/textView6"
@@ -182,11 +182,10 @@
             android:id="@+id/imageView13"
             android:layout_width="40dp"
             android:layout_height="40dp"
+            app:srcCompat="@mipmap/asthma_icon"
+            android:layout_alignParentBottom="true"
             android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentTop="true"
-            android:layout_marginTop="72dp"
-            app:srcCompat="@mipmap/asthma_icon" />
+            android:layout_alignParentStart="true" />
 
         <TextView
             android:id="@+id/textView7"
@@ -208,7 +207,7 @@
             android:layout_alignLeft="@+id/imageView11"
             android:layout_alignStart="@+id/imageView11"
             android:layout_alignTop="@+id/textView7"
-            app:srcCompat="@mipmap/allergies_icon" />
+            app:srcCompat="@mipmap/magnifying_glass" />
 
         <TextView
             android:id="@+id/textView8"
@@ -287,13 +286,27 @@
             android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
             android:layout_marginRight="10dp"
-            app:srcCompat="@mipmap/medicine_icon" />
+            app:srcCompat="@mipmap/medicine" />
+
+        <ImageView
+            android:id="@+id/imageViewpills"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            app:srcCompat="@mipmap/pills"
+            android:layout_alignParentTop="true"
+            android:layout_toLeftOf="@+id/textView14"
+            android:layout_toStartOf="@+id/textView14"
+            android:layout_marginRight="28dp"
+            android:layout_marginEnd="28dp" />
+
 
         <TextView
             android:id="@+id/textViewMedication"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/textView14"
+            android:layout_marginLeft="43dp"
+            android:layout_marginStart="43dp"
             android:layout_toEndOf="@+id/imageView15"
             android:layout_toRightOf="@+id/imageView15"
             android:text="Panadol Profen"
@@ -303,9 +316,9 @@
             android:id="@+id/textView14"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textViewMedication"
             android:layout_alignParentTop="true"
-            android:layout_toEndOf="@+id/imageView15"
-            android:layout_toRightOf="@+id/imageView15"
+            android:layout_alignStart="@+id/textViewMedication"
             android:text="@string/Medication" />
 
     </RelativeLayout>

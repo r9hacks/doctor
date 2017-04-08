@@ -52,7 +52,7 @@
                         android:layout_alignParentLeft="true"
                         android:layout_alignParentStart="true"
                         android:layout_alignParentTop="true"
-                        app:srcCompat="@mipmap/blood_pressure_icon" />
+                        app:srcCompat="@mipmap/bpiconnn" />
 
                     <TextView
                         android:id="@+id/textViewblood"
