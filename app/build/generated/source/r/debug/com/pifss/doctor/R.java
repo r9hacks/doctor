@@ -4059,7 +4059,7 @@ containing a value of this type.
         public static final int textView=0x7f0d0125;
         public static final int textView10=0x7f0d0096;
         public static final int textView11=0x7f0d00bb;
-        public static final int textView14=0x7f0d00ed;
+        public static final int textView14=0x7f0d00ec;
         public static final int textView17=0x7f0d00c0;
         public static final int textView2=0x7f0d00f4;
         public static final int textView3=0x7f0d00cc;
@@ -4076,7 +4076,7 @@ containing a value of this type.
         public static final int textViewComments=0x7f0d0151;
         public static final int textViewDiabetes=0x7f0d00e7;
         public static final int textViewGender=0x7f0d00d9;
-        public static final int textViewMedication=0x7f0d00ec;
+        public static final int textViewMedication=0x7f0d00ed;
         public static final int textViewName=0x7f0d00d3;
         public static final int textViewPhone=0x7f0d00d7;
         public static final int textViewanouseouContent=0x7f0d0114;

@@ -285,19 +285,18 @@
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
-            android:layout_marginRight="10dp"
             app:srcCompat="@mipmap/medicine" />
 
         <ImageView
             android:id="@+id/imageViewpills"
             android:layout_width="30dp"
             android:layout_height="30dp"
+            android:layout_marginEnd="25dp"
+            android:layout_marginRight="25dp"
             app:srcCompat="@mipmap/pills"
             android:layout_alignParentTop="true"
             android:layout_toLeftOf="@+id/textView14"
-            android:layout_toStartOf="@+id/textView14"
-            android:layout_marginRight="28dp"
-            android:layout_marginEnd="28dp" />
+            android:layout_toStartOf="@+id/textView14" />
 
 
         <TextView
@@ -319,7 +318,8 @@
             android:layout_alignLeft="@+id/textViewMedication"
             android:layout_alignParentTop="true"
             android:layout_alignStart="@+id/textViewMedication"
-            android:text="@string/Medication" />
+            android:text="@string/Medication"
+            android:textStyle="bold" />
 
     </RelativeLayout>
 

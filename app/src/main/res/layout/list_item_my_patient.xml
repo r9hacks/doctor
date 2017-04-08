@@ -41,8 +41,8 @@
 
         <ImageView
             android:id="@+id/calender"
-            android:layout_width="30dp"
-            android:layout_height="30dp"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
             android:layout_gravity="bottom"
             android:layout_weight="0.1"
             app:srcCompat="@mipmap/valentines_icon" />
@@ -57,8 +57,8 @@
 
         <ImageView
             android:id="@+id/bloodtypeimg"
-            android:layout_width="30dp"
-            android:layout_height="30dp"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
             android:layout_gravity="bottom"
             android:layout_weight="0.1"
             app:srcCompat="@mipmap/transfusion_icon" />
@@ -89,8 +89,8 @@
 
         <ImageView
             android:id="@+id/PhoneImage"
-            android:layout_width="30dp"
-            android:layout_height="30dp"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
             android:layout_gravity="bottom"
             android:layout_weight="0.1"
             app:srcCompat="@mipmap/telephone_icon" />
@@ -106,8 +106,8 @@
 
         <ImageView
             android:id="@+id/Gender"
-            android:layout_width="30dp"
-            android:layout_height="30dp"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
             android:layout_gravity="bottom"
             android:layout_weight="0.1"
 

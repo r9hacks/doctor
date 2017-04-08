@@ -1462,7 +1462,7 @@ int id textSpacerNoTitle 0x7f0d006f
 int id textView 0x7f0d0125
 int id textView10 0x7f0d0096
 int id textView11 0x7f0d00bb
-int id textView14 0x7f0d00ed
+int id textView14 0x7f0d00ec
 int id textView17 0x7f0d00c0
 int id textView2 0x7f0d00f4
 int id textView3 0x7f0d00cc
@@ -1479,7 +1479,7 @@ int id textViewCivilId 0x7f0d013a
 int id textViewComments 0x7f0d0151
 int id textViewDiabetes 0x7f0d00e7
 int id textViewGender 0x7f0d00d9
-int id textViewMedication 0x7f0d00ec
+int id textViewMedication 0x7f0d00ed
 int id textViewName 0x7f0d00d3
 int id textViewPhone 0x7f0d00d7
 int id textViewanouseouContent 0x7f0d0114
