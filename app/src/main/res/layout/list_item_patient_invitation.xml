@@ -8,7 +8,7 @@
 
     <de.hdodenhof.circleimageview.CircleImageView
         xmlns:app="http://schemas.android.com/apk/res-auto"
-        app:civ_border_width="2dp"
+        app:civ_border_width="0.5dp"
         app:civ_border_color="@color/ImageBoarderColor"
         android:id="@+id/imageViewPatient"
         android:layout_width="95dp"
@@ -39,48 +39,92 @@
         android:text="@string/PatientAge" />
 
 
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:id="@+id/linearLayout"
+        android:layout_below="@+id/imageViewPatient"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <ImageView
+            android:id="@+id/civilId"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="bottom"
+            android:layout_weight="0.1"
+            app:srcCompat="@mipmap/idd_card"/>
+
+        <TextView
+            android:id="@+id/textViewCivilId"
+            android:layout_width="10dp"
+            android:layout_height="20dp"
+            android:layout_gravity="bottom"
+            android:layout_weight="0.5"
+            android:text="CivilID" />
+
+        <ImageView
+            android:id="@+id/Gender"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="bottom"
+            android:layout_weight="0.07"
+            app:srcCompat="@mipmap/gendersss" />
+
+        <TextView
+            android:id="@+id/textViewGender"
+            android:layout_width="50dp"
+            android:layout_height="20dp"
+            android:layout_gravity="bottom"
+            android:layout_weight="0.19"
+            android:text="@string/PatientGender" />
+    </LinearLayout>
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:weightSum="1"
         android:id="@+id/linearLayout2"
-        android:layout_below="@+id/imageViewPatient"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true">
+        android:layout_marginTop="19dp"
+        android:layout_below="@+id/linearLayout"
+        android:layout_alignLeft="@+id/imageViewPatient"
+        android:layout_alignStart="@+id/imageViewPatient">
 
         <ImageView
-            android:id="@+id/civilId1"
+            android:id="@+id/Bday"
             android:layout_width="30dp"
             android:layout_height="30dp"
             android:layout_gravity="bottom"
-            android:layout_weight="0.13"
-            app:srcCompat="@mipmap/transfusion" />
-
+            android:layout_weight="0.07"
+            app:srcCompat="@mipmap/bday14"/>
         <TextView
-            android:id="@+id/newxxx"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:id="@+id/txtbday"
+            android:layout_width="10dp"
+            android:layout_height="20dp"
             android:layout_gravity="bottom"
-            android:layout_weight=".25"
-            android:text="new" />
-
+            android:layout_weight="0.53"
+            android:text="birthdate" />
         <ImageView
-            android:id="@+id/Gender1"
+            android:id="@+id/PhoneNumber"
             android:layout_width="30dp"
             android:layout_height="30dp"
             android:layout_gravity="bottom"
-            android:layout_weight="0.13"
-            app:srcCompat="@mipmap/flag" />
-
+            android:layout_weight="0.07"
+            app:srcCompat="@mipmap/telephone_3" />
         <TextView
-            android:id="@+id/new2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:id="@+id/txtPhoneP"
+            android:layout_width="50dp"
+            android:layout_height="20dp"
             android:layout_gravity="bottom"
-            android:layout_weight=".25"
-            android:text="new2" />
-
+            android:layout_weight="0.19"
+            android:text="@string/PhoneNumber" />
 
     </LinearLayout>
 
@@ -89,45 +133,40 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:weightSum="1"
-        android:id="@+id/linearLayout"
-        android:layout_marginTop="13dp"
-        android:layout_below="@+id/linearLayout3"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true">
+        android:id="@+id/linearLayout3"
+        android:layout_marginTop="19dp"
+        android:layout_below="@+id/linearLayout2"
+        android:layout_alignLeft="@+id/imageViewPatient"
+        android:layout_alignStart="@+id/imageViewPatient">
 
         <ImageView
-            android:id="@+id/civilId"
-
+            android:id="@+id/imgBlood"
             android:layout_width="30dp"
             android:layout_height="30dp"
             android:layout_gravity="bottom"
-            android:layout_weight=".25"
-            app:srcCompat="@mipmap/idd_card" />
-
+            android:layout_weight="0.07"
+            app:srcCompat="@mipmap/transfusion"/>
         <TextView
-            android:id="@+id/textViewCivilId"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:id="@+id/txtBloodType"
+            android:layout_width="10dp"
+            android:layout_height="20dp"
             android:layout_gravity="bottom"
-            android:layout_weight=".25"
-            android:text="@string/PatientCivilID" />
-
+            android:layout_weight="0.53"
+            android:text="@string/BloodType" />
         <ImageView
-            android:id="@+id/Gender"
+            android:id="@+id/imgNationality"
             android:layout_width="30dp"
             android:layout_height="30dp"
             android:layout_gravity="bottom"
-            android:layout_weight="0.13"
-            app:srcCompat="@mipmap/gendersss" />
-
+            android:layout_weight="0.07"
+            app:srcCompat="@mipmap/flag" />
         <TextView
-            android:id="@+id/textViewGender"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:id="@+id/txtNationalityP"
+            android:layout_width="50dp"
+            android:layout_height="20dp"
             android:layout_gravity="bottom"
-            android:layout_weight=".25"
-            android:text="@string/PatientGender" />
-
+            android:layout_weight="0.19"
+            android:text="@string/Nationality" />
 
     </LinearLayout>
 
@@ -163,78 +202,6 @@
             android:layout_toRightOf="@+id/textViewName"
             android:background="@android:color/transparent"
             app:srcCompat="@mipmap/declinee"
-             />
-
+            />
     </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:weightSum="1"
-        android:id="@+id/linearLayout3"
-        android:layout_marginTop="11dp"
-        android:layout_below="@+id/linearLayout2"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true">
-
-        <ImageView
-            android:id="@+id/newwwww"
-            android:layout_width="30dp"
-            android:layout_height="30dp"
-            android:layout_gravity="bottom"
-            android:layout_weight="0.14"
-            app:srcCompat="@mipmap/bday14" />
-
-        <TextView
-            android:id="@+id/newwww"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="bottom"
-            android:layout_weight=".25"
-            android:text="Bithdate" />
-
-        <ImageView
-            android:id="@+id/neww1"
-            android:layout_width="30dp"
-            android:layout_height="30dp"
-            android:layout_gravity="bottom"
-            android:layout_weight="0.13"
-            app:srcCompat="@mipmap/telephone_3" />
-
-        <TextView
-            android:id="@+id/neww2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="bottom"
-            android:layout_weight=".25"
-            android:text="newww" />
-
-
-    </LinearLayout>
-
-
-    <!--<LinearLayout-->
-    <!--android:layout_width="match_parent"-->
-    <!--android:layout_height="match_parent"-->
-    <!--android:layout_above="@+id/linearLayout"-->
-    <!--android:orientation="horizontal"-->
-    <!--android:layout_toRightOf="@+id/textViewName"-->
-    <!--android:layout_toEndOf="@+id/textViewName"-->
-    <!--android:weightSum=".5">-->
-
-    <!--<ImageButton-->
-    <!--android:id="@+id/imageButtonDecline"-->
-    <!--android:layout_width="wrap_content"-->
-    <!--android:layout_height="wrap_content"-->
-    <!--android:layout_weight=".5"-->
-    <!--app:srcCompat="@mipmap/logout_icon" />-->
-
-    <!--<ImageButton-->
-    <!--android:id="@+id/imageButtonAccept"-->
-    <!--android:layout_width="47dp"-->
-    <!--android:layout_height="match_parent"-->
-    <!--app:srcCompat="@mipmap/doctor_profile_icon" />-->
-    <!--</LinearLayout>-->
-
 </RelativeLayout>
