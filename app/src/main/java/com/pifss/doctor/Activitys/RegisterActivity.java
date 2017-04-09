@@ -103,18 +103,23 @@ public class RegisterActivity extends AppCompatActivity {
                         @Override
                         public void onResponse(JSONObject response) {
                             progressDialog.hide();
+                            System.out.println("response: "+response.toString());
                             try {
-                                if (response.getBoolean("status") == true){
+                                if (response.getString("errorMsgEn").equalsIgnoreCase("Accepted")){
                                     Toast.makeText(RegisterActivity.this, "Register successfully", Toast.LENGTH_SHORT).show();
                                     email.setText("");
                                     name.setText("");
                                     password.setText("");
                                     civilId.setText("");
-                                }else{
+                                }else if(response.getString("errorMsgEn").equalsIgnoreCase("Not Created+\nUser already exist") ){
                                     Toast.makeText(RegisterActivity.this, "Register Failed", Toast.LENGTH_SHORT).show();
                                     Toast.makeText(RegisterActivity.this, "Use another email address", Toast.LENGTH_SHORT).show();
 
+                                }else{
+                                        Toast.makeText(RegisterActivity.this, "Register Failed", Toast.LENGTH_SHORT).show();
+                                        Toast.makeText(RegisterActivity.this, "Connection error", Toast.LENGTH_SHORT).show();
                                 }
+
                                 //Toast.makeText(RegisterActivity.this, "on response: "+response.toString(), Toast.LENGTH_SHORT).show();
                             } catch (JSONException e) {
                                 e.printStackTrace();
@@ -129,43 +134,44 @@ public class RegisterActivity extends AppCompatActivity {
                             Toast.makeText(RegisterActivity.this, "Register Failed", Toast.LENGTH_SHORT).show();
                             Toast.makeText(RegisterActivity.this, "Use another email address", Toast.LENGTH_SHORT).show();
                         }
-                    }){
-                        @Override
-                        protected Response<JSONObject> parseNetworkResponse(NetworkResponse response) {
-                            String jsonString = "";
-                            JSONObject object = new JSONObject();
-
-                            try {
-                                System.out.println("statuscode: "+response.statusCode);
-                                if (response.statusCode <200 || response.statusCode >300){
-
-                                    object.put("status",false);
-                                    return Response.success(object,
-                                            HttpHeaderParser.parseCacheHeaders(response));
-                                }
-                                jsonString = new String(response.data, "UTF-8");
-                                System.out.println("jsonString");
-
-                                System.out.println("\""+jsonString+"\"");
-                                if (jsonString.equals("")){
-                                    object.put("status",true);
-                                }else{
-                                    object.put("status",false);
-                                }
-
-                                return Response.success(object,
-                                    HttpHeaderParser.parseCacheHeaders(response));
-
-                            } catch (UnsupportedEncodingException e) {
-                                e.printStackTrace();
-                            } catch (JSONException e) {
-                                e.printStackTrace();
-                            }
-                            return Response.success(object,
-                                    HttpHeaderParser.parseCacheHeaders(response));
-
-                        }
-                    };
+                    });
+// {
+//                        @Override
+//                        protected Response<JSONObject> parseNetworkResponse(NetworkResponse response) {
+//                            String jsonString = "";
+//                            JSONObject object = new JSONObject();
+//
+//                            try {
+//                                System.out.println("statuscode: "+response.statusCode);
+//                                if (response.statusCode <200 || response.statusCode >300){
+//
+//                                    object.put("status",false);
+//                                    return Response.success(object,
+//                                            HttpHeaderParser.parseCacheHeaders(response));
+//                                }
+//                                jsonString = new String(response.data, "UTF-8");
+//                                System.out.println("jsonString");
+//
+//                                System.out.println("\""+jsonString+"\"");
+//                                if (jsonString.equals("")){
+//                                    object.put("status",true);
+//                                }else{
+//                                    object.put("status",false);
+//                                }
+//
+//                                return Response.success(object,
+//                                    HttpHeaderParser.parseCacheHeaders(response));
+//
+//                            } catch (UnsupportedEncodingException e) {
+//                                e.printStackTrace();
+//                            } catch (JSONException e) {
+//                                e.printStackTrace();
+//                            }
+//                            return Response.success(object,
+//                                    HttpHeaderParser.parseCacheHeaders(response));
+//
+//                        }
+//                    };
 
                     progressDialog.setMessage("Connecting...");
                     progressDialog.show();
