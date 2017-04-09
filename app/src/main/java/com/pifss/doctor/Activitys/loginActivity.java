@@ -1,5 +1,6 @@
 package com.pifss.doctor.Activitys;
 
+import android.app.ProgressDialog;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.graphics.Color;
@@ -54,6 +55,7 @@ public class loginActivity extends AppCompatActivity {
 
         final RequestQueue queue= RequestQueueSingleTon.getInstance().getRequestQueue(loginActivity.this);
 
+        final ProgressDialog progressDialog = new ProgressDialog(loginActivity.this);
 
         loginButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -69,6 +71,7 @@ public class loginActivity extends AppCompatActivity {
                     JsonObjectRequest jsonObjRequest = new JsonObjectRequest(Request.Method.POST, links.login, jsonBody, new Response.Listener<JSONObject>() {
                         @Override
                         public void onResponse(JSONObject response) {
+                            progressDialog.hide();
                             try {
                                 if ((response.getString("errorMsgEn")).equalsIgnoreCase("Error")) {
                                     //error login
@@ -104,6 +107,8 @@ public class loginActivity extends AppCompatActivity {
                         }
                     });
 
+                    progressDialog.setMessage("Login...");
+                    progressDialog.show();
                     queue.add(jsonObjRequest);
                 } catch (JSONException e) {
                     e.printStackTrace();
@@ -134,6 +139,7 @@ public class loginActivity extends AppCompatActivity {
     @Override
     protected void onStart() {
         super.onStart();
+        final ProgressDialog progressDialog = new ProgressDialog(loginActivity.this);
 
         SharedPreferences preference = getSharedPreferences("settings",MODE_PRIVATE);
         String doctorProfile = preference.getString(links.PrefDoctorProfile,"notfound");
@@ -159,6 +165,7 @@ public class loginActivity extends AppCompatActivity {
                 JsonObjectRequest jsonObjRequest = new JsonObjectRequest(Request.Method.POST, links.login, jsonBody, new Response.Listener<JSONObject>() {
                     @Override
                     public void onResponse(JSONObject response) {
+                        progressDialog.hide();
                         try {
                             if ((response.getString("errorMsgEn")).equalsIgnoreCase("Error")) {
                                 //error login
@@ -194,6 +201,8 @@ public class loginActivity extends AppCompatActivity {
                     }
                 });
 
+                progressDialog.setMessage("Login...");
+                progressDialog.show();
                 queue.add(jsonObjRequest);
             } catch (JSONException e) {
                 e.printStackTrace();

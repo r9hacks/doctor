@@ -1,5 +1,6 @@
 package com.pifss.doctor.Activitys;
 
+import android.app.ProgressDialog;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.graphics.Color;
@@ -62,6 +63,7 @@ public class ReplyReportActivity extends AppCompatActivity {
             public void onClick(View v) {
                 //getIntent().getStringExtra("message")
                 //UpdatePatientReportDRec
+                final ProgressDialog progressDialog = new ProgressDialog(ReplyReportActivity.this);
 
                 try {
 
@@ -73,6 +75,7 @@ public class ReplyReportActivity extends AppCompatActivity {
                     JsonObjectRequest jsonObjRequest = new JsonObjectRequest(Request.Method.POST, links.ReplyReport, jsonBody, new Response.Listener<JSONObject>() {
                         @Override
                         public void onResponse(JSONObject response) {
+                            progressDialog.hide();
                             try {
                                 Intent i = new Intent(ReplyReportActivity.this, ReplyConfirmActivity.class);
                                // Toast.makeText(ReplyReportActivity.this, response.toString(), Toast.LENGTH_SHORT).show();
@@ -96,6 +99,8 @@ public class ReplyReportActivity extends AppCompatActivity {
                         }
                     });
 
+                    progressDialog.setMessage("Connecting...");
+                    progressDialog.show();
                     queue.add(jsonObjRequest);
                 } catch (JSONException e) {
                     e.printStackTrace();

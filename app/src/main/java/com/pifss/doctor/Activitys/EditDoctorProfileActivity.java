@@ -1,6 +1,7 @@
 package com.pifss.doctor.Activitys;
 
 import android.app.DatePickerDialog;
+import android.app.ProgressDialog;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.graphics.Color;
@@ -176,6 +177,7 @@ public class EditDoctorProfileActivity extends AppCompatActivity {
             doctor.setBYear(Byear);
 
             final RequestQueue queue= RequestQueueSingleTon.getInstance().getRequestQueue(EditDoctorProfileActivity.this);
+            final ProgressDialog progressDialog = new ProgressDialog(EditDoctorProfileActivity.this);
 
             JSONObject jsonBody = null;
             try {
@@ -190,7 +192,7 @@ public class EditDoctorProfileActivity extends AppCompatActivity {
             JsonObjectRequest jsonObjRequest = new JsonObjectRequest(Request.Method.PUT, URL, jsonBody, new Response.Listener<JSONObject>() {
                 @Override
                 public void onResponse(JSONObject response) {
-
+                    progressDialog.hide();
                     try {
                         if (response.getString("errorMsgEn").equalsIgnoreCase("Done")){
 
@@ -220,6 +222,8 @@ public class EditDoctorProfileActivity extends AppCompatActivity {
                 }
             });
 
+            progressDialog.setMessage("Updating Profile...");
+            progressDialog.show();
             queue.add(jsonObjRequest);
 
         }

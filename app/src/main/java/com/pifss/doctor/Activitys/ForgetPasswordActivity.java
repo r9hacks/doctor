@@ -1,5 +1,6 @@
 package com.pifss.doctor.Activitys;
 
+import android.app.ProgressDialog;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.graphics.Color;
@@ -68,11 +69,12 @@ public class ForgetPasswordActivity extends AppCompatActivity {
                 JSONObject jsonBody = new JSONObject();
 
                 String URL = links.resetPassword + email.getText().toString();
+                final ProgressDialog progressDialog = new ProgressDialog(ForgetPasswordActivity.this);
 
                 JsonObjectRequest jsonObjRequest = new JsonObjectRequest(Request.Method.GET, URL, jsonBody, new Response.Listener<JSONObject>() {
                     @Override
                     public void onResponse(JSONObject response) {
-
+                        progressDialog.hide();
                         try {
                             if (response.getString("errorMsgEn").equalsIgnoreCase("Done")){
                                 email.setText("");
@@ -93,6 +95,8 @@ public class ForgetPasswordActivity extends AppCompatActivity {
                     }
                 });
 
+                progressDialog.setMessage("Sending Email...");
+                progressDialog.show();
                 queue.add(jsonObjRequest);
             }
         });

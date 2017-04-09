@@ -1,6 +1,7 @@
 package com.pifss.doctor.Activitys;
 
 import android.app.Dialog;
+import android.app.ProgressDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -154,6 +155,7 @@ public class PatientProfileActivity extends AppCompatActivity {
         RequestQueue queue= RequestQueueSingleTon.getInstance().getRequestQueue(PatientProfileActivity.this);
         String doctorProfile = preference.getString(links.PrefDoctorProfile,"notfound");
         Doctor doctor = new Gson().fromJson(doctorProfile,Doctor.class);
+        final ProgressDialog progressDialog = new ProgressDialog(PatientProfileActivity.this);
 
         try {
             JSONObject jsonBody = new JSONObject();
@@ -164,7 +166,7 @@ public class PatientProfileActivity extends AppCompatActivity {
             StringRequest stringRequest = new StringRequest(Request.Method.POST, links.GetPatientReport, new Response.Listener<String>() {
                 @Override
                 public void onResponse(String response) {
-
+                    progressDialog.hide();
                         ArrayList<Report> report = new Gson().fromJson(response, new TypeToken<ArrayList<Report>>(){}.getType());
                         for (Report r:report) {
                             model.add(new ReportList(r.getComments(),r.getTimestamp(),r.getHeartbeatRate(),r.getBloodPressure(),r.getFever(),r));
@@ -216,6 +218,8 @@ public class PatientProfileActivity extends AppCompatActivity {
                 }
             };
 
+            progressDialog.setMessage("Loading...");
+            progressDialog.show();
             queue.add(stringRequest);
         } catch (JSONException e) {
             e.printStackTrace();

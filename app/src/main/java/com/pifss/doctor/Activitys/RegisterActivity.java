@@ -1,5 +1,6 @@
 package com.pifss.doctor.Activitys;
 
+import android.app.ProgressDialog;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.graphics.Color;
@@ -90,6 +91,7 @@ public class RegisterActivity extends AppCompatActivity {
                 Doctor newDoctor = new Doctor(name.getText().toString(),email.getText().toString(),password.getText().toString(),civilId.getText().toString());
 
                 final RequestQueue queue= RequestQueueSingleTon.getInstance().getRequestQueue(RegisterActivity.this);
+                final ProgressDialog progressDialog = new ProgressDialog(RegisterActivity.this);
 
                 try {
 
@@ -100,6 +102,7 @@ public class RegisterActivity extends AppCompatActivity {
                     JsonObjectRequest jsonObjRequest = new JsonObjectRequest(Request.Method.POST, links.Doctor, jsonBody, new Response.Listener<JSONObject>() {
                         @Override
                         public void onResponse(JSONObject response) {
+                            progressDialog.hide();
                             try {
                                 if (response.getBoolean("status") == true){
                                     Toast.makeText(RegisterActivity.this, "Register successfully", Toast.LENGTH_SHORT).show();
@@ -164,6 +167,8 @@ public class RegisterActivity extends AppCompatActivity {
                         }
                     };
 
+                    progressDialog.setMessage("Connecting...");
+                    progressDialog.show();
                     queue.add(jsonObjRequest);
                 } catch (JSONException e) {
                     e.printStackTrace();

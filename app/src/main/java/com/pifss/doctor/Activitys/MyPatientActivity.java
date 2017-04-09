@@ -1,5 +1,6 @@
 package com.pifss.doctor.Activitys;
 
+import android.app.ProgressDialog;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.graphics.Color;
@@ -61,10 +62,12 @@ public class MyPatientActivity extends AppCompatActivity {
             JSONArray jsonBody = new JSONArray();
 
 
+            final ProgressDialog progressDialog = new ProgressDialog(MyPatientActivity.this);
 
             JsonArrayRequest jsonObjRequest = new JsonArrayRequest(Request.Method.GET, links.MyPatient+doctor.getDrId() , jsonBody, new Response.Listener<JSONArray>() {
                 @Override
                 public void onResponse(JSONArray response) {
+                    progressDialog.hide();
               //      Toast.makeText(MyPatientActivity.this, "my patient req list: "+response.toString(), Toast.LENGTH_SHORT).show();
                     System.out.println("my patient req list: "+response.toString());
 
@@ -108,6 +111,8 @@ public class MyPatientActivity extends AppCompatActivity {
                 }
             });
 
+            progressDialog.setMessage("Loading...");
+            progressDialog.show();
             queue.add(jsonObjRequest);
         } catch (Exception e) {
             e.printStackTrace();
