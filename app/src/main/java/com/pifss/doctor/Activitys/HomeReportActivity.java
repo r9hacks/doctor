@@ -127,6 +127,12 @@ public class HomeReportActivity extends AppCompatActivity {
                                 break;
                             case 8:
                                 i = new Intent(HomeReportActivity.this,loginActivity.class);
+
+                                SharedPreferences preference = getSharedPreferences("settings", MODE_PRIVATE);
+                                SharedPreferences.Editor editor = preference.edit();
+                                editor.remove(links.PrefDoctorProfile);
+                                editor.commit();
+
                                 startActivity(i);
                                 finish();
                                 break;
@@ -247,6 +253,12 @@ public class HomeReportActivity extends AppCompatActivity {
                                         break;
                                     case 8:
                                         i = new Intent(HomeReportActivity.this,loginActivity.class);
+
+                                        SharedPreferences preference = getSharedPreferences("settings", MODE_PRIVATE);
+                                        SharedPreferences.Editor editor = preference.edit();
+                                        editor.remove(links.PrefDoctorProfile);
+                                        editor.commit();
+
                                         startActivity(i);
                                         finish();
                                         break;
