@@ -1,6 +1,7 @@
 package com.pifss.doctor.Fragments;
 
 
+import android.app.ProgressDialog;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
@@ -97,10 +98,12 @@ public class Replied extends Fragment {
             jsonBody.put("time",0);
             jsonBody.put("drId",doctor.getDrId());
             final String requestBody = jsonBody.toString();
+            final ProgressDialog progressDialog = new ProgressDialog(getActivity());
 
             StringRequest stringRequest = new StringRequest(Request.Method.POST, links.GetRepliedReport, new Response.Listener<String>() {
                 @Override
                 public void onResponse(String response) {
+                    progressDialog.hide();
                     try {
 
                         JSONArray repliedArray = new JSONArray();
@@ -174,6 +177,8 @@ public class Replied extends Fragment {
                 }
             };
 
+            progressDialog.setMessage("Loading...");
+            progressDialog.show();
             queue.add(stringRequest);
         } catch (JSONException e) {
             e.printStackTrace();
