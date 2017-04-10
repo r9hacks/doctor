@@ -179,6 +179,7 @@ public class PatientProfileActivity extends AppCompatActivity {
             }, new Response.ErrorListener() {
                 @Override
                 public void onErrorResponse(VolleyError error) {
+                    progressDialog.hide();
 
                     // Toast.makeText(getActivity(), "error report pending list: "+error.toString(), Toast.LENGTH_SHORT).show();
                     System.out.println("error Patient report list: "+error.toString());

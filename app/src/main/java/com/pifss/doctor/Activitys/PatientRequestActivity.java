@@ -91,6 +91,8 @@ public class PatientRequestActivity extends AppCompatActivity {
                 public void onErrorResponse(VolleyError error) {
                    // Toast.makeText(PatientRequestActivity.this, "error get patient req list: "+error.toString(), Toast.LENGTH_SHORT).show();
                     System.out.println("error get patient req list: "+error.toString());
+                    progressDialog.hide();
+
                 }
             });
 

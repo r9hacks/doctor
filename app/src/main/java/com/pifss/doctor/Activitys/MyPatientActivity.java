@@ -108,6 +108,8 @@ public class MyPatientActivity extends AppCompatActivity {
                 public void onErrorResponse(VolleyError error) {
               //      Toast.makeText(MyPatientActivity.this, "error my patient req list: "+error.toString(), Toast.LENGTH_SHORT).show();
                     System.out.println("error my patient req list: "+error.toString());
+                    progressDialog.hide();
+
                 }
             });
 

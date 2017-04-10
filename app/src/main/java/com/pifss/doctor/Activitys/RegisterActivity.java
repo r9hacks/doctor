@@ -133,6 +133,9 @@ public class RegisterActivity extends AppCompatActivity {
                             //show message
                             Toast.makeText(RegisterActivity.this, "Register Failed", Toast.LENGTH_SHORT).show();
                             Toast.makeText(RegisterActivity.this, "Use another email address", Toast.LENGTH_SHORT).show();
+
+                            progressDialog.hide();
+
                         }
                     });
 // {
