@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/app/src/main/AndroidManifest.xml:2:1-41:12
+ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/app/src/main/AndroidManifest.xml:2:1-42:12
 	package
 		ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/app/src/main/AndroidManifest.xml:3:5-31
 		INJECTED from /Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/app/src/main/AndroidManifest.xml
@@ -22,7 +22,7 @@ ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/app/src/main/
 	android:name
 		ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/app/src/main/AndroidManifest.xml:6:22-64
 application
-ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/app/src/main/AndroidManifest.xml:8:5-39:19
+ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/app/src/main/AndroidManifest.xml:8:5-40:19
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/trn24/.android/build-cache/957fca7446c41095205c4a6f81d5b68562df5527/output/AndroidManifest.xml:9:5-20
 MERGED from [com.android.support:design:25.2.0] /Users/trn24/.android/build-cache/b72f8c878670e3cfcbd2a2719560109540c875de/output/AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:appcompat-v7:25.2.0] /Users/trn24/.android/build-cache/f5bbc6ff808a4ac74405d8a761d68a423887319a/output/AndroidManifest.xml:25:5-20
@@ -122,9 +122,13 @@ ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/app/src/main/
 	android:name
 		ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/app/src/main/AndroidManifest.xml:37:19-64
 activity#com.pifss.doctor.Activitys.ReplyConfirmActivity
-ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/app/src/main/AndroidManifest.xml:38:9-77
+ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/app/src/main/AndroidManifest.xml:38:9-68
 	android:name
 		ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/app/src/main/AndroidManifest.xml:38:19-65
+activity#com.pifss.doctor.Activitys.BloodRequest
+ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/app/src/main/AndroidManifest.xml:39:9-69
+	android:name
+		ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/app/src/main/AndroidManifest.xml:39:19-57
 uses-sdk
 INJECTED from /Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.mikepenz:materialdrawer:5.8.2] /Users/trn24/.android/build-cache/964a1fed1a6e76b02583d65146a3edf4a5ca8b7d/output/AndroidManifest.xml:8:5-10:41

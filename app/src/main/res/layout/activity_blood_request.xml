@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    tools:context="com.pifss.doctor.Activitys.BloodRequest"
+    android:weightSum="1">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/mytoolbar"
+        style="@style/AppTheme.Toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/blueActionBarColor">
+    </android.support.v7.widget.Toolbar>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_weight="0.05"
+        android:text="Reason"
+        android:textColor="@color/material_drawer_dark_background"
+        android:textSize="24sp"
+        android:layout_below="@+id/mytoolbar"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignLeft="@+id/editTextReason"
+        android:layout_alignStart="@+id/editTextReason" />
+
+    <EditText
+        android:id="@+id/editTextReason"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="23dp"
+        android:layout_marginRight="23dp"
+        android:layout_marginTop="33dp"
+        android:layout_weight="0.16"
+        android:ems="10"
+        android:hint="Reason"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select blood type"
+        android:textColor="@color/material_drawer_dark_background"
+        android:textSize="24sp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/editTextReason"
+        android:layout_alignLeft="@+id/editTextReason"
+        android:layout_alignStart="@+id/editTextReason" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/aMinusButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight=".25"
+            app:srcCompat="@mipmap/a_minus" />
+
+        <ImageButton
+            android:id="@+id/aPlusButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight=".25"
+
+            app:srcCompat="@mipmap/a_plus" />
+
+        <ImageButton
+            android:id="@+id/abPlusButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight=".25"
+
+            app:srcCompat="@mipmap/ab_plus" />
+
+        <ImageButton
+            android:id="@+id/abMinusButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight=".25"
+            app:srcCompat="@mipmap/ab_minus" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <ImageButton
+            android:id="@+id/bPlusButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight=".25"
+            app:srcCompat="@mipmap/b_plus" />
+
+        <ImageButton
+            android:id="@+id/bMinusButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight=".25"
+
+            app:srcCompat="@mipmap/b_minus" />
+
+        <ImageButton
+            android:id="@+id/oPlusButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight=".25"
+
+            app:srcCompat="@mipmap/o_plus" />
+
+        <ImageButton
+            android:id="@+id/oMinusButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight=".25"
+            app:srcCompat="@mipmap/o_minus" />
+    </LinearLayout>
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:orientation="horizontal"-->
+        <!--android:weightSum="1">-->
+
+    <!--</LinearLayout>-->
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="82dp"
+        android:layout_weight="0.25"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/editTextReason"
+            android:layout_alignStart="@+id/editTextReason"
+            android:layout_below="@+id/editTextReason"
+            android:layout_marginTop="20dp"
+            android:layout_weight="1"
+            android:text="Quantity"
+            android:textColor="@color/material_drawer_dark_background"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/editTextReason"
+            android:layout_alignStart="@+id/editTextReason"
+            android:layout_below="@+id/editTextReason"
+            android:layout_marginTop="20dp"
+            android:layout_weight="0.13"
+            android:text="0"
+            android:textColor="@color/material_drawer_dark_background"
+            android:textSize="24sp" />
+
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/buttonSendReply"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:alpha="0.75"
+        android:background="@color/colorAccent"
+        android:text="@string/SendReply"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="23dp"
+        tools:layout_editor_absoluteY="421dp" />
+
+</LinearLayout>
