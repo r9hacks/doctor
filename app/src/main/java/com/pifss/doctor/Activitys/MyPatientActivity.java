@@ -6,10 +6,12 @@ import android.content.SharedPreferences;
 import android.graphics.Color;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.SearchView;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
+import android.widget.Toast;
 
 import com.android.volley.Request;
 import com.android.volley.RequestQueue;
@@ -34,6 +36,12 @@ import java.util.ArrayList;
 
 public class MyPatientActivity extends AppCompatActivity {
 
+
+
+    ArrayList<MyPatient> model;
+
+    ListView lv;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -46,11 +54,12 @@ public class MyPatientActivity extends AppCompatActivity {
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setDisplayShowHomeEnabled(true);
 
+        lv= (ListView) findViewById(R.id.myPatientListView);
 
-        final ListView lv= (ListView) findViewById(R.id.myPatientListView);
+        final SearchView searchView = (SearchView) findViewById(R.id.searchView);
 
 
-        final ArrayList<MyPatient> model=new ArrayList<>();
+        model=new ArrayList<>();
 
         RequestQueue queue= RequestQueueSingleTon.getInstance().getRequestQueue(MyPatientActivity.this);
         final SharedPreferences preference = getSharedPreferences("settings",MODE_PRIVATE);
@@ -128,8 +137,7 @@ public class MyPatientActivity extends AppCompatActivity {
                 MyPatient patient = model.get(position);
 
 
-                // Toast.makeText(MyPatientActivity.this, "clicked "+patient.getName(), Toast.LENGTH_SHORT).show();
-
+                Toast.makeText(MyPatientActivity.this, "clicked "+patient.getName(), Toast.LENGTH_SHORT).show();
                 JSONObject object= null;
                 try {
                     object = patient.getPatient().getJSONPatient();
@@ -153,8 +161,86 @@ public class MyPatientActivity extends AppCompatActivity {
             }
         });
 
+
+        searchView.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
+            @Override
+            public boolean onQueryTextSubmit(String query) {
+                return false;
+            }
+
+            @Override
+            public boolean onQueryTextChange(String newText) {
+
+                initAdapterWithFilter(newText);
+
+
+                return false;
+            }
+        });
+
+
         lv.setEmptyView(findViewById(R.id.emptyElement));
     }
+
+
+
+    private void initAdapterWithFilter(String filter) {
+        if (model == null || model.size() <= 0) {
+            return;
+        }
+
+        final ArrayList<MyPatient> parsedModel = new ArrayList<>();
+
+        for (int i = 0; i < model.size(); i++) {
+            MyPatient curHospital = model.get(i);
+            String fullName = curHospital.getName();
+            if ( fullName.toLowerCase().contains(filter) ) {
+                parsedModel.add(curHospital);
+            }
+        }
+
+
+        ListView lv = (ListView) findViewById(R.id.myPatientListView);
+
+        //Activity context, ArrayList<MyPatient> model
+        myPatientAdapter adapter = new myPatientAdapter(this, parsedModel);
+
+
+        lv.setAdapter(adapter);
+
+
+        lv.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+
+                MyPatient patient = parsedModel.get(position);
+
+
+                // Toast.makeText(MyPatientActivity.this, "clicked "+patient.getName(), Toast.LENGTH_SHORT).show();
+
+                JSONObject object= null;
+                try {
+                    object = patient.getPatient().getJSONPatient();
+
+
+                } catch (JSONException e) {
+                    e.printStackTrace();
+                }
+//shared pref
+                SharedPreferences preference = getSharedPreferences("settings", MODE_PRIVATE);
+                SharedPreferences.Editor editor = preference.edit();
+                editor.putString(links.PrefPatientProfile, object.toString());
+                editor.commit();
+
+
+                Intent i =new Intent(MyPatientActivity.this,PatientProfileActivity.class);
+                startActivity(i);
+
+
+            }
+        });
+    }
+
 
 
     @Override
