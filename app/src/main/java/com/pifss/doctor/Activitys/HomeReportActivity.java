@@ -53,7 +53,7 @@ public class HomeReportActivity extends AppCompatActivity {
         PrimaryDrawerItem item8 = new PrimaryDrawerItem().withIdentifier(8).withName(R.string.Logout).withIcon(R.mipmap.logout_icon);
         DividerDrawerItem d = new DividerDrawerItem();
 
-        PrimaryDrawerItem item9 = new PrimaryDrawerItem().withIdentifier(9).withName("Blood Requests").withIcon(R.mipmap.logout_icon);
+        PrimaryDrawerItem item9 = new PrimaryDrawerItem().withIdentifier(9).withName("Blood Requests").withIcon(R.mipmap.blood_donation);
 
 
         SharedPreferences preference = getSharedPreferences("settings",MODE_PRIVATE);
@@ -191,7 +191,7 @@ public class HomeReportActivity extends AppCompatActivity {
                 PrimaryDrawerItem item7 = new PrimaryDrawerItem().withIdentifier(7).withName(R.string.AboutusAct).withIcon(R.mipmap.aboutus_icon);
                 PrimaryDrawerItem item8 = new PrimaryDrawerItem().withIdentifier(8).withName(R.string.Logout).withIcon(R.mipmap.logout_icon);
                 DividerDrawerItem d = new DividerDrawerItem();
-                PrimaryDrawerItem item9 = new PrimaryDrawerItem().withIdentifier(9).withName("Blood Requests").withIcon(R.mipmap.logout_icon);
+                PrimaryDrawerItem item9 = new PrimaryDrawerItem().withIdentifier(9).withName("Blood Requests").withIcon(R.mipmap.blood_donation);
 
                 headerResult = new AccountHeaderBuilder()
                         .withActivity(HomeReportActivity.this)
