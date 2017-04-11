@@ -13,6 +13,7 @@ public class links {
 
     public static String Doctor = BASE + "doctor";
     public static String PatientDrLink = BASE + "patientdrlink";
+    public static String BloodRequests = BASE + "bloodrequests";
 
     public static String getDoctor = Doctor + "/getDoctor/";
 
@@ -29,6 +30,12 @@ public class links {
     public static String ReplyReport = PatientReport +"/UpdatePatientReportDRec/";
     public static String GetPatientReport = PatientReport +"/getPatientReport/";
 
+    public static String UpdateRequestStatus = PatientDrLink + "/setstatus/";
+
+    public static String GetDoctorRequests = BloodRequests  + "/getDoctorRequests/";
+
+
+
 
     public static String PrefDoctorProfile = "doctorProfile";
     public static String PrefReport = "PatientReport";
@@ -36,7 +43,7 @@ public class links {
     public static String PrefPatientProfile = "patientProfile";
     public static String PrefLanguage = "APPLanguage";
 
-    public static String UpdateRequestStatus = PatientDrLink + "/setstatus/";
+
 
 }
 

@@ -53,6 +53,9 @@ public class HomeReportActivity extends AppCompatActivity {
         PrimaryDrawerItem item8 = new PrimaryDrawerItem().withIdentifier(8).withName(R.string.Logout).withIcon(R.mipmap.logout_icon);
         DividerDrawerItem d = new DividerDrawerItem();
 
+        PrimaryDrawerItem item9 = new PrimaryDrawerItem().withIdentifier(9).withName("Blood Requests").withIcon(R.mipmap.blood_donation);
+
+
         SharedPreferences preference = getSharedPreferences("settings",MODE_PRIVATE);
         String doctorProfile = preference.getString(links.PrefDoctorProfile,"notfound");
         Doctor doctor = new Gson().fromJson(doctorProfile,Doctor.class);
@@ -83,7 +86,7 @@ public class HomeReportActivity extends AppCompatActivity {
         drab = new DrawerBuilder();
         drab.withActivity(this)
                 .withToolbar(toolbar)
-                .addDrawerItems(item1,item2,item3,d,item5,item6,item7,item8)
+                .addDrawerItems(item1,item2,item3,item9,d,item5,item6,item7,item8)
                 .withOnDrawerItemClickListener(new Drawer.OnDrawerItemClickListener() {
                     @Override
                     public boolean onItemClick(View view, int position, IDrawerItem drawerItem) {
@@ -103,7 +106,11 @@ public class HomeReportActivity extends AppCompatActivity {
                                 i = new Intent(HomeReportActivity.this,MyPatientActivity.class);
                                 startActivity(i);
                                 break;
-                            case 5:
+                            case 4:
+                                i = new Intent(HomeReportActivity.this,MyBloodRequestsActivity.class);
+                                startActivity(i);
+                                break;
+                            case 6:
 
                                 try {
                                      i = new Intent(Intent.ACTION_SEND);
@@ -117,15 +124,15 @@ public class HomeReportActivity extends AppCompatActivity {
                                     //e.toString();
                                 }
                                 break;
-                            case 6:
+                            case 7:
                                 i = new Intent(HomeReportActivity.this,SettingsActivity.class);
                                 startActivity(i);
                                 break;
-                            case 7:
+                            case 8:
                                 i = new Intent(HomeReportActivity.this,AboutUsActivity.class);
                                 startActivity(i);
                                 break;
-                            case 8:
+                            case 9:
                                 i = new Intent(HomeReportActivity.this,loginActivity.class);
 
                                 SharedPreferences preference = getSharedPreferences("settings", MODE_PRIVATE);
@@ -184,6 +191,7 @@ public class HomeReportActivity extends AppCompatActivity {
                 PrimaryDrawerItem item7 = new PrimaryDrawerItem().withIdentifier(7).withName(R.string.AboutusAct).withIcon(R.mipmap.aboutus_icon);
                 PrimaryDrawerItem item8 = new PrimaryDrawerItem().withIdentifier(8).withName(R.string.Logout).withIcon(R.mipmap.logout_icon);
                 DividerDrawerItem d = new DividerDrawerItem();
+                PrimaryDrawerItem item9 = new PrimaryDrawerItem().withIdentifier(9).withName("Blood Requests").withIcon(R.mipmap.blood_donation);
 
                 headerResult = new AccountHeaderBuilder()
                         .withActivity(HomeReportActivity.this)
@@ -209,7 +217,7 @@ public class HomeReportActivity extends AppCompatActivity {
                 drab = new DrawerBuilder();
                 drab.withActivity(HomeReportActivity.this)
                         .withToolbar(toolbar)
-                        .addDrawerItems(item1,item2,item3,d,item5,item6,item7,item8)
+                        .addDrawerItems(item1,item2,item3,item9,d,item5,item6,item7,item8)
                         .withOnDrawerItemClickListener(new Drawer.OnDrawerItemClickListener() {
                             @Override
                             public boolean onItemClick(View view, int position, IDrawerItem drawerItem) {
@@ -229,6 +237,10 @@ public class HomeReportActivity extends AppCompatActivity {
                                         i = new Intent(HomeReportActivity.this,MyPatientActivity.class);
                                         startActivity(i);
                                         break;
+                                    case 4:
+                                        i = new Intent(HomeReportActivity.this,MyBloodRequestsActivity.class);
+                                        startActivity(i);
+                                        break;
                                     case 5:
 
                                         try {
@@ -243,15 +255,15 @@ public class HomeReportActivity extends AppCompatActivity {
                                             //e.toString();
                                         }
                                         break;
-                                    case 6:
+                                    case 7:
                                         i = new Intent(HomeReportActivity.this,SettingsActivity.class);
                                         startActivity(i);
                                         break;
-                                    case 7:
+                                    case 8:
                                         i = new Intent(HomeReportActivity.this,AboutUsActivity.class);
                                         startActivity(i);
                                         break;
-                                    case 8:
+                                    case 9:
                                         i = new Intent(HomeReportActivity.this,loginActivity.class);
 
                                         SharedPreferences preference = getSharedPreferences("settings", MODE_PRIVATE);

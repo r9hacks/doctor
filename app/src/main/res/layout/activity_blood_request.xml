@@ -7,8 +7,8 @@
     android:orientation="vertical"
     android:focusable="true"
     android:focusableInTouchMode="true"
-    tools:context="com.pifss.doctor.Activitys.BloodRequest"
-    android:weightSum="1">
+    tools:context="com.pifss.doctor.Activitys.NewBloodRequestActivity"
+    android:weightSum="7">
 
     <android.support.v7.widget.Toolbar
         android:id="@+id/mytoolbar"
@@ -19,20 +19,16 @@
     </android.support.v7.widget.Toolbar>
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/textView12"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:layout_weight="0.05"
-        android:text="Reason"
-        android:layout_marginLeft="12dp"
-        android:textColor="@color/material_drawer_dark_background"
-        android:textSize="24sp"
-        android:layout_below="@+id/mytoolbar"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignLeft="@+id/editTextReason"
-        android:layout_alignStart="@+id/editTextReason" />
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1"
+        android:text="Reason:"
+        android:textColor="@android:color/black"
+        android:textSize="24sp" />
+
     <EditText
         android:id="@+id/editTextReason"
         android:layout_width="match_parent"
@@ -41,8 +37,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginLeft="23dp"
         android:layout_marginRight="23dp"
-        android:layout_marginTop="33dp"
-        android:layout_weight="0.25"
+        android:layout_weight="1"
         android:ems="10"
         android:hint="Reason"
         android:inputType="textPersonName" />
@@ -50,50 +45,56 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Select blood type"
+        android:layout_marginLeft="15dp"
+
+        android:text="Select blood type:"
         android:textColor="@color/material_drawer_dark_background"
         android:textSize="24sp"
         android:layout_marginTop="20dp"
-        android:layout_below="@+id/editTextReason"
-        android:layout_alignLeft="@+id/editTextReason"
-        android:layout_alignStart="@+id/editTextReason" />
+        android:layout_weight="1"
+         />
 
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:weightSum="1"
+        android:layout_weight="1"
         android:orientation="horizontal">
 
         <ImageButton
-            android:id="@+id/aMinusButton"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight=".25"
-            app:srcCompat="@mipmap/a_minus" />
-
-        <ImageButton
             android:id="@+id/aPlusButton"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
             android:layout_weight=".25"
-
+            android:background="@android:color/transparent"
             app:srcCompat="@mipmap/a_plus" />
 
         <ImageButton
-            android:id="@+id/abPlusButton"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:id="@+id/aMinusButton"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
             android:layout_weight=".25"
+            android:background="@android:color/transparent"
 
-            app:srcCompat="@mipmap/ab_plus" />
+            app:srcCompat="@mipmap/a_minus" />
 
         <ImageButton
-            android:id="@+id/abMinusButton"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:id="@+id/bPlusButton"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
             android:layout_weight=".25"
-            app:srcCompat="@mipmap/ab_minus" />
+            android:background="@android:color/transparent"
+
+            app:srcCompat="@mipmap/b_plus" />
+
+        <ImageButton
+            android:id="@+id/bMinusButton"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight=".25"
+            android:background="@android:color/transparent"
+            app:srcCompat="@mipmap/b_minus" />
 
     </LinearLayout>
 
@@ -101,37 +102,42 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
+        android:layout_weight="1"
         android:weightSum="1">
-
-        <ImageButton
-            android:id="@+id/bPlusButton"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight=".25"
-            app:srcCompat="@mipmap/b_plus" />
-
-        <ImageButton
-            android:id="@+id/bMinusButton"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight=".25"
-
-            app:srcCompat="@mipmap/b_minus" />
 
         <ImageButton
             android:id="@+id/oPlusButton"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:layout_weight=".25"
-
+            android:background="@android:color/transparent"
             app:srcCompat="@mipmap/o_plus" />
 
         <ImageButton
             android:id="@+id/oMinusButton"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:layout_weight=".25"
+            android:background="@android:color/transparent"
+
             app:srcCompat="@mipmap/o_minus" />
+
+        <ImageButton
+            android:id="@+id/abPlusButton"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight=".25"
+            android:background="@android:color/transparent"
+
+            app:srcCompat="@mipmap/ab_plus" />
+
+        <ImageButton
+            android:id="@+id/abMinusButton"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight=".25"
+            android:background="@android:color/transparent"
+            app:srcCompat="@mipmap/ab_minus" />
     </LinearLayout>
 
     <!--<LinearLayout-->
@@ -146,8 +152,10 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="82dp"
-        android:layout_weight="0.37"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:weightSum="1"
+        android:layout_marginBottom="10dp"
         android:orientation="horizontal">
 
 
@@ -155,28 +163,20 @@
             android:id="@+id/textView13"
             android:layout_width="wrap_content"
             android:layout_height="42dp"
-            android:layout_alignLeft="@+id/editTextReason"
-            android:layout_alignStart="@+id/editTextReason"
-            android:layout_below="@+id/editTextReason"
             android:layout_marginTop="20dp"
-            android:layout_weight="1.00"
+            android:layout_weight="0.5"
             android:layout_marginLeft="15dp"
-            android:text="Quantity"
+            android:text="Quantity:"
             android:textColor="@color/material_drawer_dark_background"
             android:textSize="24sp" />
 
-        <TextView
-            android:id="@+id/textView12"
+        <EditText
+            android:id="@+id/editText"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignLeft="@+id/editTextReason"
-            android:layout_alignStart="@+id/editTextReason"
-            android:layout_below="@+id/editTextReason"
-            android:layout_marginTop="20dp"
-            android:layout_weight="0.13"
-            android:text="0"
-            android:textColor="@color/material_drawer_dark_background"
-            android:textSize="24sp" />
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:ems="10"
+            android:inputType="number" />
 
 
     </LinearLayout>
@@ -195,6 +195,7 @@
         android:textSize="23sp"
         android:textStyle="bold"
         tools:layout_editor_absoluteX="23dp"
+        android:layout_weight="1"
         tools:layout_editor_absoluteY="421dp" />
 
 </LinearLayout>
