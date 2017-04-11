@@ -35,4 +35,14 @@
         android:textStyle="bold"
         android:visibility="gone" />
 
+    <Button
+        android:id="@+id/buttonNewBloodRequests"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/textView1"
+        android:layout_margin="10dp"
+        android:background="@mipmap/plus_icon_toolbar" />
+
 </RelativeLayout>

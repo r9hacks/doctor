@@ -7,7 +7,7 @@
     android:orientation="vertical"
     android:focusable="true"
     android:focusableInTouchMode="true"
-    tools:context="com.pifss.doctor.Activitys.BloodRequest"
+    tools:context="com.pifss.doctor.Activitys.NewBloodRequestActivity"
     android:weightSum="7">
 
     <android.support.v7.widget.Toolbar
@@ -47,7 +47,7 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="15dp"
 
-        android:text="Select blood type"
+        android:text="Select blood type:"
         android:textColor="@color/material_drawer_dark_background"
         android:textSize="24sp"
         android:layout_marginTop="20dp"

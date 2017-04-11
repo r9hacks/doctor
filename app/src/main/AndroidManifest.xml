@@ -36,7 +36,7 @@
         <activity android:name=".Activitys.EditDoctorProfileActivity" />
         <activity android:name=".Activitys.ReplyReportActivity" />
         <activity android:name=".Activitys.ReplyConfirmActivity" />
-        <activity android:name=".Activitys.BloodRequest" />
+        <activity android:name=".Activitys.NewBloodRequestActivity" />
         <activity android:name=".Activitys.MyBloodRequestsActivity"></activity>
     </application>
 

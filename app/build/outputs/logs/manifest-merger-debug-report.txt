@@ -125,10 +125,10 @@ activity#com.pifss.doctor.Activitys.ReplyConfirmActivity
 ADDED from C:\Users\PIFSS\Desktop\Block_6\MHealth\v6\doctor\app\src\main\AndroidManifest.xml:38:9-68
 	android:name
 		ADDED from C:\Users\PIFSS\Desktop\Block_6\MHealth\v6\doctor\app\src\main\AndroidManifest.xml:38:19-65
-activity#com.pifss.doctor.Activitys.BloodRequest
-ADDED from C:\Users\PIFSS\Desktop\Block_6\MHealth\v6\doctor\app\src\main\AndroidManifest.xml:39:9-60
+activity#com.pifss.doctor.Activitys.NewBloodRequestActivity
+ADDED from C:\Users\PIFSS\Desktop\Block_6\MHealth\v6\doctor\app\src\main\AndroidManifest.xml:39:9-71
 	android:name
-		ADDED from C:\Users\PIFSS\Desktop\Block_6\MHealth\v6\doctor\app\src\main\AndroidManifest.xml:39:19-57
+		ADDED from C:\Users\PIFSS\Desktop\Block_6\MHealth\v6\doctor\app\src\main\AndroidManifest.xml:39:19-68
 activity#com.pifss.doctor.Activitys.MyBloodRequestsActivity
 ADDED from C:\Users\PIFSS\Desktop\Block_6\MHealth\v6\doctor\app\src\main\AndroidManifest.xml:40:9-80
 	android:name

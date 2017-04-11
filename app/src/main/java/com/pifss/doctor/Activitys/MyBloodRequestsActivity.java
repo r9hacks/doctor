@@ -1,11 +1,14 @@
 package com.pifss.doctor.Activitys;
 
 import android.app.ProgressDialog;
+import android.content.Intent;
 import android.content.SharedPreferences;
 import android.graphics.Color;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
+import android.view.View;
+import android.widget.Button;
 import android.widget.ListView;
 
 import com.android.volley.Request;
@@ -14,13 +17,9 @@ import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.JsonArrayRequest;
 import com.google.gson.Gson;
-import com.google.gson.reflect.TypeToken;
 import com.pifss.doctor.Adapters.BloodRequestsAdapter;
-import com.pifss.doctor.Adapters.myPatientAdapter;
 import com.pifss.doctor.Model.Doctor;
 import com.pifss.doctor.Model.MyBloodRequest;
-import com.pifss.doctor.Model.MyPatient;
-import com.pifss.doctor.Model.Patient;
 import com.pifss.doctor.R;
 import com.pifss.doctor.RequestQueueSingleTon;
 import com.pifss.doctor.links;
@@ -116,5 +115,14 @@ public class MyBloodRequestsActivity extends AppCompatActivity {
 
         lv.setEmptyView(findViewById(R.id.emptyElement));
 
+        Button newBloodRequests = (Button) findViewById(R.id.buttonNewBloodRequests);
+        newBloodRequests.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Intent i = new Intent(MyBloodRequestsActivity.this,NewBloodRequestActivity.class);
+                startActivity(i);
+            }
+        });
     }
 }

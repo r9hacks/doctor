@@ -16,6 +16,10 @@
         "source": "C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v6\\doctor\\app\\src\\main\\res\\mipmap-xhdpi\\b_plus.png"
     },
     {
+        "merged": "C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v6\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\plus_icon_toolbar.png",
+        "source": "C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v6\\doctor\\app\\src\\main\\res\\mipmap-xhdpi\\plus_icon_toolbar.png"
+    },
+    {
         "merged": "C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v6\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\my_patient_icon.png",
         "source": "C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v6\\doctor\\app\\src\\main\\res\\mipmap-xhdpi\\my_patient_icon.png"
     },
@@ -28,12 +32,12 @@
         "source": "C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v6\\doctor\\app\\src\\main\\res\\mipmap-xhdpi\\medical_thermometer.png"
     },
     {
-        "merged": "C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v6\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\drop_counter.png",
-        "source": "C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v6\\doctor\\app\\src\\main\\res\\mipmap-xhdpi\\drop_counter.png"
-    },
-    {
         "merged": "C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v6\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\headache.png",
         "source": "C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v6\\doctor\\app\\src\\main\\res\\mipmap-xhdpi\\headache.png"
+    },
+    {
+        "merged": "C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v6\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\drop_counter.png",
+        "source": "C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v6\\doctor\\app\\src\\main\\res\\mipmap-xhdpi\\drop_counter.png"
     },
     {
         "merged": "C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v6\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\medical_report_icon.png",

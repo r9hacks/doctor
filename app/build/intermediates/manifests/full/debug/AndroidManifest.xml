@@ -42,7 +42,7 @@
         <activity android:name="com.pifss.doctor.Activitys.EditDoctorProfileActivity" />
         <activity android:name="com.pifss.doctor.Activitys.ReplyReportActivity" />
         <activity android:name="com.pifss.doctor.Activitys.ReplyConfirmActivity" />
-        <activity android:name="com.pifss.doctor.Activitys.BloodRequest" />
+        <activity android:name="com.pifss.doctor.Activitys.NewBloodRequestActivity" />
         <activity android:name="com.pifss.doctor.Activitys.MyBloodRequestsActivity" />
     </application>
 
