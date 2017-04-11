@@ -235,4 +235,9 @@ public class NewBloodRequestActivity extends AppCompatActivity {
 
         }
     }
+    @Override
+    public boolean onSupportNavigateUp() {
+        onBackPressed();
+        return true;
+    }
 }
