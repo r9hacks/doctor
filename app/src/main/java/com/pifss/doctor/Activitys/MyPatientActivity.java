@@ -61,7 +61,6 @@ public class MyPatientActivity extends AppCompatActivity {
 
             JSONArray jsonBody = new JSONArray();
 
-
             final ProgressDialog progressDialog = new ProgressDialog(MyPatientActivity.this);
 
             JsonArrayRequest jsonObjRequest = new JsonArrayRequest(Request.Method.GET, links.MyPatient+doctor.getDrId() , jsonBody, new Response.Listener<JSONArray>() {
