@@ -32,6 +32,12 @@ import java.util.ArrayList;
 
 public class MyBloodRequestsActivity extends AppCompatActivity {
 
+    ListView lv;
+
+    ArrayList<MyBloodRequest> model;
+    RequestQueue queue= RequestQueueSingleTon.getInstance().getRequestQueue(MyBloodRequestsActivity.this);
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -46,21 +52,40 @@ public class MyBloodRequestsActivity extends AppCompatActivity {
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setDisplayShowHomeEnabled(true);
 
+        lv= (ListView) findViewById(R.id.myBloodRequestListView);
+        model=new ArrayList<>();
+        //loadData();
 
-        final ListView lv= (ListView) findViewById(R.id.myBloodRequestListView);
+        lv.setEmptyView(findViewById(R.id.emptyElement));
 
-        final ArrayList<MyBloodRequest> model=new ArrayList<>();
+        Button newBloodRequests = (Button) findViewById(R.id.buttonNewBloodRequests);
+        newBloodRequests.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
 
-        RequestQueue queue= RequestQueueSingleTon.getInstance().getRequestQueue(MyBloodRequestsActivity.this);
-        final SharedPreferences preference = getSharedPreferences("settings",MODE_PRIVATE);
-        String doctorProfile = preference.getString(links.PrefDoctorProfile,"notfound");
-        Doctor doctor = new Gson().fromJson(doctorProfile,Doctor.class);
+                Intent i = new Intent(MyBloodRequestsActivity.this,NewBloodRequestActivity.class);
+                startActivity(i);
+            }
+        });
+    }
 
+    @Override
+    protected void onStart() {
+        super.onStart();
+        loadData();
+    }
+
+    public void loadData(){
         try {
 
             JSONArray jsonBody = new JSONArray();
 
             final ProgressDialog progressDialog = new ProgressDialog(MyBloodRequestsActivity.this);
+
+            final SharedPreferences preference = getSharedPreferences("settings",MODE_PRIVATE);
+            String doctorProfile = preference.getString(links.PrefDoctorProfile,"notfound");
+            Doctor doctor = new Gson().fromJson(doctorProfile,Doctor.class);
+
 
             JsonArrayRequest jsonObjRequest = new JsonArrayRequest(Request.Method.GET, links.GetDoctorRequests+doctor.getDrId() , jsonBody, new Response.Listener<JSONArray>() {
                 @Override
@@ -68,24 +93,32 @@ public class MyBloodRequestsActivity extends AppCompatActivity {
                     progressDialog.hide();
                     //      Toast.makeText(MyPatientActivity.this, "my patient req list: "+response.toString(), Toast.LENGTH_SHORT).show();
                     System.out.println("my blood req list: "+response.toString());
-
+                    model.clear();
                     for (int i = 0 ; i < response.length(); i++) {
                         try {
 
-                        JSONObject bloodRequestsJson = response.getJSONObject(i);
+                            JSONObject bloodRequestsJson = response.getJSONObject(i);
 
-                        String bloodType = bloodRequestsJson.getString("bloodType");
-                        int drId = bloodRequestsJson.getInt("drId");
-                        int quantity = bloodRequestsJson.getInt("quantity");
-                        String reason = bloodRequestsJson.getString("reason");
-                        int requestsId = bloodRequestsJson.getInt("requestsId");
-                        int status = bloodRequestsJson.getInt("status");
-                        String timestamp = bloodRequestsJson.getString("timestamp");
+                            String bloodType = bloodRequestsJson.getString("bloodType");
+                            int drId = bloodRequestsJson.getInt("drId");
+                            int quantity = bloodRequestsJson.getInt("quantity");
+                            String reason = bloodRequestsJson.getString("reason");
+                            int requestsId = bloodRequestsJson.getInt("requestsId");
+                            int status = bloodRequestsJson.getInt("status");
+                            String timestamp = "";
+                            try{
+                                if (bloodRequestsJson.getString("timestamp") != null){
+                                    timestamp = bloodRequestsJson.getString("timestamp");
+                                }
+                            }catch (Exception e){
+                                timestamp = "";
+                            }
 
-                        //String name, String BDay, String phoneNum, String gender, String image, String BloodType
-                        MyBloodRequest myBloodRequest =  new MyBloodRequest(bloodType,drId,quantity,reason,requestsId,status,timestamp);
 
-                        model.add(myBloodRequest);
+                            //String name, String BDay, String phoneNum, String gender, String image, String BloodType
+                            MyBloodRequest myBloodRequest =  new MyBloodRequest(bloodType,drId,quantity,reason,requestsId,status,timestamp);
+
+                            model.add(myBloodRequest);
                         } catch (JSONException e) {
                             e.printStackTrace();
                         }
@@ -112,17 +145,5 @@ public class MyBloodRequestsActivity extends AppCompatActivity {
         } catch (Exception e) {
             e.printStackTrace();
         }
-
-        lv.setEmptyView(findViewById(R.id.emptyElement));
-
-        Button newBloodRequests = (Button) findViewById(R.id.buttonNewBloodRequests);
-        newBloodRequests.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-
-                Intent i = new Intent(MyBloodRequestsActivity.this,NewBloodRequestActivity.class);
-                startActivity(i);
-            }
-        });
     }
 }
