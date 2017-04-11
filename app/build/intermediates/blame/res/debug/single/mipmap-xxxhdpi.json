@@ -1,14 +1,26 @@
 [
     {
-        "merged": "C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v6\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\ic_launcher_round.png",
-        "source": "C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v6\\doctor\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+        "merged": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/phonecall.png",
+        "source": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/app/src/main/res/mipmap-xxxhdpi/phonecall.png"
     },
     {
-        "merged": "C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v6\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\ic_launcher.png",
-        "source": "C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v6\\doctor\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+        "merged": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v6\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\ic_launcher_round.png",
+        "source": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v6\\doctor\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v6\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\phonecall.png",
-        "source": "C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v6\\doctor\\app\\src\\main\\res\\mipmap-xxxhdpi\\phonecall.png"
+        "merged": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v6\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\ic_launcher.png",
+        "source": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v6\\doctor\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/ic_launcher_round.png",
+        "source": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v6\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\phonecall.png",
+        "source": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v6\\doctor\\app\\src\\main\\res\\mipmap-xxxhdpi\\phonecall.png"
+    },
+    {
+        "merged": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/ic_launcher.png",
+        "source": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
     }
 ]

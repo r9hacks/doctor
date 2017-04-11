@@ -7,6 +7,8 @@
     android:orientation="vertical"
     tools:context="com.pifss.doctor.Activitys.DoctorProfileActivity">
 
+
+
     <android.support.design.widget.AppBarLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -40,6 +42,17 @@
         app:civ_border_color="@color/ImageBoarderColor"
         app:civ_border_width="0.5dp"
         app:srcCompat="@mipmap/profile_image" />
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Edit"
+        android:textColor="@color/colorAccent"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/imageViewLogo"
+        android:layout_centerHorizontal="true" />
 
     <EditText
         android:id="@+id/txtDrSpeciality"
