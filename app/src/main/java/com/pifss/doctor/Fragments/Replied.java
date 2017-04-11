@@ -139,7 +139,7 @@ public class Replied extends Fragment {
             }, new Response.ErrorListener() {
                 @Override
                 public void onErrorResponse(VolleyError error) {
-
+                    progressDialog.hide();
                     //Toast.makeText(getActivity(), "error report replied list: "+error.toString(), Toast.LENGTH_SHORT).show();
                     System.out.println("error report replied list: "+error.toString());
                 }

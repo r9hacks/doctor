@@ -30,6 +30,7 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 public class ReplyReportActivity extends AppCompatActivity {
+    int tag = 0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -49,61 +50,89 @@ public class ReplyReportActivity extends AppCompatActivity {
         String reportJson = preference.getString(links.PrefReport,"notfound");
         final Report report = new Gson().fromJson(reportJson,Report.class);
 
-        TextView comment = (TextView) findViewById(R.id.textViewcommentsContent);
+        final TextView comment = (TextView) findViewById(R.id.textViewcommentsContent);
         comment.setText(report.getComments());
 
         final EditText reply = (EditText) findViewById(R.id.editTextReply);
         reply.setText(report.getDrcomment());
 
-        Button sendButton = (Button) findViewById(R.id.buttonSendReply);
+        final Button sendButton = (Button) findViewById(R.id.buttonSendReply);
         final RequestQueue queue= RequestQueueSingleTon.getInstance().getRequestQueue(ReplyReportActivity.this);
+
+        if (comment.getText().toString() != "") {
+
+            reply.setEnabled(false);
+            sendButton.setText("Edit reply");
+            tag = 1;
+
+        }else{
+
+            sendButton.setText("Send reply");
+            tag = 0;
+
+            return;
+        }
+
 
         sendButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 //getIntent().getStringExtra("message")
                 //UpdatePatientReportDRec
-                final ProgressDialog progressDialog = new ProgressDialog(ReplyReportActivity.this);
 
-                try {
+                if (tag == 1) {
 
-                    JSONObject jsonBody = new JSONObject();
-                    jsonBody.put("reportId",report.getReportId());
-                    jsonBody.put("drcomment",reply.getText().toString());
+                    reply.setEnabled(true);
+                    sendButton.setText("Send reply");
+                    tag = 0;
+                } else if(tag == 0) {
+                    reply.setEnabled(false);
+                    sendButton.setText("Edit reply");
+                    tag = 1;
+
+                    final ProgressDialog progressDialog = new ProgressDialog(ReplyReportActivity.this);
+
+                    try {
+
+                        JSONObject jsonBody = new JSONObject();
+                        jsonBody.put("reportId",report.getReportId());
+                        jsonBody.put("drcomment",reply.getText().toString());
 
 
-                    JsonObjectRequest jsonObjRequest = new JsonObjectRequest(Request.Method.POST, links.ReplyReport, jsonBody, new Response.Listener<JSONObject>() {
-                        @Override
-                        public void onResponse(JSONObject response) {
-                            progressDialog.hide();
-                            try {
-                                Intent i = new Intent(ReplyReportActivity.this, ReplyConfirmActivity.class);
-                               // Toast.makeText(ReplyReportActivity.this, response.toString(), Toast.LENGTH_SHORT).show();
-                                if (response.getBoolean("status") == true){
-                                    i.putExtra("message","Your Reply sent successfully");
-                                }else{
-                                    i.putExtra("message","Your Reply sent Failed");
+                        JsonObjectRequest jsonObjRequest = new JsonObjectRequest(Request.Method.POST, links.ReplyReport, jsonBody, new Response.Listener<JSONObject>() {
+                            @Override
+                            public void onResponse(JSONObject response) {
+                                progressDialog.hide();
+                                try {
+                                    Intent i = new Intent(ReplyReportActivity.this, ReplyConfirmActivity.class);
+                                    // Toast.makeText(ReplyReportActivity.this, response.toString(), Toast.LENGTH_SHORT).show();
+                                    if (response.getBoolean("status") == true){
+                                        i.putExtra("message","Your Reply sent successfully");
+                                    }else{
+                                        i.putExtra("message","Your Reply sent Failed");
 
+                                    }
+                                    i.putExtra("goTo","report");
+                                    startActivity(i);
+
+                                } catch (JSONException e) {
+                                    e.printStackTrace();
                                 }
-                                i.putExtra("goTo","report");
-                                startActivity(i);
-
-                            } catch (JSONException e) {
-                                e.printStackTrace();
                             }
-                        }
-                    }, new Response.ErrorListener() {
-                        @Override
-                        public void onErrorResponse(VolleyError error) {
+                        }, new Response.ErrorListener() {
+                            @Override
+                            public void onErrorResponse(VolleyError error) {
+                                progressDialog.hide();
+                            }
+                        });
 
-                        }
-                    });
-
-                    progressDialog.setMessage("Connecting...");
-                    progressDialog.show();
-                    queue.add(jsonObjRequest);
-                } catch (JSONException e) {
-                    e.printStackTrace();
+                        progressDialog.setMessage("Connecting...");
+                        progressDialog.show();
+                        queue.add(jsonObjRequest);
+                    } catch (JSONException e) {
+                        e.printStackTrace();
+                    }
+                    return;
                 }
             }
         });

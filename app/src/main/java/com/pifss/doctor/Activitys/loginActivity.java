@@ -198,7 +198,6 @@ public class loginActivity extends AppCompatActivity {
                     @Override
                     public void onErrorResponse(VolleyError error) {
                         progressDialog.hide();
-                        Toast.makeText(loginActivity.this, "Connection error", Toast.LENGTH_SHORT).show();
                     }
                 });
 

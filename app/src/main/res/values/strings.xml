@@ -48,7 +48,7 @@
     <string name="ChangeLanguage">Change Language</string>
     <string name="LangButton">Please change the language of the device</string>
 
-//frieday
+    //frieday
     <string name="Becausewecare">Because we care</string>
     <string name="Aboutus">About us</string>
     <string name="civilId">civil Id</string>
@@ -71,7 +71,7 @@
     <string name="YourReplysentsuccessfully">Your reply sent successfully</string>
     <string name="Chooselanguage">Choose language</string>
 
-//activities
+    //activities
 
     <string name="Myprofile">My profile</string>
     //could not put notfound in activity
@@ -103,8 +103,7 @@
     <string name="OurAim">Our aim is to improve public health, by facilitating doctor-patient communications. The application allows doctors to ubiquity access patient\'s information, view reports and reply to comments instantly and accurately. As well as accept or decline patients requests.</string>
 
 
-
-//
+    //
 
     <string name="Pending">Pending</string>
     <string name="Replied">Replied</string>

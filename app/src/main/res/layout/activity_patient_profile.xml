@@ -38,15 +38,15 @@
             android:id="@+id/textViewName"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignParentTop="true"
-            android:layout_marginLeft="14dp"
-            android:layout_marginStart="14dp"
-            android:layout_toEndOf="@+id/imageViewPatient"
-            android:layout_toRightOf="@+id/imageViewPatient"
+            android:layout_marginLeft="52dp"
+            android:layout_marginStart="52dp"
             android:text="@string/PatientName"
             android:textColor="@android:color/black"
             android:textSize="18sp"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            android:layout_alignTop="@+id/textViewAge"
+            android:layout_toRightOf="@+id/imageViewPatient"
+            android:layout_toEndOf="@+id/imageViewPatient" />
 
         <TextView
             android:id="@+id/textViewAge"

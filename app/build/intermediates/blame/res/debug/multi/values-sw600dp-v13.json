@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+        "outputFile": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw600dp-v13/values-sw600dp-v13.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 119
                 },
                 "from": {
-                    "file": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\trn24\\.android\\build-cache\\f5bbc6ff808a4ac74405d8a761d68a423887319a\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/.android/build-cache/f5bbc6ff808a4ac74405d8a761d68a423887319a/output/res/values-sw600dp-v13/values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -30,7 +30,7 @@
                     "endOffset": 188
                 },
                 "from": {
-                    "file": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\trn24\\.android\\build-cache\\f5bbc6ff808a4ac74405d8a761d68a423887319a\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/.android/build-cache/f5bbc6ff808a4ac74405d8a761d68a423887319a/output/res/values-sw600dp-v13/values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -49,7 +49,7 @@
                     "endOffset": 258
                 },
                 "from": {
-                    "file": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\trn24\\.android\\build-cache\\f5bbc6ff808a4ac74405d8a761d68a423887319a\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/.android/build-cache/f5bbc6ff808a4ac74405d8a761d68a423887319a/output/res/values-sw600dp-v13/values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -68,7 +68,7 @@
                     "endOffset": 332
                 },
                 "from": {
-                    "file": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\trn24\\.android\\build-cache\\f5bbc6ff808a4ac74405d8a761d68a423887319a\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/.android/build-cache/f5bbc6ff808a4ac74405d8a761d68a423887319a/output/res/values-sw600dp-v13/values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -87,7 +87,7 @@
                     "endOffset": 408
                 },
                 "from": {
-                    "file": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\trn24\\.android\\build-cache\\f5bbc6ff808a4ac74405d8a761d68a423887319a\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/.android/build-cache/f5bbc6ff808a4ac74405d8a761d68a423887319a/output/res/values-sw600dp-v13/values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -106,7 +106,7 @@
                     "endOffset": 467
                 },
                 "from": {
-                    "file": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\trn24\\.android\\build-cache\\f5bbc6ff808a4ac74405d8a761d68a423887319a\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/.android/build-cache/f5bbc6ff808a4ac74405d8a761d68a423887319a/output/res/values-sw600dp-v13/values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -125,7 +125,7 @@
                     "endOffset": 538
                 },
                 "from": {
-                    "file": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\trn24\\.android\\build-cache\\f5bbc6ff808a4ac74405d8a761d68a423887319a\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/.android/build-cache/f5bbc6ff808a4ac74405d8a761d68a423887319a/output/res/values-sw600dp-v13/values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -144,7 +144,7 @@
                     "endOffset": 606
                 },
                 "from": {
-                    "file": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\trn24\\.android\\build-cache\\f5bbc6ff808a4ac74405d8a761d68a423887319a\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/.android/build-cache/f5bbc6ff808a4ac74405d8a761d68a423887319a/output/res/values-sw600dp-v13/values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
@@ -163,7 +163,7 @@
                     "endOffset": 666
                 },
                 "from": {
-                    "file": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\trn24\\.android\\build-cache\\b72f8c878670e3cfcbd2a2719560109540c875de\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/.android/build-cache/b72f8c878670e3cfcbd2a2719560109540c875de/output/res/values-sw600dp-v13/values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -182,7 +182,7 @@
                     "endOffset": 736
                 },
                 "from": {
-                    "file": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\trn24\\.android\\build-cache\\b72f8c878670e3cfcbd2a2719560109540c875de\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/.android/build-cache/b72f8c878670e3cfcbd2a2719560109540c875de/output/res/values-sw600dp-v13/values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -201,7 +201,7 @@
                     "endOffset": 807
                 },
                 "from": {
-                    "file": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\trn24\\.android\\build-cache\\b72f8c878670e3cfcbd2a2719560109540c875de\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/.android/build-cache/b72f8c878670e3cfcbd2a2719560109540c875de/output/res/values-sw600dp-v13/values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -220,7 +220,7 @@
                     "endOffset": 879
                 },
                 "from": {
-                    "file": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\trn24\\.android\\build-cache\\b72f8c878670e3cfcbd2a2719560109540c875de\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/.android/build-cache/b72f8c878670e3cfcbd2a2719560109540c875de/output/res/values-sw600dp-v13/values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -239,7 +239,7 @@
                     "endOffset": 937
                 },
                 "from": {
-                    "file": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\trn24\\.android\\build-cache\\b72f8c878670e3cfcbd2a2719560109540c875de\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/.android/build-cache/b72f8c878670e3cfcbd2a2719560109540c875de/output/res/values-sw600dp-v13/values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -258,7 +258,7 @@
                     "endOffset": 995
                 },
                 "from": {
-                    "file": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\trn24\\.android\\build-cache\\b72f8c878670e3cfcbd2a2719560109540c875de\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/.android/build-cache/b72f8c878670e3cfcbd2a2719560109540c875de/output/res/values-sw600dp-v13/values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -277,7 +277,7 @@
                     "endOffset": 1101
                 },
                 "from": {
-                    "file": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\trn24\\.android\\build-cache\\b72f8c878670e3cfcbd2a2719560109540c875de\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/.android/build-cache/b72f8c878670e3cfcbd2a2719560109540c875de/output/res/values-sw600dp-v13/values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -296,7 +296,7 @@
                     "endOffset": 1165
                 },
                 "from": {
-                    "file": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\trn24\\.android\\build-cache\\b72f8c878670e3cfcbd2a2719560109540c875de\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/.android/build-cache/b72f8c878670e3cfcbd2a2719560109540c875de/output/res/values-sw600dp-v13/values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
@@ -315,7 +315,7 @@
                     "endOffset": 1229
                 },
                 "from": {
-                    "file": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\trn24\\.android\\build-cache\\964a1fed1a6e76b02583d65146a3edf4a5ca8b7d\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/.android/build-cache/964a1fed1a6e76b02583d65146a3edf4a5ca8b7d/output/res/values-sw600dp-v13/values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -334,7 +334,7 @@
                     "endOffset": 1284
                 },
                 "from": {
-                    "file": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\trn24\\.android\\build-cache\\767e0eac95804b8f2599ade09cd7788c5a556c4e\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/.android/build-cache/767e0eac95804b8f2599ade09cd7788c5a556c4e/output/res/values-sw600dp-v13/values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -353,7 +353,7 @@
                     "endOffset": 1347
                 },
                 "from": {
-                    "file": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\trn24\\.android\\build-cache\\b72f8c878670e3cfcbd2a2719560109540c875de\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/.android/build-cache/b72f8c878670e3cfcbd2a2719560109540c875de/output/res/values-sw600dp-v13/values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
@@ -373,7 +373,7 @@
                     "endOffset": 1529
                 },
                 "from": {
-                    "file": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\trn24\\.android\\build-cache\\b72f8c878670e3cfcbd2a2719560109540c875de\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/.android/build-cache/b72f8c878670e3cfcbd2a2719560109540c875de/output/res/values-sw600dp-v13/values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 11,
                         "startColumn": 4,
@@ -387,7 +387,7 @@
         ]
     },
     {
-        "outputFile": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v5\\doctor\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+        "outputFile": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw600dp-v13\\values-sw600dp-v13.xml",
         "map": [
             {
                 "to": {
@@ -398,7 +398,7 @@
                     "endOffset": 119
                 },
                 "from": {
-                    "file": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\PIFSS\\.android\\build-cache\\9b85976bda791bd9abdfdd3cb34cce2b0455d7aa\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\trn24\\.android\\build-cache\\f5bbc6ff808a4ac74405d8a761d68a423887319a\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -417,7 +417,7 @@
                     "endOffset": 188
                 },
                 "from": {
-                    "file": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\PIFSS\\.android\\build-cache\\9b85976bda791bd9abdfdd3cb34cce2b0455d7aa\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\trn24\\.android\\build-cache\\f5bbc6ff808a4ac74405d8a761d68a423887319a\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -436,7 +436,7 @@
                     "endOffset": 258
                 },
                 "from": {
-                    "file": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\PIFSS\\.android\\build-cache\\9b85976bda791bd9abdfdd3cb34cce2b0455d7aa\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\trn24\\.android\\build-cache\\f5bbc6ff808a4ac74405d8a761d68a423887319a\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -455,7 +455,7 @@
                     "endOffset": 332
                 },
                 "from": {
-                    "file": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\PIFSS\\.android\\build-cache\\9b85976bda791bd9abdfdd3cb34cce2b0455d7aa\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\trn24\\.android\\build-cache\\f5bbc6ff808a4ac74405d8a761d68a423887319a\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -474,7 +474,7 @@
                     "endOffset": 408
                 },
                 "from": {
-                    "file": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\PIFSS\\.android\\build-cache\\9b85976bda791bd9abdfdd3cb34cce2b0455d7aa\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\trn24\\.android\\build-cache\\f5bbc6ff808a4ac74405d8a761d68a423887319a\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -493,7 +493,7 @@
                     "endOffset": 467
                 },
                 "from": {
-                    "file": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\PIFSS\\.android\\build-cache\\9b85976bda791bd9abdfdd3cb34cce2b0455d7aa\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\trn24\\.android\\build-cache\\f5bbc6ff808a4ac74405d8a761d68a423887319a\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -512,7 +512,7 @@
                     "endOffset": 538
                 },
                 "from": {
-                    "file": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\PIFSS\\.android\\build-cache\\9b85976bda791bd9abdfdd3cb34cce2b0455d7aa\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\trn24\\.android\\build-cache\\f5bbc6ff808a4ac74405d8a761d68a423887319a\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -531,7 +531,7 @@
                     "endOffset": 606
                 },
                 "from": {
-                    "file": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\PIFSS\\.android\\build-cache\\9b85976bda791bd9abdfdd3cb34cce2b0455d7aa\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\trn24\\.android\\build-cache\\f5bbc6ff808a4ac74405d8a761d68a423887319a\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
@@ -550,7 +550,7 @@
                     "endOffset": 666
                 },
                 "from": {
-                    "file": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\PIFSS\\.android\\build-cache\\d95c42289955b75427320c3f826eb531f131da8f\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\trn24\\.android\\build-cache\\b72f8c878670e3cfcbd2a2719560109540c875de\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -569,7 +569,7 @@
                     "endOffset": 736
                 },
                 "from": {
-                    "file": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\PIFSS\\.android\\build-cache\\d95c42289955b75427320c3f826eb531f131da8f\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\trn24\\.android\\build-cache\\b72f8c878670e3cfcbd2a2719560109540c875de\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -588,7 +588,7 @@
                     "endOffset": 807
                 },
                 "from": {
-                    "file": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\PIFSS\\.android\\build-cache\\d95c42289955b75427320c3f826eb531f131da8f\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\trn24\\.android\\build-cache\\b72f8c878670e3cfcbd2a2719560109540c875de\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -607,7 +607,7 @@
                     "endOffset": 879
                 },
                 "from": {
-                    "file": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\PIFSS\\.android\\build-cache\\d95c42289955b75427320c3f826eb531f131da8f\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\trn24\\.android\\build-cache\\b72f8c878670e3cfcbd2a2719560109540c875de\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -626,7 +626,7 @@
                     "endOffset": 937
                 },
                 "from": {
-                    "file": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\PIFSS\\.android\\build-cache\\d95c42289955b75427320c3f826eb531f131da8f\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\trn24\\.android\\build-cache\\b72f8c878670e3cfcbd2a2719560109540c875de\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -645,7 +645,7 @@
                     "endOffset": 995
                 },
                 "from": {
-                    "file": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\PIFSS\\.android\\build-cache\\d95c42289955b75427320c3f826eb531f131da8f\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\trn24\\.android\\build-cache\\b72f8c878670e3cfcbd2a2719560109540c875de\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -664,7 +664,7 @@
                     "endOffset": 1101
                 },
                 "from": {
-                    "file": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\PIFSS\\.android\\build-cache\\d95c42289955b75427320c3f826eb531f131da8f\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\trn24\\.android\\build-cache\\b72f8c878670e3cfcbd2a2719560109540c875de\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -683,7 +683,7 @@
                     "endOffset": 1165
                 },
                 "from": {
-                    "file": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\PIFSS\\.android\\build-cache\\d95c42289955b75427320c3f826eb531f131da8f\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\trn24\\.android\\build-cache\\b72f8c878670e3cfcbd2a2719560109540c875de\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
@@ -702,7 +702,7 @@
                     "endOffset": 1229
                 },
                 "from": {
-                    "file": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\PIFSS\\.android\\build-cache\\57d14aaeaf478530376bb0c3670f160853c994e7\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\trn24\\.android\\build-cache\\964a1fed1a6e76b02583d65146a3edf4a5ca8b7d\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -721,7 +721,7 @@
                     "endOffset": 1284
                 },
                 "from": {
-                    "file": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\PIFSS\\.android\\build-cache\\949177878d74a023d4b66948a99a2ccc99e58143\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\trn24\\.android\\build-cache\\767e0eac95804b8f2599ade09cd7788c5a556c4e\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -740,7 +740,7 @@
                     "endOffset": 1347
                 },
                 "from": {
-                    "file": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\PIFSS\\.android\\build-cache\\d95c42289955b75427320c3f826eb531f131da8f\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\trn24\\.android\\build-cache\\b72f8c878670e3cfcbd2a2719560109540c875de\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
@@ -760,7 +760,7 @@
                     "endOffset": 1529
                 },
                 "from": {
-                    "file": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\PIFSS\\.android\\build-cache\\d95c42289955b75427320c3f826eb531f131da8f\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\trn24\\.android\\build-cache\\b72f8c878670e3cfcbd2a2719560109540c875de\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 11,
                         "startColumn": 4,
@@ -774,7 +774,7 @@
         ]
     },
     {
-        "outputFile": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+        "outputFile": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v5\\doctor\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw600dp-v13\\values-sw600dp-v13.xml",
         "map": [
             {
                 "to": {
@@ -785,7 +785,7 @@
                     "endOffset": 119
                 },
                 "from": {
-                    "file": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\.android\\build-cache\\f5bbc6ff808a4ac74405d8a761d68a423887319a\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\PIFSS\\.android\\build-cache\\9b85976bda791bd9abdfdd3cb34cce2b0455d7aa\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -804,7 +804,7 @@
                     "endOffset": 188
                 },
                 "from": {
-                    "file": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\.android\\build-cache\\f5bbc6ff808a4ac74405d8a761d68a423887319a\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\PIFSS\\.android\\build-cache\\9b85976bda791bd9abdfdd3cb34cce2b0455d7aa\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -823,7 +823,7 @@
                     "endOffset": 258
                 },
                 "from": {
-                    "file": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\.android\\build-cache\\f5bbc6ff808a4ac74405d8a761d68a423887319a\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\PIFSS\\.android\\build-cache\\9b85976bda791bd9abdfdd3cb34cce2b0455d7aa\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -842,7 +842,7 @@
                     "endOffset": 332
                 },
                 "from": {
-                    "file": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\.android\\build-cache\\f5bbc6ff808a4ac74405d8a761d68a423887319a\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\PIFSS\\.android\\build-cache\\9b85976bda791bd9abdfdd3cb34cce2b0455d7aa\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -861,7 +861,7 @@
                     "endOffset": 408
                 },
                 "from": {
-                    "file": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\.android\\build-cache\\f5bbc6ff808a4ac74405d8a761d68a423887319a\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\PIFSS\\.android\\build-cache\\9b85976bda791bd9abdfdd3cb34cce2b0455d7aa\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -880,7 +880,7 @@
                     "endOffset": 467
                 },
                 "from": {
-                    "file": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\.android\\build-cache\\f5bbc6ff808a4ac74405d8a761d68a423887319a\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\PIFSS\\.android\\build-cache\\9b85976bda791bd9abdfdd3cb34cce2b0455d7aa\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -899,7 +899,7 @@
                     "endOffset": 538
                 },
                 "from": {
-                    "file": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\.android\\build-cache\\f5bbc6ff808a4ac74405d8a761d68a423887319a\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\PIFSS\\.android\\build-cache\\9b85976bda791bd9abdfdd3cb34cce2b0455d7aa\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -918,7 +918,7 @@
                     "endOffset": 606
                 },
                 "from": {
-                    "file": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\.android\\build-cache\\f5bbc6ff808a4ac74405d8a761d68a423887319a\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\PIFSS\\.android\\build-cache\\9b85976bda791bd9abdfdd3cb34cce2b0455d7aa\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
@@ -937,7 +937,7 @@
                     "endOffset": 666
                 },
                 "from": {
-                    "file": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\.android\\build-cache\\b72f8c878670e3cfcbd2a2719560109540c875de\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\PIFSS\\.android\\build-cache\\d95c42289955b75427320c3f826eb531f131da8f\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -956,7 +956,7 @@
                     "endOffset": 736
                 },
                 "from": {
-                    "file": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\.android\\build-cache\\b72f8c878670e3cfcbd2a2719560109540c875de\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\PIFSS\\.android\\build-cache\\d95c42289955b75427320c3f826eb531f131da8f\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -975,7 +975,7 @@
                     "endOffset": 807
                 },
                 "from": {
-                    "file": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\.android\\build-cache\\b72f8c878670e3cfcbd2a2719560109540c875de\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\PIFSS\\.android\\build-cache\\d95c42289955b75427320c3f826eb531f131da8f\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -994,7 +994,7 @@
                     "endOffset": 879
                 },
                 "from": {
-                    "file": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\.android\\build-cache\\b72f8c878670e3cfcbd2a2719560109540c875de\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\PIFSS\\.android\\build-cache\\d95c42289955b75427320c3f826eb531f131da8f\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -1013,7 +1013,7 @@
                     "endOffset": 937
                 },
                 "from": {
-                    "file": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\.android\\build-cache\\b72f8c878670e3cfcbd2a2719560109540c875de\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\PIFSS\\.android\\build-cache\\d95c42289955b75427320c3f826eb531f131da8f\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -1032,7 +1032,7 @@
                     "endOffset": 995
                 },
                 "from": {
-                    "file": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\.android\\build-cache\\b72f8c878670e3cfcbd2a2719560109540c875de\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\PIFSS\\.android\\build-cache\\d95c42289955b75427320c3f826eb531f131da8f\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -1051,7 +1051,7 @@
                     "endOffset": 1101
                 },
                 "from": {
-                    "file": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\.android\\build-cache\\b72f8c878670e3cfcbd2a2719560109540c875de\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\PIFSS\\.android\\build-cache\\d95c42289955b75427320c3f826eb531f131da8f\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -1070,7 +1070,7 @@
                     "endOffset": 1165
                 },
                 "from": {
-                    "file": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\.android\\build-cache\\b72f8c878670e3cfcbd2a2719560109540c875de\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\PIFSS\\.android\\build-cache\\d95c42289955b75427320c3f826eb531f131da8f\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
@@ -1089,7 +1089,7 @@
                     "endOffset": 1229
                 },
                 "from": {
-                    "file": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\.android\\build-cache\\964a1fed1a6e76b02583d65146a3edf4a5ca8b7d\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\PIFSS\\.android\\build-cache\\57d14aaeaf478530376bb0c3670f160853c994e7\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -1108,7 +1108,7 @@
                     "endOffset": 1284
                 },
                 "from": {
-                    "file": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\.android\\build-cache\\767e0eac95804b8f2599ade09cd7788c5a556c4e\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\PIFSS\\.android\\build-cache\\949177878d74a023d4b66948a99a2ccc99e58143\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -1127,7 +1127,7 @@
                     "endOffset": 1347
                 },
                 "from": {
-                    "file": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\.android\\build-cache\\b72f8c878670e3cfcbd2a2719560109540c875de\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\PIFSS\\.android\\build-cache\\d95c42289955b75427320c3f826eb531f131da8f\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
@@ -1147,7 +1147,7 @@
                     "endOffset": 1529
                 },
                 "from": {
-                    "file": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\.android\\build-cache\\b72f8c878670e3cfcbd2a2719560109540c875de\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\PIFSS\\.android\\build-cache\\d95c42289955b75427320c3f826eb531f131da8f\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 11,
                         "startColumn": 4,
@@ -1161,7 +1161,7 @@
         ]
     },
     {
-        "outputFile": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v4\\doctor\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+        "outputFile": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw600dp-v13\\values-sw600dp-v13.xml",
         "map": [
             {
                 "to": {
@@ -1172,7 +1172,7 @@
                     "endOffset": 119
                 },
                 "from": {
-                    "file": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\PIFSS\\.android\\build-cache\\9b85976bda791bd9abdfdd3cb34cce2b0455d7aa\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\.android\\build-cache\\f5bbc6ff808a4ac74405d8a761d68a423887319a\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -1191,7 +1191,7 @@
                     "endOffset": 188
                 },
                 "from": {
-                    "file": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\PIFSS\\.android\\build-cache\\9b85976bda791bd9abdfdd3cb34cce2b0455d7aa\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\.android\\build-cache\\f5bbc6ff808a4ac74405d8a761d68a423887319a\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -1210,7 +1210,7 @@
                     "endOffset": 258
                 },
                 "from": {
-                    "file": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\PIFSS\\.android\\build-cache\\9b85976bda791bd9abdfdd3cb34cce2b0455d7aa\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\.android\\build-cache\\f5bbc6ff808a4ac74405d8a761d68a423887319a\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -1229,7 +1229,7 @@
                     "endOffset": 332
                 },
                 "from": {
-                    "file": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\PIFSS\\.android\\build-cache\\9b85976bda791bd9abdfdd3cb34cce2b0455d7aa\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\.android\\build-cache\\f5bbc6ff808a4ac74405d8a761d68a423887319a\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -1248,7 +1248,7 @@
                     "endOffset": 408
                 },
                 "from": {
-                    "file": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\PIFSS\\.android\\build-cache\\9b85976bda791bd9abdfdd3cb34cce2b0455d7aa\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\.android\\build-cache\\f5bbc6ff808a4ac74405d8a761d68a423887319a\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -1267,7 +1267,7 @@
                     "endOffset": 467
                 },
                 "from": {
-                    "file": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\PIFSS\\.android\\build-cache\\9b85976bda791bd9abdfdd3cb34cce2b0455d7aa\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\.android\\build-cache\\f5bbc6ff808a4ac74405d8a761d68a423887319a\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -1286,7 +1286,7 @@
                     "endOffset": 538
                 },
                 "from": {
-                    "file": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\PIFSS\\.android\\build-cache\\9b85976bda791bd9abdfdd3cb34cce2b0455d7aa\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\.android\\build-cache\\f5bbc6ff808a4ac74405d8a761d68a423887319a\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -1305,7 +1305,7 @@
                     "endOffset": 606
                 },
                 "from": {
-                    "file": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\PIFSS\\.android\\build-cache\\9b85976bda791bd9abdfdd3cb34cce2b0455d7aa\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\.android\\build-cache\\f5bbc6ff808a4ac74405d8a761d68a423887319a\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
@@ -1324,7 +1324,7 @@
                     "endOffset": 666
                 },
                 "from": {
-                    "file": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\PIFSS\\.android\\build-cache\\d95c42289955b75427320c3f826eb531f131da8f\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\.android\\build-cache\\b72f8c878670e3cfcbd2a2719560109540c875de\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -1343,7 +1343,7 @@
                     "endOffset": 736
                 },
                 "from": {
-                    "file": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\PIFSS\\.android\\build-cache\\d95c42289955b75427320c3f826eb531f131da8f\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\.android\\build-cache\\b72f8c878670e3cfcbd2a2719560109540c875de\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -1362,7 +1362,7 @@
                     "endOffset": 807
                 },
                 "from": {
-                    "file": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\PIFSS\\.android\\build-cache\\d95c42289955b75427320c3f826eb531f131da8f\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\.android\\build-cache\\b72f8c878670e3cfcbd2a2719560109540c875de\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -1381,7 +1381,7 @@
                     "endOffset": 879
                 },
                 "from": {
-                    "file": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\PIFSS\\.android\\build-cache\\d95c42289955b75427320c3f826eb531f131da8f\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\.android\\build-cache\\b72f8c878670e3cfcbd2a2719560109540c875de\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -1400,7 +1400,7 @@
                     "endOffset": 937
                 },
                 "from": {
-                    "file": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\PIFSS\\.android\\build-cache\\d95c42289955b75427320c3f826eb531f131da8f\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\.android\\build-cache\\b72f8c878670e3cfcbd2a2719560109540c875de\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -1419,7 +1419,7 @@
                     "endOffset": 995
                 },
                 "from": {
-                    "file": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\PIFSS\\.android\\build-cache\\d95c42289955b75427320c3f826eb531f131da8f\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\.android\\build-cache\\b72f8c878670e3cfcbd2a2719560109540c875de\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -1438,7 +1438,7 @@
                     "endOffset": 1101
                 },
                 "from": {
-                    "file": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\PIFSS\\.android\\build-cache\\d95c42289955b75427320c3f826eb531f131da8f\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\.android\\build-cache\\b72f8c878670e3cfcbd2a2719560109540c875de\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -1457,7 +1457,7 @@
                     "endOffset": 1165
                 },
                 "from": {
-                    "file": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\PIFSS\\.android\\build-cache\\d95c42289955b75427320c3f826eb531f131da8f\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\.android\\build-cache\\b72f8c878670e3cfcbd2a2719560109540c875de\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
@@ -1476,7 +1476,7 @@
                     "endOffset": 1229
                 },
                 "from": {
-                    "file": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\PIFSS\\.android\\build-cache\\57d14aaeaf478530376bb0c3670f160853c994e7\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\.android\\build-cache\\964a1fed1a6e76b02583d65146a3edf4a5ca8b7d\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -1495,7 +1495,7 @@
                     "endOffset": 1284
                 },
                 "from": {
-                    "file": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\PIFSS\\.android\\build-cache\\949177878d74a023d4b66948a99a2ccc99e58143\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\.android\\build-cache\\767e0eac95804b8f2599ade09cd7788c5a556c4e\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -1514,7 +1514,7 @@
                     "endOffset": 1347
                 },
                 "from": {
-                    "file": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\PIFSS\\.android\\build-cache\\d95c42289955b75427320c3f826eb531f131da8f\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\.android\\build-cache\\b72f8c878670e3cfcbd2a2719560109540c875de\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
@@ -1534,7 +1534,7 @@
                     "endOffset": 1529
                 },
                 "from": {
-                    "file": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\PIFSS\\.android\\build-cache\\d95c42289955b75427320c3f826eb531f131da8f\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\.android\\build-cache\\b72f8c878670e3cfcbd2a2719560109540c875de\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 11,
                         "startColumn": 4,
@@ -1548,7 +1548,7 @@
         ]
     },
     {
-        "outputFile": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+        "outputFile": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v4\\doctor\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw600dp-v13\\values-sw600dp-v13.xml",
         "map": [
             {
                 "to": {
@@ -1559,7 +1559,7 @@
                     "endOffset": 119
                 },
                 "from": {
-                    "file": "C:\\Users\\trn24\\.android\\build-cache\\f5bbc6ff808a4ac74405d8a761d68a423887319a\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\PIFSS\\.android\\build-cache\\9b85976bda791bd9abdfdd3cb34cce2b0455d7aa\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -1578,7 +1578,7 @@
                     "endOffset": 188
                 },
                 "from": {
-                    "file": "C:\\Users\\trn24\\.android\\build-cache\\f5bbc6ff808a4ac74405d8a761d68a423887319a\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\PIFSS\\.android\\build-cache\\9b85976bda791bd9abdfdd3cb34cce2b0455d7aa\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -1597,7 +1597,7 @@
                     "endOffset": 258
                 },
                 "from": {
-                    "file": "C:\\Users\\trn24\\.android\\build-cache\\f5bbc6ff808a4ac74405d8a761d68a423887319a\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\PIFSS\\.android\\build-cache\\9b85976bda791bd9abdfdd3cb34cce2b0455d7aa\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -1616,7 +1616,7 @@
                     "endOffset": 332
                 },
                 "from": {
-                    "file": "C:\\Users\\trn24\\.android\\build-cache\\f5bbc6ff808a4ac74405d8a761d68a423887319a\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\PIFSS\\.android\\build-cache\\9b85976bda791bd9abdfdd3cb34cce2b0455d7aa\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -1635,7 +1635,7 @@
                     "endOffset": 408
                 },
                 "from": {
-                    "file": "C:\\Users\\trn24\\.android\\build-cache\\f5bbc6ff808a4ac74405d8a761d68a423887319a\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\PIFSS\\.android\\build-cache\\9b85976bda791bd9abdfdd3cb34cce2b0455d7aa\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -1654,7 +1654,7 @@
                     "endOffset": 467
                 },
                 "from": {
-                    "file": "C:\\Users\\trn24\\.android\\build-cache\\f5bbc6ff808a4ac74405d8a761d68a423887319a\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\PIFSS\\.android\\build-cache\\9b85976bda791bd9abdfdd3cb34cce2b0455d7aa\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -1673,7 +1673,7 @@
                     "endOffset": 538
                 },
                 "from": {
-                    "file": "C:\\Users\\trn24\\.android\\build-cache\\f5bbc6ff808a4ac74405d8a761d68a423887319a\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\PIFSS\\.android\\build-cache\\9b85976bda791bd9abdfdd3cb34cce2b0455d7aa\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -1692,7 +1692,7 @@
                     "endOffset": 606
                 },
                 "from": {
-                    "file": "C:\\Users\\trn24\\.android\\build-cache\\f5bbc6ff808a4ac74405d8a761d68a423887319a\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\PIFSS\\.android\\build-cache\\9b85976bda791bd9abdfdd3cb34cce2b0455d7aa\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
@@ -1711,7 +1711,7 @@
                     "endOffset": 666
                 },
                 "from": {
-                    "file": "C:\\Users\\trn24\\.android\\build-cache\\b72f8c878670e3cfcbd2a2719560109540c875de\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\PIFSS\\.android\\build-cache\\d95c42289955b75427320c3f826eb531f131da8f\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -1730,7 +1730,7 @@
                     "endOffset": 736
                 },
                 "from": {
-                    "file": "C:\\Users\\trn24\\.android\\build-cache\\b72f8c878670e3cfcbd2a2719560109540c875de\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\PIFSS\\.android\\build-cache\\d95c42289955b75427320c3f826eb531f131da8f\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -1749,7 +1749,7 @@
                     "endOffset": 807
                 },
                 "from": {
-                    "file": "C:\\Users\\trn24\\.android\\build-cache\\b72f8c878670e3cfcbd2a2719560109540c875de\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\PIFSS\\.android\\build-cache\\d95c42289955b75427320c3f826eb531f131da8f\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -1768,7 +1768,7 @@
                     "endOffset": 879
                 },
                 "from": {
-                    "file": "C:\\Users\\trn24\\.android\\build-cache\\b72f8c878670e3cfcbd2a2719560109540c875de\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\PIFSS\\.android\\build-cache\\d95c42289955b75427320c3f826eb531f131da8f\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -1787,7 +1787,7 @@
                     "endOffset": 937
                 },
                 "from": {
-                    "file": "C:\\Users\\trn24\\.android\\build-cache\\b72f8c878670e3cfcbd2a2719560109540c875de\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\PIFSS\\.android\\build-cache\\d95c42289955b75427320c3f826eb531f131da8f\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -1806,7 +1806,7 @@
                     "endOffset": 995
                 },
                 "from": {
-                    "file": "C:\\Users\\trn24\\.android\\build-cache\\b72f8c878670e3cfcbd2a2719560109540c875de\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\PIFSS\\.android\\build-cache\\d95c42289955b75427320c3f826eb531f131da8f\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -1825,7 +1825,7 @@
                     "endOffset": 1101
                 },
                 "from": {
-                    "file": "C:\\Users\\trn24\\.android\\build-cache\\b72f8c878670e3cfcbd2a2719560109540c875de\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\PIFSS\\.android\\build-cache\\d95c42289955b75427320c3f826eb531f131da8f\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -1844,7 +1844,7 @@
                     "endOffset": 1165
                 },
                 "from": {
-                    "file": "C:\\Users\\trn24\\.android\\build-cache\\b72f8c878670e3cfcbd2a2719560109540c875de\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\PIFSS\\.android\\build-cache\\d95c42289955b75427320c3f826eb531f131da8f\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
@@ -1863,7 +1863,7 @@
                     "endOffset": 1229
                 },
                 "from": {
-                    "file": "C:\\Users\\trn24\\.android\\build-cache\\964a1fed1a6e76b02583d65146a3edf4a5ca8b7d\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\PIFSS\\.android\\build-cache\\57d14aaeaf478530376bb0c3670f160853c994e7\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -1882,7 +1882,7 @@
                     "endOffset": 1284
                 },
                 "from": {
-                    "file": "C:\\Users\\trn24\\.android\\build-cache\\767e0eac95804b8f2599ade09cd7788c5a556c4e\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\PIFSS\\.android\\build-cache\\949177878d74a023d4b66948a99a2ccc99e58143\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -1901,7 +1901,7 @@
                     "endOffset": 1347
                 },
                 "from": {
-                    "file": "C:\\Users\\trn24\\.android\\build-cache\\b72f8c878670e3cfcbd2a2719560109540c875de\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\PIFSS\\.android\\build-cache\\d95c42289955b75427320c3f826eb531f131da8f\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
@@ -1921,7 +1921,7 @@
                     "endOffset": 1529
                 },
                 "from": {
-                    "file": "C:\\Users\\trn24\\.android\\build-cache\\b72f8c878670e3cfcbd2a2719560109540c875de\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\PIFSS\\.android\\build-cache\\d95c42289955b75427320c3f826eb531f131da8f\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 11,
                         "startColumn": 4,
@@ -1935,7 +1935,7 @@
         ]
     },
     {
-        "outputFile": "C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v6\\doctor\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+        "outputFile": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw600dp-v13\\values-sw600dp-v13.xml",
         "map": [
             {
                 "to": {
@@ -1946,7 +1946,7 @@
                     "endOffset": 119
                 },
                 "from": {
-                    "file": "C:\\Users\\PIFSS\\.android\\build-cache\\9b85976bda791bd9abdfdd3cb34cce2b0455d7aa\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\.android\\build-cache\\f5bbc6ff808a4ac74405d8a761d68a423887319a\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -1965,7 +1965,7 @@
                     "endOffset": 188
                 },
                 "from": {
-                    "file": "C:\\Users\\PIFSS\\.android\\build-cache\\9b85976bda791bd9abdfdd3cb34cce2b0455d7aa\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\.android\\build-cache\\f5bbc6ff808a4ac74405d8a761d68a423887319a\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -1984,7 +1984,7 @@
                     "endOffset": 258
                 },
                 "from": {
-                    "file": "C:\\Users\\PIFSS\\.android\\build-cache\\9b85976bda791bd9abdfdd3cb34cce2b0455d7aa\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\.android\\build-cache\\f5bbc6ff808a4ac74405d8a761d68a423887319a\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -2003,7 +2003,7 @@
                     "endOffset": 332
                 },
                 "from": {
-                    "file": "C:\\Users\\PIFSS\\.android\\build-cache\\9b85976bda791bd9abdfdd3cb34cce2b0455d7aa\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\.android\\build-cache\\f5bbc6ff808a4ac74405d8a761d68a423887319a\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -2022,7 +2022,7 @@
                     "endOffset": 408
                 },
                 "from": {
-                    "file": "C:\\Users\\PIFSS\\.android\\build-cache\\9b85976bda791bd9abdfdd3cb34cce2b0455d7aa\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\.android\\build-cache\\f5bbc6ff808a4ac74405d8a761d68a423887319a\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -2041,7 +2041,7 @@
                     "endOffset": 467
                 },
                 "from": {
-                    "file": "C:\\Users\\PIFSS\\.android\\build-cache\\9b85976bda791bd9abdfdd3cb34cce2b0455d7aa\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\.android\\build-cache\\f5bbc6ff808a4ac74405d8a761d68a423887319a\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -2060,7 +2060,7 @@
                     "endOffset": 538
                 },
                 "from": {
-                    "file": "C:\\Users\\PIFSS\\.android\\build-cache\\9b85976bda791bd9abdfdd3cb34cce2b0455d7aa\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\.android\\build-cache\\f5bbc6ff808a4ac74405d8a761d68a423887319a\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -2079,7 +2079,7 @@
                     "endOffset": 606
                 },
                 "from": {
-                    "file": "C:\\Users\\PIFSS\\.android\\build-cache\\9b85976bda791bd9abdfdd3cb34cce2b0455d7aa\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\.android\\build-cache\\f5bbc6ff808a4ac74405d8a761d68a423887319a\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
@@ -2098,7 +2098,7 @@
                     "endOffset": 666
                 },
                 "from": {
-                    "file": "C:\\Users\\PIFSS\\.android\\build-cache\\d95c42289955b75427320c3f826eb531f131da8f\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\.android\\build-cache\\b72f8c878670e3cfcbd2a2719560109540c875de\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -2117,7 +2117,7 @@
                     "endOffset": 736
                 },
                 "from": {
-                    "file": "C:\\Users\\PIFSS\\.android\\build-cache\\d95c42289955b75427320c3f826eb531f131da8f\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\.android\\build-cache\\b72f8c878670e3cfcbd2a2719560109540c875de\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -2136,7 +2136,7 @@
                     "endOffset": 807
                 },
                 "from": {
-                    "file": "C:\\Users\\PIFSS\\.android\\build-cache\\d95c42289955b75427320c3f826eb531f131da8f\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\.android\\build-cache\\b72f8c878670e3cfcbd2a2719560109540c875de\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -2155,7 +2155,7 @@
                     "endOffset": 879
                 },
                 "from": {
-                    "file": "C:\\Users\\PIFSS\\.android\\build-cache\\d95c42289955b75427320c3f826eb531f131da8f\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\.android\\build-cache\\b72f8c878670e3cfcbd2a2719560109540c875de\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -2174,7 +2174,7 @@
                     "endOffset": 937
                 },
                 "from": {
-                    "file": "C:\\Users\\PIFSS\\.android\\build-cache\\d95c42289955b75427320c3f826eb531f131da8f\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\.android\\build-cache\\b72f8c878670e3cfcbd2a2719560109540c875de\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -2193,7 +2193,7 @@
                     "endOffset": 995
                 },
                 "from": {
-                    "file": "C:\\Users\\PIFSS\\.android\\build-cache\\d95c42289955b75427320c3f826eb531f131da8f\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\.android\\build-cache\\b72f8c878670e3cfcbd2a2719560109540c875de\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -2212,7 +2212,7 @@
                     "endOffset": 1101
                 },
                 "from": {
-                    "file": "C:\\Users\\PIFSS\\.android\\build-cache\\d95c42289955b75427320c3f826eb531f131da8f\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\.android\\build-cache\\b72f8c878670e3cfcbd2a2719560109540c875de\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -2231,7 +2231,7 @@
                     "endOffset": 1165
                 },
                 "from": {
-                    "file": "C:\\Users\\PIFSS\\.android\\build-cache\\d95c42289955b75427320c3f826eb531f131da8f\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\.android\\build-cache\\b72f8c878670e3cfcbd2a2719560109540c875de\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
@@ -2250,7 +2250,7 @@
                     "endOffset": 1229
                 },
                 "from": {
-                    "file": "C:\\Users\\PIFSS\\.android\\build-cache\\57d14aaeaf478530376bb0c3670f160853c994e7\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\.android\\build-cache\\964a1fed1a6e76b02583d65146a3edf4a5ca8b7d\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -2269,7 +2269,7 @@
                     "endOffset": 1284
                 },
                 "from": {
-                    "file": "C:\\Users\\PIFSS\\.android\\build-cache\\949177878d74a023d4b66948a99a2ccc99e58143\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\.android\\build-cache\\767e0eac95804b8f2599ade09cd7788c5a556c4e\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -2288,7 +2288,7 @@
                     "endOffset": 1347
                 },
                 "from": {
-                    "file": "C:\\Users\\PIFSS\\.android\\build-cache\\d95c42289955b75427320c3f826eb531f131da8f\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\.android\\build-cache\\b72f8c878670e3cfcbd2a2719560109540c875de\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
@@ -2308,7 +2308,7 @@
                     "endOffset": 1529
                 },
                 "from": {
-                    "file": "C:\\Users\\PIFSS\\.android\\build-cache\\d95c42289955b75427320c3f826eb531f131da8f\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\.android\\build-cache\\b72f8c878670e3cfcbd2a2719560109540c875de\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 11,
                         "startColumn": 4,
@@ -2322,7 +2322,7 @@
         ]
     },
     {
-        "outputFile": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v4\\doctor\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+        "outputFile": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v6\\doctor\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw600dp-v13\\values-sw600dp-v13.xml",
         "map": [
             {
                 "to": {
@@ -2333,7 +2333,7 @@
                     "endOffset": 119
                 },
                 "from": {
-                    "file": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\PIFSS\\.android\\build-cache\\9b85976bda791bd9abdfdd3cb34cce2b0455d7aa\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\PIFSS\\.android\\build-cache\\9b85976bda791bd9abdfdd3cb34cce2b0455d7aa\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -2352,7 +2352,7 @@
                     "endOffset": 188
                 },
                 "from": {
-                    "file": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\PIFSS\\.android\\build-cache\\9b85976bda791bd9abdfdd3cb34cce2b0455d7aa\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\PIFSS\\.android\\build-cache\\9b85976bda791bd9abdfdd3cb34cce2b0455d7aa\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -2371,7 +2371,7 @@
                     "endOffset": 258
                 },
                 "from": {
-                    "file": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\PIFSS\\.android\\build-cache\\9b85976bda791bd9abdfdd3cb34cce2b0455d7aa\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\PIFSS\\.android\\build-cache\\9b85976bda791bd9abdfdd3cb34cce2b0455d7aa\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -2390,7 +2390,7 @@
                     "endOffset": 332
                 },
                 "from": {
-                    "file": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\PIFSS\\.android\\build-cache\\9b85976bda791bd9abdfdd3cb34cce2b0455d7aa\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\PIFSS\\.android\\build-cache\\9b85976bda791bd9abdfdd3cb34cce2b0455d7aa\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -2409,7 +2409,7 @@
                     "endOffset": 408
                 },
                 "from": {
-                    "file": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\PIFSS\\.android\\build-cache\\9b85976bda791bd9abdfdd3cb34cce2b0455d7aa\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\PIFSS\\.android\\build-cache\\9b85976bda791bd9abdfdd3cb34cce2b0455d7aa\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -2428,7 +2428,7 @@
                     "endOffset": 467
                 },
                 "from": {
-                    "file": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\PIFSS\\.android\\build-cache\\9b85976bda791bd9abdfdd3cb34cce2b0455d7aa\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\PIFSS\\.android\\build-cache\\9b85976bda791bd9abdfdd3cb34cce2b0455d7aa\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -2447,7 +2447,7 @@
                     "endOffset": 538
                 },
                 "from": {
-                    "file": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\PIFSS\\.android\\build-cache\\9b85976bda791bd9abdfdd3cb34cce2b0455d7aa\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\PIFSS\\.android\\build-cache\\9b85976bda791bd9abdfdd3cb34cce2b0455d7aa\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -2466,7 +2466,7 @@
                     "endOffset": 606
                 },
                 "from": {
-                    "file": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\PIFSS\\.android\\build-cache\\9b85976bda791bd9abdfdd3cb34cce2b0455d7aa\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\PIFSS\\.android\\build-cache\\9b85976bda791bd9abdfdd3cb34cce2b0455d7aa\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
@@ -2485,7 +2485,7 @@
                     "endOffset": 666
                 },
                 "from": {
-                    "file": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\PIFSS\\.android\\build-cache\\d95c42289955b75427320c3f826eb531f131da8f\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\PIFSS\\.android\\build-cache\\d95c42289955b75427320c3f826eb531f131da8f\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -2504,7 +2504,7 @@
                     "endOffset": 736
                 },
                 "from": {
-                    "file": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\PIFSS\\.android\\build-cache\\d95c42289955b75427320c3f826eb531f131da8f\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\PIFSS\\.android\\build-cache\\d95c42289955b75427320c3f826eb531f131da8f\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -2523,7 +2523,7 @@
                     "endOffset": 807
                 },
                 "from": {
-                    "file": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\PIFSS\\.android\\build-cache\\d95c42289955b75427320c3f826eb531f131da8f\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\PIFSS\\.android\\build-cache\\d95c42289955b75427320c3f826eb531f131da8f\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -2542,7 +2542,7 @@
                     "endOffset": 879
                 },
                 "from": {
-                    "file": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\PIFSS\\.android\\build-cache\\d95c42289955b75427320c3f826eb531f131da8f\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\PIFSS\\.android\\build-cache\\d95c42289955b75427320c3f826eb531f131da8f\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -2561,7 +2561,7 @@
                     "endOffset": 937
                 },
                 "from": {
-                    "file": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\PIFSS\\.android\\build-cache\\d95c42289955b75427320c3f826eb531f131da8f\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\PIFSS\\.android\\build-cache\\d95c42289955b75427320c3f826eb531f131da8f\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -2580,7 +2580,7 @@
                     "endOffset": 995
                 },
                 "from": {
-                    "file": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\PIFSS\\.android\\build-cache\\d95c42289955b75427320c3f826eb531f131da8f\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\PIFSS\\.android\\build-cache\\d95c42289955b75427320c3f826eb531f131da8f\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -2599,7 +2599,7 @@
                     "endOffset": 1101
                 },
                 "from": {
-                    "file": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\PIFSS\\.android\\build-cache\\d95c42289955b75427320c3f826eb531f131da8f\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\PIFSS\\.android\\build-cache\\d95c42289955b75427320c3f826eb531f131da8f\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -2618,7 +2618,7 @@
                     "endOffset": 1165
                 },
                 "from": {
-                    "file": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\PIFSS\\.android\\build-cache\\d95c42289955b75427320c3f826eb531f131da8f\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\PIFSS\\.android\\build-cache\\d95c42289955b75427320c3f826eb531f131da8f\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
@@ -2637,7 +2637,7 @@
                     "endOffset": 1229
                 },
                 "from": {
-                    "file": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\PIFSS\\.android\\build-cache\\57d14aaeaf478530376bb0c3670f160853c994e7\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\PIFSS\\.android\\build-cache\\57d14aaeaf478530376bb0c3670f160853c994e7\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -2656,7 +2656,7 @@
                     "endOffset": 1284
                 },
                 "from": {
-                    "file": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\PIFSS\\.android\\build-cache\\949177878d74a023d4b66948a99a2ccc99e58143\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\PIFSS\\.android\\build-cache\\949177878d74a023d4b66948a99a2ccc99e58143\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -2675,7 +2675,7 @@
                     "endOffset": 1347
                 },
                 "from": {
-                    "file": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\PIFSS\\.android\\build-cache\\d95c42289955b75427320c3f826eb531f131da8f\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\PIFSS\\.android\\build-cache\\d95c42289955b75427320c3f826eb531f131da8f\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
@@ -2695,7 +2695,7 @@
                     "endOffset": 1529
                 },
                 "from": {
-                    "file": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\PIFSS\\.android\\build-cache\\d95c42289955b75427320c3f826eb531f131da8f\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\PIFSS\\.android\\build-cache\\d95c42289955b75427320c3f826eb531f131da8f\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 11,
                         "startColumn": 4,
@@ -2709,7 +2709,7 @@
         ]
     },
     {
-        "outputFile": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor mar312\\doctor\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+        "outputFile": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor mar312\\doctor\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw600dp-v13\\values-sw600dp-v13.xml",
         "map": [
             {
                 "to": {
@@ -2720,7 +2720,7 @@
                     "endOffset": 119
                 },
                 "from": {
-                    "file": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\trn24\\.android\\build-cache\\f5bbc6ff808a4ac74405d8a761d68a423887319a\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\trn24\\.android\\build-cache\\f5bbc6ff808a4ac74405d8a761d68a423887319a\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -2739,7 +2739,7 @@
                     "endOffset": 188
                 },
                 "from": {
-                    "file": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\trn24\\.android\\build-cache\\f5bbc6ff808a4ac74405d8a761d68a423887319a\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\trn24\\.android\\build-cache\\f5bbc6ff808a4ac74405d8a761d68a423887319a\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -2758,7 +2758,7 @@
                     "endOffset": 258
                 },
                 "from": {
-                    "file": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\trn24\\.android\\build-cache\\f5bbc6ff808a4ac74405d8a761d68a423887319a\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\trn24\\.android\\build-cache\\f5bbc6ff808a4ac74405d8a761d68a423887319a\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -2777,7 +2777,7 @@
                     "endOffset": 332
                 },
                 "from": {
-                    "file": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\trn24\\.android\\build-cache\\f5bbc6ff808a4ac74405d8a761d68a423887319a\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\trn24\\.android\\build-cache\\f5bbc6ff808a4ac74405d8a761d68a423887319a\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -2796,7 +2796,7 @@
                     "endOffset": 408
                 },
                 "from": {
-                    "file": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\trn24\\.android\\build-cache\\f5bbc6ff808a4ac74405d8a761d68a423887319a\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\trn24\\.android\\build-cache\\f5bbc6ff808a4ac74405d8a761d68a423887319a\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -2815,7 +2815,7 @@
                     "endOffset": 467
                 },
                 "from": {
-                    "file": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\trn24\\.android\\build-cache\\f5bbc6ff808a4ac74405d8a761d68a423887319a\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\trn24\\.android\\build-cache\\f5bbc6ff808a4ac74405d8a761d68a423887319a\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -2834,7 +2834,7 @@
                     "endOffset": 538
                 },
                 "from": {
-                    "file": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\trn24\\.android\\build-cache\\f5bbc6ff808a4ac74405d8a761d68a423887319a\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\trn24\\.android\\build-cache\\f5bbc6ff808a4ac74405d8a761d68a423887319a\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -2853,7 +2853,7 @@
                     "endOffset": 606
                 },
                 "from": {
-                    "file": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\trn24\\.android\\build-cache\\f5bbc6ff808a4ac74405d8a761d68a423887319a\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\trn24\\.android\\build-cache\\f5bbc6ff808a4ac74405d8a761d68a423887319a\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
@@ -2872,7 +2872,7 @@
                     "endOffset": 666
                 },
                 "from": {
-                    "file": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\trn24\\.android\\build-cache\\b72f8c878670e3cfcbd2a2719560109540c875de\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\trn24\\.android\\build-cache\\b72f8c878670e3cfcbd2a2719560109540c875de\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -2891,7 +2891,7 @@
                     "endOffset": 736
                 },
                 "from": {
-                    "file": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\trn24\\.android\\build-cache\\b72f8c878670e3cfcbd2a2719560109540c875de\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\trn24\\.android\\build-cache\\b72f8c878670e3cfcbd2a2719560109540c875de\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -2910,7 +2910,7 @@
                     "endOffset": 807
                 },
                 "from": {
-                    "file": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\trn24\\.android\\build-cache\\b72f8c878670e3cfcbd2a2719560109540c875de\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\trn24\\.android\\build-cache\\b72f8c878670e3cfcbd2a2719560109540c875de\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -2929,7 +2929,7 @@
                     "endOffset": 879
                 },
                 "from": {
-                    "file": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\trn24\\.android\\build-cache\\b72f8c878670e3cfcbd2a2719560109540c875de\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\trn24\\.android\\build-cache\\b72f8c878670e3cfcbd2a2719560109540c875de\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -2948,7 +2948,7 @@
                     "endOffset": 937
                 },
                 "from": {
-                    "file": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\trn24\\.android\\build-cache\\b72f8c878670e3cfcbd2a2719560109540c875de\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\trn24\\.android\\build-cache\\b72f8c878670e3cfcbd2a2719560109540c875de\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -2967,7 +2967,7 @@
                     "endOffset": 995
                 },
                 "from": {
-                    "file": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\trn24\\.android\\build-cache\\b72f8c878670e3cfcbd2a2719560109540c875de\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\trn24\\.android\\build-cache\\b72f8c878670e3cfcbd2a2719560109540c875de\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -2986,7 +2986,7 @@
                     "endOffset": 1101
                 },
                 "from": {
-                    "file": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\trn24\\.android\\build-cache\\b72f8c878670e3cfcbd2a2719560109540c875de\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\trn24\\.android\\build-cache\\b72f8c878670e3cfcbd2a2719560109540c875de\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -3005,7 +3005,7 @@
                     "endOffset": 1165
                 },
                 "from": {
-                    "file": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\trn24\\.android\\build-cache\\b72f8c878670e3cfcbd2a2719560109540c875de\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\trn24\\.android\\build-cache\\b72f8c878670e3cfcbd2a2719560109540c875de\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
@@ -3024,7 +3024,7 @@
                     "endOffset": 1229
                 },
                 "from": {
-                    "file": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\trn24\\.android\\build-cache\\964a1fed1a6e76b02583d65146a3edf4a5ca8b7d\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\trn24\\.android\\build-cache\\964a1fed1a6e76b02583d65146a3edf4a5ca8b7d\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -3043,7 +3043,7 @@
                     "endOffset": 1284
                 },
                 "from": {
-                    "file": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\trn24\\.android\\build-cache\\767e0eac95804b8f2599ade09cd7788c5a556c4e\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\trn24\\.android\\build-cache\\767e0eac95804b8f2599ade09cd7788c5a556c4e\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -3062,7 +3062,7 @@
                     "endOffset": 1347
                 },
                 "from": {
-                    "file": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\trn24\\.android\\build-cache\\b72f8c878670e3cfcbd2a2719560109540c875de\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\trn24\\.android\\build-cache\\b72f8c878670e3cfcbd2a2719560109540c875de\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
@@ -3082,7 +3082,7 @@
                     "endOffset": 1529
                 },
                 "from": {
-                    "file": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\trn24\\.android\\build-cache\\b72f8c878670e3cfcbd2a2719560109540c875de\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\trn24\\.android\\build-cache\\b72f8c878670e3cfcbd2a2719560109540c875de\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 11,
                         "startColumn": 4,
@@ -3096,7 +3096,7 @@
         ]
     },
     {
-        "outputFile": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+        "outputFile": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw600dp-v13\\values-sw600dp-v13.xml",
         "map": [
             {
                 "to": {
@@ -3107,7 +3107,7 @@
                     "endOffset": 119
                 },
                 "from": {
-                    "file": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\.android\\build-cache\\752ac81f1b1993e8602d14a1f3fecad31afcf050\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\.android\\build-cache\\752ac81f1b1993e8602d14a1f3fecad31afcf050\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -3126,7 +3126,7 @@
                     "endOffset": 188
                 },
                 "from": {
-                    "file": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\.android\\build-cache\\752ac81f1b1993e8602d14a1f3fecad31afcf050\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\.android\\build-cache\\752ac81f1b1993e8602d14a1f3fecad31afcf050\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -3145,7 +3145,7 @@
                     "endOffset": 258
                 },
                 "from": {
-                    "file": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\.android\\build-cache\\752ac81f1b1993e8602d14a1f3fecad31afcf050\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\.android\\build-cache\\752ac81f1b1993e8602d14a1f3fecad31afcf050\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -3164,7 +3164,7 @@
                     "endOffset": 332
                 },
                 "from": {
-                    "file": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\.android\\build-cache\\752ac81f1b1993e8602d14a1f3fecad31afcf050\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\.android\\build-cache\\752ac81f1b1993e8602d14a1f3fecad31afcf050\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -3183,7 +3183,7 @@
                     "endOffset": 408
                 },
                 "from": {
-                    "file": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\.android\\build-cache\\752ac81f1b1993e8602d14a1f3fecad31afcf050\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\.android\\build-cache\\752ac81f1b1993e8602d14a1f3fecad31afcf050\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -3202,7 +3202,7 @@
                     "endOffset": 467
                 },
                 "from": {
-                    "file": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\.android\\build-cache\\752ac81f1b1993e8602d14a1f3fecad31afcf050\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\.android\\build-cache\\752ac81f1b1993e8602d14a1f3fecad31afcf050\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -3221,7 +3221,7 @@
                     "endOffset": 538
                 },
                 "from": {
-                    "file": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\.android\\build-cache\\752ac81f1b1993e8602d14a1f3fecad31afcf050\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\.android\\build-cache\\752ac81f1b1993e8602d14a1f3fecad31afcf050\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -3240,7 +3240,7 @@
                     "endOffset": 606
                 },
                 "from": {
-                    "file": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\.android\\build-cache\\752ac81f1b1993e8602d14a1f3fecad31afcf050\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\.android\\build-cache\\752ac81f1b1993e8602d14a1f3fecad31afcf050\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
@@ -3259,7 +3259,7 @@
                     "endOffset": 666
                 },
                 "from": {
-                    "file": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\.android\\build-cache\\7da7010fc8ba9c73b7bbd44e32707d8abcc97463\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\.android\\build-cache\\7da7010fc8ba9c73b7bbd44e32707d8abcc97463\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -3278,7 +3278,7 @@
                     "endOffset": 736
                 },
                 "from": {
-                    "file": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\.android\\build-cache\\7da7010fc8ba9c73b7bbd44e32707d8abcc97463\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\.android\\build-cache\\7da7010fc8ba9c73b7bbd44e32707d8abcc97463\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -3297,7 +3297,7 @@
                     "endOffset": 807
                 },
                 "from": {
-                    "file": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\.android\\build-cache\\7da7010fc8ba9c73b7bbd44e32707d8abcc97463\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\.android\\build-cache\\7da7010fc8ba9c73b7bbd44e32707d8abcc97463\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -3316,7 +3316,7 @@
                     "endOffset": 879
                 },
                 "from": {
-                    "file": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\.android\\build-cache\\7da7010fc8ba9c73b7bbd44e32707d8abcc97463\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\.android\\build-cache\\7da7010fc8ba9c73b7bbd44e32707d8abcc97463\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -3335,7 +3335,7 @@
                     "endOffset": 937
                 },
                 "from": {
-                    "file": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\.android\\build-cache\\7da7010fc8ba9c73b7bbd44e32707d8abcc97463\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\.android\\build-cache\\7da7010fc8ba9c73b7bbd44e32707d8abcc97463\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -3354,7 +3354,7 @@
                     "endOffset": 995
                 },
                 "from": {
-                    "file": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\.android\\build-cache\\7da7010fc8ba9c73b7bbd44e32707d8abcc97463\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\.android\\build-cache\\7da7010fc8ba9c73b7bbd44e32707d8abcc97463\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -3373,7 +3373,7 @@
                     "endOffset": 1101
                 },
                 "from": {
-                    "file": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\.android\\build-cache\\7da7010fc8ba9c73b7bbd44e32707d8abcc97463\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\.android\\build-cache\\7da7010fc8ba9c73b7bbd44e32707d8abcc97463\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -3392,7 +3392,7 @@
                     "endOffset": 1165
                 },
                 "from": {
-                    "file": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\.android\\build-cache\\7da7010fc8ba9c73b7bbd44e32707d8abcc97463\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\.android\\build-cache\\7da7010fc8ba9c73b7bbd44e32707d8abcc97463\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
@@ -3411,7 +3411,7 @@
                     "endOffset": 1229
                 },
                 "from": {
-                    "file": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\.android\\build-cache\\a2479d1763ccf94fa82a33aed431d50727b987b2\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\.android\\build-cache\\a2479d1763ccf94fa82a33aed431d50727b987b2\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -3430,7 +3430,7 @@
                     "endOffset": 1284
                 },
                 "from": {
-                    "file": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\.android\\build-cache\\654d0fc8704bb7b334e5bf800426e673e3876052\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\.android\\build-cache\\654d0fc8704bb7b334e5bf800426e673e3876052\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -3449,7 +3449,7 @@
                     "endOffset": 1347
                 },
                 "from": {
-                    "file": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\.android\\build-cache\\7da7010fc8ba9c73b7bbd44e32707d8abcc97463\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\.android\\build-cache\\7da7010fc8ba9c73b7bbd44e32707d8abcc97463\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
@@ -3469,7 +3469,7 @@
                     "endOffset": 1529
                 },
                 "from": {
-                    "file": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\.android\\build-cache\\7da7010fc8ba9c73b7bbd44e32707d8abcc97463\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\.android\\build-cache\\7da7010fc8ba9c73b7bbd44e32707d8abcc97463\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 11,
                         "startColumn": 4,
@@ -3483,7 +3483,7 @@
         ]
     },
     {
-        "outputFile": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\doctor\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+        "outputFile": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v4\\doctor\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw600dp-v13\\values-sw600dp-v13.xml",
         "map": [
             {
                 "to": {
@@ -3494,7 +3494,7 @@
                     "endOffset": 119
                 },
                 "from": {
-                    "file": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\Entisar\\.android\\build-cache\\752ac81f1b1993e8602d14a1f3fecad31afcf050\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\PIFSS\\.android\\build-cache\\9b85976bda791bd9abdfdd3cb34cce2b0455d7aa\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -3513,7 +3513,7 @@
                     "endOffset": 188
                 },
                 "from": {
-                    "file": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\Entisar\\.android\\build-cache\\752ac81f1b1993e8602d14a1f3fecad31afcf050\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\PIFSS\\.android\\build-cache\\9b85976bda791bd9abdfdd3cb34cce2b0455d7aa\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -3532,7 +3532,7 @@
                     "endOffset": 258
                 },
                 "from": {
-                    "file": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\Entisar\\.android\\build-cache\\752ac81f1b1993e8602d14a1f3fecad31afcf050\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\PIFSS\\.android\\build-cache\\9b85976bda791bd9abdfdd3cb34cce2b0455d7aa\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -3551,7 +3551,7 @@
                     "endOffset": 332
                 },
                 "from": {
-                    "file": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\Entisar\\.android\\build-cache\\752ac81f1b1993e8602d14a1f3fecad31afcf050\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\PIFSS\\.android\\build-cache\\9b85976bda791bd9abdfdd3cb34cce2b0455d7aa\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -3570,7 +3570,7 @@
                     "endOffset": 408
                 },
                 "from": {
-                    "file": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\Entisar\\.android\\build-cache\\752ac81f1b1993e8602d14a1f3fecad31afcf050\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\PIFSS\\.android\\build-cache\\9b85976bda791bd9abdfdd3cb34cce2b0455d7aa\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -3589,7 +3589,7 @@
                     "endOffset": 467
                 },
                 "from": {
-                    "file": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\Entisar\\.android\\build-cache\\752ac81f1b1993e8602d14a1f3fecad31afcf050\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\PIFSS\\.android\\build-cache\\9b85976bda791bd9abdfdd3cb34cce2b0455d7aa\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -3608,7 +3608,7 @@
                     "endOffset": 538
                 },
                 "from": {
-                    "file": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\Entisar\\.android\\build-cache\\752ac81f1b1993e8602d14a1f3fecad31afcf050\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\PIFSS\\.android\\build-cache\\9b85976bda791bd9abdfdd3cb34cce2b0455d7aa\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -3627,7 +3627,7 @@
                     "endOffset": 606
                 },
                 "from": {
-                    "file": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\Entisar\\.android\\build-cache\\752ac81f1b1993e8602d14a1f3fecad31afcf050\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\PIFSS\\.android\\build-cache\\9b85976bda791bd9abdfdd3cb34cce2b0455d7aa\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
@@ -3646,7 +3646,7 @@
                     "endOffset": 666
                 },
                 "from": {
-                    "file": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\Entisar\\.android\\build-cache\\7da7010fc8ba9c73b7bbd44e32707d8abcc97463\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\PIFSS\\.android\\build-cache\\d95c42289955b75427320c3f826eb531f131da8f\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -3665,7 +3665,7 @@
                     "endOffset": 736
                 },
                 "from": {
-                    "file": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\Entisar\\.android\\build-cache\\7da7010fc8ba9c73b7bbd44e32707d8abcc97463\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\PIFSS\\.android\\build-cache\\d95c42289955b75427320c3f826eb531f131da8f\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -3684,7 +3684,7 @@
                     "endOffset": 807
                 },
                 "from": {
-                    "file": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\Entisar\\.android\\build-cache\\7da7010fc8ba9c73b7bbd44e32707d8abcc97463\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\PIFSS\\.android\\build-cache\\d95c42289955b75427320c3f826eb531f131da8f\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -3703,7 +3703,7 @@
                     "endOffset": 879
                 },
                 "from": {
-                    "file": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\Entisar\\.android\\build-cache\\7da7010fc8ba9c73b7bbd44e32707d8abcc97463\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\PIFSS\\.android\\build-cache\\d95c42289955b75427320c3f826eb531f131da8f\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -3722,7 +3722,7 @@
                     "endOffset": 937
                 },
                 "from": {
-                    "file": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\Entisar\\.android\\build-cache\\7da7010fc8ba9c73b7bbd44e32707d8abcc97463\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\PIFSS\\.android\\build-cache\\d95c42289955b75427320c3f826eb531f131da8f\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -3741,7 +3741,7 @@
                     "endOffset": 995
                 },
                 "from": {
-                    "file": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\Entisar\\.android\\build-cache\\7da7010fc8ba9c73b7bbd44e32707d8abcc97463\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\PIFSS\\.android\\build-cache\\d95c42289955b75427320c3f826eb531f131da8f\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -3760,7 +3760,7 @@
                     "endOffset": 1101
                 },
                 "from": {
-                    "file": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\Entisar\\.android\\build-cache\\7da7010fc8ba9c73b7bbd44e32707d8abcc97463\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\PIFSS\\.android\\build-cache\\d95c42289955b75427320c3f826eb531f131da8f\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -3779,7 +3779,7 @@
                     "endOffset": 1165
                 },
                 "from": {
-                    "file": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\Entisar\\.android\\build-cache\\7da7010fc8ba9c73b7bbd44e32707d8abcc97463\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\PIFSS\\.android\\build-cache\\d95c42289955b75427320c3f826eb531f131da8f\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
@@ -3798,7 +3798,7 @@
                     "endOffset": 1229
                 },
                 "from": {
-                    "file": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\Entisar\\.android\\build-cache\\a2479d1763ccf94fa82a33aed431d50727b987b2\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\PIFSS\\.android\\build-cache\\57d14aaeaf478530376bb0c3670f160853c994e7\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -3817,7 +3817,7 @@
                     "endOffset": 1284
                 },
                 "from": {
-                    "file": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\Entisar\\.android\\build-cache\\654d0fc8704bb7b334e5bf800426e673e3876052\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\PIFSS\\.android\\build-cache\\949177878d74a023d4b66948a99a2ccc99e58143\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -3836,7 +3836,7 @@
                     "endOffset": 1347
                 },
                 "from": {
-                    "file": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\Entisar\\.android\\build-cache\\7da7010fc8ba9c73b7bbd44e32707d8abcc97463\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\PIFSS\\.android\\build-cache\\d95c42289955b75427320c3f826eb531f131da8f\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
@@ -3856,7 +3856,394 @@
                     "endOffset": 1529
                 },
                 "from": {
-                    "file": "C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\Entisar\\.android\\build-cache\\7da7010fc8ba9c73b7bbd44e32707d8abcc97463\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\PIFSS\\.android\\build-cache\\d95c42289955b75427320c3f826eb531f131da8f\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 677,
+                        "endLine": 14,
+                        "endColumn": 12,
+                        "endOffset": 854
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\doctor\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 68,
+                    "endOffset": 119
+                },
+                "from": {
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\Entisar\\.android\\build-cache\\752ac81f1b1993e8602d14a1f3fecad31afcf050\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 68,
+                        "endOffset": 119
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 124,
+                    "endColumn": 68,
+                    "endOffset": 188
+                },
+                "from": {
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\Entisar\\.android\\build-cache\\752ac81f1b1993e8602d14a1f3fecad31afcf050\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 124,
+                        "endColumn": 68,
+                        "endOffset": 188
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 193,
+                    "endColumn": 69,
+                    "endOffset": 258
+                },
+                "from": {
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\Entisar\\.android\\build-cache\\752ac81f1b1993e8602d14a1f3fecad31afcf050\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 193,
+                        "endColumn": 69,
+                        "endOffset": 258
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 263,
+                    "endColumn": 73,
+                    "endOffset": 332
+                },
+                "from": {
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\Entisar\\.android\\build-cache\\752ac81f1b1993e8602d14a1f3fecad31afcf050\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 263,
+                        "endColumn": 73,
+                        "endOffset": 332
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 337,
+                    "endColumn": 75,
+                    "endOffset": 408
+                },
+                "from": {
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\Entisar\\.android\\build-cache\\752ac81f1b1993e8602d14a1f3fecad31afcf050\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 337,
+                        "endColumn": 75,
+                        "endOffset": 408
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 413,
+                    "endColumn": 58,
+                    "endOffset": 467
+                },
+                "from": {
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\Entisar\\.android\\build-cache\\752ac81f1b1993e8602d14a1f3fecad31afcf050\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 413,
+                        "endColumn": 58,
+                        "endOffset": 467
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 472,
+                    "endColumn": 70,
+                    "endOffset": 538
+                },
+                "from": {
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\Entisar\\.android\\build-cache\\752ac81f1b1993e8602d14a1f3fecad31afcf050\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 472,
+                        "endColumn": 70,
+                        "endOffset": 538
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 543,
+                    "endColumn": 67,
+                    "endOffset": 606
+                },
+                "from": {
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\Entisar\\.android\\build-cache\\752ac81f1b1993e8602d14a1f3fecad31afcf050\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 543,
+                        "endColumn": 67,
+                        "endOffset": 606
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 611,
+                    "endColumn": 59,
+                    "endOffset": 666
+                },
+                "from": {
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\Entisar\\.android\\build-cache\\7da7010fc8ba9c73b7bbd44e32707d8abcc97463\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 59,
+                        "endOffset": 110
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 671,
+                    "endColumn": 69,
+                    "endOffset": 736
+                },
+                "from": {
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\Entisar\\.android\\build-cache\\7da7010fc8ba9c73b7bbd44e32707d8abcc97463\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 115,
+                        "endColumn": 69,
+                        "endOffset": 180
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 741,
+                    "endColumn": 70,
+                    "endOffset": 807
+                },
+                "from": {
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\Entisar\\.android\\build-cache\\7da7010fc8ba9c73b7bbd44e32707d8abcc97463\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 185,
+                        "endColumn": 70,
+                        "endOffset": 251
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 812,
+                    "endColumn": 71,
+                    "endOffset": 879
+                },
+                "from": {
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\Entisar\\.android\\build-cache\\7da7010fc8ba9c73b7bbd44e32707d8abcc97463\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 256,
+                        "endColumn": 71,
+                        "endOffset": 323
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 884,
+                    "endColumn": 57,
+                    "endOffset": 937
+                },
+                "from": {
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\Entisar\\.android\\build-cache\\7da7010fc8ba9c73b7bbd44e32707d8abcc97463\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 328,
+                        "endColumn": 57,
+                        "endOffset": 381
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 942,
+                    "endColumn": 57,
+                    "endOffset": 995
+                },
+                "from": {
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\Entisar\\.android\\build-cache\\7da7010fc8ba9c73b7bbd44e32707d8abcc97463\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 386,
+                        "endColumn": 57,
+                        "endOffset": 439
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 1000,
+                    "endColumn": 105,
+                    "endOffset": 1101
+                },
+                "from": {
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\Entisar\\.android\\build-cache\\7da7010fc8ba9c73b7bbd44e32707d8abcc97463\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 444,
+                        "endColumn": 105,
+                        "endOffset": 545
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 1106,
+                    "endColumn": 63,
+                    "endOffset": 1165
+                },
+                "from": {
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\Entisar\\.android\\build-cache\\7da7010fc8ba9c73b7bbd44e32707d8abcc97463\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 550,
+                        "endColumn": 63,
+                        "endOffset": 609
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 1170,
+                    "endColumn": 63,
+                    "endOffset": 1229
+                },
+                "from": {
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\Entisar\\.android\\build-cache\\a2479d1763ccf94fa82a33aed431d50727b987b2\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 63,
+                        "endOffset": 114
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 1234,
+                    "endColumn": 54,
+                    "endOffset": 1284
+                },
+                "from": {
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\Entisar\\.android\\build-cache\\654d0fc8704bb7b334e5bf800426e673e3876052\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 54,
+                        "endOffset": 105
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 1289,
+                    "endColumn": 62,
+                    "endOffset": 1347
+                },
+                "from": {
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\Entisar\\.android\\build-cache\\7da7010fc8ba9c73b7bbd44e32707d8abcc97463\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 614,
+                        "endColumn": 62,
+                        "endOffset": 672
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 1352,
+                    "endLine": 24,
+                    "endColumn": 12,
+                    "endOffset": 1529
+                },
+                "from": {
+                    "file": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\doctor april 88\\doctor\\C:\\Users\\Entisar\\Desktop\\Android\\modifications\\doctor\\C:\\Users\\trn24\\Desktop\\IBM\\Andriod\\Project\\april1\\doctor\\C:\\Users\\Entisar\\.android\\build-cache\\7da7010fc8ba9c73b7bbd44e32707d8abcc97463\\output\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 11,
                         "startColumn": 4,
