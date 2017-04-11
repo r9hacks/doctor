@@ -144,4 +144,12 @@
         android:text="Doctor Name"
         android:textSize="24sp" />
 
+    <TextView
+        android:id="@+id/textViewEditImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageViewLogo"
+        android:layout_centerHorizontal="true"
+        android:text="edit" />
+
 </RelativeLayout>
