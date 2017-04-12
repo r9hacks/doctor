@@ -26,6 +26,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.android.volley.AuthFailureError;
 import com.android.volley.Request;
 import com.android.volley.RequestQueue;
 import com.android.volley.Response;
@@ -45,6 +46,8 @@ import org.json.JSONObject;
 
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
+import java.util.HashMap;
+import java.util.Map;
 
 import static android.R.attr.name;
 import static com.pifss.doctor.R.mipmap.email;
@@ -120,8 +123,15 @@ public class DoctorProfileActivity extends AppCompatActivity {
 
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        System.out.println("did enter onActivityResult!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
+        try{
+
+
         ImageView img = (ImageView) findViewById(R.id.imageViewLogo);
         Bitmap imageBitmap = null;
+        if (resultCode != RESULT_OK){
+            return;
+        }
         if (requestCode == REQUEST_IMAGE_CAPTURE && resultCode == RESULT_OK) {
             Bundle extras = data.getExtras();
             imageBitmap = (Bitmap) extras.get("data");
@@ -147,45 +157,95 @@ public class DoctorProfileActivity extends AppCompatActivity {
             jsonBody.put("imgData",convert(imageBitmap));
             System.out.println(jsonBody.toString());
 
-            JsonObjectRequest jsonObjRequest = new JsonObjectRequest(Request.Method.POST, links.UploadImage, jsonBody, new Response.Listener<JSONObject>() {
-                @Override
-                public void onResponse(JSONObject response) {
-                    progressDialog.hide();
-                    System.out.println("response: "+response.toString());
-                    try {
-                        if (response.getString("errorMsgEn").equalsIgnoreCase("Done")){
-                            Toast.makeText(DoctorProfileActivity.this, "Upload successfully", Toast.LENGTH_SHORT).show();
-                            if (response.has("imgPath")){
-                                String imgPath = response.getString("imgPath");
-                                updateDoctorProfileWithImage(imgPath);
+            final Bitmap finalImageBitmap = imageBitmap;
+            StringRequest jsonObjRequest = new StringRequest(Request.Method.POST,links.UploadImage,
+                    new Response.Listener<String>() {
+                        @Override
+                        public void onResponse(String response) {
+                            progressDialog.hide();
+                            try {
+
+                            JSONObject res = new JSONObject(response);
+                            if (res.getString("errorMsgEn").equalsIgnoreCase("Done")){
+                                Toast.makeText(DoctorProfileActivity.this, "Upload successfully", Toast.LENGTH_SHORT).show();
+                                if (res.has("imgPath")){
+                                    String imgPath = res.getString("imgPath");
+                                    updateDoctorProfileWithImage(imgPath);
+                                }
+                                System.out.println("response: "+response.toString());
+                            }else{
+                                Toast.makeText(DoctorProfileActivity.this, "Upload Failed", Toast.LENGTH_SHORT).show();
                             }
-                            System.out.println("response: "+response.toString());
-                        }else{
-                            Toast.makeText(DoctorProfileActivity.this, "Upload Failed", Toast.LENGTH_SHORT).show();
+
+                            } catch (JSONException e) {
+                                e.printStackTrace();
+                            }
                         }
+                    }, new Response.ErrorListener() {
 
-                        //Toast.makeText(RegisterActivity.this, "on response: "+response.toString(), Toast.LENGTH_SHORT).show();
-                    } catch (JSONException e) {
-                        e.printStackTrace();
-                    }
-
-                }
-            }, new Response.ErrorListener() {
                 @Override
                 public void onErrorResponse(VolleyError error) {
-                    System.out.println("error: "+error.toString());
-                    //show message
                     Toast.makeText(DoctorProfileActivity.this, "Upload Failed", Toast.LENGTH_SHORT).show();
 
                     progressDialog.hide();
-
                 }
-            }){
+            }) {
+
                 @Override
                 public String getBodyContentType() {
                     return "application/x-www-form-urlencoded; charset=UTF-8";
                 }
+
+                @Override
+                protected Map<String, String> getParams() throws AuthFailureError {
+                    Map<String, String> params = new HashMap<>();
+                    params.put("appID", "doctor");
+                    params.put("imgData", convert(finalImageBitmap));
+                    return params;
+                }
+
             };
+
+//            JsonObjectRequest jsonObjRequest = new JsonObjectRequest(Request.Method.POST, links.UploadImage, jsonBody, new Response.Listener<JSONObject>() {
+//                @Override
+//                public void onResponse(JSONObject response) {
+//                    progressDialog.hide();
+//                    System.out.println("response: "+response.toString());
+//                    try {
+//                        if (response.getString("errorMsgEn").equalsIgnoreCase("Done")){
+//                            Toast.makeText(DoctorProfileActivity.this, "Upload successfully", Toast.LENGTH_SHORT).show();
+//                            if (response.has("imgPath")){
+//                                String imgPath = response.getString("imgPath");
+//                                updateDoctorProfileWithImage(imgPath);
+//                            }
+//                            System.out.println("response: "+response.toString());
+//                        }else{
+//                            Toast.makeText(DoctorProfileActivity.this, "Upload Failed", Toast.LENGTH_SHORT).show();
+//                        }
+//
+//                        //Toast.makeText(RegisterActivity.this, "on response: "+response.toString(), Toast.LENGTH_SHORT).show();
+//                    } catch (JSONException e) {
+//                        e.printStackTrace();
+//                    }
+//
+//                }
+//            }, new Response.ErrorListener() {
+//                @Override
+//                public void onErrorResponse(VolleyError error) {
+//                    System.out.println("error: "+error.toString());
+//
+//                    //show message
+//                    Toast.makeText(DoctorProfileActivity.this, "Upload Failed", Toast.LENGTH_SHORT).show();
+//
+//                    progressDialog.hide();
+//
+//                }
+//            }){
+//                @Override
+//                public String getBodyContentType() {
+//                    return "application/x-www-form-urlencoded; charset=UTF-8";
+//                }
+//            };
 
 
             progressDialog.setMessage("Uploading...");
@@ -195,6 +255,12 @@ public class DoctorProfileActivity extends AppCompatActivity {
             e.printStackTrace();
         }
 
+        }catch (OutOfMemoryError e){
+            Toast.makeText(this, "Error out of memory, Please try again", Toast.LENGTH_SHORT).show();
+        }catch (Exception e){
+            Toast.makeText(this, "Error Cannot continue", Toast.LENGTH_SHORT).show();
+
+        }
     }
 
     public void updateDoctorProfileWithImage(String imgPath){
