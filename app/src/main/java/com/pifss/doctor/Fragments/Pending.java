@@ -207,14 +207,14 @@ public class Pending extends Fragment {
         spinHeart.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
-                Toast.makeText(getActivity(), "clicked: "+rate[position], Toast.LENGTH_SHORT).show();
+            //    Toast.makeText(getActivity(), "clicked: "+rate[position], Toast.LENGTH_SHORT).show();
                 rateString = rate[position].toLowerCase();
                 initAdapterWithFilter();
             }
 
             @Override
             public void onNothingSelected(AdapterView<?> parent) {
-                Toast.makeText(getActivity(), "nothing selected ", Toast.LENGTH_SHORT).show();
+      //          Toast.makeText(getActivity(), "nothing selected ", Toast.LENGTH_SHORT).show();
 
             }
         });
@@ -231,7 +231,7 @@ public class Pending extends Fragment {
         spinBlood.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
-                Toast.makeText(getActivity(), "clicked: "+bloodPressure[position], Toast.LENGTH_SHORT).show();
+             //   Toast.makeText(getActivity(), "clicked: "+bloodPressure[position], Toast.LENGTH_SHORT).show();
 
                 pressureString = bloodPressure[position].toLowerCase();
 
@@ -244,7 +244,7 @@ public class Pending extends Fragment {
 
             @Override
             public void onNothingSelected(AdapterView<?> parent) {
-                Toast.makeText(getActivity(), "nothing selected ", Toast.LENGTH_SHORT).show();
+             //   Toast.makeText(getActivity(), "nothing selected ", Toast.LENGTH_SHORT).show();
 
             }
         });
@@ -263,7 +263,7 @@ public class Pending extends Fragment {
         spinFever.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
-                Toast.makeText(getActivity(), "clicked: "+feverArray[position], Toast.LENGTH_SHORT).show();
+               // Toast.makeText(getActivity(), "clicked: "+feverArray[position], Toast.LENGTH_SHORT).show();
 
 
                 feverString = feverArray[position].toLowerCase();
@@ -274,7 +274,7 @@ public class Pending extends Fragment {
 
             @Override
             public void onNothingSelected(AdapterView<?> parent) {
-                Toast.makeText(getActivity(), "nothing selected ", Toast.LENGTH_SHORT).show();
+            //    Toast.makeText(getActivity(), "nothing selected ", Toast.LENGTH_SHORT).show();
 
             }
         });

@@ -16,12 +16,12 @@
         "source": "/Users/Entisar/Desktop/Android/wed/doctor/app/src/main/res/mipmap-xhdpi/b_minus.png"
     },
     {
-        "merged": "/Users/Entisar/Desktop/Android/wed/doctor/app/build/intermediates/res/merged/debug/mipmap-xhdpi/plus_icon_toolbar.png",
-        "source": "/Users/Entisar/Desktop/Android/wed/doctor/app/src/main/res/mipmap-xhdpi/plus_icon_toolbar.png"
-    },
-    {
         "merged": "/Users/Entisar/Desktop/Android/wed/doctor/app/build/intermediates/res/merged/debug/mipmap-xhdpi/viewreports.png",
         "source": "/Users/Entisar/Desktop/Android/wed/doctor/app/src/main/res/mipmap-xhdpi/viewreports.png"
+    },
+    {
+        "merged": "/Users/Entisar/Desktop/Android/wed/doctor/app/build/intermediates/res/merged/debug/mipmap-xhdpi/plus_icon_toolbar.png",
+        "source": "/Users/Entisar/Desktop/Android/wed/doctor/app/src/main/res/mipmap-xhdpi/plus_icon_toolbar.png"
     },
     {
         "merged": "/Users/Entisar/Desktop/Android/wed/doctor/app/build/intermediates/res/merged/debug/mipmap-xhdpi/headachee.png",
@@ -246,6 +246,10 @@
     {
         "merged": "/Users/Entisar/Desktop/Android/wed/doctor/app/build/intermediates/res/merged/debug/mipmap-xhdpi/medical_thermometer.png",
         "source": "/Users/Entisar/Desktop/Android/wed/doctor/app/src/main/res/mipmap-xhdpi/medical_thermometer.png"
+    },
+    {
+        "merged": "/Users/Entisar/Desktop/Android/wed/doctor/app/build/intermediates/res/merged/debug/mipmap-xhdpi/filter_icon.png",
+        "source": "/Users/Entisar/Desktop/Android/wed/doctor/app/src/main/res/mipmap-xhdpi/filter_icon.png"
     },
     {
         "merged": "/Users/Entisar/Desktop/Android/wed/doctor/app/build/intermediates/res/merged/debug/mipmap-xhdpi/valentines_icon.png",

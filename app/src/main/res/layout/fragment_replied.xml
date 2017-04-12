@@ -4,11 +4,47 @@
     android:layout_height="match_parent"
     tools:context="com.pifss.doctor.Fragments.Replied">
 
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+    <LinearLayout
+        android:id="@+id/horizantal"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:orientation="horizontal">
+
+
+
+        <Spinner
+            android:id="@+id/spinnerHeart"
+            android:layout_width="196dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <Spinner
+            android:id="@+id/spinnerBlood"
+            android:layout_width="196dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+        <Spinner
+            android:id="@+id/spinnerFever"
+            android:layout_width="196dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
     <!-- TODO: Update blank fragment layout -->
     <ListView
-        android:id="@+id/listView"
+        android:id="@+id/repliedListView"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="match_parent"
+        android:layout_below="@+id/horizantal" />
     <TextView android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:id="@+id/emptyElement"
@@ -19,4 +55,7 @@
         android:visibility="gone"
         android:layout_centerInParent="true"
         android:textColor="@android:color/darker_gray"/>
+
+
+    </RelativeLayout>
 </FrameLayout>
