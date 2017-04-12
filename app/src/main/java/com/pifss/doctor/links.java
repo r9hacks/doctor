@@ -34,6 +34,7 @@ public class links {
 
     public static String GetDoctorRequests = BloodRequests  + "/getDoctorRequests/";
 
+    public static String UploadImage =  "http://34.196.107.188:8081/MhealthWeb/addimg";
 
 
 
