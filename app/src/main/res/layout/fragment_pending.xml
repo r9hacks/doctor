@@ -5,20 +5,58 @@
     tools:context="com.pifss.doctor.Fragments.Pending">
 
     <!-- TODO: Update blank fragment layout -->
-
-    <ListView
-        android:id="@+id/listView"
+    <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
-
-    <TextView android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:id="@+id/emptyElement"
-        android:text="No Pending Reports"
-        android:textStyle="bold"
-        android:gravity="center_vertical|center_horizontal"
-        android:textSize="15sp"
-        android:visibility="gone"
-        android:layout_centerInParent="true"
-        android:textColor="@android:color/darker_gray"/>
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:id="@+id/horizantal"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:orientation="horizontal">
+
+
+
+            <Spinner
+                android:id="@+id/spinnerHeart"
+                android:layout_width="196dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <Spinner
+                android:id="@+id/spinnerBlood"
+                android:layout_width="196dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+            <Spinner
+                android:id="@+id/spinnerFever"
+                android:layout_width="196dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/emptyElement"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="No Pending Reports"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:visibility="gone" />
+
+        <ListView
+            android:id="@+id/pendingListView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/horizantal"/>
+
+
+    </RelativeLayout>
+
 </FrameLayout>

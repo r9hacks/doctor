@@ -189,13 +189,13 @@ public class MyPatientActivity extends AppCompatActivity {
             return;
         }
 
-        final ArrayList<MyPatient> parsedModel = new ArrayList<>();
+        final ArrayList<MyPatient> ChosenModel = new ArrayList<>();
 
         for (int i = 0; i < model.size(); i++) {
-            MyPatient curHospital = model.get(i);
-            String fullName = curHospital.getName();
+            MyPatient myPatient = model.get(i);
+            String fullName = myPatient.getName();
             if ( fullName.toLowerCase().contains(filter) ) {
-                parsedModel.add(curHospital);
+                ChosenModel.add(myPatient);
             }
         }
 
@@ -203,7 +203,7 @@ public class MyPatientActivity extends AppCompatActivity {
         ListView lv = (ListView) findViewById(R.id.myPatientListView);
 
         //Activity context, ArrayList<MyPatient> model
-        myPatientAdapter adapter = new myPatientAdapter(this, parsedModel);
+        myPatientAdapter adapter = new myPatientAdapter(this, ChosenModel);
 
 
         lv.setAdapter(adapter);
@@ -213,7 +213,7 @@ public class MyPatientActivity extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
 
-                MyPatient patient = parsedModel.get(position);
+                MyPatient patient = ChosenModel.get(position);
 
 
                 // Toast.makeText(MyPatientActivity.this, "clicked "+patient.getName(), Toast.LENGTH_SHORT).show();

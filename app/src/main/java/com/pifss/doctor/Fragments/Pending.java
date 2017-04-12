@@ -10,7 +10,9 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
 import android.widget.ListView;
+import android.widget.Spinner;
 import android.widget.Toast;
 
 import com.android.volley.AuthFailureError;
@@ -52,20 +54,28 @@ public class Pending extends Fragment {
     }
 
     ArrayList<ReportCell> model = new ArrayList<>();
+    ReportAdapter adapter;
+    ListView myList;
+    View view;
+    String feverString = "All";
+    String pressureString = "All";
+    String rateString = "All";
+
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        View view = inflater.inflate(R.layout.fragment_pending, container, false);
+
+        view = inflater.inflate(R.layout.fragment_pending, container, false);
 
         RequestQueue queue= RequestQueueSingleTon.getInstance().getRequestQueue(getActivity());
         SharedPreferences preference = getActivity().getSharedPreferences("settings",getActivity().MODE_PRIVATE);
         String doctorProfile = preference.getString(links.PrefDoctorProfile,"notfound");
         Doctor doctor = new Gson().fromJson(doctorProfile,Doctor.class);
 
-        final ReportAdapter adapter = new ReportAdapter(getActivity(),model);
-        ListView myList = (ListView) view.findViewById(R.id.listView);
+        adapter = new ReportAdapter(getActivity(),model);
+        myList = (ListView) view.findViewById(R.id.pendingListView);
         myList.setAdapter(adapter);
         myList.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
@@ -179,10 +189,364 @@ public class Pending extends Fragment {
             e.printStackTrace();
         }
 
-        myList.setEmptyView(view.findViewById(R.id.emptyElement));
+//        myList.setEmptyView(view.findViewById(R.id.emptyElement));
+
+
+
+        //Spinner code
+        Spinner spinHeart = (Spinner) view.findViewById(R.id.spinnerHeart);
+        final String[] rate = { "All", "High", "Low", "Natural", };
+
+        Spinner spinBlood = (Spinner) view.findViewById(R.id.spinnerBlood);
+        final String[] bloodPressure = { "All", "High", "Low", "Natural", };
+
+        Spinner spinFever = (Spinner) view.findViewById(R.id.spinnerFever);
+        final String[] feverArray = { "All", "Yes", "No", };
+
+
+        spinHeart.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
+                Toast.makeText(getActivity(), "clicked: "+rate[position], Toast.LENGTH_SHORT).show();
+                rateString = rate[position].toLowerCase();
+                initAdapterWithFilter();
+            }
+
+            @Override
+            public void onNothingSelected(AdapterView<?> parent) {
+                Toast.makeText(getActivity(), "nothing selected ", Toast.LENGTH_SHORT).show();
+
+            }
+        });
+        //Creating the ArrayAdapter instance having the country list
+        ArrayAdapter heartAdapter = new ArrayAdapter(getActivity(),android.R.layout.simple_spinner_item,rate);
+        heartAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        //Setting the ArrayAdapter data on the Spinner
+        spinHeart.setAdapter(heartAdapter);
+
+
+
+        //blood click
+
+        spinBlood.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
+                Toast.makeText(getActivity(), "clicked: "+bloodPressure[position], Toast.LENGTH_SHORT).show();
+
+                pressureString = bloodPressure[position].toLowerCase();
+
+                initAdapterWithFilter();
+
+            //    initAdapterWithFilterForBlood(bloodPressure[position].toLowerCase());
+
+
+            }
+
+            @Override
+            public void onNothingSelected(AdapterView<?> parent) {
+                Toast.makeText(getActivity(), "nothing selected ", Toast.LENGTH_SHORT).show();
+
+            }
+        });
+
+        //Creating the ArrayAdapter instance having the country list
+        ArrayAdapter bloodAdapter = new ArrayAdapter(getActivity(),android.R.layout.simple_spinner_item,bloodPressure);
+        bloodAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        //Setting the ArrayAdapter data on the Spinner
+        spinBlood.setAdapter(bloodAdapter);
+
+
+
+        //fever click
+
+
+        spinFever.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
+                Toast.makeText(getActivity(), "clicked: "+feverArray[position], Toast.LENGTH_SHORT).show();
+
+
+                feverString = feverArray[position].toLowerCase();
+                initAdapterWithFilter();
+
+             //   initAdapterWithFilterForFever(feverArray[position].toLowerCase());
+            }
+
+            @Override
+            public void onNothingSelected(AdapterView<?> parent) {
+                Toast.makeText(getActivity(), "nothing selected ", Toast.LENGTH_SHORT).show();
+
+            }
+        });
+
+        //Creating the ArrayAdapter instance having the country list
+        ArrayAdapter feverAdapter = new ArrayAdapter(getActivity(),android.R.layout.simple_spinner_item,feverArray);
+        feverAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        //Setting the ArrayAdapter data on the Spinner
+        spinFever.setAdapter(feverAdapter);
+
+
 
         return view;
     }
+
+
+    private void initAdapterWithFilter() {
+        String filter = "All";
+
+        if (model == null || model.size() <= 0) {
+            return;
+        }
+
+        final ArrayList<ReportCell> ChosenModel = new ArrayList<>();
+
+        for (int i = 0; i < model.size(); i++) {
+            ReportCell reportChosen = model.get(i);
+            String rateHeart = reportChosen.getHeartRate().toLowerCase();
+            String bloodPressure = reportChosen.getBloodPreassure().toLowerCase();
+           final String fever = reportChosen.getFever().toLowerCase();
+
+            if (rateString.equalsIgnoreCase("All") && pressureString.equalsIgnoreCase("All") && feverString.equalsIgnoreCase("All"))
+
+            {
+
+                ChosenModel.add(reportChosen);
+            }
+
+
+
+            // 1 first
+            else if (!rateString.equalsIgnoreCase("All") && pressureString.equalsIgnoreCase("All") && feverString.equalsIgnoreCase("All")){
+                if (rateHeart.contains(rateString.toLowerCase()))
+                {
+                    ChosenModel.add(reportChosen);
+                }
+            }
+
+
+            // 1 second
+            else if (rateString.equalsIgnoreCase("All") && !pressureString.equalsIgnoreCase("All") && feverString.equalsIgnoreCase("All")){
+                if (bloodPressure.contains(pressureString.toLowerCase()) )
+                {
+                    ChosenModel.add(reportChosen);
+                }
+            }
+
+
+            // 1 third
+            else if (rateString.equalsIgnoreCase("All") && pressureString.equalsIgnoreCase("All") && !feverString.equalsIgnoreCase("All"))
+            {
+                if (fever.contains(feverString.toLowerCase()));
+                {
+                    ChosenModel.add(reportChosen);
+                }
+            }
+
+
+
+
+            // 2 first second
+            else if (!rateString.equalsIgnoreCase("All") && !pressureString.equalsIgnoreCase("All") && feverString.equalsIgnoreCase("All")){
+                if (rateHeart.contains(rateString.toLowerCase()) && bloodPressure.contains(pressureString.toLowerCase()) )
+                {
+                    ChosenModel.add(reportChosen);
+                }
+            }
+
+
+
+            // 2 second third
+            else if (rateString.equalsIgnoreCase("All") && !pressureString.equalsIgnoreCase("All") && !feverString.equalsIgnoreCase("All")){
+                if (bloodPressure.contains(pressureString.toLowerCase()) && fever.contains(feverString.toLowerCase()) )
+                {
+                    ChosenModel.add(reportChosen);
+                }
+            }
+
+
+
+            // 2 first third
+            else if (!rateString.equalsIgnoreCase("All") && pressureString.equalsIgnoreCase("All") && !feverString.equalsIgnoreCase("All")){
+                if (rateHeart.contains(rateString.toLowerCase()) && fever.contains(feverString.toLowerCase())   )
+                {
+                    ChosenModel.add(reportChosen);
+                }
+            }
+
+
+
+            // 3 all
+            else if (!rateString.equalsIgnoreCase("All") && !pressureString.equalsIgnoreCase("All") && !feverString.equalsIgnoreCase("All")){
+                if (rateHeart.contains(rateString.toLowerCase()) && bloodPressure.contains(pressureString.toLowerCase()) && fever.contains(feverString.toLowerCase()) )
+                {
+                    ChosenModel.add(reportChosen);
+                }
+            }
+
+
+
+
+//
+//
+//            else if (rateHeart.contains(rateString.toLowerCase()) && bloodPressure.contains(pressureString.toLowerCase()) && fever.contains(feverString.toLowerCase()))
+//
+//            {
+//
+//                if (rateHeart.contains(rateString.toLowerCase()) && fever.contains(feverString.toLowerCase())   )
+//                {
+//                    ChosenModel.add(reportChosen);
+//                }
+//
+//            }
+
+
+
+
+        }
+
+        myList  = (ListView) view.findViewById(R.id.pendingListView);
+
+        adapter = new ReportAdapter(getActivity(),ChosenModel);
+
+        myList.setAdapter(adapter);
+
+        myList.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+
+                ReportCell rCell = ChosenModel.get(position);
+
+                JSONObject jsonReport= null;
+                try {
+                    jsonReport = rCell.getReportObject().getJSONReport();
+
+                } catch (JSONException e) {
+                    e.printStackTrace();
+                }
+//shared pref
+
+                SharedPreferences preference = getActivity().getSharedPreferences("settings",getActivity().MODE_PRIVATE);
+                SharedPreferences.Editor editor = preference.edit();
+                editor.putString(links.PrefReport, jsonReport.toString());
+                editor.commit();
+
+                Intent i = new Intent(getActivity(), ReportDetailActivity.class);
+                startActivity(i);
+
+
+            }
+        });
+    }
+
+    //function for the blood
+
+//    private void initAdapterWithFilterForBlood(String filter) {
+//        if (model == null || model.size() <= 0) {
+//            return;
+//        }
+//
+//        final ArrayList<ReportCell> ChosenModel = new ArrayList<>();
+//
+//        for (int i = 0; i < model.size(); i++) {
+//            ReportCell reportChosen = model.get(i);
+//            String bloodPress = reportChosen.getBloodPreassure();
+//
+//            if ( bloodPress.toLowerCase().contains(filter) || filter.equalsIgnoreCase("All")) {
+//                ChosenModel.add(reportChosen);
+//            }
+//        }
+//
+//        myList  = (ListView) view.findViewById(R.id.pendingListView);
+//
+//        adapter = new ReportAdapter(getActivity(),ChosenModel);
+//
+//        myList.setAdapter(adapter);
+//
+//        myList.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+//            @Override
+//            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+//
+//                ReportCell rCell = ChosenModel.get(position);
+//
+//                JSONObject jsonReport= null;
+//                try {
+//                    jsonReport = rCell.getReportObject().getJSONReport();
+//
+//                } catch (JSONException e) {
+//                    e.printStackTrace();
+//                }
+////shared pref
+//
+//                SharedPreferences preference = getActivity().getSharedPreferences("settings",getActivity().MODE_PRIVATE);
+//                SharedPreferences.Editor editor = preference.edit();
+//                editor.putString(links.PrefReport, jsonReport.toString());
+//                editor.commit();
+//
+//                Intent i = new Intent(getActivity(), ReportDetailActivity.class);
+//                startActivity(i);
+//
+//
+//            }
+//        });
+//    }
+
+
+// function for the fever
+
+//    private void initAdapterWithFilterForFever(String filter) {
+//        if (model == null || model.size() <= 0) {
+//            return;
+//        }
+//
+//        final ArrayList<ReportCell> ChosenModel = new ArrayList<>();
+//
+//        for (int i = 0; i < model.size(); i++) {
+//            ReportCell reportChosen = model.get(i);
+//            String fever = reportChosen.getFever();
+//
+//            if ( fever.toLowerCase().contains(filter) || filter.equalsIgnoreCase("All")) {
+//                ChosenModel.add(reportChosen);
+//
+//            }
+//
+//        }
+//
+//        myList  = (ListView) view.findViewById(R.id.pendingListView);
+//
+//        adapter = new ReportAdapter(getActivity(),ChosenModel);
+//
+//        myList.setAdapter(adapter);
+//
+//        myList.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+//            @Override
+//            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+//
+//                ReportCell rCell = ChosenModel.get(position);
+//
+//                JSONObject jsonReport= null;
+//                try {
+//                    jsonReport = rCell.getReportObject().getJSONReport();
+//
+//                } catch (JSONException e) {
+//                    e.printStackTrace();
+//                }
+////shared pref
+//
+//                SharedPreferences preference = getActivity().getSharedPreferences("settings",getActivity().MODE_PRIVATE);
+//                SharedPreferences.Editor editor = preference.edit();
+//                editor.putString(links.PrefReport, jsonReport.toString());
+//                editor.commit();
+//
+//                Intent i = new Intent(getActivity(), ReportDetailActivity.class);
+//                startActivity(i);
+//
+//
+//            }
+//        });
+//    }
+
+
+
 
 
 }
