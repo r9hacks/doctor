@@ -1,9 +1,5 @@
 [
     {
-        "merged": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v6\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\design_bottom_navigation_item_background.xml",
-        "source": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\PIFSS\\.android\\build-cache\\d95c42289955b75427320c3f826eb531f131da8f\\output\\res\\drawable-v21\\design_bottom_navigation_item_background.xml"
-    },
-    {
         "merged": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/app/build/intermediates/res/merged/debug/drawable-v21/avd_hide_password.xml",
         "source": "/Users/trn24/.android/build-cache/b72f8c878670e3cfcbd2a2719560109540c875de/output/res/drawable-v21/avd_hide_password.xml"
     },
@@ -16,40 +12,12 @@
         "source": "/Users/trn24/.android/build-cache/f5bbc6ff808a4ac74405d8a761d68a423887319a/output/res/drawable-v21/abc_edit_text_material.xml"
     },
     {
-        "merged": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v6\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\notification_action_background.xml",
-        "source": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\PIFSS\\.android\\build-cache\\9b85976bda791bd9abdfdd3cb34cce2b0455d7aa\\output\\res\\drawable-v21\\notification_action_background.xml"
-    },
-    {
-        "merged": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v6\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\design_password_eye.xml",
-        "source": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\PIFSS\\.android\\build-cache\\d95c42289955b75427320c3f826eb531f131da8f\\output\\res\\drawable-v21\\design_password_eye.xml"
-    },
-    {
-        "merged": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v6\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_btn_colored_material.xml",
-        "source": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\PIFSS\\.android\\build-cache\\9b85976bda791bd9abdfdd3cb34cce2b0455d7aa\\output\\res\\drawable-v21\\abc_btn_colored_material.xml"
-    },
-    {
         "merged": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/app/build/intermediates/res/merged/debug/drawable-v21/abc_btn_colored_material.xml",
         "source": "/Users/trn24/.android/build-cache/f5bbc6ff808a4ac74405d8a761d68a423887319a/output/res/drawable-v21/abc_btn_colored_material.xml"
     },
     {
-        "merged": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v6\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\avd_hide_password.xml",
-        "source": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\PIFSS\\.android\\build-cache\\d95c42289955b75427320c3f826eb531f131da8f\\output\\res\\drawable-v21\\avd_hide_password.xml"
-    },
-    {
-        "merged": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v6\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_edit_text_material.xml",
-        "source": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\PIFSS\\.android\\build-cache\\9b85976bda791bd9abdfdd3cb34cce2b0455d7aa\\output\\res\\drawable-v21\\abc_edit_text_material.xml"
-    },
-    {
-        "merged": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v6\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_action_bar_item_background_material.xml",
-        "source": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\PIFSS\\.android\\build-cache\\9b85976bda791bd9abdfdd3cb34cce2b0455d7aa\\output\\res\\drawable-v21\\abc_action_bar_item_background_material.xml"
-    },
-    {
         "merged": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/app/build/intermediates/res/merged/debug/drawable-v21/abc_action_bar_item_background_material.xml",
         "source": "/Users/trn24/.android/build-cache/f5bbc6ff808a4ac74405d8a761d68a423887319a/output/res/drawable-v21/abc_action_bar_item_background_material.xml"
-    },
-    {
-        "merged": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v6\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\avd_show_password.xml",
-        "source": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/C:\\Users\\PIFSS\\.android\\build-cache\\d95c42289955b75427320c3f826eb531f131da8f\\output\\res\\drawable-v21\\avd_show_password.xml"
     },
     {
         "merged": "/Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/app/build/intermediates/res/merged/debug/drawable-v21/avd_show_password.xml",

@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/app/src/main/AndroidManifest.xml:2:1-43:12
+ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/app/src/main/AndroidManifest.xml:2:1-46:12
 	package
 		ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/app/src/main/AndroidManifest.xml:3:5-31
 		INJECTED from /Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/app/src/main/AndroidManifest.xml
@@ -21,8 +21,18 @@ uses-permission#android.permission.INTERNET
 ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/app/src/main/AndroidManifest.xml:6:5-67
 	android:name
 		ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/app/src/main/AndroidManifest.xml:6:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/app/src/main/AndroidManifest.xml:7:5-95
+	android:name
+		ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/app/src/main/AndroidManifest.xml:7:22-76
+uses-feature#android.hardware.camera
+ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/app/src/main/AndroidManifest.xml:8:5-9:35
+	android:required
+		ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/app/src/main/AndroidManifest.xml:9:9-32
+	android:name
+		ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/app/src/main/AndroidManifest.xml:8:19-57
 application
-ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/app/src/main/AndroidManifest.xml:8:5-41:19
+ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/app/src/main/AndroidManifest.xml:11:5-44:19
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/trn24/.android/build-cache/957fca7446c41095205c4a6f81d5b68562df5527/output/AndroidManifest.xml:9:5-20
 MERGED from [com.android.support:design:25.2.0] /Users/trn24/.android/build-cache/b72f8c878670e3cfcbd2a2719560109540c875de/output/AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:appcompat-v7:25.2.0] /Users/trn24/.android/build-cache/f5bbc6ff808a4ac74405d8a761d68a423887319a/output/AndroidManifest.xml:25:5-20
@@ -38,101 +48,101 @@ MERGED from [com.android.support:support-compat:25.2.0] /Users/trn24/.android/bu
 MERGED from [com.android.volley:volley:1.0.0] /Users/trn24/.android/build-cache/658461f7814f971269a8a18471e124670a8a5066/output/AndroidManifest.xml:9:5-20
 MERGED from [de.hdodenhof:circleimageview:2.1.0] /Users/trn24/.android/build-cache/6d9ccbea6f029e471e6545a1bfb225bd3481ffc2/output/AndroidManifest.xml:9:5-20
 	android:label
-		ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/app/src/main/AndroidManifest.xml:11:9-41
+		ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/app/src/main/AndroidManifest.xml:14:9-41
 	android:supportsRtl
-		ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/app/src/main/AndroidManifest.xml:13:9-36
+		ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/app/src/main/AndroidManifest.xml:16:9-36
 	android:roundIcon
-		ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/app/src/main/AndroidManifest.xml:12:9-44
+		ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/app/src/main/AndroidManifest.xml:15:9-44
 	android:allowBackup
-		ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/app/src/main/AndroidManifest.xml:9:9-35
+		ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/app/src/main/AndroidManifest.xml:12:9-35
 	android:icon
-		ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/app/src/main/AndroidManifest.xml:10:9-39
+		ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/app/src/main/AndroidManifest.xml:13:9-39
 	android:theme
-		ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/app/src/main/AndroidManifest.xml:14:9-40
+		ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/app/src/main/AndroidManifest.xml:17:9-40
 activity#com.pifss.doctor.Activitys.MainActivity
-ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/app/src/main/AndroidManifest.xml:15:9-60
+ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/app/src/main/AndroidManifest.xml:18:9-60
 	android:name
-		ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/app/src/main/AndroidManifest.xml:15:19-57
+		ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/app/src/main/AndroidManifest.xml:18:19-57
 activity#com.pifss.doctor.Activitys.HomeReportActivity
-ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/app/src/main/AndroidManifest.xml:16:9-66
+ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/app/src/main/AndroidManifest.xml:19:9-66
 	android:name
-		ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/app/src/main/AndroidManifest.xml:16:19-63
+		ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/app/src/main/AndroidManifest.xml:19:19-63
 activity#com.pifss.doctor.Activitys.RegisterActivity
-ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/app/src/main/AndroidManifest.xml:17:9-19:39
+ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/app/src/main/AndroidManifest.xml:20:9-22:39
 	android:exported
-		ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/app/src/main/AndroidManifest.xml:19:13-36
+		ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/app/src/main/AndroidManifest.xml:22:13-36
 	android:name
-		ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/app/src/main/AndroidManifest.xml:18:13-55
+		ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/app/src/main/AndroidManifest.xml:21:13-55
 activity#com.pifss.doctor.Activitys.loginActivity
-ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/app/src/main/AndroidManifest.xml:20:9-61
+ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/app/src/main/AndroidManifest.xml:23:9-61
 	android:name
-		ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/app/src/main/AndroidManifest.xml:20:19-58
+		ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/app/src/main/AndroidManifest.xml:23:19-58
 activity#com.pifss.doctor.Activitys.AboutUsActivity
-ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/app/src/main/AndroidManifest.xml:21:9-63
+ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/app/src/main/AndroidManifest.xml:24:9-63
 	android:name
-		ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/app/src/main/AndroidManifest.xml:21:19-60
+		ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/app/src/main/AndroidManifest.xml:24:19-60
 activity#com.pifss.doctor.Activitys.DoctorProfileActivity
-ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/app/src/main/AndroidManifest.xml:22:9-69
+ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/app/src/main/AndroidManifest.xml:25:9-69
 	android:name
-		ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/app/src/main/AndroidManifest.xml:22:19-66
+		ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/app/src/main/AndroidManifest.xml:25:19-66
 activity#com.pifss.doctor.Activitys.MyPatientActivity
-ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/app/src/main/AndroidManifest.xml:23:9-65
+ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/app/src/main/AndroidManifest.xml:26:9-65
 	android:name
-		ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/app/src/main/AndroidManifest.xml:23:19-62
+		ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/app/src/main/AndroidManifest.xml:26:19-62
 activity#com.pifss.doctor.Activitys.PatientRequestActivity
-ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/app/src/main/AndroidManifest.xml:24:9-70
+ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/app/src/main/AndroidManifest.xml:27:9-70
 	android:name
-		ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/app/src/main/AndroidManifest.xml:24:19-67
+		ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/app/src/main/AndroidManifest.xml:27:19-67
 activity#com.pifss.doctor.Activitys.SettingsActivity
-ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/app/src/main/AndroidManifest.xml:25:9-64
+ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/app/src/main/AndroidManifest.xml:28:9-64
 	android:name
-		ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/app/src/main/AndroidManifest.xml:25:19-61
+		ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/app/src/main/AndroidManifest.xml:28:19-61
 activity#com.pifss.doctor.Activitys.PatientProfileActivity
-ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/app/src/main/AndroidManifest.xml:26:9-70
+ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/app/src/main/AndroidManifest.xml:29:9-70
 	android:name
-		ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/app/src/main/AndroidManifest.xml:26:19-67
+		ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/app/src/main/AndroidManifest.xml:29:19-67
 activity#com.pifss.doctor.Activitys.ReportDetailActivity
-ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/app/src/main/AndroidManifest.xml:27:9-68
+ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/app/src/main/AndroidManifest.xml:30:9-68
 	android:name
-		ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/app/src/main/AndroidManifest.xml:27:19-65
+		ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/app/src/main/AndroidManifest.xml:30:19-65
 activity#com.pifss.doctor.Activitys.SplashActivity
-ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/app/src/main/AndroidManifest.xml:28:9-34:20
+ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/app/src/main/AndroidManifest.xml:31:9-37:20
 	android:name
-		ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/app/src/main/AndroidManifest.xml:28:19-59
+		ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/app/src/main/AndroidManifest.xml:31:19-59
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/app/src/main/AndroidManifest.xml:29:13-33:29
+ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/app/src/main/AndroidManifest.xml:32:13-36:29
 action#android.intent.action.MAIN
-ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/app/src/main/AndroidManifest.xml:30:17-69
+ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/app/src/main/AndroidManifest.xml:33:17-69
 	android:name
-		ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/app/src/main/AndroidManifest.xml:30:25-66
+		ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/app/src/main/AndroidManifest.xml:33:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/app/src/main/AndroidManifest.xml:32:17-77
+ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/app/src/main/AndroidManifest.xml:35:17-77
 	android:name
-		ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/app/src/main/AndroidManifest.xml:32:27-74
+		ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/app/src/main/AndroidManifest.xml:35:27-74
 activity#com.pifss.doctor.Activitys.ForgetPasswordActivity
-ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/app/src/main/AndroidManifest.xml:35:9-70
+ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/app/src/main/AndroidManifest.xml:38:9-70
 	android:name
-		ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/app/src/main/AndroidManifest.xml:35:19-67
+		ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/app/src/main/AndroidManifest.xml:38:19-67
 activity#com.pifss.doctor.Activitys.EditDoctorProfileActivity
-ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/app/src/main/AndroidManifest.xml:36:9-73
+ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/app/src/main/AndroidManifest.xml:39:9-73
 	android:name
-		ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/app/src/main/AndroidManifest.xml:36:19-70
+		ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/app/src/main/AndroidManifest.xml:39:19-70
 activity#com.pifss.doctor.Activitys.ReplyReportActivity
-ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/app/src/main/AndroidManifest.xml:37:9-67
+ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/app/src/main/AndroidManifest.xml:40:9-67
 	android:name
-		ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/app/src/main/AndroidManifest.xml:37:19-64
+		ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/app/src/main/AndroidManifest.xml:40:19-64
 activity#com.pifss.doctor.Activitys.ReplyConfirmActivity
-ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/app/src/main/AndroidManifest.xml:38:9-68
+ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/app/src/main/AndroidManifest.xml:41:9-68
 	android:name
-		ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/app/src/main/AndroidManifest.xml:38:19-65
+		ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/app/src/main/AndroidManifest.xml:41:19-65
 activity#com.pifss.doctor.Activitys.NewBloodRequestActivity
-ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/app/src/main/AndroidManifest.xml:39:9-71
+ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/app/src/main/AndroidManifest.xml:42:9-71
 	android:name
-		ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/app/src/main/AndroidManifest.xml:39:19-68
+		ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/app/src/main/AndroidManifest.xml:42:19-68
 activity#com.pifss.doctor.Activitys.MyBloodRequestsActivity
-ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/app/src/main/AndroidManifest.xml:40:9-80
+ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/app/src/main/AndroidManifest.xml:43:9-80
 	android:name
-		ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/app/src/main/AndroidManifest.xml:40:19-68
+		ADDED from /Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/app/src/main/AndroidManifest.xml:43:19-68
 uses-sdk
 INJECTED from /Users/trn24/Desktop/IBM/Andriod/Project/Docs104/doctor/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.mikepenz:materialdrawer:5.8.2] /Users/trn24/.android/build-cache/964a1fed1a6e76b02583d65146a3edf4a5ca8b7d/output/AndroidManifest.xml:8:5-10:41
