@@ -5,6 +5,7 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.graphics.Color;
 
+import android.net.ConnectivityManager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
@@ -22,6 +23,7 @@ import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.JsonObjectRequest;
 import com.google.gson.Gson;
+import com.pifss.doctor.Connection;
 import com.pifss.doctor.Model.Doctor;
 import com.pifss.doctor.R;
 import com.pifss.doctor.RequestQueueSingleTon;
@@ -56,6 +58,8 @@ public class loginActivity extends AppCompatActivity {
         final RequestQueue queue= RequestQueueSingleTon.getInstance().getRequestQueue(loginActivity.this);
 
         final ProgressDialog progressDialog = new ProgressDialog(loginActivity.this);
+
+
 
         loginButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -107,9 +111,19 @@ public class loginActivity extends AppCompatActivity {
                         }
                     });
 
-                    progressDialog.setMessage("Login...");
-                    progressDialog.show();
-                    queue.add(jsonObjRequest);
+                    //Show no internet connection message
+
+                    View v1 = (View) findViewById(R.id.activity_login_id);
+                    ConnectivityManager cm = (ConnectivityManager) getSystemService(loginActivity.CONNECTIVITY_SERVICE);
+                    Connection ch1 = new Connection(cm);
+                    if (ch1.haveNetworkConnection() == false){
+                        ch1.ShowSnackBar(v1);
+                    }else {
+
+                        progressDialog.setMessage("Login...");
+                        progressDialog.show();
+                        queue.add(jsonObjRequest);
+                    }
                 } catch (JSONException e) {
                     e.printStackTrace();
                 }

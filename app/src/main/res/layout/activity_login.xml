@@ -7,7 +7,9 @@
     android:orientation="vertical"
     android:focusable="true"
     android:focusableInTouchMode="true"
-    tools:context="com.pifss.doctor.Activitys.loginActivity">
+    tools:context="com.pifss.doctor.Activitys.loginActivity"
+    android:id="@+id/activity_login_id"
+    >
 
 
 
