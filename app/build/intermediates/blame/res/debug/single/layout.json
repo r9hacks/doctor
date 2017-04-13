@@ -88,12 +88,12 @@
         "source": "/Users/Entisar/.android/build-cache/a2479d1763ccf94fa82a33aed431d50727b987b2/output/res/layout/material_drawer_item_mini.xml"
     },
     {
-        "merged": "/Users/Entisar/Desktop/Android/wed/doctor/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view.xml",
-        "source": "/Users/Entisar/.android/build-cache/752ac81f1b1993e8602d14a1f3fecad31afcf050/output/res/layout/abc_activity_chooser_view.xml"
-    },
-    {
         "merged": "/Users/Entisar/Desktop/Android/wed/doctor/app/build/intermediates/res/merged/debug/layout/design_bottom_sheet_dialog.xml",
         "source": "/Users/Entisar/.android/build-cache/7da7010fc8ba9c73b7bbd44e32707d8abcc97463/output/res/layout/design_bottom_sheet_dialog.xml"
+    },
+    {
+        "merged": "/Users/Entisar/Desktop/Android/wed/doctor/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view.xml",
+        "source": "/Users/Entisar/.android/build-cache/752ac81f1b1993e8602d14a1f3fecad31afcf050/output/res/layout/abc_activity_chooser_view.xml"
     },
     {
         "merged": "/Users/Entisar/Desktop/Android/wed/doctor/app/build/intermediates/res/merged/debug/layout/abc_expanded_menu_layout.xml",
@@ -116,12 +116,12 @@
         "source": "/Users/Entisar/.android/build-cache/654d0fc8704bb7b334e5bf800426e673e3876052/output/res/layout/materialize.xml"
     },
     {
-        "merged": "/Users/Entisar/Desktop/Android/wed/doctor/app/build/intermediates/res/merged/debug/layout/design_text_input_password_icon.xml",
-        "source": "/Users/Entisar/.android/build-cache/7da7010fc8ba9c73b7bbd44e32707d8abcc97463/output/res/layout/design_text_input_password_icon.xml"
-    },
-    {
         "merged": "/Users/Entisar/Desktop/Android/wed/doctor/app/build/intermediates/res/merged/debug/layout/material_drawer_item_section.xml",
         "source": "/Users/Entisar/.android/build-cache/a2479d1763ccf94fa82a33aed431d50727b987b2/output/res/layout/material_drawer_item_section.xml"
+    },
+    {
+        "merged": "/Users/Entisar/Desktop/Android/wed/doctor/app/build/intermediates/res/merged/debug/layout/design_text_input_password_icon.xml",
+        "source": "/Users/Entisar/.android/build-cache/7da7010fc8ba9c73b7bbd44e32707d8abcc97463/output/res/layout/design_text_input_password_icon.xml"
     },
     {
         "merged": "/Users/Entisar/Desktop/Android/wed/doctor/app/build/intermediates/res/merged/debug/layout/list_item_my_patient.xml",
@@ -164,12 +164,12 @@
         "source": "/Users/Entisar/Desktop/Android/wed/doctor/app/src/main/res/layout/activity_patient_request.xml"
     },
     {
-        "merged": "/Users/Entisar/Desktop/Android/wed/doctor/app/build/intermediates/res/merged/debug/layout/material_drawer_item_mini_profile.xml",
-        "source": "/Users/Entisar/.android/build-cache/a2479d1763ccf94fa82a33aed431d50727b987b2/output/res/layout/material_drawer_item_mini_profile.xml"
-    },
-    {
         "merged": "/Users/Entisar/Desktop/Android/wed/doctor/app/build/intermediates/res/merged/debug/layout/abc_action_bar_up_container.xml",
         "source": "/Users/Entisar/.android/build-cache/752ac81f1b1993e8602d14a1f3fecad31afcf050/output/res/layout/abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "/Users/Entisar/Desktop/Android/wed/doctor/app/build/intermediates/res/merged/debug/layout/material_drawer_item_mini_profile.xml",
+        "source": "/Users/Entisar/.android/build-cache/a2479d1763ccf94fa82a33aed431d50727b987b2/output/res/layout/material_drawer_item_mini_profile.xml"
     },
     {
         "merged": "/Users/Entisar/Desktop/Android/wed/doctor/app/build/intermediates/res/merged/debug/layout/activity_blood_request.xml",
@@ -188,12 +188,12 @@
         "source": "/Users/Entisar/.android/build-cache/7da7010fc8ba9c73b7bbd44e32707d8abcc97463/output/res/layout/design_navigation_item.xml"
     },
     {
-        "merged": "/Users/Entisar/Desktop/Android/wed/doctor/app/build/intermediates/res/merged/debug/layout/activity_doctor_profile.xml",
-        "source": "/Users/Entisar/Desktop/Android/wed/doctor/app/src/main/res/layout/activity_doctor_profile.xml"
-    },
-    {
         "merged": "/Users/Entisar/Desktop/Android/wed/doctor/app/build/intermediates/res/merged/debug/layout/activity_settings.xml",
         "source": "/Users/Entisar/Desktop/Android/wed/doctor/app/src/main/res/layout/activity_settings.xml"
+    },
+    {
+        "merged": "/Users/Entisar/Desktop/Android/wed/doctor/app/build/intermediates/res/merged/debug/layout/activity_doctor_profile.xml",
+        "source": "/Users/Entisar/Desktop/Android/wed/doctor/app/src/main/res/layout/activity_doctor_profile.xml"
     },
     {
         "merged": "/Users/Entisar/Desktop/Android/wed/doctor/app/build/intermediates/res/merged/debug/layout/design_bottom_navigation_item.xml",

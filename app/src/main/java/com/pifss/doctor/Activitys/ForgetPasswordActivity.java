@@ -59,6 +59,7 @@ public class ForgetPasswordActivity extends AppCompatActivity {
             public void onClick(View v) {
                 RequestQueue queue= RequestQueueSingleTon.getInstance().getRequestQueue(ForgetPasswordActivity.this);
                 final EditText email = (EditText) findViewById(R.id.txtDrEmail);
+                final EditText civilID = (EditText) findViewById(R.id.txtDrCivil);
 
                 //validate email
                 if (validate(email.getText().toString()) == false){
@@ -66,18 +67,37 @@ public class ForgetPasswordActivity extends AppCompatActivity {
                     return;
                 }
 
-                JSONObject jsonBody = new JSONObject();
+                final JSONObject jsonBody = new JSONObject();
 
-                String URL = links.resetPassword + email.getText().toString();
+                try {
+                    jsonBody.put("username",email.getText().toString());
+
+                    jsonBody.put("civilid",civilID.getText().toString());
+                } catch (JSONException e) {
+                    e.printStackTrace();
+                }
+
+
+
+//                String URL = links.resetPassword + email.getText().toString();
+//
+                String URL = links.resetPassword;
+
+
                 final ProgressDialog progressDialog = new ProgressDialog(ForgetPasswordActivity.this);
 
-                JsonObjectRequest jsonObjRequest = new JsonObjectRequest(Request.Method.GET, URL, jsonBody, new Response.Listener<JSONObject>() {
+                JsonObjectRequest jsonObjRequest = new JsonObjectRequest(Request.Method.POST, URL, jsonBody, new Response.Listener<JSONObject>() {
                     @Override
                     public void onResponse(JSONObject response) {
                         progressDialog.hide();
                         try {
+
+                            Toast.makeText(ForgetPasswordActivity.this, "hi "+response.toString(), Toast.LENGTH_SHORT).show();
+
                             if (response.getString("errorMsgEn").equalsIgnoreCase("Done")){
                                 email.setText("");
+
+
                                 Toast.makeText(ForgetPasswordActivity.this, "Email sent successfully", Toast.LENGTH_SHORT).show();
 
                             }else {
