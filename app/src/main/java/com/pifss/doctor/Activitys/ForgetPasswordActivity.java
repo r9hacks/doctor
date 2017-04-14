@@ -92,8 +92,6 @@ public class ForgetPasswordActivity extends AppCompatActivity {
                         progressDialog.hide();
                         try {
 
-                            Toast.makeText(ForgetPasswordActivity.this, "hi "+response.toString(), Toast.LENGTH_SHORT).show();
-
                             if (response.getString("errorMsgEn").equalsIgnoreCase("Done")){
                                 email.setText("");
 

@@ -142,7 +142,12 @@ public class DoctorProfileActivity extends AppCompatActivity {
             Uri selectedImage = data.getData();
            // Toast.makeText(this, "Path: "+getRealPathFromURI(selectedImage), Toast.LENGTH_SHORT).show();
             //System.out.println("Base64:"+convert(rotateBitmapOrientation(getRealPathFromURI(selectedImage))));
+            System.out.println("Image path " );
+            System.out.println("Image path: "+getRealPathFromURI(selectedImage) );
             imageBitmap = rotateBitmapOrientation(getRealPathFromURI(selectedImage));
+
+
+
             img.setImageBitmap(imageBitmap);
             //img.setImageURI(selectedImage);
         }
@@ -335,7 +340,7 @@ public class DoctorProfileActivity extends AppCompatActivity {
     {
         ByteArrayOutputStream outputStream = new ByteArrayOutputStream();
         bitmap.compress(Bitmap.CompressFormat.PNG, 100, outputStream);
-
+        System.gc();
         return Base64.encodeToString(outputStream.toByteArray(), Base64.DEFAULT);
     }
 

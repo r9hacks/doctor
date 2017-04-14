@@ -42,17 +42,18 @@
         app:civ_border_color="@color/ImageBoarderColor"
         app:civ_border_width="0.5dp"
         app:srcCompat="@mipmap/profile_image" />
+
     <TextView
-        android:id="@+id/textView9"
+        android:id="@+id/textViewEditImage"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_below="@+id/imageViewLogo"
+        android:layout_centerHorizontal="true"
         android:layout_marginTop="10dp"
         android:text="Edit"
         android:textColor="@color/colorAccent"
         android:textSize="14sp"
-        android:textStyle="bold"
-        android:layout_below="@+id/imageViewLogo"
-        android:layout_centerHorizontal="true" />
+        android:textStyle="bold" />
 
     <EditText
         android:id="@+id/txtDrSpeciality"
@@ -156,13 +157,5 @@
         android:layout_marginTop="33dp"
         android:text="Doctor Name"
         android:textSize="24sp" />
-
-    <TextView
-        android:id="@+id/textViewEditImage"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/imageViewLogo"
-        android:layout_centerHorizontal="true"
-        android:text="edit" />
 
 </RelativeLayout>
