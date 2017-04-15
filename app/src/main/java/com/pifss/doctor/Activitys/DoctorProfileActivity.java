@@ -124,18 +124,17 @@ public class DoctorProfileActivity extends AppCompatActivity {
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         System.out.println("did enter onActivityResult!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
+        ImageView img = (ImageView) findViewById(R.id.imageViewLogo);
+        Bitmap imageBitmap = null;
         try{
 
 
-        ImageView img = (ImageView) findViewById(R.id.imageViewLogo);
-        Bitmap imageBitmap = null;
         if (resultCode != RESULT_OK){
             return;
         }
         if (requestCode == REQUEST_IMAGE_CAPTURE && resultCode == RESULT_OK) {
             Bundle extras = data.getExtras();
             imageBitmap = (Bitmap) extras.get("data");
-            img.setImageBitmap(imageBitmap);
         }
 
         if (requestCode == REQUEST_IMAGE_GALLARY && resultCode == RESULT_OK) {
@@ -148,7 +147,6 @@ public class DoctorProfileActivity extends AppCompatActivity {
 
 
 
-            img.setImageBitmap(imageBitmap);
             //img.setImageURI(selectedImage);
         }
 
@@ -261,11 +259,14 @@ public class DoctorProfileActivity extends AppCompatActivity {
         }
 
         }catch (OutOfMemoryError e){
-            Toast.makeText(this, "Error out of memory, Please try again", Toast.LENGTH_SHORT).show();
+
+            Toast.makeText(this, "Error, The image size is too large. Use another Image", Toast.LENGTH_SHORT).show();
         }catch (Exception e){
-            Toast.makeText(this, "Error Cannot continue", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "Error Cannot continue, Try again later.", Toast.LENGTH_SHORT).show();
 
         }
+        img.setImageBitmap(imageBitmap);
+
     }
 
     public void updateDoctorProfileWithImage(String imgPath){
