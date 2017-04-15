@@ -111,7 +111,7 @@ public class RegisterActivity extends AppCompatActivity {
                                     name.setText("");
                                     password.setText("");
                                     civilId.setText("");
-                                }else if(response.getString("errorMsgEn").equalsIgnoreCase("Not Created+\nUser already exist") ){
+                                }else if(response.getInt("errorCode") == 406 ){
                                     Toast.makeText(RegisterActivity.this, "Register Failed", Toast.LENGTH_SHORT).show();
                                     Toast.makeText(RegisterActivity.this, "Use another email address", Toast.LENGTH_SHORT).show();
 
