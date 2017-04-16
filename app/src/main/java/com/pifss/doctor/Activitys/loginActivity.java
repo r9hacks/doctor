@@ -80,7 +80,7 @@ public class loginActivity extends AppCompatActivity {
                                 if ((response.getString("errorMsgEn")).equalsIgnoreCase("Error")) {
                                     //error login
                                     //show message
-                                    Toast.makeText(loginActivity.this, "Error response: " + response.toString(), Toast.LENGTH_SHORT).show();
+                                    Toast.makeText(loginActivity.this, R.string.Errorresponse + response.toString(), Toast.LENGTH_SHORT).show();
 
                                     return;
                                 }
@@ -215,7 +215,7 @@ public class loginActivity extends AppCompatActivity {
                     }
                 });
 
-                progressDialog.setMessage("Login...");
+                progressDialog.setMessage(getResources().getString(R.string.Logining));
                 progressDialog.show();
                 queue.add(jsonObjRequest);
             } catch (JSONException e) {

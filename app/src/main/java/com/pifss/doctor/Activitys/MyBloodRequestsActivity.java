@@ -46,7 +46,7 @@ public class MyBloodRequestsActivity extends AppCompatActivity {
         //myBloodRequestListView
         final Toolbar toolbar = (Toolbar) findViewById(R.id.mytoolbar);
 
-        toolbar.setTitle("My Blood Requests");
+        toolbar.setTitle(R.string.MyBloodRequests);
         toolbar.setTitleTextColor(Color.WHITE);
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
@@ -139,7 +139,7 @@ public class MyBloodRequestsActivity extends AppCompatActivity {
                 }
             });
 
-            progressDialog.setMessage("Loading...");
+            progressDialog.setMessage(getResources().getString(R.string.Loading));
             progressDialog.show();
             queue.add(jsonObjRequest);
         } catch (Exception e) {

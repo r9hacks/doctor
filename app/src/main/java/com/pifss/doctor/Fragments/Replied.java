@@ -199,10 +199,10 @@ public class Replied extends Fragment {
 
         //Spinner code
         Spinner spinHeart = (Spinner) view.findViewById(R.id.spinnerHeart);
-        final String[] rate = { "All", "High", "Low", "Natural", };
+        final String[] rate = { "All", "High", "Low", "Moderate", };
 
         Spinner spinBlood = (Spinner) view.findViewById(R.id.spinnerBlood);
-        final String[] bloodPressure = { "All", "High", "Low", "Natural", };
+        final String[] bloodPressure = { "All", "High", "Low", "Moderate", };
 
         Spinner spinFever = (Spinner) view.findViewById(R.id.spinnerFever);
         final String[] feverArray = { "All", "Yes", "No", };

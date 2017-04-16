@@ -62,12 +62,12 @@ public class ReplyReportActivity extends AppCompatActivity {
         if (comment.getText().toString() != "") {
 
             reply.setEnabled(false);
-            sendButton.setText("Edit reply");
+            sendButton.setText(R.string.Editreply);
             tag = 1;
 
         }else{
 
-            sendButton.setText("Send reply");
+            sendButton.setText(R.string.SendReply);
             tag = 0;
 
             return;
@@ -83,11 +83,11 @@ public class ReplyReportActivity extends AppCompatActivity {
                 if (tag == 1) {
 
                     reply.setEnabled(true);
-                    sendButton.setText("Send reply");
+                    sendButton.setText(R.string.SendReply);
                     tag = 0;
                 } else if(tag == 0) {
                     reply.setEnabled(false);
-                    sendButton.setText("Edit reply");
+                    sendButton.setText(R.string.Editreply);
                     tag = 1;
 
                     final ProgressDialog progressDialog = new ProgressDialog(ReplyReportActivity.this);
@@ -108,6 +108,8 @@ public class ReplyReportActivity extends AppCompatActivity {
                                     // Toast.makeText(ReplyReportActivity.this, response.toString(), Toast.LENGTH_SHORT).show();
                                     if (response.getBoolean("status") == true){
                                         i.putExtra("message","Your Reply sent successfully");
+                                        //i.putExtra("message",R.string.YourReplysentsuccessfully);
+
                                     }else{
                                         i.putExtra("message","Your Reply sent Failed");
 
@@ -126,7 +128,7 @@ public class ReplyReportActivity extends AppCompatActivity {
                             }
                         });
 
-                        progressDialog.setMessage("Connecting...");
+                        progressDialog.setMessage(getResources().getString(R.string.Connecting));
                         progressDialog.show();
                         queue.add(jsonObjRequest);
                     } catch (JSONException e) {

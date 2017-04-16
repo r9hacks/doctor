@@ -71,17 +71,17 @@ public class RegisterActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 if (name.getText().toString() == "" || email.getText().toString() == "" || password.getText().toString() == "" || civilId.getText().toString() == ""){
-                   Toast.makeText(RegisterActivity.this, "Please fill all fields", Toast.LENGTH_SHORT).show();
+                   Toast.makeText(RegisterActivity.this, R.string.Pleasefillallfields, Toast.LENGTH_SHORT).show();
                     return;
                 }
                 if (password.getText().toString().length() < 8){
-                    Toast.makeText(RegisterActivity.this, "Password must be at least 8 character", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(RegisterActivity.this, R.string.Passwordmustbeatleast8character, Toast.LENGTH_SHORT).show();
                     return;
                 }
 
                 //validate email
                 if (validate(email.getText().toString()) == false){
-                    Toast.makeText(RegisterActivity.this, "Please enter a valid email address", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(RegisterActivity.this, R.string.Pleaseenteravalidemailaddress, Toast.LENGTH_SHORT).show();
                     return;
                 }
 
@@ -106,18 +106,18 @@ public class RegisterActivity extends AppCompatActivity {
                             System.out.println("response: "+response.toString());
                             try {
                                 if (response.getString("errorMsgEn").equalsIgnoreCase("Accepted")){
-                                    Toast.makeText(RegisterActivity.this, "Register successfully", Toast.LENGTH_SHORT).show();
+                                    Toast.makeText(RegisterActivity.this, R.string.Registersuccessfully, Toast.LENGTH_SHORT).show();
                                     email.setText("");
                                     name.setText("");
                                     password.setText("");
                                     civilId.setText("");
                                 }else if(response.getInt("errorCode") == 406 ){
-                                    Toast.makeText(RegisterActivity.this, "Register Failed", Toast.LENGTH_SHORT).show();
-                                    Toast.makeText(RegisterActivity.this, "Use another email address", Toast.LENGTH_SHORT).show();
+                                    Toast.makeText(RegisterActivity.this, R.string.RegisterFailed, Toast.LENGTH_SHORT).show();
+                                    Toast.makeText(RegisterActivity.this, R.string.Useanotheremailaddress, Toast.LENGTH_SHORT).show();
 
                                 }else{
-                                        Toast.makeText(RegisterActivity.this, "Register Failed", Toast.LENGTH_SHORT).show();
-                                        Toast.makeText(RegisterActivity.this, "Connection error", Toast.LENGTH_SHORT).show();
+                                        Toast.makeText(RegisterActivity.this, R.string.RegisterFailed, Toast.LENGTH_SHORT).show();
+                                        Toast.makeText(RegisterActivity.this, R.string.Connectionerror, Toast.LENGTH_SHORT).show();
                                 }
 
                                 //Toast.makeText(RegisterActivity.this, "on response: "+response.toString(), Toast.LENGTH_SHORT).show();
@@ -131,8 +131,8 @@ public class RegisterActivity extends AppCompatActivity {
                         public void onErrorResponse(VolleyError error) {
                             System.out.println("error: "+error.toString());
                             //show message
-                            Toast.makeText(RegisterActivity.this, "Register Failed", Toast.LENGTH_SHORT).show();
-                            Toast.makeText(RegisterActivity.this, "Use another email address", Toast.LENGTH_SHORT).show();
+                            Toast.makeText(RegisterActivity.this, R.string.RegisterFailed, Toast.LENGTH_SHORT).show();
+                            Toast.makeText(RegisterActivity.this, R.string.Useanotheremailaddress, Toast.LENGTH_SHORT).show();
 
                             progressDialog.hide();
 
@@ -176,7 +176,7 @@ public class RegisterActivity extends AppCompatActivity {
 //                        }
 //                    };
 
-                    progressDialog.setMessage("Connecting...");
+                    progressDialog.setMessage(getResources().getString(R.string.Connecting));
                     progressDialog.show();
                     queue.add(jsonObjRequest);
                 } catch (JSONException e) {

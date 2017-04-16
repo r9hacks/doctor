@@ -96,7 +96,9 @@ public class PatientRequestActivity extends AppCompatActivity {
                 }
             });
 
-            progressDialog.setMessage("Loading...");
+            progressDialog.setMessage(getResources().getString(R.string.Loading));
+
+
             progressDialog.show();
                     queue.add(jsonObjRequest);
         } catch (Exception e) {

@@ -34,7 +34,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="0.5"
-                android:text="Quantity"
+                android:text="@string/Quantity"
                 android:textSize="20sp" />
 
             <TextView
@@ -42,7 +42,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="0.5"
-                android:text="status"
+                android:text="@string/status"
                 android:textSize="20sp" />
         </LinearLayout>
 
@@ -51,9 +51,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:text="Reason:"
-            android:textSize="16sp"
             android:layout_weight="1"
+            android:text="@string/Reason"
+            android:textSize="16sp"
             android:textStyle="bold" />
 
         <TextView

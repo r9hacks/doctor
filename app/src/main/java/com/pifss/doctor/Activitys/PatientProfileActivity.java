@@ -219,7 +219,7 @@ public class PatientProfileActivity extends AppCompatActivity {
                 }
             };
 
-            progressDialog.setMessage("Loading...");
+            progressDialog.setMessage(getResources().getString(R.string.Loading));
             progressDialog.show();
             queue.add(stringRequest);
         } catch (JSONException e) {
@@ -237,16 +237,16 @@ public class PatientProfileActivity extends AppCompatActivity {
             public void onClick(View v) {
                 AlertDialog.Builder builder=new AlertDialog.Builder(PatientProfileActivity.this);
 
-                builder.setTitle("Call "+patient.getFirstName()+" "+patient.getLastName())
-                        .setMessage("Are you sure you wanna call "+patient.getFirstName()+" "+patient.getLastName()+" ?")
+                builder.setTitle( R.string.Call +patient.getFirstName()+" "+patient.getLastName())
+                        .setMessage(R.string.Areyousureyouwannacall +patient.getFirstName()+" "+patient.getLastName()+" ?")
                         .setIcon(R.mipmap.phonecall)
-                        .setNegativeButton("No", new DialogInterface.OnClickListener() {
+                        .setNegativeButton(R.string.No, new DialogInterface.OnClickListener() {
                             @Override
                             public void onClick(DialogInterface dialog, int which) {
 
                             }
                         })
-                        .setPositiveButton("Yes", new DialogInterface.OnClickListener() {
+                        .setPositiveButton(R.string.Yes, new DialogInterface.OnClickListener() {
                             @Override
                             public void onClick(DialogInterface dialog, int which) {
                                 Intent i=new Intent();
@@ -255,7 +255,7 @@ public class PatientProfileActivity extends AppCompatActivity {
 
                                 startActivity(i);
                             }
-                        }).setNeutralButton("Cancel", new DialogInterface.OnClickListener() {
+                        }).setNeutralButton(R.string.Cancel, new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
 

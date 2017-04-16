@@ -113,4 +113,56 @@
     <string name="Age">العمر</string>
 
 
+
+    <!---->
+
+    <string name="Loading">جاري التحميل...</string>
+    <string name="Call">الاتصال ب</string>
+    <string name="Areyousureyouwannacall">هل أنت متأكد من إجراء الاتصال ب</string>
+
+    <string name="NOPain">NO Pain</string>
+    <string name="Editreply">Edit reply</string>
+
+    <string name="YourReplysentFailed">Your Reply sent Failed</string>
+    <string name="Connecting">Connecting...</string>
+    <string name="Pleasefillallfields">Please fill all fields</string>
+    <string name="Passwordmustbeatleast8character">Password must be at least 8 character</string>
+
+    <string name="RegisterFailed">Register Failed</string>
+    <string name="Useanotheremailaddress">Use another email address</string>
+    <string name="Connectionerror">Connection error</string>
+    <string name="Yes">Yes</string>
+    <string name="Cancel">Cancel</string>
+    <string name="Reasoncantbeempty">Reason can\'t be empty</string>
+    <string name="Quantitymustbebetween1and20">Quantity must be between 1 and 20</string>
+    <string name="RequestFailed">Request Failed</string>
+    <string name="MyBloodRequests">My Blood Requests</string>
+    <string name="Errorresponse">Error response: </string>
+    <string name="Logining">Login...</string>
+    <string name="BloodRequests">Blood Requests</string>
+    <string name="Pleaseenteravalidemailaddress">Please enter a valid email address</string>
+    <string name="Emailsentsuccessfully">Email sent successfully</string>
+    <string name="Connectionfailed">Connection failed</string>
+    <string name="SendingEmail">Sending Email...</string>
+    <string name="Wrongpassword">Wrong password</string>
+    <string name="NewPasswordmustbemorethan8characters">New Password must be more than 8 characters</string>
+    <string name="UpdatingProfile">Updating Profile...</string>
+    <string name="ErrorTheimagesizeistoolarge">Error, The image size is too large. Use another Image</string>
+    <string name="ErrorCannotcontinueTryagainlater">Error Cannot continue, Try again later.</string>
+    <string name="Registersuccessfully">Register successfully</string>
+    <string name="No">No</string>
+    <string name="NewBloodRequests">New Blood Requests</string>
+    <string name="Requestsent">Request sent</string>
+    <string name="Uploadsuccessfully">Upload successfully</string>
+    <string name="UploadFailed">Upload Failed</string>
+    <string name="Uploading">Uploading...</string>
+    <string name="Reason">Reason</string>
+    <string name="Selectbloodtype">Select blood type:</string>
+    <string name="Quantity">Quantity:</string>
+    <string name="Edit">Edit</string>
+    <string name="NewPassword">New Password</string>
+    <string name="status">status</string>
+
+
+
 </resources>

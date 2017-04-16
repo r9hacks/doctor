@@ -1,34 +1,18 @@
 [
     {
-        "merged": "C:\\Users\\Entisar\\Desktop\\Android\\wed\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\ic_launcher_round.png",
-        "source": "C:\\Users\\Entisar\\Desktop\\Android\\wed\\doctor\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+        "merged": "/Users/Entisar/Desktop/projects/sun/doctor/app/build/intermediates/res/merged/debug/mipmap-mdpi/decline_icon.png",
+        "source": "/Users/Entisar/Desktop/projects/sun/doctor/app/src/main/res/mipmap-mdpi/decline_icon.png"
     },
     {
-        "merged": "C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v6\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\accept_icon.png",
-        "source": "C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v6\\doctor\\app\\src\\main\\res\\mipmap-mdpi\\accept_icon.png"
+        "merged": "/Users/Entisar/Desktop/projects/sun/doctor/app/build/intermediates/res/merged/debug/mipmap-mdpi/ic_launcher_round.png",
+        "source": "/Users/Entisar/Desktop/projects/sun/doctor/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\Entisar\\Desktop\\Android\\wed\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\decline_icon.png",
-        "source": "C:\\Users\\Entisar\\Desktop\\Android\\wed\\doctor\\app\\src\\main\\res\\mipmap-mdpi\\decline_icon.png"
+        "merged": "/Users/Entisar/Desktop/projects/sun/doctor/app/build/intermediates/res/merged/debug/mipmap-mdpi/ic_launcher.png",
+        "source": "/Users/Entisar/Desktop/projects/sun/doctor/app/src/main/res/mipmap-mdpi/ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\Entisar\\Desktop\\Android\\wed\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\ic_launcher.png",
-        "source": "C:\\Users\\Entisar\\Desktop\\Android\\wed\\doctor\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
-    },
-    {
-        "merged": "C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v6\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\decline_icon.png",
-        "source": "C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v6\\doctor\\app\\src\\main\\res\\mipmap-mdpi\\decline_icon.png"
-    },
-    {
-        "merged": "C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v6\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\ic_launcher.png",
-        "source": "C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v6\\doctor\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
-    },
-    {
-        "merged": "C:\\Users\\Entisar\\Desktop\\Android\\wed\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\accept_icon.png",
-        "source": "C:\\Users\\Entisar\\Desktop\\Android\\wed\\doctor\\app\\src\\main\\res\\mipmap-mdpi\\accept_icon.png"
-    },
-    {
-        "merged": "C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v6\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\ic_launcher_round.png",
-        "source": "C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v6\\doctor\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+        "merged": "/Users/Entisar/Desktop/projects/sun/doctor/app/build/intermediates/res/merged/debug/mipmap-mdpi/accept_icon.png",
+        "source": "/Users/Entisar/Desktop/projects/sun/doctor/app/src/main/res/mipmap-mdpi/accept_icon.png"
     }
 ]

@@ -36,7 +36,7 @@ public class NewBloodRequestActivity extends AppCompatActivity {
         setContentView(R.layout.activity_blood_request);
         final Toolbar toolbar = (Toolbar) findViewById(R.id.mytoolbar);
 
-        toolbar.setTitle("New Blood Requests");
+        toolbar.setTitle(R.string.NewBloodRequests);
         toolbar.setTitleTextColor(Color.WHITE);
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
@@ -60,11 +60,11 @@ public class NewBloodRequestActivity extends AppCompatActivity {
                     quantity = 0;
                 }
                 if (reason.length()<=0){
-                    Toast.makeText(NewBloodRequestActivity.this, "Reason can't be empty", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(NewBloodRequestActivity.this, R.string.Reasoncantbeempty, Toast.LENGTH_SHORT).show();
                     return;
                 }
                 if (quantity <=0 || quantity > 20){
-                    Toast.makeText(NewBloodRequestActivity.this, "Quantity must be between 1 and 20", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(NewBloodRequestActivity.this, R.string.Quantitymustbebetween1and20, Toast.LENGTH_SHORT).show();
                     return;
                 }
 
@@ -109,14 +109,14 @@ public class NewBloodRequestActivity extends AppCompatActivity {
                             System.out.println("response: "+response.toString());
                             try {
                                 if (response.getString("errorMsgEn").equalsIgnoreCase("Accepted")){
-                                    Toast.makeText(NewBloodRequestActivity.this, "Request sent", Toast.LENGTH_SHORT).show();
+                                    Toast.makeText(NewBloodRequestActivity.this, R.string.Requestsent, Toast.LENGTH_SHORT).show();
                                     finish();
                                 }else if(response.getString("errorMsgEn").equalsIgnoreCase("Not Created+\nUser already exist") ){
-                                    Toast.makeText(NewBloodRequestActivity.this, "Request Failed", Toast.LENGTH_SHORT).show();
+                                    Toast.makeText(NewBloodRequestActivity.this, R.string.RequestFailed, Toast.LENGTH_SHORT).show();
 
                                 }else{
-                                    Toast.makeText(NewBloodRequestActivity.this, "Request Failed", Toast.LENGTH_SHORT).show();
-                                    Toast.makeText(NewBloodRequestActivity.this, "Connection error", Toast.LENGTH_SHORT).show();
+                                    Toast.makeText(NewBloodRequestActivity.this, R.string.RegisterFailed, Toast.LENGTH_SHORT).show();
+                                    Toast.makeText(NewBloodRequestActivity.this, R.string.Connectionerror, Toast.LENGTH_SHORT).show();
                                 }
 
                                 //Toast.makeText(RegisterActivity.this, "on response: "+response.toString(), Toast.LENGTH_SHORT).show();
@@ -130,15 +130,15 @@ public class NewBloodRequestActivity extends AppCompatActivity {
                         public void onErrorResponse(VolleyError error) {
                             System.out.println("error: "+error.toString());
                             //show message
-                            Toast.makeText(NewBloodRequestActivity.this, "Request Failed", Toast.LENGTH_SHORT).show();
-                            Toast.makeText(NewBloodRequestActivity.this, "Connection error", Toast.LENGTH_SHORT).show();
+                            Toast.makeText(NewBloodRequestActivity.this, R.string.RegisterFailed, Toast.LENGTH_SHORT).show();
+                            Toast.makeText(NewBloodRequestActivity.this, R.string.Connectionerror, Toast.LENGTH_SHORT).show();
 
                             progressDialog.hide();
 
                         }
                     });
 
-                    progressDialog.setMessage("Connecting...");
+                    progressDialog.setMessage(getResources().getString(R.string.Connecting));
                     progressDialog.show();
                     queue.add(jsonObjRequest);
                 } catch (JSONException e) {

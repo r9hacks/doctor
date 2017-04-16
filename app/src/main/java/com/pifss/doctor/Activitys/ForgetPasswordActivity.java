@@ -63,7 +63,7 @@ public class ForgetPasswordActivity extends AppCompatActivity {
 
                 //validate email
                 if (validate(email.getText().toString()) == false){
-                    Toast.makeText(ForgetPasswordActivity.this, "Please enter a valid email address", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(ForgetPasswordActivity.this, R.string.Pleaseenteravalidemailaddress, Toast.LENGTH_SHORT).show();
                     return;
                 }
 
@@ -96,10 +96,10 @@ public class ForgetPasswordActivity extends AppCompatActivity {
                                 email.setText("");
 
 
-                                Toast.makeText(ForgetPasswordActivity.this, "Email sent successfully", Toast.LENGTH_SHORT).show();
+                                Toast.makeText(ForgetPasswordActivity.this, R.string.Emailsentsuccessfully, Toast.LENGTH_SHORT).show();
 
                             }else {
-                                Toast.makeText(ForgetPasswordActivity.this, "Connection failed", Toast.LENGTH_SHORT).show();
+                                Toast.makeText(ForgetPasswordActivity.this, R.string.Connectionfailed, Toast.LENGTH_SHORT).show();
                             }
 
                         } catch (JSONException e) {
@@ -113,7 +113,7 @@ public class ForgetPasswordActivity extends AppCompatActivity {
                     }
                 });
 
-                progressDialog.setMessage("Sending Email...");
+                progressDialog.setMessage(getResources().getString(R.string.SendingEmail));
                 progressDialog.show();
                 queue.add(jsonObjRequest);
             }

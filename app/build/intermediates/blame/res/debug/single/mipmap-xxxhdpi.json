@@ -1,26 +1,14 @@
 [
     {
-        "merged": "C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v6\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\ic_launcher_round.png",
-        "source": "C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v6\\doctor\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+        "merged": "/Users/Entisar/Desktop/projects/sun/doctor/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/ic_launcher_round.png",
+        "source": "/Users/Entisar/Desktop/projects/sun/doctor/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\Entisar\\Desktop\\Android\\wed\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\ic_launcher_round.png",
-        "source": "C:\\Users\\Entisar\\Desktop\\Android\\wed\\doctor\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+        "merged": "/Users/Entisar/Desktop/projects/sun/doctor/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/ic_launcher.png",
+        "source": "/Users/Entisar/Desktop/projects/sun/doctor/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v6\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\ic_launcher.png",
-        "source": "C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v6\\doctor\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
-    },
-    {
-        "merged": "C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v6\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\phonecall.png",
-        "source": "C:\\Users\\PIFSS\\Desktop\\Block_6\\MHealth\\v6\\doctor\\app\\src\\main\\res\\mipmap-xxxhdpi\\phonecall.png"
-    },
-    {
-        "merged": "C:\\Users\\Entisar\\Desktop\\Android\\wed\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\phonecall.png",
-        "source": "C:\\Users\\Entisar\\Desktop\\Android\\wed\\doctor\\app\\src\\main\\res\\mipmap-xxxhdpi\\phonecall.png"
-    },
-    {
-        "merged": "C:\\Users\\Entisar\\Desktop\\Android\\wed\\doctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\ic_launcher.png",
-        "source": "C:\\Users\\Entisar\\Desktop\\Android\\wed\\doctor\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+        "merged": "/Users/Entisar/Desktop/projects/sun/doctor/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/phonecall.png",
+        "source": "/Users/Entisar/Desktop/projects/sun/doctor/app/src/main/res/mipmap-xxxhdpi/phonecall.png"
     }
 ]

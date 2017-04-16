@@ -25,7 +25,7 @@
         android:layout_marginLeft="15dp"
         android:layout_marginTop="10dp"
         android:layout_weight="1"
-        android:text="Reason:"
+        android:text="@string/Reason"
         android:textColor="@android:color/black"
         android:textSize="24sp" />
 
@@ -39,7 +39,7 @@
         android:layout_marginRight="23dp"
         android:layout_weight="1"
         android:ems="10"
-        android:hint="Reason"
+        android:hint="@string/Reason"
         android:inputType="textPersonName" />
 
     <TextView
@@ -47,12 +47,11 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="15dp"
 
-        android:text="Select blood type:"
-        android:textColor="@color/material_drawer_dark_background"
-        android:textSize="24sp"
         android:layout_marginTop="20dp"
         android:layout_weight="1"
-         />
+        android:text="@string/Selectbloodtype"
+        android:textColor="@color/material_drawer_dark_background"
+        android:textSize="24sp" />
 
 
     <LinearLayout
@@ -163,10 +162,10 @@
             android:id="@+id/textView13"
             android:layout_width="wrap_content"
             android:layout_height="42dp"
+            android:layout_marginLeft="15dp"
             android:layout_marginTop="20dp"
             android:layout_weight="0.5"
-            android:layout_marginLeft="15dp"
-            android:text="Quantity:"
+            android:text="@string/Quantity"
             android:textColor="@color/material_drawer_dark_background"
             android:textSize="24sp" />
 

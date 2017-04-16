@@ -92,7 +92,7 @@
     <string name="AboutusAct">About us</string>
     <string name="Recommend">Let me recommend you this application</string>
 
-    //could not put chooseone in activity
+    <!--could not put chooseone in activity-->
     <string name="chooseone">Choose one</string>
     <string name="PatientProfile">Patient Profile</string>
 
@@ -103,11 +103,73 @@
     <string name="OurAim">Our aim is to improve public health, by facilitating doctor-patient communications. The application allows doctors to ubiquity access patient\'s information, view reports and reply to comments instantly and accurately. As well as accept or decline patients requests.</string>
 
 
-    //
-
+    <!---->
     <string name="Pending">Pending</string>
     <string name="Replied">Replied</string>
     <string name="Age">Age</string>
 
+     <!--16 april-->
+
+    <string name="NOPain">NO Pain</string>
+    <string name="Editreply">Edit reply</string>
+
+    <string name="YourReplysentFailed">Your Reply sent Failed</string>
+    <string name="Connecting">Connecting...</string>
+    <string name="Pleasefillallfields">Please fill all fields</string>
+    <string name="Passwordmustbeatleast8character">Password must be at least 8 character</string>
+
+    <string name="RegisterFailed">Register Failed</string>
+    <string name="Useanotheremailaddress">Use another email address</string>
+    <string name="Connectionerror">Connection error</string>
+    <string name="Loading">Loading...</string>
+    <string name="Call">Call </string>
+    <string name="Areyousureyouwannacall">Are you sure you want to call </string>
+    <string name="Yes">Yes</string>
+    <string name="Cancel">Cancel</string>
+    <string name="Reasoncantbeempty">Reason can\'t be empty</string>
+    <string name="Quantitymustbebetween1and20">Quantity must be between 1 and 20</string>
+    <string name="RequestFailed">Request Failed</string>
+    <string name="MyBloodRequests">My Blood Requests</string>
+    <string name="Errorresponse">Error response: </string>
+    <string name="Logining">Login...</string>
+    <string name="BloodRequests">Blood Requests</string>
+    <string name="Pleaseenteravalidemailaddress">Please enter a valid email address</string>
+    <string name="Emailsentsuccessfully">Email sent successfully</string>
+    <string name="Connectionfailed">Connection failed</string>
+    <string name="SendingEmail">Sending Email...</string>
+    <string name="Wrongpassword">Wrong password</string>
+    <string name="NewPasswordmustbemorethan8characters">New Password must be more than 8 characters</string>
+    <string name="UpdatingProfile">Updating Profile...</string>
+    <string name="ErrorTheimagesizeistoolarge">Error, The image size is too large. Use another Image</string>
+    <string name="ErrorCannotcontinueTryagainlater">Error Cannot continue, Try again later.</string>
+    <string name="Registersuccessfully">Register successfully</string>
+    <string name="No">No</string>
+    <string name="NewBloodRequests">New Blood Requests</string>
+    <string name="Requestsent">Request sent</string>
+    <string name="Uploadsuccessfully">Upload successfully</string>
+    <string name="UploadFailed">Upload Failed</string>
+    <string name="Uploading">Uploading...</string>
+    <string name="Reason">Reason</string>
+    <string name="Selectbloodtype">Select blood type:</string>
+    <string name="Quantity">Quantity:</string>
+    <string name="Edit">Edit</string>
+    <string name="NewPassword">New Password</string>
+    <string name="status">status</string>
+
+
+
+
+
+    <!--//   "Use another email address"-->
+    <!--//  "Loading..."-->
+
+    <!--//   "Call "         "Are you sure you wanna call "     "Yes"       "Cancel"-->
+    <!--// "Reason can't be empty"      "Quantity must be between 1 and 20"     "Request Failed"-->
+    <!--//  "My Blood Requests"       "Error response: "-->
+    <!--//  "Login..."-->
+    <!--//  "Blood Requests"-->
+    <!--//  "Please enter a valid email address"    "Email sent successfully"     "Connection failed"       "Sending Email..."-->
+    <!--//     "Wrong password"     "New Password must be more than 8 characters"       "Updating Profile..."-->
+    <!--//      "Error, The image size is too large. Use another Image"         "Error Cannot continue, Try again later."-->
 
 </resources>

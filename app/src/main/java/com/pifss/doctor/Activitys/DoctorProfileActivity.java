@@ -170,14 +170,14 @@ public class DoctorProfileActivity extends AppCompatActivity {
 
                             JSONObject res = new JSONObject(response);
                             if (res.getString("errorMsgEn").equalsIgnoreCase("Done")){
-                                Toast.makeText(DoctorProfileActivity.this, "Upload successfully", Toast.LENGTH_SHORT).show();
+                                Toast.makeText(DoctorProfileActivity.this, R.string.Uploadsuccessfully, Toast.LENGTH_SHORT).show();
                                 if (res.has("imgPath")){
                                     String imgPath = res.getString("imgPath");
                                     updateDoctorProfileWithImage(imgPath);
                                 }
                                 System.out.println("response: "+response.toString());
                             }else{
-                                Toast.makeText(DoctorProfileActivity.this, "Upload Failed", Toast.LENGTH_SHORT).show();
+                                Toast.makeText(DoctorProfileActivity.this, R.string.UploadFailed, Toast.LENGTH_SHORT).show();
                             }
 
                             } catch (JSONException e) {
@@ -188,7 +188,7 @@ public class DoctorProfileActivity extends AppCompatActivity {
 
                 @Override
                 public void onErrorResponse(VolleyError error) {
-                    Toast.makeText(DoctorProfileActivity.this, "Upload Failed", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(DoctorProfileActivity.this, R.string.UploadFailed, Toast.LENGTH_SHORT).show();
 
                     progressDialog.hide();
                 }
@@ -251,7 +251,7 @@ public class DoctorProfileActivity extends AppCompatActivity {
 //            };
 
 
-            progressDialog.setMessage("Uploading...");
+            progressDialog.setMessage(getResources().getString(R.string.Uploading));
             progressDialog.show();
             queue.add(jsonObjRequest);
         } catch (JSONException e) {
@@ -260,9 +260,9 @@ public class DoctorProfileActivity extends AppCompatActivity {
 
         }catch (OutOfMemoryError e){
 
-            Toast.makeText(this, "Error, The image size is too large. Use another Image", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, R.string.ErrorTheimagesizeistoolarge, Toast.LENGTH_SHORT).show();
         }catch (Exception e){
-            Toast.makeText(this, "Error Cannot continue, Try again later.", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, R.string.ErrorCannotcontinueTryagainlater, Toast.LENGTH_SHORT).show();
 
         }
         img.setImageBitmap(imageBitmap);
@@ -322,7 +322,7 @@ public class DoctorProfileActivity extends AppCompatActivity {
             }
         });
 
-        progressDialog.setMessage("Updating Profile...");
+        progressDialog.setMessage(getResources().getString(R.string.UpdatingProfile));
         progressDialog.show();
         queue.add(jsonObjRequest);
     }
@@ -350,7 +350,7 @@ public class DoctorProfileActivity extends AppCompatActivity {
         final CharSequence[] options = { "Take Photo", "Choose from Gallery","Cancel" };
 
         AlertDialog.Builder builder = new AlertDialog.Builder(DoctorProfileActivity.this);
-        builder.setTitle("Upload Photo!");
+        builder.setTitle( R.string.UploadPhoto);
         builder.setItems(options, new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int item) {

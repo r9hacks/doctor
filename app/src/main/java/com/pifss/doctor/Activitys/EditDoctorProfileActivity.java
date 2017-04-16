@@ -138,13 +138,13 @@ public class EditDoctorProfileActivity extends AppCompatActivity {
                 return;
             }
             if (!(txtPassword.getText().toString()).equals(doctor.getPassword()) ){
-               Toast.makeText(EditDoctorProfileActivity.this, "Wrong password", Toast.LENGTH_SHORT).show();
+               Toast.makeText(EditDoctorProfileActivity.this, R.string.Wrongpassword, Toast.LENGTH_SHORT).show();
                 return;
             }
             EditText newPassEditText = (EditText) findViewById(R.id.txtDrNewPassword);
             String newPassword = newPassEditText.getText().toString();
             if (newPassword.length()>0 && newPassword.length()<8){
-                Toast.makeText(EditDoctorProfileActivity.this, "New Password must be more than 8 characters", Toast.LENGTH_SHORT).show();
+                Toast.makeText(EditDoctorProfileActivity.this, R.string.NewPasswordmustbemorethan8characters, Toast.LENGTH_SHORT).show();
                 return;
             }
 
@@ -222,7 +222,7 @@ public class EditDoctorProfileActivity extends AppCompatActivity {
                 }
             });
 
-            progressDialog.setMessage("Updating Profile...");
+            progressDialog.setMessage(getResources().getString(R.string.UpdatingProfile));
             progressDialog.show();
             queue.add(jsonObjRequest);
 

@@ -68,7 +68,7 @@ public class ReportDetailActivity extends AppCompatActivity {
         if (report.getPain()){
             painLocationod.setText(report.getPainlocation());
         }else{
-            painLocationod.setText("NO Pain");
+            painLocationod.setText(R.string.NOPain);
         }
 
     }

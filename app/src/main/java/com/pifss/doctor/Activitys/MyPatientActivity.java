@@ -121,7 +121,7 @@ public class MyPatientActivity extends AppCompatActivity {
                 }
             });
 
-            progressDialog.setMessage("Loading...");
+            progressDialog.setMessage(getResources().getString(R.string.Loading));
             progressDialog.show();
             queue.add(jsonObjRequest);
         } catch (Exception e) {
@@ -137,7 +137,7 @@ public class MyPatientActivity extends AppCompatActivity {
                 MyPatient patient = model.get(position);
 
 
-                Toast.makeText(MyPatientActivity.this, "clicked "+patient.getName(), Toast.LENGTH_SHORT).show();
+               // Toast.makeText(MyPatientActivity.this, "clicked "+patient.getName(), Toast.LENGTH_SHORT).show();
                 JSONObject object= null;
                 try {
                     object = patient.getPatient().getJSONPatient();
