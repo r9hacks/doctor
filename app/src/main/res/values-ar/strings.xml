@@ -120,49 +120,51 @@
     <string name="Call">الاتصال ب</string>
     <string name="Areyousureyouwannacall">هل أنت متأكد من إجراء الاتصال ب</string>
 
-    <string name="NOPain">NO Pain</string>
-    <string name="Editreply">Edit reply</string>
 
-    <string name="YourReplysentFailed">Your Reply sent Failed</string>
-    <string name="Connecting">Connecting...</string>
-    <string name="Pleasefillallfields">Please fill all fields</string>
-    <string name="Passwordmustbeatleast8character">Password must be at least 8 character</string>
-
-    <string name="RegisterFailed">Register Failed</string>
-    <string name="Useanotheremailaddress">Use another email address</string>
-    <string name="Connectionerror">Connection error</string>
-    <string name="Yes">Yes</string>
-    <string name="Cancel">Cancel</string>
-    <string name="Reasoncantbeempty">Reason can\'t be empty</string>
-    <string name="Quantitymustbebetween1and20">Quantity must be between 1 and 20</string>
     <string name="RequestFailed">Request Failed</string>
     <string name="MyBloodRequests">My Blood Requests</string>
     <string name="Errorresponse">Error response: </string>
-    <string name="Logining">Login...</string>
-    <string name="BloodRequests">Blood Requests</string>
-    <string name="Pleaseenteravalidemailaddress">Please enter a valid email address</string>
-    <string name="Emailsentsuccessfully">Email sent successfully</string>
-    <string name="Connectionfailed">Connection failed</string>
-    <string name="SendingEmail">Sending Email...</string>
-    <string name="Wrongpassword">Wrong password</string>
     <string name="NewPasswordmustbemorethan8characters">New Password must be more than 8 characters</string>
-    <string name="UpdatingProfile">Updating Profile...</string>
     <string name="ErrorTheimagesizeistoolarge">Error, The image size is too large. Use another Image</string>
     <string name="ErrorCannotcontinueTryagainlater">Error Cannot continue, Try again later.</string>
-    <string name="Registersuccessfully">Register successfully</string>
-    <string name="No">No</string>
-    <string name="NewBloodRequests">New Blood Requests</string>
-    <string name="Requestsent">Request sent</string>
-    <string name="Uploadsuccessfully">Upload successfully</string>
-    <string name="UploadFailed">Upload Failed</string>
-    <string name="Uploading">Uploading...</string>
-    <string name="Reason">Reason</string>
-    <string name="Selectbloodtype">Select blood type:</string>
-    <string name="Quantity">Quantity:</string>
-    <string name="Edit">Edit</string>
-    <string name="NewPassword">New Password</string>
-    <string name="status">status</string>
 
+
+    <string name="NewBloodRequests">New Blood Requests</string>
+
+    <string name="Logining">يتم الدخول…</string> 
+    <string name="Pleaseenteravalidemailaddress">يرجى إدخال بريد إلكتروني صحيح</string>
+     <string name="UpdatingProfile">يتم التحديث…</string>
+     <string name="Registersuccessfully">تم التسجيل بنجاح</string>
+     <string name="Requestsent">تم إرسال الطلب</string> 
+    <string name="Uploadsuccessfully">تم الرفع</string> 
+    <string name="Uploading">جاري الرفع…</string>  
+
+     <string name="NOPain">لا يوجد ألم</string>
+     <string name="Editreply">تعديل الرد</string>
+      <string name="YourReplysentFailed">لم يتم إرسال الرد</string>
+     <string name="Connecting">يتم الاتصال…</string> 
+    <string name="Pleasefillallfields">الرجاء إكمال جميع الحقول</string>
+     <string name="Passwordmustbeatleast8character">الرقم السري لايقل عن ٨ أحرف</string>  
+    <string name="RegisterFailed">فشل في التسجيل</string>
+     <string name="Useanotheremailaddress">استخدم بريد إلكتروني آخر</string> 
+    <string name="Connectionerror">خطأ في الاتصال</string> 
+    <string name="Yes">نعم</string> 
+    <string name="Cancel">إلغاء</string>
+     <string name="Reasoncantbeempty">السبب لا يمكن أن يكون فارغ</string>
+     <string name="Quantitymustbebetween1and20">الكمية يجب أن تكون بين ١ و ٢٠</string> 
+     <string name="BloodRequests">طلب الدم</string>
+     <string name="Emailsentsuccessfully">تم إرسال البريد الإلكتروني</string> 
+    <string name="Connectionfailed">فشل في الاتصال</string> 
+    <string name="SendingEmail">يتم إرسال البريد الإلكتروني…</string> 
+    <string name="Wrongpassword">رقم سري خاطىء</string> 
+     <string name="No">لا</string>
+     <string name="UploadFailed">فشل في </string> 
+     <string name="Reason">السبب</string> 
+    <string name="Selectbloodtype">حدد فصيلة الدم: </string> 
+    <string name="Quantity">الكمية:</string> 
+    <string name="Edit">تغيير</string> 
+    <string name="NewPassword">رقم سري جديد</string> 
+    <string name="status">الحالة</string>   
 
 
 </resources>

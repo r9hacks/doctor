@@ -63,16 +63,12 @@ public class PatientProfileActivity extends AppCompatActivity {
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setDisplayShowHomeEnabled(true);
 
-
-
 //        EditText medication = (EditText) findViewById(R.id.MedicationEditTextMedication);
 //        medication.setKeyListener(null);
-
 
         final SharedPreferences preference = getSharedPreferences("settings",MODE_PRIVATE);
         String patientProfile = preference.getString(links.PrefPatientProfile,"notfound");
         final Patient patient = new Gson().fromJson(patientProfile,Patient.class);
-
 
         TextView name = (TextView) findViewById(R.id.textViewName);
         TextView age = (TextView) findViewById(R.id.textViewAge);
@@ -124,7 +120,6 @@ public class PatientProfileActivity extends AppCompatActivity {
         ListView lv= (ListView) findViewById(R.id.reportListView);
 
         final ReportListAdapter adapter=new ReportListAdapter(PatientProfileActivity.this,model);
-
 
         lv.setAdapter(adapter);
 
@@ -236,9 +231,11 @@ public class PatientProfileActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 AlertDialog.Builder builder=new AlertDialog.Builder(PatientProfileActivity.this);
+                String call = R.string.Call+"";
 
-                builder.setTitle( R.string.Call +patient.getFirstName()+" "+patient.getLastName())
-                        .setMessage(R.string.Areyousureyouwannacall +patient.getFirstName()+" "+patient.getLastName()+" ?")
+
+                builder.setTitle( call  +" "+ patient.getFirstName() +" "+patient.getLastName())
+                        .setMessage(R.string.Areyousureyouwannacall +" "+patient.getFirstName()+" "+patient.getLastName()+" ?")
                         .setIcon(R.mipmap.phonecall)
                         .setNegativeButton(R.string.No, new DialogInterface.OnClickListener() {
                             @Override

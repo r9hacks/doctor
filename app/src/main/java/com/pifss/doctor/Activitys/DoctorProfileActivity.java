@@ -350,7 +350,7 @@ public class DoctorProfileActivity extends AppCompatActivity {
         final CharSequence[] options = { "Take Photo", "Choose from Gallery","Cancel" };
 
         AlertDialog.Builder builder = new AlertDialog.Builder(DoctorProfileActivity.this);
-        builder.setTitle( R.string.UploadPhoto);
+        builder.setTitle("Upload Photo");
         builder.setItems(options, new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int item) {
