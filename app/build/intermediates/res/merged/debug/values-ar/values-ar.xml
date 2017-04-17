@@ -64,14 +64,14 @@
     <string name="Nationality">الجنسية</string>
     <string name="Nauseous">الغثيان</string>
     <string name="NewBloodRequests">طلب جديد للدم</string>
-    <string name="NewPassword">رقم سري جديد</string>
-    <string name="NewPasswordmustbemorethan8characters">الرقم السري الجديد يجب ألا يقل عن ٨ أحرف</string>
+    <string name="NewPassword">كلمة سر جديدة</string>
+    <string name="NewPasswordmustbemorethan8characters">كلمة السر الجديدة يجب ألا تقل عن ٨ أحرف</string>
     <string name="No">لا</string>
     <string name="NotAvailable">غير متاح</string>
     <string name="OurAim">    هدفنا هو تحسين الصحة العامة. عن طريق تسهيل تواصل الدكتور مع المريض، هذا البرنامج يسمح للدكتور بخاصية الوصول لمعلومات المريض في أي مكان، وعرض التقارير والرد على التعلقيات بدقة وعلى الفور. بالإضافة إلى قبول ورفض إضافات المرضى</string>
     <string name="PainLocation">موضع الألم</string>
     <string name="Password">كلمة السر</string>
-    <string name="Passwordmustbeatleast8character">الرقم السري لايقل عن ٨ أحرف</string>
+    <string name="Passwordmustbeatleast8character">كلمة السر لاتقل عن ٨ أحرف</string>
     <string name="PatientAge">العمر</string>
     <string name="PatientCivilID">الرقم المدني</string>
     <string name="PatientGender">الجنس</string>
@@ -119,7 +119,7 @@
     <string name="Uploadsuccessfully">تم الرفع</string>
     <string name="Useanotheremailaddress">استخدم بريد إلكتروني آخر</string>
     <string name="ViewReports">عرض التقارير</string>
-    <string name="Wrongpassword">رقم سري خاطىء</string>
+    <string name="Wrongpassword">كلمة سر خاطئة</string>
     <string name="Yes">نعم</string>
     <string name="YourReplysentFailed">لم يتم إرسال الرد</string>
     <string name="YourReplysentsuccessfully">تم إرسال الرد بنجاح</string>

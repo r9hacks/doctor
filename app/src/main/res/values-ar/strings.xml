@@ -124,7 +124,7 @@
     <string name="RequestFailed">فشل في الطلب</string>
     <string name="MyBloodRequests">طلبات الدم</string>
     <string name="Errorresponse">خطأ في الرد  </string>
-    <string name="NewPasswordmustbemorethan8characters">الرقم السري الجديد يجب ألا يقل عن ٨ أحرف</string>
+    <string name="NewPasswordmustbemorethan8characters">كلمة السر الجديدة يجب ألا تقل عن ٨ أحرف</string>
 
     <string name="ErrorTheimagesizeistoolarge">خطأ، حجم الصورة كبير. اختر صورة مختلفة</string>
 
@@ -146,7 +146,7 @@
       <string name="YourReplysentFailed">لم يتم إرسال الرد</string>
      <string name="Connecting">يتم الاتصال…</string> 
     <string name="Pleasefillallfields">الرجاء إكمال جميع الحقول</string>
-     <string name="Passwordmustbeatleast8character">الرقم السري لايقل عن ٨ أحرف</string>  
+     <string name="Passwordmustbeatleast8character">كلمة السر لاتقل عن ٨ أحرف</string>  
     <string name="RegisterFailed">فشل في التسجيل</string>
      <string name="Useanotheremailaddress">استخدم بريد إلكتروني آخر</string> 
     <string name="Connectionerror">خطأ في الاتصال</string> 
@@ -158,14 +158,14 @@
      <string name="Emailsentsuccessfully">تم إرسال البريد الإلكتروني</string> 
     <string name="Connectionfailed">فشل في الاتصال</string> 
     <string name="SendingEmail">يتم إرسال البريد الإلكتروني…</string> 
-    <string name="Wrongpassword">رقم سري خاطىء</string> 
+    <string name="Wrongpassword">كلمة سر خاطئة</string> 
      <string name="No">لا</string>
      <string name="UploadFailed">فشل في الرفع</string> 
      <string name="Reason">السبب</string> 
     <string name="Selectbloodtype">حدد فصيلة الدم: </string> 
     <string name="Quantity">الكمية:</string> 
     <string name="Edit">تغيير</string> 
-    <string name="NewPassword">رقم سري جديد</string> 
+    <string name="NewPassword">كلمة سر جديدة</string> 
     <string name="status">الحالة</string>   
 
 

@@ -241,7 +241,7 @@ public class HomeReportActivity extends AppCompatActivity {
                                         i = new Intent(HomeReportActivity.this,MyBloodRequestsActivity.class);
                                         startActivity(i);
                                         break;
-                                    case 5:
+                                    case 6:
 
                                         try {
                                             i = new Intent(Intent.ACTION_SEND);

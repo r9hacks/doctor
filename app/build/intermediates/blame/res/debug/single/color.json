@@ -4,8 +4,100 @@
         "source": "/Users/Entisar/.android/build-cache/752ac81f1b1993e8602d14a1f3fecad31afcf050/output/res/color/abc_tint_seek_thumb.xml"
     },
     {
+        "merged": "/Users/Entisar/Desktop/mhealth/andriod/doctor/app/build/intermediates/res/merged/debug/color/abc_tint_edittext.xml",
+        "source": "/Users/Entisar/.android/build-cache/752ac81f1b1993e8602d14a1f3fecad31afcf050/output/res/color/abc_tint_edittext.xml"
+    },
+    {
         "merged": "/Users/Entisar/Desktop/projects/sun/doctor/app/build/intermediates/res/merged/debug/color/abc_tint_spinner.xml",
         "source": "/Users/Entisar/.android/build-cache/752ac81f1b1993e8602d14a1f3fecad31afcf050/output/res/color/abc_tint_spinner.xml"
+    },
+    {
+        "merged": "/Users/Entisar/Desktop/mhealth/andriod/doctor/app/build/intermediates/res/merged/debug/color/abc_tint_switch_track.xml",
+        "source": "/Users/Entisar/.android/build-cache/752ac81f1b1993e8602d14a1f3fecad31afcf050/output/res/color/abc_tint_switch_track.xml"
+    },
+    {
+        "merged": "/Users/Entisar/Desktop/mhealth/andriod/doctor/app/build/intermediates/res/merged/debug/color/abc_primary_text_disable_only_material_dark.xml",
+        "source": "/Users/Entisar/.android/build-cache/752ac81f1b1993e8602d14a1f3fecad31afcf050/output/res/color/abc_primary_text_disable_only_material_dark.xml"
+    },
+    {
+        "merged": "/Users/Entisar/Desktop/projects/sun/doctor/app/build/intermediates/res/merged/debug/color/abc_primary_text_material_light.xml",
+        "source": "/Users/Entisar/.android/build-cache/752ac81f1b1993e8602d14a1f3fecad31afcf050/output/res/color/abc_primary_text_material_light.xml"
+    },
+    {
+        "merged": "/Users/Entisar/Desktop/projects/sun/doctor/app/build/intermediates/res/merged/debug/color/abc_primary_text_material_dark.xml",
+        "source": "/Users/Entisar/.android/build-cache/752ac81f1b1993e8602d14a1f3fecad31afcf050/output/res/color/abc_primary_text_material_dark.xml"
+    },
+    {
+        "merged": "/Users/Entisar/Desktop/projects/sun/doctor/app/build/intermediates/res/merged/debug/color/switch_thumb_material_dark.xml",
+        "source": "/Users/Entisar/.android/build-cache/752ac81f1b1993e8602d14a1f3fecad31afcf050/output/res/color/switch_thumb_material_dark.xml"
+    },
+    {
+        "merged": "/Users/Entisar/Desktop/mhealth/andriod/doctor/app/build/intermediates/res/merged/debug/color/abc_btn_colored_text_material.xml",
+        "source": "/Users/Entisar/.android/build-cache/752ac81f1b1993e8602d14a1f3fecad31afcf050/output/res/color/abc_btn_colored_text_material.xml"
+    },
+    {
+        "merged": "/Users/Entisar/Desktop/projects/sun/doctor/app/build/intermediates/res/merged/debug/color/abc_hint_foreground_material_light.xml",
+        "source": "/Users/Entisar/.android/build-cache/752ac81f1b1993e8602d14a1f3fecad31afcf050/output/res/color/abc_hint_foreground_material_light.xml"
+    },
+    {
+        "merged": "/Users/Entisar/Desktop/projects/sun/doctor/app/build/intermediates/res/merged/debug/color/abc_secondary_text_material_light.xml",
+        "source": "/Users/Entisar/.android/build-cache/752ac81f1b1993e8602d14a1f3fecad31afcf050/output/res/color/abc_secondary_text_material_light.xml"
+    },
+    {
+        "merged": "/Users/Entisar/Desktop/mhealth/andriod/doctor/app/build/intermediates/res/merged/debug/color/design_tint_password_toggle.xml",
+        "source": "/Users/Entisar/.android/build-cache/7da7010fc8ba9c73b7bbd44e32707d8abcc97463/output/res/color/design_tint_password_toggle.xml"
+    },
+    {
+        "merged": "/Users/Entisar/Desktop/mhealth/andriod/doctor/app/build/intermediates/res/merged/debug/color/switch_thumb_material_dark.xml",
+        "source": "/Users/Entisar/.android/build-cache/752ac81f1b1993e8602d14a1f3fecad31afcf050/output/res/color/switch_thumb_material_dark.xml"
+    },
+    {
+        "merged": "/Users/Entisar/Desktop/projects/sun/doctor/app/build/intermediates/res/merged/debug/color/abc_primary_text_disable_only_material_light.xml",
+        "source": "/Users/Entisar/.android/build-cache/752ac81f1b1993e8602d14a1f3fecad31afcf050/output/res/color/abc_primary_text_disable_only_material_light.xml"
+    },
+    {
+        "merged": "/Users/Entisar/Desktop/mhealth/andriod/doctor/app/build/intermediates/res/merged/debug/color/abc_tint_switch_thumb.xml",
+        "source": "/Users/Entisar/.android/build-cache/752ac81f1b1993e8602d14a1f3fecad31afcf050/output/res/color/abc_tint_switch_thumb.xml"
+    },
+    {
+        "merged": "/Users/Entisar/Desktop/mhealth/andriod/doctor/app/build/intermediates/res/merged/debug/color/abc_tint_spinner.xml",
+        "source": "/Users/Entisar/.android/build-cache/752ac81f1b1993e8602d14a1f3fecad31afcf050/output/res/color/abc_tint_spinner.xml"
+    },
+    {
+        "merged": "/Users/Entisar/Desktop/projects/sun/doctor/app/build/intermediates/res/merged/debug/color/abc_tint_default.xml",
+        "source": "/Users/Entisar/.android/build-cache/752ac81f1b1993e8602d14a1f3fecad31afcf050/output/res/color/abc_tint_default.xml"
+    },
+    {
+        "merged": "/Users/Entisar/Desktop/mhealth/andriod/doctor/app/build/intermediates/res/merged/debug/color/abc_secondary_text_material_dark.xml",
+        "source": "/Users/Entisar/.android/build-cache/752ac81f1b1993e8602d14a1f3fecad31afcf050/output/res/color/abc_secondary_text_material_dark.xml"
+    },
+    {
+        "merged": "/Users/Entisar/Desktop/projects/sun/doctor/app/build/intermediates/res/merged/debug/color/abc_secondary_text_material_dark.xml",
+        "source": "/Users/Entisar/.android/build-cache/752ac81f1b1993e8602d14a1f3fecad31afcf050/output/res/color/abc_secondary_text_material_dark.xml"
+    },
+    {
+        "merged": "/Users/Entisar/Desktop/projects/sun/doctor/app/build/intermediates/res/merged/debug/color/design_error.xml",
+        "source": "/Users/Entisar/.android/build-cache/7da7010fc8ba9c73b7bbd44e32707d8abcc97463/output/res/color/design_error.xml"
+    },
+    {
+        "merged": "/Users/Entisar/Desktop/mhealth/andriod/doctor/app/build/intermediates/res/merged/debug/color/abc_hint_foreground_material_dark.xml",
+        "source": "/Users/Entisar/.android/build-cache/752ac81f1b1993e8602d14a1f3fecad31afcf050/output/res/color/abc_hint_foreground_material_dark.xml"
+    },
+    {
+        "merged": "/Users/Entisar/Desktop/projects/sun/doctor/app/build/intermediates/res/merged/debug/color/abc_search_url_text.xml",
+        "source": "/Users/Entisar/.android/build-cache/752ac81f1b1993e8602d14a1f3fecad31afcf050/output/res/color/abc_search_url_text.xml"
+    },
+    {
+        "merged": "/Users/Entisar/Desktop/mhealth/andriod/doctor/app/build/intermediates/res/merged/debug/color/abc_primary_text_material_light.xml",
+        "source": "/Users/Entisar/.android/build-cache/752ac81f1b1993e8602d14a1f3fecad31afcf050/output/res/color/abc_primary_text_material_light.xml"
+    },
+    {
+        "merged": "/Users/Entisar/Desktop/mhealth/andriod/doctor/app/build/intermediates/res/merged/debug/color/abc_primary_text_disable_only_material_light.xml",
+        "source": "/Users/Entisar/.android/build-cache/752ac81f1b1993e8602d14a1f3fecad31afcf050/output/res/color/abc_primary_text_disable_only_material_light.xml"
+    },
+    {
+        "merged": "/Users/Entisar/Desktop/mhealth/andriod/doctor/app/build/intermediates/res/merged/debug/color/abc_tint_btn_checkable.xml",
+        "source": "/Users/Entisar/.android/build-cache/752ac81f1b1993e8602d14a1f3fecad31afcf050/output/res/color/abc_tint_btn_checkable.xml"
     },
     {
         "merged": "/Users/Entisar/Desktop/projects/sun/doctor/app/build/intermediates/res/merged/debug/color/abc_tint_switch_track.xml",
@@ -16,8 +108,8 @@
         "source": "/Users/Entisar/.android/build-cache/752ac81f1b1993e8602d14a1f3fecad31afcf050/output/res/color/switch_thumb_material_light.xml"
     },
     {
-        "merged": "/Users/Entisar/Desktop/projects/sun/doctor/app/build/intermediates/res/merged/debug/color/abc_primary_text_material_light.xml",
-        "source": "/Users/Entisar/.android/build-cache/752ac81f1b1993e8602d14a1f3fecad31afcf050/output/res/color/abc_primary_text_material_light.xml"
+        "merged": "/Users/Entisar/Desktop/mhealth/andriod/doctor/app/build/intermediates/res/merged/debug/color/design_error.xml",
+        "source": "/Users/Entisar/.android/build-cache/7da7010fc8ba9c73b7bbd44e32707d8abcc97463/output/res/color/design_error.xml"
     },
     {
         "merged": "/Users/Entisar/Desktop/projects/sun/doctor/app/build/intermediates/res/merged/debug/color/abc_hint_foreground_material_dark.xml",
@@ -32,36 +124,44 @@
         "source": "/Users/Entisar/.android/build-cache/752ac81f1b1993e8602d14a1f3fecad31afcf050/output/res/color/abc_btn_colored_text_material.xml"
     },
     {
-        "merged": "/Users/Entisar/Desktop/projects/sun/doctor/app/build/intermediates/res/merged/debug/color/abc_primary_text_material_dark.xml",
+        "merged": "/Users/Entisar/Desktop/mhealth/andriod/doctor/app/build/intermediates/res/merged/debug/color/abc_primary_text_material_dark.xml",
         "source": "/Users/Entisar/.android/build-cache/752ac81f1b1993e8602d14a1f3fecad31afcf050/output/res/color/abc_primary_text_material_dark.xml"
     },
     {
-        "merged": "/Users/Entisar/Desktop/projects/sun/doctor/app/build/intermediates/res/merged/debug/color/switch_thumb_material_dark.xml",
-        "source": "/Users/Entisar/.android/build-cache/752ac81f1b1993e8602d14a1f3fecad31afcf050/output/res/color/switch_thumb_material_dark.xml"
+        "merged": "/Users/Entisar/Desktop/mhealth/andriod/doctor/app/build/intermediates/res/merged/debug/color/abc_tint_default.xml",
+        "source": "/Users/Entisar/.android/build-cache/752ac81f1b1993e8602d14a1f3fecad31afcf050/output/res/color/abc_tint_default.xml"
     },
     {
-        "merged": "/Users/Entisar/Desktop/projects/sun/doctor/app/build/intermediates/res/merged/debug/color/abc_hint_foreground_material_light.xml",
-        "source": "/Users/Entisar/.android/build-cache/752ac81f1b1993e8602d14a1f3fecad31afcf050/output/res/color/abc_hint_foreground_material_light.xml"
-    },
-    {
-        "merged": "/Users/Entisar/Desktop/projects/sun/doctor/app/build/intermediates/res/merged/debug/color/abc_secondary_text_material_light.xml",
-        "source": "/Users/Entisar/.android/build-cache/752ac81f1b1993e8602d14a1f3fecad31afcf050/output/res/color/abc_secondary_text_material_light.xml"
+        "merged": "/Users/Entisar/Desktop/mhealth/andriod/doctor/app/build/intermediates/res/merged/debug/color/abc_btn_colored_borderless_text_material.xml",
+        "source": "/Users/Entisar/.android/build-cache/752ac81f1b1993e8602d14a1f3fecad31afcf050/output/res/color/abc_btn_colored_borderless_text_material.xml"
     },
     {
         "merged": "/Users/Entisar/Desktop/projects/sun/doctor/app/build/intermediates/res/merged/debug/color/abc_primary_text_disable_only_material_dark.xml",
         "source": "/Users/Entisar/.android/build-cache/752ac81f1b1993e8602d14a1f3fecad31afcf050/output/res/color/abc_primary_text_disable_only_material_dark.xml"
     },
     {
+        "merged": "/Users/Entisar/Desktop/mhealth/andriod/doctor/app/build/intermediates/res/merged/debug/color/abc_search_url_text.xml",
+        "source": "/Users/Entisar/.android/build-cache/752ac81f1b1993e8602d14a1f3fecad31afcf050/output/res/color/abc_search_url_text.xml"
+    },
+    {
+        "merged": "/Users/Entisar/Desktop/mhealth/andriod/doctor/app/build/intermediates/res/merged/debug/color/switch_thumb_material_light.xml",
+        "source": "/Users/Entisar/.android/build-cache/752ac81f1b1993e8602d14a1f3fecad31afcf050/output/res/color/switch_thumb_material_light.xml"
+    },
+    {
+        "merged": "/Users/Entisar/Desktop/mhealth/andriod/doctor/app/build/intermediates/res/merged/debug/color/abc_hint_foreground_material_light.xml",
+        "source": "/Users/Entisar/.android/build-cache/752ac81f1b1993e8602d14a1f3fecad31afcf050/output/res/color/abc_hint_foreground_material_light.xml"
+    },
+    {
         "merged": "/Users/Entisar/Desktop/projects/sun/doctor/app/build/intermediates/res/merged/debug/color/abc_tint_switch_thumb.xml",
         "source": "/Users/Entisar/.android/build-cache/752ac81f1b1993e8602d14a1f3fecad31afcf050/output/res/color/abc_tint_switch_thumb.xml"
     },
     {
-        "merged": "/Users/Entisar/Desktop/projects/sun/doctor/app/build/intermediates/res/merged/debug/color/abc_primary_text_disable_only_material_light.xml",
-        "source": "/Users/Entisar/.android/build-cache/752ac81f1b1993e8602d14a1f3fecad31afcf050/output/res/color/abc_primary_text_disable_only_material_light.xml"
+        "merged": "/Users/Entisar/Desktop/mhealth/andriod/doctor/app/build/intermediates/res/merged/debug/color/abc_tint_seek_thumb.xml",
+        "source": "/Users/Entisar/.android/build-cache/752ac81f1b1993e8602d14a1f3fecad31afcf050/output/res/color/abc_tint_seek_thumb.xml"
     },
     {
-        "merged": "/Users/Entisar/Desktop/projects/sun/doctor/app/build/intermediates/res/merged/debug/color/abc_tint_default.xml",
-        "source": "/Users/Entisar/.android/build-cache/752ac81f1b1993e8602d14a1f3fecad31afcf050/output/res/color/abc_tint_default.xml"
+        "merged": "/Users/Entisar/Desktop/mhealth/andriod/doctor/app/build/intermediates/res/merged/debug/color/abc_secondary_text_material_light.xml",
+        "source": "/Users/Entisar/.android/build-cache/752ac81f1b1993e8602d14a1f3fecad31afcf050/output/res/color/abc_secondary_text_material_light.xml"
     },
     {
         "merged": "/Users/Entisar/Desktop/projects/sun/doctor/app/build/intermediates/res/merged/debug/color/abc_tint_edittext.xml",
@@ -70,18 +170,6 @@
     {
         "merged": "/Users/Entisar/Desktop/projects/sun/doctor/app/build/intermediates/res/merged/debug/color/abc_tint_btn_checkable.xml",
         "source": "/Users/Entisar/.android/build-cache/752ac81f1b1993e8602d14a1f3fecad31afcf050/output/res/color/abc_tint_btn_checkable.xml"
-    },
-    {
-        "merged": "/Users/Entisar/Desktop/projects/sun/doctor/app/build/intermediates/res/merged/debug/color/abc_secondary_text_material_dark.xml",
-        "source": "/Users/Entisar/.android/build-cache/752ac81f1b1993e8602d14a1f3fecad31afcf050/output/res/color/abc_secondary_text_material_dark.xml"
-    },
-    {
-        "merged": "/Users/Entisar/Desktop/projects/sun/doctor/app/build/intermediates/res/merged/debug/color/design_error.xml",
-        "source": "/Users/Entisar/.android/build-cache/7da7010fc8ba9c73b7bbd44e32707d8abcc97463/output/res/color/design_error.xml"
-    },
-    {
-        "merged": "/Users/Entisar/Desktop/projects/sun/doctor/app/build/intermediates/res/merged/debug/color/abc_search_url_text.xml",
-        "source": "/Users/Entisar/.android/build-cache/752ac81f1b1993e8602d14a1f3fecad31afcf050/output/res/color/abc_search_url_text.xml"
     },
     {
         "merged": "/Users/Entisar/Desktop/projects/sun/doctor/app/build/intermediates/res/merged/debug/color/design_tint_password_toggle.xml",

@@ -231,11 +231,13 @@ public class PatientProfileActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 AlertDialog.Builder builder=new AlertDialog.Builder(PatientProfileActivity.this);
-                String call = R.string.Call+"";
+
+                String call = getResources().getString(R.string.Call);
+                String sure = getResources().getString(R.string.Areyousureyouwannacall);
 
 
                 builder.setTitle( call  +" "+ patient.getFirstName() +" "+patient.getLastName())
-                        .setMessage(R.string.Areyousureyouwannacall +" "+patient.getFirstName()+" "+patient.getLastName()+" ?")
+                        .setMessage( sure+" "+patient.getFirstName()+" "+patient.getLastName()+" ?")
                         .setIcon(R.mipmap.phonecall)
                         .setNegativeButton(R.string.No, new DialogInterface.OnClickListener() {
                             @Override
