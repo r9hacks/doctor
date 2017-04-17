@@ -65,15 +65,15 @@ public class BloodRequestsAdapter extends BaseAdapter {
         final MyBloodRequest myBloodRequest = model.get(position);
 
 
-        quantity.setText("Quantity:" + myBloodRequest.getQuantity());
+        quantity.setText(R.string.Quantity+": " + myBloodRequest.getQuantity());
         reason.setText(myBloodRequest.getReason());
 
         if (myBloodRequest.getStatus() == 1){
-            status.setText("Available");
+            status.setText(R.string.Available);
         }else if (myBloodRequest.getStatus() == -1){
-            status.setText("Not Available");
+            status.setText(R.string.NotAvailable);
         }else {
-            status.setText("Pending");
+            status.setText(R.string.Pending);
         }
 
         if (myBloodRequest.getBloodType().equalsIgnoreCase("A+")){

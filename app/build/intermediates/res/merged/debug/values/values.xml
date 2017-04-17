@@ -1076,6 +1076,7 @@
     <string name="Allfieldsarerequired">All fields are required</string>
     <string name="Areyousureyouwannacall">Are you sure you want to call </string>
     <string name="Asthma">Asthma</string>
+    <string name="Available">Available</string>
     <string name="Becausewecare">Because we care</string>
     <string name="Birthdate">Birthdate</string>
     <string name="BloodPressure">Blood Pressure</string>
@@ -1134,6 +1135,7 @@
     <string name="NewPassword">New Password</string>
     <string name="NewPasswordmustbemorethan8characters">New Password must be more than 8 characters</string>
     <string name="No">No</string>
+    <string name="NotAvailable">Not Available</string>
     <string name="OurAim">Our aim is to improve public health, by facilitating doctor-patient communications. The application allows doctors to ubiquity access patient\'s information, view reports and reply to comments instantly and accurately. As well as accept or decline patients requests.</string>
     <string name="PainLocation">Pain Location</string>
     <string name="Password">Password</string>
@@ -1145,6 +1147,10 @@
     <string name="PatientPhone">Patient Phone</string>
     <string name="PatientProfile">Patient Profile</string>
     <string name="PatientRequests">Patient Requests</string>
+    <string name="Patientacceptedfailed">Patient accepted failed</string>
+    <string name="Patientacceptedsuccessfully">Patient accepted successfully</string>
+    <string name="Patientdeclinedfailed">Patient declined failed</string>
+    <string name="Patientdeclinedsuccessfully">Patient declined successfully</string>
     <string name="Pending">Pending</string>
     <string name="PhoneNumber">Phone Number</string>
     <string name="Pleaseenteravalidemailaddress">Please enter a valid email address</string>

@@ -187,11 +187,11 @@ public class RequestAdapter extends BaseAdapter {
                         try {
                             if (response.getBoolean("status") == true){
 
-                                Toast.makeText(context, "Patient accepted successfully", Toast.LENGTH_SHORT).show();
+                                Toast.makeText(context, R.string.Patientacceptedsuccessfully, Toast.LENGTH_SHORT).show();
                                 model.remove(position);
                                 notifyDataSetChanged();
                             }else{
-                                Toast.makeText(context, "Patient accepted failed", Toast.LENGTH_SHORT).show();
+                                Toast.makeText(context, R.string.Patientacceptedfailed, Toast.LENGTH_SHORT).show();
 
                             }
                         } catch (JSONException e) {
@@ -205,7 +205,7 @@ public class RequestAdapter extends BaseAdapter {
                 }, new Response.ErrorListener() {
                     @Override
                     public void onErrorResponse(VolleyError error) {
-                        Toast.makeText(context, "Patient accepted failed", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(context, R.string.Patientacceptedfailed, Toast.LENGTH_SHORT).show();
 
                     }
                 }){
@@ -278,12 +278,11 @@ public class RequestAdapter extends BaseAdapter {
 
                         try {
                             if (response.getBoolean("status") == true){
-
-                                Toast.makeText(context, "Patient declined successfully", Toast.LENGTH_SHORT).show();
+                                Toast.makeText(context, R.string.Patientdeclinedsuccessfully, Toast.LENGTH_SHORT).show();
                                 model.remove(position);
                                 notifyDataSetChanged();
                             }else{
-                                Toast.makeText(context, "Patient declined failed", Toast.LENGTH_SHORT).show();
+                                Toast.makeText(context, R.string.Patientdeclinedfailed, Toast.LENGTH_SHORT).show();
 
                             }
                         } catch (JSONException e) {
@@ -297,7 +296,7 @@ public class RequestAdapter extends BaseAdapter {
                 }, new Response.ErrorListener() {
                     @Override
                     public void onErrorResponse(VolleyError error) {
-                        Toast.makeText(context, "Patient declined failed", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(context, R.string.Patientdeclinedfailed, Toast.LENGTH_SHORT).show();
 
                     }
                 }){
@@ -349,16 +348,20 @@ public class RequestAdapter extends BaseAdapter {
             public void onClick(View v) {
                 AlertDialog.Builder builder=new AlertDialog.Builder(context);
 
-                builder.setTitle("Call "+patient.getName())
-                        .setMessage("Are you sure you wanna call "+patient.getName()+" ?")
+
+                String call = context.getResources().getString(R.string.Call);
+                String sure = context.getResources().getString(R.string.Areyousureyouwannacall);
+
+                builder.setTitle(call +" "+patient.getName())
+                        .setMessage(sure+" " +patient.getName()+" ?")
                         .setIcon(R.mipmap.phonecall)
-                        .setNegativeButton("No", new DialogInterface.OnClickListener() {
+                        .setNegativeButton(R.string.No, new DialogInterface.OnClickListener() {
                             @Override
                             public void onClick(DialogInterface dialog, int which) {
 
                             }
                         })
-                        .setPositiveButton("Yes", new DialogInterface.OnClickListener() {
+                        .setPositiveButton(R.string.Yes, new DialogInterface.OnClickListener() {
                             @Override
                             public void onClick(DialogInterface dialog, int which) {
                                 Intent i=new Intent();
@@ -367,7 +370,7 @@ public class RequestAdapter extends BaseAdapter {
 
                                 context.startActivity(i);
                             }
-                        }).setNeutralButton("Cancel", new DialogInterface.OnClickListener() {
+                        }).setNeutralButton(R.string.Cancel, new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
 

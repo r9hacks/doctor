@@ -169,4 +169,17 @@
     <string name="status">الحالة</string>   
 
 
+    <string name="Available">متاح</string>
+    <string name="NotAvailable">غير متاح</string>
+
+
+    <string name="Patientacceptedsuccessfully">تم إضافة المريض بنجاح</string>
+    <string name="Patientacceptedfailed">فشل في إضافة المريض</string>
+
+
+    <string name="Patientdeclinedsuccessfully">تم رفض المريض بنجاح</string>
+    <string name="Patientdeclinedfailed">فشل في رفض المريض</string>
+
+
+
 </resources>

@@ -7,6 +7,7 @@ import android.content.Intent;
 import android.media.Image;
 import android.net.Uri;
 import android.support.v7.app.AlertDialog;
+import android.support.v7.widget.TintTypedArray;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -130,16 +131,20 @@ public class myPatientAdapter extends BaseAdapter {
             public void onClick(View v) {
                 AlertDialog.Builder builder=new AlertDialog.Builder(context);
 
-                builder.setTitle("Call "+patient.getName())
-                        .setMessage("Are you sure you wanna call "+patient.getName()+" ?")
+                String call = context.getResources().getString(R.string.Call);
+                String sure = context.getResources().getString(R.string.Areyousureyouwannacall);
+
+
+                builder.setTitle( call +patient.getName())
+                        .setMessage(sure+patient.getName()+" ?")
                         .setIcon(R.mipmap.phonecall)
-                        .setNegativeButton("No", new DialogInterface.OnClickListener() {
+                        .setNegativeButton(R.string.No, new DialogInterface.OnClickListener() {
                             @Override
                             public void onClick(DialogInterface dialog, int which) {
 
                             }
                         })
-                        .setPositiveButton("Yes", new DialogInterface.OnClickListener() {
+                        .setPositiveButton(R.string.Yes, new DialogInterface.OnClickListener() {
                             @Override
                             public void onClick(DialogInterface dialog, int which) {
                                 Intent i=new Intent();
@@ -148,7 +153,7 @@ public class myPatientAdapter extends BaseAdapter {
 
                                 context.startActivity(i);
                             }
-                        }).setNeutralButton("Cancel", new DialogInterface.OnClickListener() {
+                        }).setNeutralButton(R.string.Cancel, new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
 
@@ -164,4 +169,6 @@ public class myPatientAdapter extends BaseAdapter {
         return view;
 
     }
+
+
 }

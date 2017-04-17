@@ -156,8 +156,24 @@
     <string name="NewPassword">New Password</string>
     <string name="status">status</string>
 
+    <string name="Available">Available</string>
+    <string name="NotAvailable">Not Available</string>
 
 
+    <string name="Patientacceptedsuccessfully">Patient accepted successfully</string>
+
+    <string name="Patientacceptedfailed">Patient accepted failed</string>
+
+
+    <string name="Patientdeclinedsuccessfully">Patient declined successfully</string>
+    <string name="Patientdeclinedfailed">Patient declined failed</string>
+
+
+    //
+
+
+
+    //
 
 
     <!--//   "Use another email address"-->
