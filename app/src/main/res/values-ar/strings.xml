@@ -121,15 +121,17 @@
     <string name="Areyousureyouwannacall">هل أنت متأكد من إجراء الاتصال ب</string>
 
 
-    <string name="RequestFailed">Request Failed</string>
-    <string name="MyBloodRequests">My Blood Requests</string>
-    <string name="Errorresponse">Error response: </string>
-    <string name="NewPasswordmustbemorethan8characters">New Password must be more than 8 characters</string>
-    <string name="ErrorTheimagesizeistoolarge">Error, The image size is too large. Use another Image</string>
-    <string name="ErrorCannotcontinueTryagainlater">Error Cannot continue, Try again later.</string>
+    <string name="RequestFailed">فشل في الطلب</string>
+    <string name="MyBloodRequests">طلبات الدم</string>
+    <string name="Errorresponse">خطأ في الرد  </string>
+    <string name="NewPasswordmustbemorethan8characters">الرقم السري الجديد يجب ألا يقل عن ٨ أحرف</string>
+
+    <string name="ErrorTheimagesizeistoolarge">خطأ، حجم الصورة كبير. اختر صورة مختلفة</string>
+
+    <string name="ErrorCannotcontinueTryagainlater">خطأ، لا يمكن الاستمرار. حاول مجددا</string>
 
 
-    <string name="NewBloodRequests">New Blood Requests</string>
+    <string name="NewBloodRequests">طلب جديد للدم</string>
 
     <string name="Logining">يتم الدخول…</string> 
     <string name="Pleaseenteravalidemailaddress">يرجى إدخال بريد إلكتروني صحيح</string>
@@ -158,7 +160,7 @@
     <string name="SendingEmail">يتم إرسال البريد الإلكتروني…</string> 
     <string name="Wrongpassword">رقم سري خاطىء</string> 
      <string name="No">لا</string>
-     <string name="UploadFailed">فشل في </string> 
+     <string name="UploadFailed">فشل في الرفع</string> 
      <string name="Reason">السبب</string> 
     <string name="Selectbloodtype">حدد فصيلة الدم: </string> 
     <string name="Quantity">الكمية:</string> 

@@ -50,7 +50,7 @@
     <string name="Loading">جاري التحميل...</string>
     <string name="Location">الموقع</string>
     <string name="Login">دخول</string>
-    <string name="Logining">Login...</string>
+    <string name="Logining">يتم الدخول…</string>
     <string name="Logout">تسجيل الخروج</string>
     <string name="Male">ذكر</string>
     <string name="Medication">الأدوية</string>
@@ -79,7 +79,7 @@
     <string name="PatientRequests">إضافات المرضى</string>
     <string name="Pending">الحديثة</string>
     <string name="PhoneNumber">رقم الهاتف</string>
-    <string name="Pleaseenteravalidemailaddress">Please enter a valid email address</string>
+    <string name="Pleaseenteravalidemailaddress">يرجى إدخال بريد إلكتروني صحيح</string>
     <string name="Pleasefillallfields">الرجاء إكمال جميع الحقول</string>
     <string name="ProfileUpdated">تم التحديث</string>
     <string name="Quantity">الكمية:</string>
@@ -89,7 +89,7 @@
     <string name="Recommend">اسمح لي أن أوصي لك هذا التطبيق</string>
     <string name="Register">التسجيل</string>
     <string name="RegisterFailed">فشل في التسجيل</string>
-    <string name="Registersuccessfully">Register successfully</string>
+    <string name="Registersuccessfully">تم التسجيل بنجاح</string>
     <string name="Replied">القديمة</string>
     <string name="Reply">الرد</string>
     <string name="ReplySent">الرد</string>
@@ -97,7 +97,7 @@
     <string name="ReportDetail">تفاصيل التقرير</string>
     <string name="Request">الإضافات</string>
     <string name="RequestFailed">Request Failed</string>
-    <string name="Requestsent">Request sent</string>
+    <string name="Requestsent">تم إرسال الطلب</string>
     <string name="ResetPassword">تغيير كلمة السر</string>
     <string name="Save">حفظ</string>
     <string name="Selectbloodtype">حدد فصيلة الدم: </string>
@@ -107,10 +107,10 @@
     <string name="Share">شارك</string>
     <string name="Specialty">التخصص</string>
     <string name="SugarLevel">مستوى السكر</string>
-    <string name="UpdatingProfile">Updating Profile...</string>
+    <string name="UpdatingProfile">يتم التحديث…</string>
     <string name="UploadFailed">فشل في </string>
-    <string name="Uploading">Uploading...</string>
-    <string name="Uploadsuccessfully">Upload successfully</string>
+    <string name="Uploading">جاري الرفع…</string>
+    <string name="Uploadsuccessfully">تم الرفع</string>
     <string name="Useanotheremailaddress">استخدم بريد إلكتروني آخر</string>
     <string name="ViewReports">عرض التقارير</string>
     <string name="Wrongpassword">رقم سري خاطىء</string>
