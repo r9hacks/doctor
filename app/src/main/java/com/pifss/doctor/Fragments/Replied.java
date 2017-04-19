@@ -199,20 +199,35 @@ public class Replied extends Fragment {
 
         //Spinner code
         Spinner spinHeart = (Spinner) view.findViewById(R.id.spinnerHeart);
-        final String[] rate = { "All", "High", "Low", "Moderate", };
+        final String[] rate = { getResources().getString(R.string.All), getResources().getString(R.string.High), getResources().getString(R.string.Low), getResources().getString( R.string.Moderate),};
 
         Spinner spinBlood = (Spinner) view.findViewById(R.id.spinnerBlood);
-        final String[] bloodPressure = { "All", "High", "Low", "Moderate", };
+        final String[] bloodPressure = { getResources().getString(R.string.All), getResources().getString(R.string.High), getResources().getString(R.string.Low), getResources().getString( R.string.Moderate),};
 
         Spinner spinFever = (Spinner) view.findViewById(R.id.spinnerFever);
-        final String[] feverArray = { "All", "Yes", "No", };
+        final String[] feverArray = {getResources().getString(R.string.All), getResources().getString(R.string.Yes), getResources().getString(R.string.No),};
 
 
         spinHeart.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
               //  Toast.makeText(getActivity(), "clicked: "+rate[position], Toast.LENGTH_SHORT).show();
-                rateString = rate[position].toLowerCase();
+                if (position == 0)
+                {
+                    rateString = "All";
+                }
+                else if (position == 1)
+                {
+                    rateString = "High";
+                }
+                else if (position == 2)
+                {
+                    rateString = "Low";
+                }else if (position == 3)
+                {
+                    rateString = "Moderate";
+                }
+
                 initAdapterWithFilter();
             }
 
@@ -237,7 +252,23 @@ public class Replied extends Fragment {
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
              //   Toast.makeText(getActivity(), "clicked: "+bloodPressure[position], Toast.LENGTH_SHORT).show();
 
-                pressureString = bloodPressure[position].toLowerCase();
+                if (position == 0)
+                {
+                    pressureString = "All";
+
+                }
+                else if (position == 1)
+                {
+                    pressureString =  "High";
+                    // "High";
+                }
+                else if (position == 2)
+                {
+                    pressureString = "Low";
+                }else if (position == 3)
+                {
+                    pressureString = "Moderate";
+                }
 
                 initAdapterWithFilter();
 
@@ -269,8 +300,19 @@ public class Replied extends Fragment {
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
              //   Toast.makeText(getActivity(), "clicked: "+feverArray[position], Toast.LENGTH_SHORT).show();
 
+                if (position == 0)
+                {
+                    feverString = "All";
+                }
+                else if (position == 1)
+                {
+                    feverString = "Yes";
+                }
+                else if (position == 2)
+                {
+                    feverString = "No";
+                }
 
-                feverString = feverArray[position].toLowerCase();
                 initAdapterWithFilter();
 
                 //   initAdapterWithFilterForFever(feverArray[position].toLowerCase());
@@ -299,7 +341,6 @@ public class Replied extends Fragment {
 
 
     private void initAdapterWithFilter() {
-        String filter = "All";
 
         if (model == null || model.size() <= 0) {
             return;

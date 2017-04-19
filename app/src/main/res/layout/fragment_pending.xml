@@ -17,19 +17,17 @@
             android:layout_height="25dp"
             android:orientation="horizontal">
 
-
-
             <Spinner
                 android:id="@+id/spinnerHeart"
                 android:layout_width="196dp"
                 android:layout_height="wrap_content"
-                android:layout_weight="1" />
+                android:layout_weight=".5" />
 
             <Spinner
                 android:id="@+id/spinnerBlood"
                 android:layout_width="196dp"
                 android:layout_height="wrap_content"
-                android:layout_weight="1" />
+                android:layout_weight=".5" />
             <Spinner
                 android:id="@+id/spinnerFever"
                 android:layout_width="196dp"
@@ -44,7 +42,7 @@
             android:layout_height="match_parent"
             android:layout_centerInParent="true"
             android:gravity="center_vertical|center_horizontal"
-            android:text="No Pending Reports"
+            android:text="@string/NoPendingReports"
             android:textColor="@android:color/darker_gray"
             android:textSize="15sp"
             android:textStyle="bold"

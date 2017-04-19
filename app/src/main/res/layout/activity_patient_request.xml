@@ -13,15 +13,17 @@
         android:id="@+id/mytoolbar">
 
     </android.support.v7.widget.Toolbar>
+
     <ListView
         android:id="@+id/invitationListView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_below="@+id/mytoolbar" />
+
     <TextView android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:id="@+id/emptyElement"
-        android:text="No Patient Request"
+        android:text="@string/NoPatientRequest"
         android:textStyle="bold"
         android:gravity="center_vertical|center_horizontal"
         android:textSize="15sp"

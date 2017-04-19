@@ -159,33 +159,25 @@
     <string name="Available">Available</string>
     <string name="NotAvailable">Not Available</string>
 
-
     <string name="Patientacceptedsuccessfully">Patient accepted successfully</string>
 
     <string name="Patientacceptedfailed">Patient accepted failed</string>
 
-
     <string name="Patientdeclinedsuccessfully">Patient declined successfully</string>
     <string name="Patientdeclinedfailed">Patient declined failed</string>
 
+    //19 april
+
+    <string name="enterpasswordtoedityourprofile">Enter password to edit your profile</string>
+    <string name="NoRepliedReports">No Replied Reports</string>
+    <string name="NoPendingReports">No Pending Reports</string>
+    <string name="NoPatientRequest">No Patient Request</string>
+    <string name="All">All</string>
+    <string name="High">High</string>
+    <string name="Moderate">Moderate</string>
+    <string name="Low">Low</string>
 
     //
 
-
-
-    //
-
-
-    <!--//   "Use another email address"-->
-    <!--//  "Loading..."-->
-
-    <!--//   "Call "         "Are you sure you wanna call "     "Yes"       "Cancel"-->
-    <!--// "Reason can't be empty"      "Quantity must be between 1 and 20"     "Request Failed"-->
-    <!--//  "My Blood Requests"       "Error response: "-->
-    <!--//  "Login..."-->
-    <!--//  "Blood Requests"-->
-    <!--//  "Please enter a valid email address"    "Email sent successfully"     "Connection failed"       "Sending Email..."-->
-    <!--//     "Wrong password"     "New Password must be more than 8 characters"       "Updating Profile..."-->
-    <!--//      "Error, The image size is too large. Use another Image"         "Error Cannot continue, Try again later."-->
 
 </resources>

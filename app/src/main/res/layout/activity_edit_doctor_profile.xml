@@ -174,7 +174,7 @@
                     android:drawableLeft="@mipmap/password"
                     android:drawablePadding="10dp"
                     android:ems="10"
-                    android:hint="@string/Password"
+                    android:hint="@string/enterpasswordtoedityourprofile"
                     android:inputType="textPassword"
                     android:textColor="@android:color/darker_gray" />
 

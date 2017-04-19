@@ -24,13 +24,13 @@
             android:id="@+id/spinnerHeart"
             android:layout_width="196dp"
             android:layout_height="wrap_content"
-            android:layout_weight="1" />
+            android:layout_weight=".5" />
 
         <Spinner
             android:id="@+id/spinnerBlood"
             android:layout_width="196dp"
             android:layout_height="wrap_content"
-            android:layout_weight="1" />
+            android:layout_weight=".5" />
         <Spinner
             android:id="@+id/spinnerFever"
             android:layout_width="196dp"
@@ -40,15 +40,19 @@
     </LinearLayout>
 
     <!-- TODO: Update blank fragment layout -->
-    <ListView
+
+        <ListView
         android:id="@+id/repliedListView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_below="@+id/horizantal" />
-    <TextView android:layout_width="match_parent"
+
+
+
+        <TextView android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:id="@+id/emptyElement"
-        android:text="No Replied Reports"
+        android:text="@string/NoRepliedReports"
         android:textStyle="bold"
         android:gravity="center_vertical|center_horizontal"
         android:textSize="15sp"

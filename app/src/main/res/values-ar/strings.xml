@@ -181,5 +181,15 @@
     <string name="Patientdeclinedfailed">فشل في رفض المريض</string>
 
 
+    //
+    <string name="enterpasswordtoedityourprofile">إدخل كلمة السر للتعديل</string>
+    <string name="NoRepliedReports">لا توجد تقارير سابقة</string>
+    <string name="NoPendingReports">لا توجد تقارير جديدة</string>
+    <string name="NoPatientRequest">لا توجد طلبات إضافة</string>
+    <string name="All">الكل</string>
+    <string name="High">مرتفع</string>
+    <string name="Moderate">معتدل</string>
+    <string name="Low">منخفض</string>
+
 
 </resources>
