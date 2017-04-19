@@ -81,10 +81,21 @@ public class PatientProfileActivity extends AppCompatActivity {
         TextView medication = (TextView) findViewById(R.id.textViewMedication);
 
         CircleImageView img = (CircleImageView) findViewById(R.id.imageViewPatient);
-        if (!patient.getImageUrl().equals("")){
 
+        // validate img
+
+        if (patient.getImageUrl().startsWith("http")){
             Picasso.with(this).load(patient.getImageUrl()).placeholder(R.mipmap.profile_image).into(img);
         }
+        else {
+            img.setImageResource(R.mipmap.profile_image);
+        }
+
+
+//        if (!patient.getImageUrl().equals("")){
+//
+//            Picasso.with(this).load(patient.getImageUrl()).placeholder(R.mipmap.profile_image).into(img);
+//        }
 
         name.setText(patient.getFirstName()+" "+patient.getLastName());
         age.setText(patient.getDateOfBirth());

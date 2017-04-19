@@ -1,5 +1,9 @@
 [
     {
+        "merged": "/Users/Entisar/Desktop/Android/weddd/doctor/app/build/intermediates/res/merged/debug/mipmap-hdpi/ic_launcher.png",
+        "source": "/Users/Entisar/Desktop/Android/weddd/doctor/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+    },
+    {
         "merged": "/Users/Entisar/Desktop/projects/sun/doctor/app/build/intermediates/res/merged/debug/mipmap-hdpi/ic_launcher.png",
         "source": "/Users/Entisar/Desktop/projects/sun/doctor/app/src/main/res/mipmap-hdpi/ic_launcher.png"
     },
@@ -22,5 +26,13 @@
     {
         "merged": "/Users/Entisar/Desktop/projects/sun/doctor/app/build/intermediates/res/merged/debug/mipmap-hdpi/heart_logo.png",
         "source": "/Users/Entisar/Desktop/projects/sun/doctor/app/src/main/res/mipmap-hdpi/heart_logo.png"
+    },
+    {
+        "merged": "/Users/Entisar/Desktop/Android/weddd/doctor/app/build/intermediates/res/merged/debug/mipmap-hdpi/heart_logo.png",
+        "source": "/Users/Entisar/Desktop/Android/weddd/doctor/app/src/main/res/mipmap-hdpi/heart_logo.png"
+    },
+    {
+        "merged": "/Users/Entisar/Desktop/Android/weddd/doctor/app/build/intermediates/res/merged/debug/mipmap-hdpi/ic_launcher_round.png",
+        "source": "/Users/Entisar/Desktop/Android/weddd/doctor/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
     }
 ]

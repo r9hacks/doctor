@@ -12,12 +12,32 @@
         "source": "/Users/Entisar/Desktop/mhealth/andriod/doctor/app/src/main/res/mipmap-xxhdpi/id_card.png"
     },
     {
-        "merged": "/Users/Entisar/Desktop/projects/sun/doctor/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/stethoscope.png",
-        "source": "/Users/Entisar/Desktop/projects/sun/doctor/app/src/main/res/mipmap-xxhdpi/stethoscope.png"
+        "merged": "/Users/Entisar/Desktop/Android/weddd/doctor/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/stethoscope_profile.png",
+        "source": "/Users/Entisar/Desktop/Android/weddd/doctor/app/src/main/res/mipmap-xxhdpi/stethoscope_profile.png"
     },
     {
         "merged": "/Users/Entisar/Desktop/mhealth/andriod/doctor/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/male_symbol.png",
         "source": "/Users/Entisar/Desktop/mhealth/andriod/doctor/app/src/main/res/mipmap-xxhdpi/male_symbol.png"
+    },
+    {
+        "merged": "/Users/Entisar/Desktop/projects/sun/doctor/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/stethoscope.png",
+        "source": "/Users/Entisar/Desktop/projects/sun/doctor/app/src/main/res/mipmap-xxhdpi/stethoscope.png"
+    },
+    {
+        "merged": "/Users/Entisar/Desktop/Android/weddd/doctor/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/telephone_3.png",
+        "source": "/Users/Entisar/Desktop/Android/weddd/doctor/app/src/main/res/mipmap-xxhdpi/telephone_3.png"
+    },
+    {
+        "merged": "/Users/Entisar/Desktop/Android/weddd/doctor/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/ic_launcher_round.png",
+        "source": "/Users/Entisar/Desktop/Android/weddd/doctor/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/Entisar/Desktop/Android/weddd/doctor/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/maps_and_flags.png",
+        "source": "/Users/Entisar/Desktop/Android/weddd/doctor/app/src/main/res/mipmap-xxhdpi/maps_and_flags.png"
+    },
+    {
+        "merged": "/Users/Entisar/Desktop/Android/weddd/doctor/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/bday14.png",
+        "source": "/Users/Entisar/Desktop/Android/weddd/doctor/app/src/main/res/mipmap-xxhdpi/bday14.png"
     },
     {
         "merged": "/Users/Entisar/Desktop/projects/sun/doctor/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/info.png",
@@ -34,6 +54,10 @@
     {
         "merged": "/Users/Entisar/Desktop/projects/sun/doctor/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/email.png",
         "source": "/Users/Entisar/Desktop/projects/sun/doctor/app/src/main/res/mipmap-xxhdpi/email.png"
+    },
+    {
+        "merged": "/Users/Entisar/Desktop/Android/weddd/doctor/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/sama3a.png",
+        "source": "/Users/Entisar/Desktop/Android/weddd/doctor/app/src/main/res/mipmap-xxhdpi/sama3a.png"
     },
     {
         "merged": "/Users/Entisar/Desktop/projects/sun/doctor/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/ic_launcher.png",
@@ -60,12 +84,12 @@
         "source": "/Users/Entisar/Desktop/mhealth/andriod/doctor/app/src/main/res/mipmap-xxhdpi/genders.png"
     },
     {
-        "merged": "/Users/Entisar/Desktop/mhealth/andriod/doctor/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/map.png",
-        "source": "/Users/Entisar/Desktop/mhealth/andriod/doctor/app/src/main/res/mipmap-xxhdpi/map.png"
-    },
-    {
         "merged": "/Users/Entisar/Desktop/projects/sun/doctor/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/ic_launcher_round.png",
         "source": "/Users/Entisar/Desktop/projects/sun/doctor/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/Entisar/Desktop/mhealth/andriod/doctor/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/map.png",
+        "source": "/Users/Entisar/Desktop/mhealth/andriod/doctor/app/src/main/res/mipmap-xxhdpi/map.png"
     },
     {
         "merged": "/Users/Entisar/Desktop/projects/sun/doctor/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/gendersss.png",
@@ -74,6 +98,10 @@
     {
         "merged": "/Users/Entisar/Desktop/mhealth/andriod/doctor/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/ic_launcher.png",
         "source": "/Users/Entisar/Desktop/mhealth/andriod/doctor/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/Entisar/Desktop/Android/weddd/doctor/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/doctor.png",
+        "source": "/Users/Entisar/Desktop/Android/weddd/doctor/app/src/main/res/mipmap-xxhdpi/doctor.png"
     },
     {
         "merged": "/Users/Entisar/Desktop/projects/sun/doctor/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/doctor.png",
@@ -88,12 +116,28 @@
         "source": "/Users/Entisar/Desktop/projects/sun/doctor/app/src/main/res/mipmap-xxhdpi/email_2.png"
     },
     {
+        "merged": "/Users/Entisar/Desktop/Android/weddd/doctor/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/password.png",
+        "source": "/Users/Entisar/Desktop/Android/weddd/doctor/app/src/main/res/mipmap-xxhdpi/password.png"
+    },
+    {
         "merged": "/Users/Entisar/Desktop/projects/sun/doctor/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/stethoscope_profile.png",
         "source": "/Users/Entisar/Desktop/projects/sun/doctor/app/src/main/res/mipmap-xxhdpi/stethoscope_profile.png"
     },
     {
+        "merged": "/Users/Entisar/Desktop/Android/weddd/doctor/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/email.png",
+        "source": "/Users/Entisar/Desktop/Android/weddd/doctor/app/src/main/res/mipmap-xxhdpi/email.png"
+    },
+    {
         "merged": "/Users/Entisar/Desktop/mhealth/andriod/doctor/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/sama3a.png",
         "source": "/Users/Entisar/Desktop/mhealth/andriod/doctor/app/src/main/res/mipmap-xxhdpi/sama3a.png"
+    },
+    {
+        "merged": "/Users/Entisar/Desktop/Android/weddd/doctor/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/calendar_prof.png",
+        "source": "/Users/Entisar/Desktop/Android/weddd/doctor/app/src/main/res/mipmap-xxhdpi/calendar_prof.png"
+    },
+    {
+        "merged": "/Users/Entisar/Desktop/Android/weddd/doctor/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/info.png",
+        "source": "/Users/Entisar/Desktop/Android/weddd/doctor/app/src/main/res/mipmap-xxhdpi/info.png"
     },
     {
         "merged": "/Users/Entisar/Desktop/projects/sun/doctor/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/idd_card.png",
@@ -104,8 +148,16 @@
         "source": "/Users/Entisar/Desktop/projects/sun/doctor/app/src/main/res/mipmap-xxhdpi/id_card.png"
     },
     {
+        "merged": "/Users/Entisar/Desktop/Android/weddd/doctor/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/gendersss.png",
+        "source": "/Users/Entisar/Desktop/Android/weddd/doctor/app/src/main/res/mipmap-xxhdpi/gendersss.png"
+    },
+    {
         "merged": "/Users/Entisar/Desktop/mhealth/andriod/doctor/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/telephone_3.png",
         "source": "/Users/Entisar/Desktop/mhealth/andriod/doctor/app/src/main/res/mipmap-xxhdpi/telephone_3.png"
+    },
+    {
+        "merged": "/Users/Entisar/Desktop/Android/weddd/doctor/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/finger.png",
+        "source": "/Users/Entisar/Desktop/Android/weddd/doctor/app/src/main/res/mipmap-xxhdpi/finger.png"
     },
     {
         "merged": "/Users/Entisar/Desktop/mhealth/andriod/doctor/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/heartrate.png",
@@ -116,8 +168,16 @@
         "source": "/Users/Entisar/Desktop/projects/sun/doctor/app/src/main/res/mipmap-xxhdpi/calendar_prof.png"
     },
     {
+        "merged": "/Users/Entisar/Desktop/Android/weddd/doctor/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/id_card.png",
+        "source": "/Users/Entisar/Desktop/Android/weddd/doctor/app/src/main/res/mipmap-xxhdpi/id_card.png"
+    },
+    {
         "merged": "/Users/Entisar/Desktop/projects/sun/doctor/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/femenine.png",
         "source": "/Users/Entisar/Desktop/projects/sun/doctor/app/src/main/res/mipmap-xxhdpi/femenine.png"
+    },
+    {
+        "merged": "/Users/Entisar/Desktop/Android/weddd/doctor/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/stethoscope.png",
+        "source": "/Users/Entisar/Desktop/Android/weddd/doctor/app/src/main/res/mipmap-xxhdpi/stethoscope.png"
     },
     {
         "merged": "/Users/Entisar/Desktop/projects/sun/doctor/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/fever.png",
@@ -144,6 +204,18 @@
         "source": "/Users/Entisar/Desktop/mhealth/andriod/doctor/app/src/main/res/mipmap-xxhdpi/finger.png"
     },
     {
+        "merged": "/Users/Entisar/Desktop/Android/weddd/doctor/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/genders.png",
+        "source": "/Users/Entisar/Desktop/Android/weddd/doctor/app/src/main/res/mipmap-xxhdpi/genders.png"
+    },
+    {
+        "merged": "/Users/Entisar/Desktop/Android/weddd/doctor/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/phone_icon.png",
+        "source": "/Users/Entisar/Desktop/Android/weddd/doctor/app/src/main/res/mipmap-xxhdpi/phone_icon.png"
+    },
+    {
+        "merged": "/Users/Entisar/Desktop/Android/weddd/doctor/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/email_2.png",
+        "source": "/Users/Entisar/Desktop/Android/weddd/doctor/app/src/main/res/mipmap-xxhdpi/email_2.png"
+    },
+    {
         "merged": "/Users/Entisar/Desktop/projects/sun/doctor/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/flag.png",
         "source": "/Users/Entisar/Desktop/projects/sun/doctor/app/src/main/res/mipmap-xxhdpi/flag.png"
     },
@@ -152,8 +224,20 @@
         "source": "/Users/Entisar/Desktop/projects/sun/doctor/app/src/main/res/mipmap-xxhdpi/doctor_profile.png"
     },
     {
+        "merged": "/Users/Entisar/Desktop/Android/weddd/doctor/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/map.png",
+        "source": "/Users/Entisar/Desktop/Android/weddd/doctor/app/src/main/res/mipmap-xxhdpi/map.png"
+    },
+    {
         "merged": "/Users/Entisar/Desktop/mhealth/andriod/doctor/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/bday14.png",
         "source": "/Users/Entisar/Desktop/mhealth/andriod/doctor/app/src/main/res/mipmap-xxhdpi/bday14.png"
+    },
+    {
+        "merged": "/Users/Entisar/Desktop/Android/weddd/doctor/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/ic_launcher.png",
+        "source": "/Users/Entisar/Desktop/Android/weddd/doctor/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/Entisar/Desktop/Android/weddd/doctor/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/heartrate.png",
+        "source": "/Users/Entisar/Desktop/Android/weddd/doctor/app/src/main/res/mipmap-xxhdpi/heartrate.png"
     },
     {
         "merged": "/Users/Entisar/Desktop/mhealth/andriod/doctor/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/calendar_prof.png",
@@ -162,6 +246,14 @@
     {
         "merged": "/Users/Entisar/Desktop/mhealth/andriod/doctor/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/doctor.png",
         "source": "/Users/Entisar/Desktop/mhealth/andriod/doctor/app/src/main/res/mipmap-xxhdpi/doctor.png"
+    },
+    {
+        "merged": "/Users/Entisar/Desktop/Android/weddd/doctor/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/transfusion.png",
+        "source": "/Users/Entisar/Desktop/Android/weddd/doctor/app/src/main/res/mipmap-xxhdpi/transfusion.png"
+    },
+    {
+        "merged": "/Users/Entisar/Desktop/Android/weddd/doctor/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/flag.png",
+        "source": "/Users/Entisar/Desktop/Android/weddd/doctor/app/src/main/res/mipmap-xxhdpi/flag.png"
     },
     {
         "merged": "/Users/Entisar/Desktop/projects/sun/doctor/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/heartrate.png",
@@ -182,6 +274,14 @@
     {
         "merged": "/Users/Entisar/Desktop/projects/sun/doctor/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/maps_and_flags.png",
         "source": "/Users/Entisar/Desktop/projects/sun/doctor/app/src/main/res/mipmap-xxhdpi/maps_and_flags.png"
+    },
+    {
+        "merged": "/Users/Entisar/Desktop/Android/weddd/doctor/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/fever.png",
+        "source": "/Users/Entisar/Desktop/Android/weddd/doctor/app/src/main/res/mipmap-xxhdpi/fever.png"
+    },
+    {
+        "merged": "/Users/Entisar/Desktop/Android/weddd/doctor/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/doctor_profile.png",
+        "source": "/Users/Entisar/Desktop/Android/weddd/doctor/app/src/main/res/mipmap-xxhdpi/doctor_profile.png"
     },
     {
         "merged": "/Users/Entisar/Desktop/mhealth/andriod/doctor/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/email_2.png",
@@ -212,8 +312,16 @@
         "source": "/Users/Entisar/Desktop/mhealth/andriod/doctor/app/src/main/res/mipmap-xxhdpi/femenine.png"
     },
     {
+        "merged": "/Users/Entisar/Desktop/Android/weddd/doctor/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/femenine.png",
+        "source": "/Users/Entisar/Desktop/Android/weddd/doctor/app/src/main/res/mipmap-xxhdpi/femenine.png"
+    },
+    {
         "merged": "/Users/Entisar/Desktop/mhealth/andriod/doctor/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/fever.png",
         "source": "/Users/Entisar/Desktop/mhealth/andriod/doctor/app/src/main/res/mipmap-xxhdpi/fever.png"
+    },
+    {
+        "merged": "/Users/Entisar/Desktop/Android/weddd/doctor/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/idd_card.png",
+        "source": "/Users/Entisar/Desktop/Android/weddd/doctor/app/src/main/res/mipmap-xxhdpi/idd_card.png"
     },
     {
         "merged": "/Users/Entisar/Desktop/projects/sun/doctor/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/password.png",
@@ -222,5 +330,9 @@
     {
         "merged": "/Users/Entisar/Desktop/mhealth/andriod/doctor/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/stethoscope_profile.png",
         "source": "/Users/Entisar/Desktop/mhealth/andriod/doctor/app/src/main/res/mipmap-xxhdpi/stethoscope_profile.png"
+    },
+    {
+        "merged": "/Users/Entisar/Desktop/Android/weddd/doctor/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/male_symbol.png",
+        "source": "/Users/Entisar/Desktop/Android/weddd/doctor/app/src/main/res/mipmap-xxhdpi/male_symbol.png"
     }
 ]

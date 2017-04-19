@@ -89,10 +89,21 @@ public class myPatientAdapter extends BaseAdapter {
         final MyPatient patient = model.get(position);
         // img.setImageResource(Integer.parseInt(patient.getImage()));
 
-        if (!patient.getImage().equals("")){
 
+
+        // img validation
+        if (patient.getImage().startsWith("http")){
             Picasso.with(this.context).load(patient.getImage()).placeholder(R.mipmap.profile_image).into(img);
         }
+        else {
+            img.setImageResource(R.mipmap.profile_image);
+        }
+
+
+//        if (!patient.getImage().equals("")){
+//
+//            Picasso.with(this.context).load(patient.getImage()).placeholder(R.mipmap.profile_image).into(img);
+//        }
 
         name.setText(patient.getName());
 
