@@ -4811,14 +4811,8 @@ containing a value of this type.
         public static final int BezelImageView=0x7f0900ef;
         public static final int Material_DrawerArrowStyle=0x7f0900f0;
         public static final int Material_Light_DrawerArrowStyle=0x7f0900f1;
-        /**  Material specific values 
-         */
         public static final int MaterialBaseBaseTheme=0x7f0900f2;
-        /**  Material specific values 
-         */
         public static final int MaterialBaseBaseTheme_Light=0x7f0900f3;
-        /**  Material specific values 
-         */
         public static final int MaterialBaseBaseTheme_Light_DarkToolbar=0x7f0900f4;
         /** 
         <item name="android:dialogTheme">@style/MaterialBaseTheme.Dialog</item>

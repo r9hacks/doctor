@@ -65,7 +65,7 @@ public class BloodRequestsAdapter extends BaseAdapter {
         final MyBloodRequest myBloodRequest = model.get(position);
 
 
-        quantity.setText(R.string.Quantity+": " + myBloodRequest.getQuantity());
+        quantity.setText(context.getResources().getString(R.string.Quantity)+": " + myBloodRequest.getQuantity());
         reason.setText(myBloodRequest.getReason());
 
         if (myBloodRequest.getStatus() == 1){
