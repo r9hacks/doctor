@@ -1,10 +1,18 @@
 [
     {
+        "merged": "/Users/Entisar/Desktop/mhealth/thurs andriod/doctor/app/build/intermediates/res/merged/debug/layout-v21/notification_template_icon_group.xml",
+        "source": "/Users/Entisar/.android/build-cache/752ac81f1b1993e8602d14a1f3fecad31afcf050/output/res/layout-v21/notification_template_icon_group.xml"
+    },
+    {
         "merged": "/Users/Entisar/Desktop/projects/sun/doctor/app/build/intermediates/res/merged/debug/layout-v21/notification_action.xml",
         "source": "/Users/Entisar/.android/build-cache/752ac81f1b1993e8602d14a1f3fecad31afcf050/output/res/layout-v21/notification_action.xml"
     },
     {
         "merged": "/Users/Entisar/Desktop/mhealth/andriod/doctor/app/build/intermediates/res/merged/debug/layout-v21/notification_template_custom_big.xml",
+        "source": "/Users/Entisar/.android/build-cache/752ac81f1b1993e8602d14a1f3fecad31afcf050/output/res/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/Users/Entisar/Desktop/mhealth/thurs andriod/doctor/app/build/intermediates/res/merged/debug/layout-v21/notification_template_custom_big.xml",
         "source": "/Users/Entisar/.android/build-cache/752ac81f1b1993e8602d14a1f3fecad31afcf050/output/res/layout-v21/notification_template_custom_big.xml"
     },
     {
@@ -40,11 +48,19 @@
         "source": "/Users/Entisar/.android/build-cache/752ac81f1b1993e8602d14a1f3fecad31afcf050/output/res/layout-v21/notification_template_icon_group.xml"
     },
     {
+        "merged": "/Users/Entisar/Desktop/mhealth/thurs andriod/doctor/app/build/intermediates/res/merged/debug/layout-v21/notification_action_tombstone.xml",
+        "source": "/Users/Entisar/.android/build-cache/752ac81f1b1993e8602d14a1f3fecad31afcf050/output/res/layout-v21/notification_action_tombstone.xml"
+    },
+    {
         "merged": "/Users/Entisar/Desktop/Android/weddd/doctor/app/build/intermediates/res/merged/debug/layout-v21/notification_action_tombstone.xml",
         "source": "/Users/Entisar/.android/build-cache/752ac81f1b1993e8602d14a1f3fecad31afcf050/output/res/layout-v21/notification_action_tombstone.xml"
     },
     {
         "merged": "/Users/Entisar/Desktop/projects/sun/doctor/app/build/intermediates/res/merged/debug/layout-v21/notification_action_tombstone.xml",
         "source": "/Users/Entisar/.android/build-cache/752ac81f1b1993e8602d14a1f3fecad31afcf050/output/res/layout-v21/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/Users/Entisar/Desktop/mhealth/thurs andriod/doctor/app/build/intermediates/res/merged/debug/layout-v21/notification_action.xml",
+        "source": "/Users/Entisar/.android/build-cache/752ac81f1b1993e8602d14a1f3fecad31afcf050/output/res/layout-v21/notification_action.xml"
     }
 ]

@@ -112,10 +112,20 @@ public class RequestAdapter extends BaseAdapter {
         nationality.setText(patient.getPatientObject().getNationality());
 
         // img.setImageResource(Integer.parseInt(patient.getImage()));
-        if (!patient.getImage().equals("")){
 
-            Picasso.with(this.context).load(patient.getImage()).placeholder(R.mipmap.profile_image).into(img);
-        }
+    if ( patient.getImage() != null && patient.getImage().startsWith("http")){
+        Picasso.with(this.context).load(patient.getImage()).placeholder(R.mipmap.profile_image).into(img);
+    }
+    else {
+        img.setImageResource(R.mipmap.profile_image);
+    }
+
+
+
+//        if (!patient.getImage().equals("")){
+//
+//            Picasso.with(this.context).load(patient.getImage()).placeholder(R.mipmap.profile_image).into(img);
+//        }
         name.setText(patient.getName());
 
         String g = patient.getGender();

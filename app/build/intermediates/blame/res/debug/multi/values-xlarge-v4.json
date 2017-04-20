@@ -119,6 +119,125 @@
         ]
     },
     {
+        "outputFile": "/Users/Entisar/Desktop/mhealth/thurs andriod/doctor/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-xlarge-v4/values-xlarge-v4.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 70,
+                    "endOffset": 121
+                },
+                "from": {
+                    "file": "/Users/Entisar/.android/build-cache/752ac81f1b1993e8602d14a1f3fecad31afcf050/output/res/values-xlarge-v4/values-xlarge-v4.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 70,
+                        "endOffset": 121
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 126,
+                    "endColumn": 70,
+                    "endOffset": 192
+                },
+                "from": {
+                    "file": "/Users/Entisar/.android/build-cache/752ac81f1b1993e8602d14a1f3fecad31afcf050/output/res/values-xlarge-v4/values-xlarge-v4.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 126,
+                        "endColumn": 70,
+                        "endOffset": 192
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 197,
+                    "endColumn": 69,
+                    "endOffset": 262
+                },
+                "from": {
+                    "file": "/Users/Entisar/.android/build-cache/752ac81f1b1993e8602d14a1f3fecad31afcf050/output/res/values-xlarge-v4/values-xlarge-v4.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 197,
+                        "endColumn": 69,
+                        "endOffset": 262
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 267,
+                    "endColumn": 69,
+                    "endOffset": 332
+                },
+                "from": {
+                    "file": "/Users/Entisar/.android/build-cache/752ac81f1b1993e8602d14a1f3fecad31afcf050/output/res/values-xlarge-v4/values-xlarge-v4.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 267,
+                        "endColumn": 69,
+                        "endOffset": 332
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 337,
+                    "endColumn": 67,
+                    "endOffset": 400
+                },
+                "from": {
+                    "file": "/Users/Entisar/.android/build-cache/752ac81f1b1993e8602d14a1f3fecad31afcf050/output/res/values-xlarge-v4/values-xlarge-v4.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 337,
+                        "endColumn": 67,
+                        "endOffset": 400
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 405,
+                    "endColumn": 67,
+                    "endOffset": 468
+                },
+                "from": {
+                    "file": "/Users/Entisar/.android/build-cache/752ac81f1b1993e8602d14a1f3fecad31afcf050/output/res/values-xlarge-v4/values-xlarge-v4.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 405,
+                        "endColumn": 67,
+                        "endOffset": 468
+                    }
+                }
+            }
+        ]
+    },
+    {
         "outputFile": "/Users/Entisar/Desktop/projects/sun/doctor/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-xlarge-v4/values-xlarge-v4.xml",
         "map": [
             {
