@@ -204,6 +204,9 @@ public class DoctorProfileActivity extends AppCompatActivity {
                     Map<String, String> params = new HashMap<>();
                     params.put("appID", "doctor");
                     params.put("imgData", convert(finalImageBitmap));
+                    params.put("title", "");
+                    params.put("description", "");
+
                     return params;
                 }
 
