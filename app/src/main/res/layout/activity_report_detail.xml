@@ -76,7 +76,7 @@
                         android:layout_alignStart="@+id/textViewblood"
                         android:layout_below="@+id/textViewblood"
                         android:gravity="center_vertical"
-                        android:text="High"
+                        android:text="Moderate"
                         android:textSize="18sp" />
                 </RelativeLayout>
 
@@ -228,7 +228,7 @@
                         android:layout_alignStart="@+id/textViewfever"
                         android:layout_below="@+id/textViewfever"
                         android:gravity="center_vertical"
-                        android:text="High"
+                        android:text="Moderate"
                         android:textSize="18sp" />
                 </RelativeLayout>
 
@@ -273,13 +273,11 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_alignBottom="@+id/imageViewHeadache"
-                        android:layout_alignEnd="@+id/textViewheadache"
                         android:layout_alignLeft="@+id/textViewheadache"
-                        android:layout_alignRight="@+id/textViewheadache"
                         android:layout_alignStart="@+id/textViewheadache"
                         android:layout_below="@+id/textViewheadache"
                         android:gravity="center_vertical"
-                        android:text="High"
+                        android:text="Moderate"
                         android:textSize="18sp" />
                 </RelativeLayout>
 
@@ -324,13 +322,11 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_alignBottom="@+id/imageViewHeartRate"
-                        android:layout_alignEnd="@+id/textViewheartRate"
                         android:layout_alignLeft="@+id/textViewheartRate"
-                        android:layout_alignRight="@+id/textViewheartRate"
                         android:layout_alignStart="@+id/textViewheartRate"
                         android:layout_below="@+id/textViewheartRate"
                         android:gravity="center_vertical"
-                        android:text="High"
+                        android:text="Moderate"
                         android:textSize="18sp" />
                 </RelativeLayout>
 
@@ -477,9 +473,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_alignBottom="@+id/imageViewSugar"
-                        android:layout_alignEnd="@+id/textViewsugar"
                         android:layout_alignLeft="@+id/textViewsugar"
-                        android:layout_alignRight="@+id/textViewsugar"
                         android:layout_alignStart="@+id/textViewsugar"
                         android:layout_below="@+id/textViewsugar"
                         android:gravity="center_vertical"
