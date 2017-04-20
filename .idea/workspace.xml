@@ -16,9 +16,10 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/resources-debug.ap_" afterPath="$PROJECT_DIR$/app/build/intermediates/res/resources-debug.ap_" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/color.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/color.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/layout.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/layout.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_report_detail.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_report_detail.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_splash.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_splash.xml" />
     </list>
     <list id="62adcb46-6cf4-4590-9d6d-21f55d86851d" name="Rejected commit: Default" comment="integrated ahmad works" />
     <ignored path="Doctor.iws" />
@@ -59,18 +60,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="HomeReportActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/pifss/doctor/Activitys/HomeReportActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="555">
-              <caret line="230" column="23" selection-start-line="230" selection-start-column="23" selection-end-line="230" selection-end-column="23" />
-              <folding>
-                <element signature="e#9815#9832#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Pending.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/pifss/doctor/Fragments/Pending.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -153,8 +142,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="activity_report_detail.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="activity_report_detail.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_report_detail.xml">
+          <provider editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+          <provider selected="true" editor-type-id="android-designer2">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="activity_splash.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_splash.xml">
           <provider editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -2067,7 +2069,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values/values.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_about_us.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/list_item_patient_invitation.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/list_item_patient_reports.xml" />
@@ -2118,6 +2119,7 @@
         <option value="$PROJECT_DIR$/app/src/main/res/values-ar/strings.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/pifss/doctor/Adapters/RequestAdapter.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_report_detail.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_splash.xml" />
       </list>
     </option>
   </component>
@@ -2683,13 +2685,6 @@
       <option name="presentableId" value="Default" />
       <updated>1490532145987</updated>
     </task>
-    <task id="LOCAL-00045" summary="ahmad edit profile">
-      <created>1491059562840</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1491059562841</updated>
-    </task>
     <task id="LOCAL-00046" summary="ahmad register new doctor">
       <created>1491061589966</created>
       <option name="number" value="00046" />
@@ -3026,7 +3021,14 @@
       <option name="project" value="LOCAL" />
       <updated>1492672974056</updated>
     </task>
-    <option name="localTasksCounter" value="94" />
+    <task id="LOCAL-00094" summary="entisar  edit report detail">
+      <created>1492688298927</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1492688298928</updated>
+    </task>
+    <option name="localTasksCounter" value="95" />
     <servers />
   </component>
   <component name="TodoView">
@@ -3132,7 +3134,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="fixed layout of patient request added more info. S&#10;fixed my patients layout.&#10;changed the image boarder in all pictures" />
     <MESSAGE value="fixed layout of patient request added more info. S&#10;fixed my patients layout.&#10;changed the image boarder in all pictures&#10;changed on patient profile" />
     <MESSAGE value="fixed layout of patient request added more info. S&#10;fixed my patients layout.&#10;changed the image boarder in all pictures&#10;changed on patient profile&#10;patient profile icons size" />
     <MESSAGE value="fixed layout of patient request added more info. S&#10;fixed my patients layout.&#10;changed the image boarder in all pictures&#10;changed on patient profile&#10;patient profile icons size&#10;change change" />
@@ -3157,7 +3158,8 @@
     <MESSAGE value="entisar done with localization in arabic" />
     <MESSAGE value="entisar validate img if empty in my patient" />
     <MESSAGE value="entisar validate img if empty in request" />
-    <option name="LAST_COMMIT_MESSAGE" value="entisar validate img if empty in request" />
+    <MESSAGE value="entisar  edit report detail" />
+    <option name="LAST_COMMIT_MESSAGE" value="entisar  edit report detail" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -3207,16 +3209,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_settings.xml">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_splash.xml">
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -3631,6 +3623,17 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_report_detail.xml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_splash.xml">
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
