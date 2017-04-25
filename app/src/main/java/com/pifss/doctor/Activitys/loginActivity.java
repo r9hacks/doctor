@@ -120,7 +120,7 @@ public class loginActivity extends AppCompatActivity {
                         ch1.ShowSnackBar(v1);
                     }else {
 
-                        progressDialog.setMessage("Login...");
+                        progressDialog.setMessage(getResources().getString(R.string.Logining));
                         progressDialog.show();
                         queue.add(jsonObjRequest);
                     }
@@ -186,13 +186,15 @@ public class loginActivity extends AppCompatActivity {
                                 //show message
                                 Toast.makeText(loginActivity.this, "Error response: " + response.toString(), Toast.LENGTH_SHORT).show();
 
+                                SharedPreferences preference = getSharedPreferences("settings", MODE_PRIVATE);
+                                SharedPreferences.Editor editor = preference.edit();
+                                editor.remove(links.PrefDoctorProfile);
+                                editor.commit();
                                 return;
                             }
                             System.out.println("response: " + response.toString());
                             JSONObject profileJson = response.getJSONObject("items");
-                            Doctor doctor = new Gson().fromJson(profileJson.toString(), Doctor.class);
 
-                            //Toast.makeText(loginActivity.this, "" + doctor.getJSONDoctor().toString(), Toast.LENGTH_SHORT).show();
 
                             // save profile to shared refrences
                             SharedPreferences preference = getSharedPreferences("settings", MODE_PRIVATE);
